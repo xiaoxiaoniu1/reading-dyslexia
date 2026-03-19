@@ -1,0 +1,280 @@
+Host: node5
+Start: Thu Mar 19 01:29:37 PM CST 2026
+Subjects in demo: 279 
+Subjects with MIND csv: 278 
+ROI number: 318 
+Number of edges: 50403 
+Degree matrix: 278 x 318 
+Edge matrix: 278 x 50403 
+
+=== Diagnostic ===
+Diagnosis counts: TD=136, DD=142 
+AgeGroup  counts: Child=159, Adult=119 
+Sex       counts: Female=140, Male=138 
+First ROI: n valid = 278 , var = 0.00020453 
+Mean model coef colnames:  Estimate, Std. Error, t value, Pr(>|t|) 
+Disp model coef colnames:  Estimate, Std. Error, t value, Pr(>|t|) 
+DiagnosisDD mean p-value:  0.09449506 
+dglm fit names:  coefficients, residuals, fitted.values, effects, weights, rank, assign, qr, df.residual, call, formula, terms, model, family, linear.predictors, prior.weights, contrasts, df.null, deviance, aic, null.deviance, y, dispersion.fit, iter, method, m2loglik 
+
+=== Running DGLM (degree) ===
+Significant mean Interaction (degree, FDR<0.05): 0 
+Significant dispersion Interaction (degree, FDR<0.05): 0 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DGLM/DGLM_DK318_degree_results.csv 
+
+=== Running DGLM (edges) ===
+Edge chunk 1 / 26 
+Edge chunk 2 / 26 
+Edge chunk 3 / 26 
+Edge chunk 4 / 26 
+Edge chunk 5 / 26 
+Edge chunk 6 / 26 
+Edge chunk 7 / 26 
+Edge chunk 8 / 26 
+Edge chunk 9 / 26 
+Edge chunk 10 / 26 
+Edge chunk 11 / 26 
+Edge chunk 12 / 26 
+Edge chunk 13 / 26 
+Edge chunk 14 / 26 
+Edge chunk 15 / 26 
+Edge chunk 16 / 26 
+Edge chunk 17 / 26 
+Edge chunk 18 / 26 
+Edge chunk 19 / 26 
+Edge chunk 20 / 26 
+Edge chunk 21 / 26 
+Edge chunk 22 / 26 
+Edge chunk 23 / 26 
+Edge chunk 24 / 26 
+Edge chunk 25 / 26 
+Edge chunk 26 / 26 
+Significant mean Interaction (edges, FDR<0.05): 0 
+Significant dispersion Interaction (edges, FDR<0.05): 0 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DGLM/DGLM_DK318_edge_results.csv 
+
+==============================
+Significant Degree Results (FDR < 0.05 )
+==============================
+
+[mean_Diagnosis] n_sig = 7
+                      feature   n p_raw  p_FDR
+    lh_superiortemporal_part3 278 1e-03 0.0457
+ rh_caudalmiddlefrontal_part1 278 8e-04 0.0457
+    rh_inferiorparietal_part5 278 5e-04 0.0457
+ rh_medialorbitofrontal_part3 278 3e-04 0.0432
+          rh_precentral_part5 278 9e-04 0.0457
+          rh_precentral_part7 278 0e+00 0.0054
+              rh_insula_part3 278 8e-04 0.0457
+
+[mean_AgeGroup] n_sig = 130
+                           feature   n  p_raw  p_FDR
+                 lh_bankssts_part1 278 0.0028 0.0119
+  lh_caudalanteriorcingulate_part1 278 0.0116 0.0352
+                 lh_fusiform_part1 278 0.0003 0.0043
+                 lh_fusiform_part3 278 0.0000 0.0001
+                 lh_fusiform_part5 278 0.0013 0.0087
+         lh_inferiorparietal_part1 278 0.0126 0.0368
+         lh_inferiorparietal_part2 278 0.0001 0.0021
+         lh_inferiorparietal_part4 278 0.0087 0.0276
+         lh_inferiorparietal_part6 278 0.0008 0.0071
+         lh_inferiorparietal_part8 278 0.0001 0.0025
+         lh_inferiorparietal_part9 278 0.0004 0.0045
+         lh_inferiortemporal_part1 278 0.0034 0.0136
+         lh_inferiortemporal_part2 278 0.0041 0.0156
+         lh_inferiortemporal_part5 278 0.0011 0.0079
+         lh_inferiortemporal_part6 278 0.0042 0.0156
+         lh_isthmuscingulate_part1 278 0.0094 0.0295
+         lh_isthmuscingulate_part2 278 0.0025 0.0119
+         lh_lateraloccipital_part1 278 0.0067 0.0223
+         lh_lateraloccipital_part2 278 0.0000 0.0005
+         lh_lateraloccipital_part3 278 0.0015 0.0092
+         lh_lateraloccipital_part6 278 0.0001 0.0021
+         lh_lateraloccipital_part7 278 0.0022 0.0115
+     lh_lateralorbitofrontal_part1 278 0.0006 0.0061
+     lh_lateralorbitofrontal_part3 278 0.0002 0.0025
+     lh_lateralorbitofrontal_part4 278 0.0006 0.0061
+                  lh_lingual_part2 278 0.0151 0.0414
+      lh_medialorbitofrontal_part1 278 0.0014 0.0088
+      lh_medialorbitofrontal_part2 278 0.0188 0.0474
+      lh_medialorbitofrontal_part4 278 0.0147 0.0410
+           lh_middletemporal_part1 278 0.0025 0.0119
+           lh_middletemporal_part2 278 0.0146 0.0410
+           lh_middletemporal_part4 278 0.0095 0.0296
+           lh_middletemporal_part6 278 0.0201 0.0495
+          lh_parahippocampal_part1 278 0.0172 0.0445
+            lh_parsorbitalis_part1 278 0.0106 0.0325
+         lh_parstriangularis_part2 278 0.0001 0.0023
+              lh_postcentral_part4 278 0.0127 0.0368
+              lh_postcentral_part6 278 0.0020 0.0109
+              lh_postcentral_part8 278 0.0151 0.0414
+       lh_posteriorcingulate_part1 278 0.0085 0.0275
+       lh_posteriorcingulate_part2 278 0.0015 0.0090
+               lh_precentral_part3 278 0.0000 0.0000
+               lh_precentral_part5 278 0.0000 0.0000
+               lh_precentral_part7 278 0.0007 0.0061
+                lh_precuneus_part2 278 0.0068 0.0226
+                lh_precuneus_part5 278 0.0199 0.0494
+                lh_precuneus_part7 278 0.0064 0.0222
+     lh_rostralmiddlefrontal_part3 278 0.0034 0.0136
+     lh_rostralmiddlefrontal_part7 278 0.0067 0.0223
+    lh_rostralmiddlefrontal_part10 278 0.0002 0.0027
+    lh_rostralmiddlefrontal_part11 278 0.0009 0.0074
+          lh_superiorfrontal_part1 278 0.0000 0.0000
+          lh_superiorfrontal_part3 278 0.0002 0.0025
+          lh_superiorfrontal_part4 278 0.0008 0.0071
+          lh_superiorfrontal_part5 278 0.0001 0.0017
+          lh_superiorfrontal_part6 278 0.0000 0.0013
+          lh_superiorfrontal_part7 278 0.0007 0.0066
+          lh_superiorfrontal_part8 278 0.0014 0.0088
+          lh_superiorfrontal_part9 278 0.0015 0.0092
+         lh_superiorfrontal_part11 278 0.0024 0.0119
+         lh_superiorparietal_part1 278 0.0182 0.0462
+         lh_superiorparietal_part4 278 0.0163 0.0431
+         lh_superiorparietal_part5 278 0.0167 0.0439
+            lh_supramarginal_part2 278 0.0004 0.0047
+            lh_supramarginal_part5 278 0.0010 0.0074
+            lh_supramarginal_part6 278 0.0066 0.0223
+            lh_supramarginal_part7 278 0.0192 0.0480
+              lh_frontalpole_part1 278 0.0027 0.0119
+                   lh_insula_part2 278 0.0096 0.0296
+                   lh_insula_part3 278 0.0129 0.0369
+                   lh_insula_part4 278 0.0178 0.0458
+                 rh_bankssts_part2 278 0.0154 0.0418
+  rh_caudalanteriorcingulate_part1 278 0.0012 0.0086
+                 rh_fusiform_part1 278 0.0024 0.0119
+                 rh_fusiform_part2 278 0.0056 0.0201
+                 rh_fusiform_part3 278 0.0022 0.0115
+         rh_inferiorparietal_part3 278 0.0029 0.0121
+         rh_inferiorparietal_part4 278 0.0000 0.0003
+         rh_inferiorparietal_part6 278 0.0000 0.0011
+         rh_inferiorparietal_part8 278 0.0203 0.0497
+         rh_inferiortemporal_part1 278 0.0035 0.0137
+         rh_inferiortemporal_part2 278 0.0083 0.0274
+         rh_inferiortemporal_part4 278 0.0124 0.0368
+         rh_isthmuscingulate_part2 278 0.0121 0.0364
+         rh_lateraloccipital_part1 278 0.0062 0.0218
+         rh_lateraloccipital_part2 278 0.0003 0.0038
+         rh_lateraloccipital_part3 278 0.0028 0.0119
+     rh_lateralorbitofrontal_part1 278 0.0010 0.0074
+     rh_lateralorbitofrontal_part3 278 0.0000 0.0001
+           rh_middletemporal_part1 278 0.0025 0.0119
+           rh_middletemporal_part3 278 0.0027 0.0119
+           rh_middletemporal_part5 278 0.0057 0.0202
+          rh_parahippocampal_part1 278 0.0157 0.0422
+              rh_paracentral_part2 278 0.0168 0.0439
+          rh_parsopercularis_part3 278 0.0018 0.0098
+            rh_parsorbitalis_part1 278 0.0027 0.0119
+         rh_parstriangularis_part1 278 0.0005 0.0055
+         rh_parstriangularis_part2 278 0.0141 0.0399
+              rh_postcentral_part2 278 0.0002 0.0025
+              rh_postcentral_part4 278 0.0013 0.0087
+       rh_posteriorcingulate_part1 278 0.0030 0.0124
+       rh_posteriorcingulate_part2 278 0.0008 0.0070
+               rh_precentral_part3 278 0.0000 0.0000
+               rh_precentral_part5 278 0.0000 0.0000
+               rh_precentral_part7 278 0.0048 0.0178
+                rh_precuneus_part3 278 0.0036 0.0137
+                rh_precuneus_part5 278 0.0005 0.0052
+                rh_precuneus_part6 278 0.0004 0.0047
+                rh_precuneus_part7 278 0.0010 0.0074
+ rh_rostralanteriorcingulate_part1 278 0.0001 0.0015
+     rh_rostralmiddlefrontal_part1 278 0.0086 0.0275
+     rh_rostralmiddlefrontal_part8 278 0.0127 0.0368
+          rh_superiorfrontal_part1 278 0.0000 0.0000
+          rh_superiorfrontal_part2 278 0.0036 0.0137
+          rh_superiorfrontal_part3 278 0.0016 0.0095
+          rh_superiorfrontal_part4 278 0.0010 0.0075
+          rh_superiorfrontal_part5 278 0.0023 0.0119
+          rh_superiorfrontal_part6 278 0.0004 0.0043
+          rh_superiorfrontal_part7 278 0.0017 0.0097
+          rh_superiorfrontal_part8 278 0.0027 0.0119
+          rh_superiorfrontal_part9 278 0.0023 0.0119
+         rh_superiorfrontal_part10 278 0.0010 0.0074
+         rh_superiorparietal_part3 278 0.0001 0.0023
+         rh_superiorparietal_part4 278 0.0027 0.0119
+         rh_superiortemporal_part1 278 0.0028 0.0119
+            rh_supramarginal_part1 278 0.0055 0.0199
+            rh_supramarginal_part3 278 0.0162 0.0431
+            rh_supramarginal_part4 278 0.0017 0.0098
+              rh_frontalpole_part1 278 0.0027 0.0119
+       rh_transversetemporal_part1 278 0.0056 0.0202
+
+[mean_Interaction] n_sig = 0
+
+[disp_Diagnosis] n_sig = 0
+
+[disp_AgeGroup] n_sig = 0
+
+[disp_Interaction] n_sig = 0
+
+Degree: 135 ROIs with at least one significant effect. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DGLM/DGLM_DK318_degree_significant.csv
+
+==============================
+Significant Edge Results (FDR < 0.05 )
+==============================
+
+[mean_Diagnosis] n_sig = 135
+  (showing top 20 by FDR)
+                      region_i                      region_j   n p_raw  p_FDR
+  rh_caudalmiddlefrontal_part1  rh_medialorbitofrontal_part3 278     0 0.0008
+     lh_inferiortemporal_part4           rh_precentral_part7 278     0 0.0009
+          lh_postcentral_part8          rh_paracentral_part3 278     0 0.0025
+     lh_inferiortemporal_part3           rh_precentral_part7 278     0 0.0064
+     lh_lateraloccipital_part4  rh_medialorbitofrontal_part2 278     0 0.0085
+     lh_isthmuscingulate_part2           rh_precentral_part7 278     0 0.0085
+             rh_fusiform_part6           rh_precentral_part7 278     0 0.0085
+     lh_superiorparietal_part1     rh_superiorfrontal_part11 278     0 0.0085
+           lh_precentral_part2               rh_insula_part3 278     0 0.0085
+  lh_medialorbitofrontal_part2           rh_precentral_part7 278     0 0.0096
+  lh_medialorbitofrontal_part4           rh_precentral_part7 278     0 0.0096
+     lh_superiorfrontal_part10     lh_superiortemporal_part3 278     0 0.0143
+  rh_caudalmiddlefrontal_part2 rh_lateralorbitofrontal_part5 278     0 0.0143
+     rh_isthmuscingulate_part1           rh_precentral_part7 278     0 0.0143
+ rh_lateralorbitofrontal_part3           rh_precentral_part7 278     0 0.0143
+  rh_medialorbitofrontal_part2           rh_precentral_part7 278     0 0.0143
+     lh_inferiortemporal_part4      rh_superiorfrontal_part2 278     0 0.0143
+          lh_postcentral_part8     rh_superiorfrontal_part11 278     0 0.0143
+          rh_postcentral_part1     rh_superiorfrontal_part11 278     0 0.0143
+ rh_lateralorbitofrontal_part4           rh_precentral_part7 278     0 0.0148
+
+[mean_AgeGroup] n_sig = 6565
+  (showing top 20 by FDR)
+                    region_i                          region_j   n p_raw p_FDR
+         lh_precentral_part5         rh_parstriangularis_part1 278     0     0
+   rh_parstriangularis_part1               rh_precentral_part5 278     0     0
+         lh_precentral_part3          rh_superiorfrontal_part6 278     0     0
+         lh_precentral_part1          rh_superiorfrontal_part8 278     0     0
+   lh_parstriangularis_part2          rh_superiorfrontal_part1 278     0     0
+   lh_lateraloccipital_part3     lh_lateralorbitofrontal_part3 278     0     0
+         lh_precentral_part1 rh_rostralanteriorcingulate_part1 278     0     0
+         lh_precentral_part5          lh_superiorfrontal_part3 278     0     0
+   lh_parstriangularis_part2               rh_precentral_part3 278     0     0
+   lh_parstriangularis_part2               lh_precentral_part3 278     0     0
+         lh_precentral_part3          lh_superiorfrontal_part8 278     0     0
+    lh_superiorfrontal_part3               rh_precentral_part5 278     0     0
+         lh_precentral_part3 rh_rostralanteriorcingulate_part1 278     0     0
+         lh_precentral_part5          rh_superiorfrontal_part6 278     0     0
+         lh_precentral_part1          lh_superiorfrontal_part8 278     0     0
+   lh_parstriangularis_part2               rh_precentral_part5 278     0     0
+ lh_posteriorcingulate_part1               lh_precentral_part9 278     0     0
+    lh_superiorfrontal_part6               rh_precentral_part3 278     0     0
+   rh_parstriangularis_part1          rh_superiorfrontal_part1 278     0     0
+         rh_precentral_part3          rh_superiorfrontal_part6 278     0     0
+
+[mean_Interaction] n_sig = 0
+
+[disp_Diagnosis] n_sig = 3
+             region_i             region_j   n p_raw  p_FDR
+      lh_insula_part3 rh_postcentral_part6 278     0 0.0000
+ rh_postcentral_part6   rh_precuneus_part3 278     0 0.0018
+ rh_postcentral_part6      rh_insula_part3 278     0 0.0000
+
+[disp_AgeGroup] n_sig = 0
+
+[disp_Interaction] n_sig = 0
+
+Edge: 6678 edges with at least one significant effect. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DGLM/DGLM_DK318_edge_significant.csv
+
+DONE.
+End: Thu Mar 19 01:39:36 PM CST 2026

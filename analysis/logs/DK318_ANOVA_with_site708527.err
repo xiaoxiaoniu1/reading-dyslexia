@@ -1,0 +1,29 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: carData
+
+Attaching package: ‘car’
+
+The following object is masked from ‘package:purrr’:
+
+    some
+
+The following object is masked from ‘package:dplyr’:
+
+    recode
+
+New names:
+• `` -> `...9`
+Error: unexpected string constant in:
+"        direction = ifelse(mean_DD > mean_TD, "DD>TD", 
+                    ifelseDD<TD", ""
+Execution halted

@@ -1,0 +1,54 @@
+Start: Wed Feb  4 04:29:20 PM CST 2026
+当前工作目录： /data1/tqi/share/after_freesurfer
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+LH surface vertices: 163842
+RH surface vertices: 163842
+LH annot vertices: 163842
+RH annot vertices: 163842
+
+============================
+绘制列: p_Diagnosis_FDR
+Using significant diagnosis table: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/Significant_Diagnosis_DK318_degree_results.csv
+LH vertex filled (%): 3.48
+RH vertex filled (%): 5.15
+Color range vmin/vmax: -2.5018910024628913 2.5018910024628913
+显著脑区列表已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis_FDR/significant_regions_p_Diagnosis_FDR.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis_FDR/p_Diagnosis_FDR_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis_FDR/p_Diagnosis_FDR_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis_FDR/p_Diagnosis_FDR_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis_FDR/p_Diagnosis_FDR_rh_medial.png
+Done. Four brain maps for p_Diagnosis_FDR saved in: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis_FDR
+
+============================
+绘制列: p_IQ_FDR
+Loading directional info from: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/Significant_IQ_DK318_degree_results.csv
+p_IQ_FDR: 没有显著脑区 (阈值<0.05)，跳过绘图。
+
+============================
+绘制列: p_Diagnosis
+Using significant diagnosis table: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/Significant_Diagnosis_DK318_degree_results.csv
+LH vertex filled (%): 3.48
+RH vertex filled (%): 5.15
+Color range vmin/vmax: -2.5018910024628913 2.5018910024628913
+显著脑区列表已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis/significant_regions_p_Diagnosis.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis/p_Diagnosis_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis/p_Diagnosis_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis/p_Diagnosis_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis/p_Diagnosis_rh_medial.png
+Done. Four brain maps for p_Diagnosis saved in: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_Diagnosis
+
+============================
+绘制列: p_IQ
+Loading directional info from: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/Significant_IQ_DK318_degree_results.csv
+LH vertex filled (%): 0.37
+RH vertex filled (%): 0.00
+Color range vmin/vmax: -1.6201397818216163 1.6201397818216163
+显著脑区列表已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_IQ/significant_regions_p_IQ.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_IQ/p_IQ_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_IQ/p_IQ_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_IQ/p_IQ_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_IQ/p_IQ_rh_medial.png
+Done. Four brain maps for p_IQ saved in: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ/dk318_degree_brainmaps(ANOVA_significant)/p_IQ
+End: Wed Feb  4 04:35:01 PM CST 2026

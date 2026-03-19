@@ -1,0 +1,28 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: carData
+
+Attaching package: ‘car’
+
+The following object is masked from ‘package:purrr’:
+
+    some
+
+The following object is masked from ‘package:dplyr’:
+
+    recode
+
+New names:
+• `` -> `...9`
+Error in file(file, "rt") : invalid 'description' argument
+Calls: read_mind_csv -> as.matrix -> read.csv -> read.table -> file
+Execution halted

@@ -1,0 +1,9 @@
+Start: Wed Feb  4 08:34:54 AM UTC 2026
+发现 Interaction 显著的脑区数量: 3 
+匹配到脑网络数据的被试数量: 279 
+正在读取脑网络数据并提取显著脑区指标...
+正在处理脑区: lh_entorhinal 
+正在处理脑区: lh_temporalpole 
+正在处理脑区: rh_temporalpole 
+分析完成！所有显著脑区的轨迹图已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA/Growth_Trajectories_Interaction 
+End: Wed Feb  4 08:35:00 AM UTC 2026

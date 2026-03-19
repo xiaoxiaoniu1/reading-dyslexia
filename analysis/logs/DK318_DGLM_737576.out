@@ -1,0 +1,46 @@
+Host: node5
+Start: Thu Mar 19 10:22:50 AM CST 2026
+Subjects in demo: 279 
+Subjects with MIND csv: 278 
+ROI number: 318 
+Number of edges: 50403 
+Degree matrix: 278 x 318 
+Edge matrix: 278 x 50403 
+
+=== Running DGLM (degree) ===
+Significant mean Interaction (degree, FDR<0.05): 0 
+Significant dispersion Interaction (degree, FDR<0.05): 0 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DGLM/DGLM_DK318_degree_results.csv 
+
+=== Running DGLM (edges) ===
+Edge chunk 1 / 26 
+Edge chunk 2 / 26 
+Edge chunk 3 / 26 
+Edge chunk 4 / 26 
+Edge chunk 5 / 26 
+Edge chunk 6 / 26 
+Edge chunk 7 / 26 
+Edge chunk 8 / 26 
+Edge chunk 9 / 26 
+Edge chunk 10 / 26 
+Edge chunk 11 / 26 
+Edge chunk 12 / 26 
+Edge chunk 13 / 26 
+Edge chunk 14 / 26 
+Edge chunk 15 / 26 
+Edge chunk 16 / 26 
+Edge chunk 17 / 26 
+Edge chunk 18 / 26 
+Edge chunk 19 / 26 
+Edge chunk 20 / 26 
+Edge chunk 21 / 26 
+Edge chunk 22 / 26 
+Edge chunk 23 / 26 
+Edge chunk 24 / 26 
+Edge chunk 25 / 26 
+Edge chunk 26 / 26 
+Significant mean Interaction (edges, FDR<0.05): 0 
+Significant dispersion Interaction (edges, FDR<0.05): 0 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DGLM/DGLM_DK318_edge_results.csv 
+
+DONE.

@@ -1,0 +1,46 @@
+Loading required package: readxl
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: purrr
+Loading required package: dglm
+also installing the dependency ‘statmod’
+
+trying URL 'https://cran.r-project.org/src/contrib/statmod_1.5.1.tar.gz'
+Content type 'application/x-gzip' length 93062 bytes (90 KB)
+==================================================
+downloaded 90 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/dglm_1.8.6.tar.gz'
+Content type 'application/x-gzip' length 18521 bytes (18 KB)
+==================================================
+downloaded 18 KB
+
+ERROR: failed to lock directory ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library’ for modifying
+Try removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-statmod’
+ERROR: dependency ‘statmod’ is not available for package ‘dglm’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/dglm’
+
+The downloaded source packages are in
+	‘/tmp/RtmpcN1Xs1/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Error in library(pkg, character.only = TRUE) : 
+  there is no package called ‘dglm’
+In addition: Warning messages:
+1: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘dglm’
+2: In install.packages(pkg, repos = "https://cran.r-project.org") :
+  installation of package ‘statmod’ had non-zero exit status
+3: In install.packages(pkg, repos = "https://cran.r-project.org") :
+  installation of package ‘dglm’ had non-zero exit status
+Execution halted

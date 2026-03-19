@@ -1,0 +1,6 @@
+/data1/tqi/share/after_freesurfer/CODE/degree/degree_analysis_DK68.py:205: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  display = plotting.plot_surf_stat_map(
+/data1/tqi/share/after_freesurfer/CODE/degree/degree_analysis_DK68.py:205: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  display = plotting.plot_surf_stat_map(
+/data1/tqi/share/after_freesurfer/CODE/degree/degree_analysis_DK68.py:205: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  display = plotting.plot_surf_stat_map(

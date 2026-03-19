@@ -1,0 +1,4 @@
+/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/nilearn/plotting/_utils.py:133: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/nilearn/plotting/_utils.py:136: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)

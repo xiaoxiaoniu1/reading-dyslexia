@@ -1,0 +1,28 @@
+Start: Wed Feb  4 08:24:41 AM UTC 2026
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+LH: 163842 vertices, 36 ROIs
+RH: 163842 vertices, 36 ROIs
+
+绘制列: p_Interaction
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_Interaction/p_Interaction_lh_lateral.png
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_Interaction/p_Interaction_lh_medial.png
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_Interaction/p_Interaction_rh_lateral.png
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_Interaction/p_Interaction_rh_medial.png
+
+绘制列: p_Interaction_FDR
+p_Interaction_FDR: 无显著脑区 (p<0.05)，跳过。
+
+绘制列: p_Diagnosis_FDR
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_Diagnosis_FDR/p_Diagnosis_FDR_lh_lateral.png
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_Diagnosis_FDR/p_Diagnosis_FDR_lh_medial.png
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_Diagnosis_FDR/p_Diagnosis_FDR_rh_lateral.png
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_Diagnosis_FDR/p_Diagnosis_FDR_rh_medial.png
+
+绘制列: p_AgeGroup_FDR
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_AgeGroup_FDR/p_AgeGroup_FDR_lh_lateral.png
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_AgeGroup_FDR/p_AgeGroup_FDR_lh_medial.png
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_AgeGroup_FDR/p_AgeGroup_FDR_rh_lateral.png
+已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA_with_site/dk68_degree_brainmaps(ANOVA_site)/p_AgeGroup_FDR/p_AgeGroup_FDR_rh_medial.png
+End: Wed Feb  4 08:28:19 AM UTC 2026

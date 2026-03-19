@@ -1,0 +1,477 @@
+# ============================================================
+# ANCOVA (Adult-only; Diagnosis as factor) for:
+#  (A) DK-318 MIND degree (ROI-wise)
+#  (B) DK-318 MIND edges (upper-triangle vector)
+# Covariates: Sex, IQ (continuous)
+# ============================================================
+
+library(readxl)
+library(dplyr)
+library(purrr)
+library(car)
+library(stringr)
+library(tools)
+
+# ----------------------------
+# 1) Paths (改这里两行就行)
+# ----------------------------
+demo_file    <- "/data1/tqi/share/after_freesurfer/FILE/all_data_cqt_adult_with_IQ.xlsx"
+mind_csv_dir <- "/data1/tqi/share/after_freesurfer/fs_subjects_all/MIND_out_combat_degree/"
+
+out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_ANOVA_adult_with_IQ"
+dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
+
+out_degree_csv <- file.path(out_dir, "ANOVA_DK318_degree_results.csv")
+out_edge_csv   <- file.path(out_dir, "ANOVA_DK318_edge_results.csv")
+
+# ----------------------------
+# 2) Load demo + build file id rule + recode factors
+# ----------------------------
+df <- read_excel(demo_file, sheet = "Sheet1")
+
+# IQ 列自动识别（列名包含 iq，不区分大小写）
+iq_candidates <- names(df)[str_detect(names(df), regex("iq", ignore_case = TRUE))]
+if (length(iq_candidates) == 0) {
+  stop("未找到 IQ 列，请检查列名。")
+}
+if (length(iq_candidates) > 1) {
+  cat("Multiple IQ columns detected, using:", iq_candidates[1], "\n")
+}
+iq_col <- iq_candidates[1]
+
+# 你文件命名规则：
+#   original-project + "_" + id_old + "_MIND_DK318_combat_labeled.csv"
+# 说明：R 里含 "-" 的列名要用反引号 `original-project`
+# 如果你实际文件还有 "new_" 前缀，把 USE_NEW_PREFIX 改 TRUE
+USE_NEW_PREFIX <- FALSE
+
+df <- df %>%
+  mutate(
+    original_project = as.character(`original-project`),
+    id_old = as.character(id_old),
+    IQ = as.numeric(.data[[iq_col]]),
+
+    # 前缀：AdultC_1103_MIND_DK318
+    subj_prefix = paste0(original_project, "_", id_old, "_MIND_DK318"),
+
+    # 文件名：AdultC_1103_MIND_DK318_combat_labeled.csv
+    file_base = paste0(subj_prefix, "_combat_labeled"),
+
+    # 完整路径
+    mind_file = file.path(mind_csv_dir, paste0(file_base, ".csv")),
+
+    # 组别/协变量
+    Diagnosis = ifelse(group_d_or_c == 0, "TD", "DD"),
+    AgeGroup  = ifelse(group_age == 1, "Adult", "Child"),
+    Sex       = ifelse(sex == 1, "Male", "Female"),
+    Site      = as.factor(site),
+
+    Diagnosis = factor(Diagnosis, levels = c("TD", "DD")),
+    AgeGroup  = factor(AgeGroup,  levels = c("Child", "Adult")),
+    Sex       = factor(Sex),
+
+    has_file  = file.exists(mind_file)
+  ) %>%
+  # 防呆：去掉任何 NA / 空 id 的行
+  filter(!is.na(original_project), !is.na(id_old), original_project != "", id_old != "") %>%
+  # 只保留成人且有 IQ 的被试
+  filter(group_age == 1, !is.na(IQ))
+
+# ----------------------------
+# 3) Filter missing matrix subjects + write missing list
+# ----------------------------
+cat("Subjects in demo (after basic cleaning):", nrow(df), "\n")
+cat("Subjects with existing MIND csv:", sum(df$has_file), "\n")
+cat("Missing subjects (demo has but file not):", sum(!df$has_file), "\n")
+
+missing_df <- df %>%
+  filter(!has_file) %>%
+  select(original_project, id_old, subj_prefix, mind_file)
+
+write.csv(missing_df,
+          file = file.path(out_dir, "missing_subjects_no_matrix.csv"),
+          row.names = FALSE)
+
+# 只保留有矩阵文件的被试
+df2 <- df %>% filter(has_file)
+
+# ----------------------------
+# 4) Read matrix + helpers
+# ----------------------------
+read_mind_csv <- function(fp) {
+  # 这里假设你存的是“labeled matrix csv”（第一列是行名，第一行是列名）
+  # 用 row.names = 1 + check.names=FALSE 才能保留 ROI 名称不被改
+  mat <- as.matrix(read.csv(fp, row.names = 1, check.names = FALSE))
+  storage.mode(mat) <- "numeric"
+  mat
+}
+
+calc_degree <- function(mat) {
+  diag(mat) <- NA
+  rowMeans(mat, na.rm = TRUE)
+}
+
+# detect ROI count from first subject
+tmp <- read_mind_csv(df2$mind_file[1])
+n_roi <- nrow(tmp)
+stopifnot(n_roi == ncol(tmp))
+cat("Detected ROI number:", n_roi, "\n")
+
+# upper-triangle indices mapping
+upper_idx <- which(upper.tri(matrix(1, n_roi, n_roi)), arr.ind = TRUE)
+n_edge <- nrow(upper_idx)
+cat("Number of edges (upper triangle):", n_edge, "\n")
+
+# ----------------------------
+# 5) Build degree matrix + edge matrix
+# ----------------------------
+n_subj <- nrow(df2)
+
+# 用 ROI 真名作为列名（如果你矩阵带 ROI 名）
+roi_names <- rownames(tmp)
+if (is.null(roi_names) || any(is.na(roi_names)) || length(roi_names) != n_roi) {
+  roi_names <- paste0("ROI_", seq_len(n_roi))
+}
+
+degree_mat <- matrix(NA_real_, nrow = n_subj, ncol = n_roi,
+                     dimnames = list(df2$file_base, roi_names))
+
+edge_mat <- matrix(NA_real_, nrow = n_subj, ncol = n_edge,
+                   dimnames = list(df2$file_base, paste0("E_", seq_len(n_edge))))
+
+for (s in seq_len(n_subj)) {
+  fp <- df2$mind_file[s]
+  m  <- read_mind_csv(fp)
+
+  # degree
+  degree_mat[s, ] <- calc_degree(m)
+
+  # edges (upper triangle) — 用 upper.tri(m) 得到逻辑索引
+  edge_mat[s, ] <- m[upper.tri(m)]
+}
+
+cat("Degree matrix:", paste(dim(degree_mat), collapse = " x "), "\n")
+cat("Edge matrix:", paste(dim(edge_mat), collapse = " x "), "\n")
+
+# ============================================================
+# 6) ROI-wise two-way ANOVA (degree)
+# ============================================================
+run_two_way_anova_per_feature <- function(y_mat, df_sub, feature_names,
+                                          min_n = 10, var_eps = 1e-12) {
+
+  res <- lapply(seq_len(ncol(y_mat)), function(k) {
+    y <- y_mat[, k]
+
+    # 只保留 y 非 NA 的样本
+    ok <- is.finite(y)
+    y2 <- y[ok]
+    d2 <- df_sub[ok, , drop = FALSE]
+
+    # 防呆1：有效样本太少
+    if (length(y2) < min_n) {
+      return(data.frame(
+        feature = feature_names[k],
+        n = length(y2),
+        var_y = ifelse(length(y2) > 1, var(y2), NA_real_),
+        p_Diagnosis = NA_real_,
+        p_AgeGroup = NA_real_,
+        p_Interaction = NA_real_,
+        eta2_Diagnosis = NA_real_,
+        eta2_AgeGroup = NA_real_,
+        eta2_Interaction = NA_real_,
+        cohens_f_Diagnosis = NA_real_,
+        cohens_f_AgeGroup = NA_real_,
+        cohens_f_Interaction = NA_real_
+      ))
+    }
+
+    # 防呆2：y 几乎没有方差（常数）
+    v <- var(y2)
+    if (!is.finite(v) || v < var_eps) {
+      return(data.frame(
+        feature = feature_names[k],
+        n = length(y2),
+        var_y = v,
+        p_Diagnosis = NA_real_,
+        p_AgeGroup = NA_real_,
+        p_Interaction = NA_real_,
+        eta2_Diagnosis = NA_real_,
+        eta2_AgeGroup = NA_real_,
+        eta2_Interaction = NA_real_,
+        cohens_f_Diagnosis = NA_real_,
+        cohens_f_AgeGroup = NA_real_,
+        cohens_f_Interaction = NA_real_
+      ))
+    }
+
+    # 正常拟合
+    fit <- lm(y2 ~ Diagnosis + Sex + IQ, data = d2)
+
+    # 防呆3：Anova 出错时不崩溃，返回 NA
+    a <- tryCatch(car::Anova(fit, type = 2), error = function(e) NULL)
+    if (is.null(a)) {
+      return(data.frame(
+        feature = feature_names[k],
+        n = length(y2),
+        var_y = v,
+        p_Diagnosis = NA_real_,
+        p_IQ = NA_real_,
+        eta2_Diagnosis = NA_real_,
+        eta2_IQ = NA_real_,
+        cohens_f_Diagnosis = NA_real_,
+        cohens_f_IQ = NA_real_
+      ))
+    }
+    
+    # 计算 Partial Eta Squared 和 Cohen's f
+    ss_residual <- sum(residuals(fit)^2)
+    ss_diag <- if ("Diagnosis" %in% rownames(a)) a["Diagnosis", "Sum Sq"] else NA_real_
+    ss_iq <- if ("IQ" %in% rownames(a)) a["IQ", "Sum Sq"] else NA_real_
+    
+    eta2_diag <- ss_diag / (ss_diag + ss_residual)
+    eta2_iq <- ss_iq / (ss_iq + ss_residual)
+    
+    cohens_f_diag <- sqrt(eta2_diag / (1 - eta2_diag))
+    cohens_f_iq <- sqrt(eta2_iq / (1 - eta2_iq))
+
+    data.frame(
+      feature = feature_names[k],
+      n = length(y2),
+      var_y = v,
+      p_Diagnosis   = if ("Diagnosis" %in% rownames(a)) a["Diagnosis", "Pr(>F)"] else NA_real_,
+      p_IQ          = if ("IQ" %in% rownames(a)) a["IQ", "Pr(>F)"] else NA_real_,
+      eta2_Diagnosis = eta2_diag,
+      eta2_IQ = eta2_iq,
+      cohens_f_Diagnosis = cohens_f_diag,
+      cohens_f_IQ = cohens_f_iq
+    )
+  })
+
+  out <- bind_rows(res)
+
+  out$p_Diagnosis_FDR <- p.adjust(out$p_Diagnosis, method = "fdr")
+  out$p_IQ_FDR        <- p.adjust(out$p_IQ,        method = "fdr")
+
+  out
+}
+
+# ====== 关键：真正运行 degree 的 ANOVA，并输出结果 ======
+cat("\n=== Running ROI-wise ANOVA (degree) ===\n")
+degree_res <- run_two_way_anova_per_feature(degree_mat, df2, colnames(degree_mat))
+
+cat("Degree features with NA p-values (Diagnosis):",
+    sum(is.na(degree_res$p_Diagnosis)), "\n")
+
+cat("Significant Diagnosis (degree, FDR<0.05):",
+    sum(degree_res$p_Diagnosis_FDR < 0.05, na.rm = TRUE), "\n")
+
+cat("Significant IQ (degree, FDR<0.05):",
+    sum(degree_res$p_IQ_FDR < 0.05, na.rm = TRUE), "\n")
+
+write.csv(degree_res, out_degree_csv, row.names = FALSE)
+cat("Saved degree results:", out_degree_csv, "\n")
+
+# ============================================================
+# 7) Edge-wise two-way ANOVA (upper-triangle edges)
+#    chunked to reduce memory/time spikes
+# ============================================================
+run_two_way_anova_edgewise_chunked <- function(edge_mat, df_sub, upper_idx, roi_names,
+                                               chunk_size = 2000,
+                                               min_n = 10, var_eps = 1e-12) {
+  n_edge <- ncol(edge_mat)
+  chunks <- split(seq_len(n_edge), ceiling(seq_len(n_edge) / chunk_size))
+
+  out_list <- vector("list", length(chunks))
+
+  for (ci in seq_along(chunks)) {
+    idxs <- chunks[[ci]]
+    cat("Edge chunk", ci, "/", length(chunks), "- edges:", length(idxs), "\n")
+
+    chunk_res <- lapply(idxs, function(k) {
+      y <- edge_mat[, k]
+      ok <- is.finite(y)
+      y2 <- y[ok]
+      d2 <- df_sub[ok, , drop = FALSE]
+
+      v <- ifelse(length(y2) > 1, var(y2), NA_real_)
+
+      # 少样本 / 低方差 -> NA
+      if (length(y2) < min_n || !is.finite(v) || v < var_eps) {
+        return(data.frame(
+          edge_id = k,
+          i = upper_idx[k, 1],
+          j = upper_idx[k, 2],
+          region_i = roi_names[upper_idx[k, 1]],
+          region_j = roi_names[upper_idx[k, 2]],
+          n = length(y2),
+          var_y = v,
+          p_Diagnosis = NA_real_,
+          p_AgeGroup = NA_real_,
+          p_Interaction = NA_real_,
+          eta2_Diagnosis = NA_real_,
+          eta2_AgeGroup = NA_real_,
+          eta2_Interaction = NA_real_,
+          cohens_f_Diagnosis = NA_real_,
+          cohens_f_AgeGroup = NA_real_,
+          cohens_f_Interaction = NA_real_
+        ))
+      }
+
+      fit <- lm(y2 ~ Diagnosis + Sex + IQ, data = d2)
+      a <- tryCatch(car::Anova(fit, type = 2), error = function(e) NULL)
+
+      if (is.null(a)) {
+        return(data.frame(
+          edge_id = k,
+          i = upper_idx[k, 1],
+          j = upper_idx[k, 2],
+          region_i = roi_names[upper_idx[k, 1]],
+          region_j = roi_names[upper_idx[k, 2]],
+          n = length(y2),
+          var_y = v,
+          p_Diagnosis = NA_real_,
+          p_IQ = NA_real_,
+          eta2_Diagnosis = NA_real_,
+          eta2_IQ = NA_real_,
+          cohens_f_Diagnosis = NA_real_,
+          cohens_f_IQ = NA_real_
+        ))
+      }
+      
+      # 计算效应量
+      ss_residual <- sum(residuals(fit)^2)
+      ss_diag <- if ("Diagnosis" %in% rownames(a)) a["Diagnosis", "Sum Sq"] else NA_real_
+      ss_iq <- if ("IQ" %in% rownames(a)) a["IQ", "Sum Sq"] else NA_real_
+      
+      eta2_diag <- ss_diag / (ss_diag + ss_residual)
+      eta2_iq <- ss_iq / (ss_iq + ss_residual)
+      
+      cohens_f_diag <- sqrt(eta2_diag / (1 - eta2_diag))
+      cohens_f_iq <- sqrt(eta2_iq / (1 - eta2_iq))
+
+      data.frame(
+        edge_id = k,
+        i = upper_idx[k, 1],
+        j = upper_idx[k, 2],
+        region_i = roi_names[upper_idx[k, 1]],
+        region_j = roi_names[upper_idx[k, 2]],
+        n = length(y2),
+        var_y = v,
+        p_Diagnosis   = if ("Diagnosis" %in% rownames(a)) a["Diagnosis", "Pr(>F)"] else NA_real_,
+        p_IQ          = if ("IQ" %in% rownames(a)) a["IQ", "Pr(>F)"] else NA_real_,
+        eta2_Diagnosis = eta2_diag,
+        eta2_IQ = eta2_iq,
+        cohens_f_Diagnosis = cohens_f_diag,
+        cohens_f_IQ = cohens_f_iq
+      )
+    })
+
+    out_list[[ci]] <- bind_rows(chunk_res)
+  }
+
+  out <- bind_rows(out_list)
+
+  out$p_Diagnosis_FDR <- p.adjust(out$p_Diagnosis, method = "fdr")
+  out$p_IQ_FDR        <- p.adjust(out$p_IQ,        method = "fdr")
+
+  out
+}
+
+# ====== 关键：真正运行 edge 的 ANOVA，并输出结果 ======
+cat("\n=== Running Edge-wise ANOVA (upper triangle) ===\n")
+edge_res <- run_two_way_anova_edgewise_chunked(edge_mat, df2, upper_idx, roi_names, chunk_size = 2000)
+
+cat("Edge features with NA p-values (Diagnosis):",
+    sum(is.na(edge_res$p_Diagnosis)), "\n")
+
+cat("Significant Diagnosis (edges, FDR<0.05):",
+    sum(edge_res$p_Diagnosis_FDR < 0.05, na.rm = TRUE), "\n")
+
+cat("Significant IQ (edges, FDR<0.05):",
+    sum(edge_res$p_IQ_FDR < 0.05, na.rm = TRUE), "\n")
+
+write.csv(edge_res, out_edge_csv, row.names = FALSE)
+cat("Saved edge results:", out_edge_csv, "\n")
+
+# ============================================================
+# 8) 输出显著结果表（degree 和 edge）- 分别输出 Diagnosis、AgeGroup、Interaction
+# ============================================================
+cat("\n=== Generating significant results tables ===\n")
+
+# 辅助函数：计算方向并输出
+output_sig_results <- function(res_df, feature_mat, df_demo, effect_name, 
+                                 feature_type = "degree", out_dir, alpha = 0.05) {
+  
+  p_raw_col <- paste0("p_", effect_name)
+  p_fdr_col <- paste0("p_", effect_name, "_FDR")
+  sig_data <- res_df %>% filter(.data[[p_raw_col]] < alpha | .data[[p_fdr_col]] < alpha)
+  
+  if (nrow(sig_data) == 0) {
+    cat("No significant", effect_name, "results for", feature_type, "(p<0.05 or FDR<0.05)\n")
+    return(NULL)
+  }
+  
+  # 根据效应类型计算不同的均值
+  sig_with_dir <- sig_data %>%
+    rowwise() %>%
+    mutate(
+      # 获取当前特征的索引（degree用特征名，edge用edge_id）
+      idx_or_name = if(feature_type == "degree") feature else edge_id
+    )
+    
+  if (effect_name == "Diagnosis") {
+    # === Diagnosis Effect: TD vs DD ===
+    sig_with_dir <- sig_with_dir %>%
+      mutate(
+        mean_TD = mean(feature_mat[df_demo$Diagnosis == "TD", idx_or_name], na.rm = TRUE),
+        mean_DD = mean(feature_mat[df_demo$Diagnosis == "DD", idx_or_name], na.rm = TRUE),
+        direction = ifelse(mean_DD > mean_TD, "DD>TD", 
+                    ifelse(mean_DD < mean_TD, "DD<TD", "equal"))
+      ) %>%
+      select(any_of(c("feature", "edge_id", "i", "j", "region_i", "region_j", "n")),
+             starts_with("p_"), starts_with("eta2_"), starts_with("cohens_"),
+             mean_TD, mean_DD, direction)
+            
+  } else if (effect_name == "IQ") {
+    # === IQ Effect: correlation direction ===
+    sig_with_dir <- sig_with_dir %>%
+      mutate(
+        corr_IQ = suppressWarnings(cor(feature_mat[, idx_or_name], df_demo$IQ, use = "pairwise.complete.obs")),
+        direction = ifelse(corr_IQ > 0, "IQ+", 
+                    ifelse(corr_IQ < 0, "IQ-", "equal"))
+      ) %>%
+      select(any_of(c("feature", "edge_id", "i", "j", "region_i", "region_j", "n")),
+             starts_with("p_"), starts_with("eta2_"), starts_with("cohens_"),
+             corr_IQ, direction)
+  } else {
+    stop("Unsupported effect_name: ", effect_name)
+  }
+
+  # 解除 rowwise
+  sig_with_dir <- sig_with_dir %>%
+    ungroup() %>%
+    mutate(
+      sig_raw = .data[[p_raw_col]] < alpha,
+      sig_fdr = .data[[p_fdr_col]] < alpha
+    ) %>%
+    arrange(.data[[p_fdr_col]])
+  
+  out_file <- file.path(out_dir, 
+                        paste0("Significant_", effect_name, "_DK318_", 
+                              feature_type, "_results.csv"))
+  write.csv(sig_with_dir, out_file, row.names = FALSE)
+  cat("Significant", effect_name, feature_type, "results (n =", 
+      nrow(sig_with_dir), "):", out_file, "\n")
+  
+  return(sig_with_dir)
+}
+
+# 输出 Diagnosis 主效应显著结果
+output_sig_results(degree_res, degree_mat, df2, "Diagnosis", "degree", out_dir)
+output_sig_results(edge_res, edge_mat, df2, "Diagnosis", "edge", out_dir)
+
+# 输出 IQ 主效应显著结果
+output_sig_results(degree_res, degree_mat, df2, "IQ", "degree", out_dir)
+output_sig_results(edge_res, edge_mat, df2, "IQ", "edge", out_dir)
+
+cat("\nDONE.\n")
