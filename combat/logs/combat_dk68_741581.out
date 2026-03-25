@@ -1,0 +1,277 @@
+==========================================
+开始执行 DK-318 Combat 批次校正
+开始时间: 2026-03-25 09:45:18
+==========================================
+协变量表总行数： 246
+
+有效被试数: 246, 每个被试 edge 数: 50403
+
+【诊断】site × group 交叉表:
+group   0    1
+site          
+1      75  107
+2      44   20
+
+✅ 有效站点: ['1', '2']
+
+过滤后被试数: 246
+
+[ComBat] 使用官方 NeuroComBat (mean_only=True) 开始校正...
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[ComBat] 校正完成！
+[保存] AdultC_1103 | matrix=AdultC_1103_MIND_DK318_combat.csv | degree=AdultC_1103_MIND_DK318_combat_degree.csv
+[保存] AdultC_1104 | matrix=AdultC_1104_MIND_DK318_combat.csv | degree=AdultC_1104_MIND_DK318_combat_degree.csv
+[保存] AdultC_1105 | matrix=AdultC_1105_MIND_DK318_combat.csv | degree=AdultC_1105_MIND_DK318_combat_degree.csv
+[保存] AdultC_1106 | matrix=AdultC_1106_MIND_DK318_combat.csv | degree=AdultC_1106_MIND_DK318_combat_degree.csv
+[保存] AdultC_1107 | matrix=AdultC_1107_MIND_DK318_combat.csv | degree=AdultC_1107_MIND_DK318_combat_degree.csv
+[保存] AdultC_1108 | matrix=AdultC_1108_MIND_DK318_combat.csv | degree=AdultC_1108_MIND_DK318_combat_degree.csv
+[保存] AdultC_1109 | matrix=AdultC_1109_MIND_DK318_combat.csv | degree=AdultC_1109_MIND_DK318_combat_degree.csv
+[保存] AdultC_1110 | matrix=AdultC_1110_MIND_DK318_combat.csv | degree=AdultC_1110_MIND_DK318_combat_degree.csv
+[保存] AdultC_1111 | matrix=AdultC_1111_MIND_DK318_combat.csv | degree=AdultC_1111_MIND_DK318_combat_degree.csv
+[保存] AdultC_1112 | matrix=AdultC_1112_MIND_DK318_combat.csv | degree=AdultC_1112_MIND_DK318_combat_degree.csv
+[保存] AdultC_1114 | matrix=AdultC_1114_MIND_DK318_combat.csv | degree=AdultC_1114_MIND_DK318_combat_degree.csv
+[保存] AdultC_1115 | matrix=AdultC_1115_MIND_DK318_combat.csv | degree=AdultC_1115_MIND_DK318_combat_degree.csv
+[保存] AdultC_1116 | matrix=AdultC_1116_MIND_DK318_combat.csv | degree=AdultC_1116_MIND_DK318_combat_degree.csv
+[保存] AdultC_1117 | matrix=AdultC_1117_MIND_DK318_combat.csv | degree=AdultC_1117_MIND_DK318_combat_degree.csv
+[保存] AdultC_1119 | matrix=AdultC_1119_MIND_DK318_combat.csv | degree=AdultC_1119_MIND_DK318_combat_degree.csv
+[保存] AdultC_1120 | matrix=AdultC_1120_MIND_DK318_combat.csv | degree=AdultC_1120_MIND_DK318_combat_degree.csv
+[保存] AdultC_1121 | matrix=AdultC_1121_MIND_DK318_combat.csv | degree=AdultC_1121_MIND_DK318_combat_degree.csv
+[保存] AdultC_1122 | matrix=AdultC_1122_MIND_DK318_combat.csv | degree=AdultC_1122_MIND_DK318_combat_degree.csv
+[保存] AdultC_1123 | matrix=AdultC_1123_MIND_DK318_combat.csv | degree=AdultC_1123_MIND_DK318_combat_degree.csv
+[保存] AdultC_1124 | matrix=AdultC_1124_MIND_DK318_combat.csv | degree=AdultC_1124_MIND_DK318_combat_degree.csv
+[保存] AdultC_1125 | matrix=AdultC_1125_MIND_DK318_combat.csv | degree=AdultC_1125_MIND_DK318_combat_degree.csv
+[保存] AdultC_1126 | matrix=AdultC_1126_MIND_DK318_combat.csv | degree=AdultC_1126_MIND_DK318_combat_degree.csv
+[保存] AdultC_1127 | matrix=AdultC_1127_MIND_DK318_combat.csv | degree=AdultC_1127_MIND_DK318_combat_degree.csv
+[保存] AdultC_1128 | matrix=AdultC_1128_MIND_DK318_combat.csv | degree=AdultC_1128_MIND_DK318_combat_degree.csv
+[保存] AdultC_1129 | matrix=AdultC_1129_MIND_DK318_combat.csv | degree=AdultC_1129_MIND_DK318_combat_degree.csv
+[保存] AdultC_1131 | matrix=AdultC_1131_MIND_DK318_combat.csv | degree=AdultC_1131_MIND_DK318_combat_degree.csv
+[保存] AdultC_1132 | matrix=AdultC_1132_MIND_DK318_combat.csv | degree=AdultC_1132_MIND_DK318_combat_degree.csv
+[保存] AdultC_1133 | matrix=AdultC_1133_MIND_DK318_combat.csv | degree=AdultC_1133_MIND_DK318_combat_degree.csv
+[保存] AdultC_1134 | matrix=AdultC_1134_MIND_DK318_combat.csv | degree=AdultC_1134_MIND_DK318_combat_degree.csv
+[保存] AdultC_1140 | matrix=AdultC_1140_MIND_DK318_combat.csv | degree=AdultC_1140_MIND_DK318_combat_degree.csv
+[保存] AdultC_1142 | matrix=AdultC_1142_MIND_DK318_combat.csv | degree=AdultC_1142_MIND_DK318_combat_degree.csv
+[保存] AdultC_1144 | matrix=AdultC_1144_MIND_DK318_combat.csv | degree=AdultC_1144_MIND_DK318_combat_degree.csv
+[保存] AdultC_1145 | matrix=AdultC_1145_MIND_DK318_combat.csv | degree=AdultC_1145_MIND_DK318_combat_degree.csv
+[保存] AdultC_1149 | matrix=AdultC_1149_MIND_DK318_combat.csv | degree=AdultC_1149_MIND_DK318_combat_degree.csv
+[保存] AdultC_1150 | matrix=AdultC_1150_MIND_DK318_combat.csv | degree=AdultC_1150_MIND_DK318_combat_degree.csv
+[保存] AdultC_1151 | matrix=AdultC_1151_MIND_DK318_combat.csv | degree=AdultC_1151_MIND_DK318_combat_degree.csv
+[保存] AdultC_1152 | matrix=AdultC_1152_MIND_DK318_combat.csv | degree=AdultC_1152_MIND_DK318_combat_degree.csv
+[保存] AdultC_1155 | matrix=AdultC_1155_MIND_DK318_combat.csv | degree=AdultC_1155_MIND_DK318_combat_degree.csv
+[保存] AdultC_1157 | matrix=AdultC_1157_MIND_DK318_combat.csv | degree=AdultC_1157_MIND_DK318_combat_degree.csv
+[保存] AdultC_1160 | matrix=AdultC_1160_MIND_DK318_combat.csv | degree=AdultC_1160_MIND_DK318_combat_degree.csv
+[保存] AdultC_1163 | matrix=AdultC_1163_MIND_DK318_combat.csv | degree=AdultC_1163_MIND_DK318_combat_degree.csv
+[保存] AdultC_1164 | matrix=AdultC_1164_MIND_DK318_combat.csv | degree=AdultC_1164_MIND_DK318_combat_degree.csv
+[保存] AdultC_1165 | matrix=AdultC_1165_MIND_DK318_combat.csv | degree=AdultC_1165_MIND_DK318_combat_degree.csv
+[保存] AdultC_1167 | matrix=AdultC_1167_MIND_DK318_combat.csv | degree=AdultC_1167_MIND_DK318_combat_degree.csv
+[保存] AdultC_1172 | matrix=AdultC_1172_MIND_DK318_combat.csv | degree=AdultC_1172_MIND_DK318_combat_degree.csv
+[保存] AdultC_1173 | matrix=AdultC_1173_MIND_DK318_combat.csv | degree=AdultC_1173_MIND_DK318_combat_degree.csv
+[保存] AdultC_1174 | matrix=AdultC_1174_MIND_DK318_combat.csv | degree=AdultC_1174_MIND_DK318_combat_degree.csv
+[保存] AdultD_1201 | matrix=AdultD_1201_MIND_DK318_combat.csv | degree=AdultD_1201_MIND_DK318_combat_degree.csv
+[保存] AdultD_1202 | matrix=AdultD_1202_MIND_DK318_combat.csv | degree=AdultD_1202_MIND_DK318_combat_degree.csv
+[保存] AdultD_1203 | matrix=AdultD_1203_MIND_DK318_combat.csv | degree=AdultD_1203_MIND_DK318_combat_degree.csv
+[保存] AdultD_1204 | matrix=AdultD_1204_MIND_DK318_combat.csv | degree=AdultD_1204_MIND_DK318_combat_degree.csv
+[保存] AdultD_1206 | matrix=AdultD_1206_MIND_DK318_combat.csv | degree=AdultD_1206_MIND_DK318_combat_degree.csv
+[保存] AdultD_1207 | matrix=AdultD_1207_MIND_DK318_combat.csv | degree=AdultD_1207_MIND_DK318_combat_degree.csv
+[保存] AdultD_1208 | matrix=AdultD_1208_MIND_DK318_combat.csv | degree=AdultD_1208_MIND_DK318_combat_degree.csv
+[保存] AdultD_1209 | matrix=AdultD_1209_MIND_DK318_combat.csv | degree=AdultD_1209_MIND_DK318_combat_degree.csv
+[保存] AdultD_1210 | matrix=AdultD_1210_MIND_DK318_combat.csv | degree=AdultD_1210_MIND_DK318_combat_degree.csv
+[保存] AdultD_1211 | matrix=AdultD_1211_MIND_DK318_combat.csv | degree=AdultD_1211_MIND_DK318_combat_degree.csv
+[保存] AdultD_1212 | matrix=AdultD_1212_MIND_DK318_combat.csv | degree=AdultD_1212_MIND_DK318_combat_degree.csv
+[保存] AdultD_1213 | matrix=AdultD_1213_MIND_DK318_combat.csv | degree=AdultD_1213_MIND_DK318_combat_degree.csv
+[保存] AdultD_1214 | matrix=AdultD_1214_MIND_DK318_combat.csv | degree=AdultD_1214_MIND_DK318_combat_degree.csv
+[保存] AdultD_1215 | matrix=AdultD_1215_MIND_DK318_combat.csv | degree=AdultD_1215_MIND_DK318_combat_degree.csv
+[保存] AdultD_1216 | matrix=AdultD_1216_MIND_DK318_combat.csv | degree=AdultD_1216_MIND_DK318_combat_degree.csv
+[保存] AdultD_1217 | matrix=AdultD_1217_MIND_DK318_combat.csv | degree=AdultD_1217_MIND_DK318_combat_degree.csv
+[保存] AdultD_1218 | matrix=AdultD_1218_MIND_DK318_combat.csv | degree=AdultD_1218_MIND_DK318_combat_degree.csv
+[保存] AdultD_1219 | matrix=AdultD_1219_MIND_DK318_combat.csv | degree=AdultD_1219_MIND_DK318_combat_degree.csv
+[保存] AdultD_1220 | matrix=AdultD_1220_MIND_DK318_combat.csv | degree=AdultD_1220_MIND_DK318_combat_degree.csv
+[保存] AdultD_1223 | matrix=AdultD_1223_MIND_DK318_combat.csv | degree=AdultD_1223_MIND_DK318_combat_degree.csv
+[保存] AdultD_1224 | matrix=AdultD_1224_MIND_DK318_combat.csv | degree=AdultD_1224_MIND_DK318_combat_degree.csv
+[保存] AdultD_1225 | matrix=AdultD_1225_MIND_DK318_combat.csv | degree=AdultD_1225_MIND_DK318_combat_degree.csv
+[保存] AdultD_1226 | matrix=AdultD_1226_MIND_DK318_combat.csv | degree=AdultD_1226_MIND_DK318_combat_degree.csv
+[保存] AdultD_1227 | matrix=AdultD_1227_MIND_DK318_combat.csv | degree=AdultD_1227_MIND_DK318_combat_degree.csv
+[保存] AdultD_1228 | matrix=AdultD_1228_MIND_DK318_combat.csv | degree=AdultD_1228_MIND_DK318_combat_degree.csv
+[保存] AdultD_1229 | matrix=AdultD_1229_MIND_DK318_combat.csv | degree=AdultD_1229_MIND_DK318_combat_degree.csv
+[保存] AdultD_1230 | matrix=AdultD_1230_MIND_DK318_combat.csv | degree=AdultD_1230_MIND_DK318_combat_degree.csv
+[保存] AdultD_1231 | matrix=AdultD_1231_MIND_DK318_combat.csv | degree=AdultD_1231_MIND_DK318_combat_degree.csv
+[保存] AdultD_1232 | matrix=AdultD_1232_MIND_DK318_combat.csv | degree=AdultD_1232_MIND_DK318_combat_degree.csv
+[保存] AdultD_1233 | matrix=AdultD_1233_MIND_DK318_combat.csv | degree=AdultD_1233_MIND_DK318_combat_degree.csv
+[保存] AdultD_1234 | matrix=AdultD_1234_MIND_DK318_combat.csv | degree=AdultD_1234_MIND_DK318_combat_degree.csv
+[保存] AdultD_1235 | matrix=AdultD_1235_MIND_DK318_combat.csv | degree=AdultD_1235_MIND_DK318_combat_degree.csv
+[保存] AdultD_1236 | matrix=AdultD_1236_MIND_DK318_combat.csv | degree=AdultD_1236_MIND_DK318_combat_degree.csv
+[保存] AdultD_1237 | matrix=AdultD_1237_MIND_DK318_combat.csv | degree=AdultD_1237_MIND_DK318_combat_degree.csv
+[保存] AdultD_1238 | matrix=AdultD_1238_MIND_DK318_combat.csv | degree=AdultD_1238_MIND_DK318_combat_degree.csv
+[保存] AdultD_1239 | matrix=AdultD_1239_MIND_DK318_combat.csv | degree=AdultD_1239_MIND_DK318_combat_degree.csv
+[保存] AdultD_1240 | matrix=AdultD_1240_MIND_DK318_combat.csv | degree=AdultD_1240_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2101 | matrix=AdoleC_2101_MIND_DK318_combat.csv | degree=AdoleC_2101_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2102 | matrix=AdoleC_2102_MIND_DK318_combat.csv | degree=AdoleC_2102_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2103 | matrix=AdoleC_2103_MIND_DK318_combat.csv | degree=AdoleC_2103_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2104 | matrix=AdoleC_2104_MIND_DK318_combat.csv | degree=AdoleC_2104_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2106 | matrix=AdoleC_2106_MIND_DK318_combat.csv | degree=AdoleC_2106_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2107 | matrix=AdoleC_2107_MIND_DK318_combat.csv | degree=AdoleC_2107_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2108 | matrix=AdoleC_2108_MIND_DK318_combat.csv | degree=AdoleC_2108_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2109 | matrix=AdoleC_2109_MIND_DK318_combat.csv | degree=AdoleC_2109_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2111 | matrix=AdoleC_2111_MIND_DK318_combat.csv | degree=AdoleC_2111_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2113 | matrix=AdoleC_2113_MIND_DK318_combat.csv | degree=AdoleC_2113_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2114 | matrix=AdoleC_2114_MIND_DK318_combat.csv | degree=AdoleC_2114_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2115 | matrix=AdoleC_2115_MIND_DK318_combat.csv | degree=AdoleC_2115_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2116 | matrix=AdoleC_2116_MIND_DK318_combat.csv | degree=AdoleC_2116_MIND_DK318_combat_degree.csv
+[保存] AdoleC_2117 | matrix=AdoleC_2117_MIND_DK318_combat.csv | degree=AdoleC_2117_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2201 | matrix=AdoleD_2201_MIND_DK318_combat.csv | degree=AdoleD_2201_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2203 | matrix=AdoleD_2203_MIND_DK318_combat.csv | degree=AdoleD_2203_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2204 | matrix=AdoleD_2204_MIND_DK318_combat.csv | degree=AdoleD_2204_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2205 | matrix=AdoleD_2205_MIND_DK318_combat.csv | degree=AdoleD_2205_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2206 | matrix=AdoleD_2206_MIND_DK318_combat.csv | degree=AdoleD_2206_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2208 | matrix=AdoleD_2208_MIND_DK318_combat.csv | degree=AdoleD_2208_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2209 | matrix=AdoleD_2209_MIND_DK318_combat.csv | degree=AdoleD_2209_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2210 | matrix=AdoleD_2210_MIND_DK318_combat.csv | degree=AdoleD_2210_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2211 | matrix=AdoleD_2211_MIND_DK318_combat.csv | degree=AdoleD_2211_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2212 | matrix=AdoleD_2212_MIND_DK318_combat.csv | degree=AdoleD_2212_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2213 | matrix=AdoleD_2213_MIND_DK318_combat.csv | degree=AdoleD_2213_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2214 | matrix=AdoleD_2214_MIND_DK318_combat.csv | degree=AdoleD_2214_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2215 | matrix=AdoleD_2215_MIND_DK318_combat.csv | degree=AdoleD_2215_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2216 | matrix=AdoleD_2216_MIND_DK318_combat.csv | degree=AdoleD_2216_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2217 | matrix=AdoleD_2217_MIND_DK318_combat.csv | degree=AdoleD_2217_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2218 | matrix=AdoleD_2218_MIND_DK318_combat.csv | degree=AdoleD_2218_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2219 | matrix=AdoleD_2219_MIND_DK318_combat.csv | degree=AdoleD_2219_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2220 | matrix=AdoleD_2220_MIND_DK318_combat.csv | degree=AdoleD_2220_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2221 | matrix=AdoleD_2221_MIND_DK318_combat.csv | degree=AdoleD_2221_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2222 | matrix=AdoleD_2222_MIND_DK318_combat.csv | degree=AdoleD_2222_MIND_DK318_combat_degree.csv
+[保存] AdoleD_2223 | matrix=AdoleD_2223_MIND_DK318_combat.csv | degree=AdoleD_2223_MIND_DK318_combat_degree.csv
+[保存] ChildC_3107 | matrix=ChildC_3107_MIND_DK318_combat.csv | degree=ChildC_3107_MIND_DK318_combat_degree.csv
+[保存] ChildC_3108 | matrix=ChildC_3108_MIND_DK318_combat.csv | degree=ChildC_3108_MIND_DK318_combat_degree.csv
+[保存] ChildC_3109 | matrix=ChildC_3109_MIND_DK318_combat.csv | degree=ChildC_3109_MIND_DK318_combat_degree.csv
+[保存] ChildC_3110 | matrix=ChildC_3110_MIND_DK318_combat.csv | degree=ChildC_3110_MIND_DK318_combat_degree.csv
+[保存] ChildC_3111 | matrix=ChildC_3111_MIND_DK318_combat.csv | degree=ChildC_3111_MIND_DK318_combat_degree.csv
+[保存] ChildC_3113 | matrix=ChildC_3113_MIND_DK318_combat.csv | degree=ChildC_3113_MIND_DK318_combat_degree.csv
+[保存] ChildC_3114 | matrix=ChildC_3114_MIND_DK318_combat.csv | degree=ChildC_3114_MIND_DK318_combat_degree.csv
+[保存] ChildC_3115 | matrix=ChildC_3115_MIND_DK318_combat.csv | degree=ChildC_3115_MIND_DK318_combat_degree.csv
+[保存] ChildC_3116 | matrix=ChildC_3116_MIND_DK318_combat.csv | degree=ChildC_3116_MIND_DK318_combat_degree.csv
+[保存] ChildC_3117 | matrix=ChildC_3117_MIND_DK318_combat.csv | degree=ChildC_3117_MIND_DK318_combat_degree.csv
+[保存] ChildC_3118 | matrix=ChildC_3118_MIND_DK318_combat.csv | degree=ChildC_3118_MIND_DK318_combat_degree.csv
+[保存] ChildC_3120 | matrix=ChildC_3120_MIND_DK318_combat.csv | degree=ChildC_3120_MIND_DK318_combat_degree.csv
+[保存] ChildC_3121 | matrix=ChildC_3121_MIND_DK318_combat.csv | degree=ChildC_3121_MIND_DK318_combat_degree.csv
+[保存] ChildC_3122 | matrix=ChildC_3122_MIND_DK318_combat.csv | degree=ChildC_3122_MIND_DK318_combat_degree.csv
+[保存] ChildD_3202 | matrix=ChildD_3202_MIND_DK318_combat.csv | degree=ChildD_3202_MIND_DK318_combat_degree.csv
+[保存] ChildD_3206 | matrix=ChildD_3206_MIND_DK318_combat.csv | degree=ChildD_3206_MIND_DK318_combat_degree.csv
+[保存] ChildD_3210 | matrix=ChildD_3210_MIND_DK318_combat.csv | degree=ChildD_3210_MIND_DK318_combat_degree.csv
+[保存] ChildD_3215 | matrix=ChildD_3215_MIND_DK318_combat.csv | degree=ChildD_3215_MIND_DK318_combat_degree.csv
+[保存] ChildD_3217 | matrix=ChildD_3217_MIND_DK318_combat.csv | degree=ChildD_3217_MIND_DK318_combat_degree.csv
+[保存] ChildD_3220 | matrix=ChildD_3220_MIND_DK318_combat.csv | degree=ChildD_3220_MIND_DK318_combat_degree.csv
+[保存] ChildD_3223 | matrix=ChildD_3223_MIND_DK318_combat.csv | degree=ChildD_3223_MIND_DK318_combat_degree.csv
+[保存] ChildD_3224 | matrix=ChildD_3224_MIND_DK318_combat.csv | degree=ChildD_3224_MIND_DK318_combat_degree.csv
+[保存] ChildD_3225 | matrix=ChildD_3225_MIND_DK318_combat.csv | degree=ChildD_3225_MIND_DK318_combat_degree.csv
+[保存] ChildD_3226 | matrix=ChildD_3226_MIND_DK318_combat.csv | degree=ChildD_3226_MIND_DK318_combat_degree.csv
+[保存] ChildD_3227 | matrix=ChildD_3227_MIND_DK318_combat.csv | degree=ChildD_3227_MIND_DK318_combat_degree.csv
+[保存] ChildD_3229 | matrix=ChildD_3229_MIND_DK318_combat.csv | degree=ChildD_3229_MIND_DK318_combat_degree.csv
+[保存] ChildD_3233 | matrix=ChildD_3233_MIND_DK318_combat.csv | degree=ChildD_3233_MIND_DK318_combat_degree.csv
+[保存] ChildD_3234 | matrix=ChildD_3234_MIND_DK318_combat.csv | degree=ChildD_3234_MIND_DK318_combat_degree.csv
+[保存] ChildD_3235 | matrix=ChildD_3235_MIND_DK318_combat.csv | degree=ChildD_3235_MIND_DK318_combat_degree.csv
+[保存] ChildD_3237 | matrix=ChildD_3237_MIND_DK318_combat.csv | degree=ChildD_3237_MIND_DK318_combat_degree.csv
+[保存] ChildD_3238 | matrix=ChildD_3238_MIND_DK318_combat.csv | degree=ChildD_3238_MIND_DK318_combat_degree.csv
+[保存] ChildD_3241 | matrix=ChildD_3241_MIND_DK318_combat.csv | degree=ChildD_3241_MIND_DK318_combat_degree.csv
+[保存] ChildD_3242 | matrix=ChildD_3242_MIND_DK318_combat.csv | degree=ChildD_3242_MIND_DK318_combat_degree.csv
+[保存] ChildD_3252 | matrix=ChildD_3252_MIND_DK318_combat.csv | degree=ChildD_3252_MIND_DK318_combat_degree.csv
+[保存] ChildD_3253 | matrix=ChildD_3253_MIND_DK318_combat.csv | degree=ChildD_3253_MIND_DK318_combat_degree.csv
+[保存] ChildD_3254 | matrix=ChildD_3254_MIND_DK318_combat.csv | degree=ChildD_3254_MIND_DK318_combat_degree.csv
+[保存] ChildD_3256 | matrix=ChildD_3256_MIND_DK318_combat.csv | degree=ChildD_3256_MIND_DK318_combat_degree.csv
+[保存] ChildD_3258 | matrix=ChildD_3258_MIND_DK318_combat.csv | degree=ChildD_3258_MIND_DK318_combat_degree.csv
+[保存] ChildD_3259 | matrix=ChildD_3259_MIND_DK318_combat.csv | degree=ChildD_3259_MIND_DK318_combat_degree.csv
+[保存] ChildD_3260 | matrix=ChildD_3260_MIND_DK318_combat.csv | degree=ChildD_3260_MIND_DK318_combat_degree.csv
+[保存] ChildD_3262 | matrix=ChildD_3262_MIND_DK318_combat.csv | degree=ChildD_3262_MIND_DK318_combat_degree.csv
+[保存] ChildD_3263 | matrix=ChildD_3263_MIND_DK318_combat.csv | degree=ChildD_3263_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_958 | matrix=new_DDadults_958_MIND_DK318_combat.csv | degree=new_DDadults_958_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_952 | matrix=new_DDadults_952_MIND_DK318_combat.csv | degree=new_DDadults_952_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_956 | matrix=new_DDadults_956_MIND_DK318_combat.csv | degree=new_DDadults_956_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_962 | matrix=new_DDadults_962_MIND_DK318_combat.csv | degree=new_DDadults_962_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_951 | matrix=new_DDadults_951_MIND_DK318_combat.csv | degree=new_DDadults_951_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_954 | matrix=new_DDadults_954_MIND_DK318_combat.csv | degree=new_DDadults_954_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_959 | matrix=new_DDadults_959_MIND_DK318_combat.csv | degree=new_DDadults_959_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_961 | matrix=new_DDadults_961_MIND_DK318_combat.csv | degree=new_DDadults_961_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_963 | matrix=new_DDadults_963_MIND_DK318_combat.csv | degree=new_DDadults_963_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_854 | matrix=new_DDadults_854_MIND_DK318_combat.csv | degree=new_DDadults_854_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_852 | matrix=new_DDadults_852_MIND_DK318_combat.csv | degree=new_DDadults_852_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_853 | matrix=new_DDadults_853_MIND_DK318_combat.csv | degree=new_DDadults_853_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_851 | matrix=new_DDadults_851_MIND_DK318_combat.csv | degree=new_DDadults_851_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_861 | matrix=new_DDadults_861_MIND_DK318_combat.csv | degree=new_DDadults_861_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_862 | matrix=new_DDadults_862_MIND_DK318_combat.csv | degree=new_DDadults_862_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_859 | matrix=new_DDadults_859_MIND_DK318_combat.csv | degree=new_DDadults_859_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_860 | matrix=new_DDadults_860_MIND_DK318_combat.csv | degree=new_DDadults_860_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_855 | matrix=new_DDadults_855_MIND_DK318_combat.csv | degree=new_DDadults_855_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_858 | matrix=new_DDadults_858_MIND_DK318_combat.csv | degree=new_DDadults_858_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_856 | matrix=new_DDadults_856_MIND_DK318_combat.csv | degree=new_DDadults_856_MIND_DK318_combat_degree.csv
+[保存] new_DDadults_863 | matrix=new_DDadults_863_MIND_DK318_combat.csv | degree=new_DDadults_863_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9001 | matrix=bilingual_development_network(Children)_9001_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9001_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9008 | matrix=bilingual_development_network(Children)_9008_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9008_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9010 | matrix=bilingual_development_network(Children)_9010_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9010_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9023 | matrix=bilingual_development_network(Children)_9023_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9023_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9029 | matrix=bilingual_development_network(Children)_9029_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9029_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9031 | matrix=bilingual_development_network(Children)_9031_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9031_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9137 | matrix=bilingual_development_network(Children)_9137_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9137_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9181 | matrix=bilingual_development_network(Children)_9181_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9181_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9201 | matrix=bilingual_development_network(Children)_9201_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9201_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9202 | matrix=bilingual_development_network(Children)_9202_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9202_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9209 | matrix=bilingual_development_network(Children)_9209_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9209_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9210 | matrix=bilingual_development_network(Children)_9210_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9210_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9211 | matrix=bilingual_development_network(Children)_9211_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9211_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9213 | matrix=bilingual_development_network(Children)_9213_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9213_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9214 | matrix=bilingual_development_network(Children)_9214_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9214_MIND_DK318_combat_degree.csv
+[保存] bilingual_development_network(Children)_9215 | matrix=bilingual_development_network(Children)_9215_MIND_DK318_combat.csv | degree=bilingual_development_network(Children)_9215_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_101 | matrix=ControlData(AdultsControl)_101_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_101_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_104 | matrix=ControlData(AdultsControl)_104_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_104_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_105 | matrix=ControlData(AdultsControl)_105_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_105_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_106 | matrix=ControlData(AdultsControl)_106_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_106_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_107 | matrix=ControlData(AdultsControl)_107_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_107_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_108 | matrix=ControlData(AdultsControl)_108_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_108_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_109 | matrix=ControlData(AdultsControl)_109_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_109_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_111 | matrix=ControlData(AdultsControl)_111_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_111_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_112 | matrix=ControlData(AdultsControl)_112_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_112_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_113 | matrix=ControlData(AdultsControl)_113_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_113_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_114 | matrix=ControlData(AdultsControl)_114_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_114_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_116 | matrix=ControlData(AdultsControl)_116_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_116_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_118 | matrix=ControlData(AdultsControl)_118_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_118_MIND_DK318_combat_degree.csv
+[保存] ControlData(AdultsControl)_121 | matrix=ControlData(AdultsControl)_121_MIND_DK318_combat.csv | degree=ControlData(AdultsControl)_121_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_501 | matrix=ControlData(AgeControl)_501_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_501_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_502 | matrix=ControlData(AgeControl)_502_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_502_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_503 | matrix=ControlData(AgeControl)_503_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_503_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_504 | matrix=ControlData(AgeControl)_504_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_504_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_505 | matrix=ControlData(AgeControl)_505_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_505_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_508 | matrix=ControlData(AgeControl)_508_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_508_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_509 | matrix=ControlData(AgeControl)_509_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_509_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_511 | matrix=ControlData(AgeControl)_511_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_511_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_514 | matrix=ControlData(AgeControl)_514_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_514_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_515 | matrix=ControlData(AgeControl)_515_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_515_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_517 | matrix=ControlData(AgeControl)_517_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_517_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_519 | matrix=ControlData(AgeControl)_519_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_519_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_520 | matrix=ControlData(AgeControl)_520_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_520_MIND_DK318_combat_degree.csv
+[保存] ControlData(AgeControl)_521 | matrix=ControlData(AgeControl)_521_MIND_DK318_combat.csv | degree=ControlData(AgeControl)_521_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_907 | matrix=done_Chinese_dyslexia_907_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_907_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_908 | matrix=done_Chinese_dyslexia_908_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_908_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_909 | matrix=done_Chinese_dyslexia_909_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_909_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_910 | matrix=done_Chinese_dyslexia_910_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_910_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_911 | matrix=done_Chinese_dyslexia_911_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_911_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_912 | matrix=done_Chinese_dyslexia_912_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_912_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_913 | matrix=done_Chinese_dyslexia_913_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_913_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_914 | matrix=done_Chinese_dyslexia_914_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_914_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_916 | matrix=done_Chinese_dyslexia_916_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_916_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_917 | matrix=done_Chinese_dyslexia_917_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_917_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_918 | matrix=done_Chinese_dyslexia_918_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_918_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_919 | matrix=done_Chinese_dyslexia_919_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_919_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_920 | matrix=done_Chinese_dyslexia_920_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_920_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_921 | matrix=done_Chinese_dyslexia_921_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_921_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_922 | matrix=done_Chinese_dyslexia_922_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_922_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_923 | matrix=done_Chinese_dyslexia_923_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_923_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_924 | matrix=done_Chinese_dyslexia_924_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_924_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_926 | matrix=done_Chinese_dyslexia_926_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_926_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_927 | matrix=done_Chinese_dyslexia_927_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_927_MIND_DK318_combat_degree.csv
+[保存] done_Chinese_dyslexia_928 | matrix=done_Chinese_dyslexia_928_MIND_DK318_combat.csv | degree=done_Chinese_dyslexia_928_MIND_DK318_combat_degree.csv
+
+✅ 全部完成！输出目录：/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK318_combat
+==========================================
+DK-318 Combat 批次校正完成
+结束时间: 2026-03-25 09:49:06
+==========================================

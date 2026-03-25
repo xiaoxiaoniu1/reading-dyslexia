@@ -1,0 +1,277 @@
+==========================================
+开始执行 DK-318 Combat 批次校正
+开始时间: 2026-03-25 08:01:06
+==========================================
+协变量表总行数： 246
+
+有效被试数: 246, 每个被试 edge 数: 50403
+
+【诊断】site × group 交叉表:
+group   0    1
+site          
+1      75  107
+2      44   20
+
+✅ 有效站点: ['1', '2']
+
+过滤后被试数: 246
+
+[ComBat] 使用官方 NeuroComBat (mean_only=True) 开始校正...
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[ComBat] 校正完成！
+[保存] AdultC_1103
+[保存] AdultC_1104
+[保存] AdultC_1105
+[保存] AdultC_1106
+[保存] AdultC_1107
+[保存] AdultC_1108
+[保存] AdultC_1109
+[保存] AdultC_1110
+[保存] AdultC_1111
+[保存] AdultC_1112
+[保存] AdultC_1114
+[保存] AdultC_1115
+[保存] AdultC_1116
+[保存] AdultC_1117
+[保存] AdultC_1119
+[保存] AdultC_1120
+[保存] AdultC_1121
+[保存] AdultC_1122
+[保存] AdultC_1123
+[保存] AdultC_1124
+[保存] AdultC_1125
+[保存] AdultC_1126
+[保存] AdultC_1127
+[保存] AdultC_1128
+[保存] AdultC_1129
+[保存] AdultC_1131
+[保存] AdultC_1132
+[保存] AdultC_1133
+[保存] AdultC_1134
+[保存] AdultC_1140
+[保存] AdultC_1142
+[保存] AdultC_1144
+[保存] AdultC_1145
+[保存] AdultC_1149
+[保存] AdultC_1150
+[保存] AdultC_1151
+[保存] AdultC_1152
+[保存] AdultC_1155
+[保存] AdultC_1157
+[保存] AdultC_1160
+[保存] AdultC_1163
+[保存] AdultC_1164
+[保存] AdultC_1165
+[保存] AdultC_1167
+[保存] AdultC_1172
+[保存] AdultC_1173
+[保存] AdultC_1174
+[保存] AdultD_1201
+[保存] AdultD_1202
+[保存] AdultD_1203
+[保存] AdultD_1204
+[保存] AdultD_1206
+[保存] AdultD_1207
+[保存] AdultD_1208
+[保存] AdultD_1209
+[保存] AdultD_1210
+[保存] AdultD_1211
+[保存] AdultD_1212
+[保存] AdultD_1213
+[保存] AdultD_1214
+[保存] AdultD_1215
+[保存] AdultD_1216
+[保存] AdultD_1217
+[保存] AdultD_1218
+[保存] AdultD_1219
+[保存] AdultD_1220
+[保存] AdultD_1223
+[保存] AdultD_1224
+[保存] AdultD_1225
+[保存] AdultD_1226
+[保存] AdultD_1227
+[保存] AdultD_1228
+[保存] AdultD_1229
+[保存] AdultD_1230
+[保存] AdultD_1231
+[保存] AdultD_1232
+[保存] AdultD_1233
+[保存] AdultD_1234
+[保存] AdultD_1235
+[保存] AdultD_1236
+[保存] AdultD_1237
+[保存] AdultD_1238
+[保存] AdultD_1239
+[保存] AdultD_1240
+[保存] AdoleC_2101
+[保存] AdoleC_2102
+[保存] AdoleC_2103
+[保存] AdoleC_2104
+[保存] AdoleC_2106
+[保存] AdoleC_2107
+[保存] AdoleC_2108
+[保存] AdoleC_2109
+[保存] AdoleC_2111
+[保存] AdoleC_2113
+[保存] AdoleC_2114
+[保存] AdoleC_2115
+[保存] AdoleC_2116
+[保存] AdoleC_2117
+[保存] AdoleD_2201
+[保存] AdoleD_2203
+[保存] AdoleD_2204
+[保存] AdoleD_2205
+[保存] AdoleD_2206
+[保存] AdoleD_2208
+[保存] AdoleD_2209
+[保存] AdoleD_2210
+[保存] AdoleD_2211
+[保存] AdoleD_2212
+[保存] AdoleD_2213
+[保存] AdoleD_2214
+[保存] AdoleD_2215
+[保存] AdoleD_2216
+[保存] AdoleD_2217
+[保存] AdoleD_2218
+[保存] AdoleD_2219
+[保存] AdoleD_2220
+[保存] AdoleD_2221
+[保存] AdoleD_2222
+[保存] AdoleD_2223
+[保存] ChildC_3107
+[保存] ChildC_3108
+[保存] ChildC_3109
+[保存] ChildC_3110
+[保存] ChildC_3111
+[保存] ChildC_3113
+[保存] ChildC_3114
+[保存] ChildC_3115
+[保存] ChildC_3116
+[保存] ChildC_3117
+[保存] ChildC_3118
+[保存] ChildC_3120
+[保存] ChildC_3121
+[保存] ChildC_3122
+[保存] ChildD_3202
+[保存] ChildD_3206
+[保存] ChildD_3210
+[保存] ChildD_3215
+[保存] ChildD_3217
+[保存] ChildD_3220
+[保存] ChildD_3223
+[保存] ChildD_3224
+[保存] ChildD_3225
+[保存] ChildD_3226
+[保存] ChildD_3227
+[保存] ChildD_3229
+[保存] ChildD_3233
+[保存] ChildD_3234
+[保存] ChildD_3235
+[保存] ChildD_3237
+[保存] ChildD_3238
+[保存] ChildD_3241
+[保存] ChildD_3242
+[保存] ChildD_3252
+[保存] ChildD_3253
+[保存] ChildD_3254
+[保存] ChildD_3256
+[保存] ChildD_3258
+[保存] ChildD_3259
+[保存] ChildD_3260
+[保存] ChildD_3262
+[保存] ChildD_3263
+[保存] new_DDadults_958
+[保存] new_DDadults_952
+[保存] new_DDadults_956
+[保存] new_DDadults_962
+[保存] new_DDadults_951
+[保存] new_DDadults_954
+[保存] new_DDadults_959
+[保存] new_DDadults_961
+[保存] new_DDadults_963
+[保存] new_DDadults_854
+[保存] new_DDadults_852
+[保存] new_DDadults_853
+[保存] new_DDadults_851
+[保存] new_DDadults_861
+[保存] new_DDadults_862
+[保存] new_DDadults_859
+[保存] new_DDadults_860
+[保存] new_DDadults_855
+[保存] new_DDadults_858
+[保存] new_DDadults_856
+[保存] new_DDadults_863
+[保存] bilingual_development_network(Children)_9001
+[保存] bilingual_development_network(Children)_9008
+[保存] bilingual_development_network(Children)_9010
+[保存] bilingual_development_network(Children)_9023
+[保存] bilingual_development_network(Children)_9029
+[保存] bilingual_development_network(Children)_9031
+[保存] bilingual_development_network(Children)_9137
+[保存] bilingual_development_network(Children)_9181
+[保存] bilingual_development_network(Children)_9201
+[保存] bilingual_development_network(Children)_9202
+[保存] bilingual_development_network(Children)_9209
+[保存] bilingual_development_network(Children)_9210
+[保存] bilingual_development_network(Children)_9211
+[保存] bilingual_development_network(Children)_9213
+[保存] bilingual_development_network(Children)_9214
+[保存] bilingual_development_network(Children)_9215
+[保存] ControlData(AdultsControl)_101
+[保存] ControlData(AdultsControl)_104
+[保存] ControlData(AdultsControl)_105
+[保存] ControlData(AdultsControl)_106
+[保存] ControlData(AdultsControl)_107
+[保存] ControlData(AdultsControl)_108
+[保存] ControlData(AdultsControl)_109
+[保存] ControlData(AdultsControl)_111
+[保存] ControlData(AdultsControl)_112
+[保存] ControlData(AdultsControl)_113
+[保存] ControlData(AdultsControl)_114
+[保存] ControlData(AdultsControl)_116
+[保存] ControlData(AdultsControl)_118
+[保存] ControlData(AdultsControl)_121
+[保存] ControlData(AgeControl)_501
+[保存] ControlData(AgeControl)_502
+[保存] ControlData(AgeControl)_503
+[保存] ControlData(AgeControl)_504
+[保存] ControlData(AgeControl)_505
+[保存] ControlData(AgeControl)_508
+[保存] ControlData(AgeControl)_509
+[保存] ControlData(AgeControl)_511
+[保存] ControlData(AgeControl)_514
+[保存] ControlData(AgeControl)_515
+[保存] ControlData(AgeControl)_517
+[保存] ControlData(AgeControl)_519
+[保存] ControlData(AgeControl)_520
+[保存] ControlData(AgeControl)_521
+[保存] done_Chinese_dyslexia_907
+[保存] done_Chinese_dyslexia_908
+[保存] done_Chinese_dyslexia_909
+[保存] done_Chinese_dyslexia_910
+[保存] done_Chinese_dyslexia_911
+[保存] done_Chinese_dyslexia_912
+[保存] done_Chinese_dyslexia_913
+[保存] done_Chinese_dyslexia_914
+[保存] done_Chinese_dyslexia_916
+[保存] done_Chinese_dyslexia_917
+[保存] done_Chinese_dyslexia_918
+[保存] done_Chinese_dyslexia_919
+[保存] done_Chinese_dyslexia_920
+[保存] done_Chinese_dyslexia_921
+[保存] done_Chinese_dyslexia_922
+[保存] done_Chinese_dyslexia_923
+[保存] done_Chinese_dyslexia_924
+[保存] done_Chinese_dyslexia_926
+[保存] done_Chinese_dyslexia_927
+[保存] done_Chinese_dyslexia_928
+
+✅ 全部完成！输出目录：/data1/tqi/share/after_freesurfer/FILE/MIND_DK318_combat
+==========================================
+DK-318 Combat 批次校正完成
+结束时间: 2026-03-25 08:01:20
+==========================================

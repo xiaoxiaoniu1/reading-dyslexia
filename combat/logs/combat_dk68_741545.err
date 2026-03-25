@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/combat/combat_dk318.py", line 28, in <module>
+    cov_df = pd.read_excel(EXCEL_PATH)
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/io/excel/_base.py", line 495, in read_excel
+    io = ExcelFile(
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/io/excel/_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/io/excel/_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/data1/tqi/share/after_freesurfer/all_data_cqt.xlsx'

@@ -1,0 +1,106 @@
+Host: node3
+Start: Wed Mar 25 09:56:50 AM UTC 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/tmp
+Subjects in demo (after basic cleaning): 246 
+Subjects with existing matrix+degree csv: 246 
+Missing subjects (demo has but file not): 0 
+Detected ROI number: 68 
+Number of edges (upper triangle): 2278 
+Degree matrix: 246 x 68 
+Edge matrix: 246 x 2278 
+
+=== Running ROI-wise ANOVA (degree) ===
+Degree features with NA p-values (likely constant/degenerate): 0 
+Significant Interaction (degree, FDR<0.05): 0 
+Saved degree results: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA//ANOVA_DK68_degree_results.csv 
+
+=== Running Edge-wise ANOVA (upper triangle) ===
+Edge chunk 1 / 3 - edges: 1000 
+Edge chunk 2 / 3 - edges: 1000 
+Edge chunk 3 / 3 - edges: 278 
+Edge features with NA p-values (likely constant/degenerate): 0 
+Significant Interaction (edges, FDR<0.05): 0 
+Saved edge results: /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA//ANOVA_DK68_edge_results.csv 
+
+=== Generating significant results tables ===
+Significant Diagnosis degree results (n = 43 ): /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA//Significant_Diagnosis_DK68_degree_results.csv 
+# A tibble: 43 × 18
+   feature                n p_Diagnosis p_AgeGroup p_Interaction p_Diagnosis_FDR
+   <chr>              <int>       <dbl>      <dbl>         <dbl>           <dbl>
+ 1 rh_supramarginal     246  0.00000162   0.185           0.927         0.000110
+ 2 rh_precuneus         246  0.00000713   0.000330        0.780         0.000242
+ 3 lh_rostralmiddlef…   246  0.0000210    0.801           0.498         0.000286
+ 4 rh_inferiorpariet…   246  0.0000186    0.146           0.915         0.000286
+ 5 rh_precentral        246  0.0000161    0.0307          0.182         0.000286
+ 6 lh_inferiortempor…   246  0.0000415    0.0357          0.691         0.000470
+ 7 lh_paracentral       246  0.0000564    0.175           0.278         0.000520
+ 8 lh_supramarginal     246  0.0000689    0.0357          0.552         0.000520
+ 9 rh_caudalmiddlefr…   246  0.0000668    0.0130          0.0274        0.000520
+10 lh_bankssts          246  0.000135     0.484           0.134         0.000920
+# ℹ 33 more rows
+# ℹ 12 more variables: p_AgeGroup_FDR <dbl>, p_Interaction_FDR <dbl>,
+#   p_Interaction_FDR_diagSig <dbl>, eta2_Diagnosis <dbl>, eta2_AgeGroup <dbl>,
+#   eta2_Interaction <dbl>, cohens_f_Diagnosis <dbl>, cohens_f_AgeGroup <dbl>,
+#   cohens_f_Interaction <dbl>, mean_TD <dbl>, mean_DD <dbl>, direction <chr>
+Significant Diagnosis edge results (n = 434 ): /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA//Significant_Diagnosis_DK68_edge_results.csv 
+# A tibble: 434 × 22
+   edge_id     i     j region_i            region_j     n p_Diagnosis p_AgeGroup
+     <int> <int> <int> <chr>               <chr>    <int>       <dbl>      <dbl>
+ 1    1177     1    50 lh_bankssts         rh_para…   246     9.94e-8    1.99e-1
+ 2    1551    11    57 lh_lateralorbitofr… rh_prec…   246     2.19e-7    7.57e-6
+ 3    1211    35    50 rh_bankssts         rh_para…   246     1.94e-6    4.44e-2
+ 4    1548     8    57 lh_inferiortemporal rh_prec…   246     1.62e-6    7.62e-2
+ 5    1554    14    57 lh_middletemporal   rh_prec…   246     1.50e-6    2.46e-3
+ 6    1575    35    57 rh_bankssts         rh_prec…   246     1.80e-6    1.30e-5
+ 7    1588    48    57 rh_middletemporal   rh_prec…   246     1.07e-6    2.85e-4
+ 8    1593    53    57 rh_parstriangularis rh_prec…   246     7.19e-7    2.68e-7
+ 9    2010    57    64 rh_precentral       rh_supr…   246     1.21e-6    2.12e-5
+10     116    11    16 lh_lateralorbitofr… lh_para…   246     3.32e-6    2.01e-3
+# ℹ 424 more rows
+# ℹ 14 more variables: p_Interaction <dbl>, p_Diagnosis_FDR <dbl>,
+#   p_AgeGroup_FDR <dbl>, p_Interaction_FDR <dbl>,
+#   p_Interaction_FDR_diagSig <dbl>, eta2_Diagnosis <dbl>, eta2_AgeGroup <dbl>,
+#   eta2_Interaction <dbl>, cohens_f_Diagnosis <dbl>, cohens_f_AgeGroup <dbl>,
+#   cohens_f_Interaction <dbl>, mean_TD <dbl>, mean_DD <dbl>, direction <chr>
+Significant AgeGroup degree results (n = 5 ): /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA//Significant_AgeGroup_DK68_degree_results.csv 
+# A tibble: 5 × 18
+  feature                 n p_Diagnosis p_AgeGroup p_Interaction p_Diagnosis_FDR
+  <chr>               <int>       <dbl>      <dbl>         <dbl>           <dbl>
+1 lh_lateralorbitofr…   246  0.000163    0.000112         0.741         0.000922
+2 rh_temporalpole       246  0.291       0.0000944        0.192         0.325   
+3 rh_precuneus          246  0.00000713  0.000330         0.780         0.000242
+4 lh_temporalpole       246  0.0350      0.00319          0.0505        0.0540  
+5 rh_posteriorcingul…   246  0.00262     0.00267          0.608         0.00775 
+# ℹ 12 more variables: p_AgeGroup_FDR <dbl>, p_Interaction_FDR <dbl>,
+#   p_Interaction_FDR_diagSig <dbl>, eta2_Diagnosis <dbl>, eta2_AgeGroup <dbl>,
+#   eta2_Interaction <dbl>, cohens_f_Diagnosis <dbl>, cohens_f_AgeGroup <dbl>,
+#   cohens_f_Interaction <dbl>, mean_Child <dbl>, mean_Adult <dbl>,
+#   direction <chr>
+Significant AgeGroup edge results (n = 605 ): /data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA//Significant_AgeGroup_DK68_edge_results.csv 
+# A tibble: 605 × 22
+   edge_id     i     j region_i            region_j     n p_Diagnosis p_AgeGroup
+     <int> <int> <int> <chr>               <chr>    <int>       <dbl>      <dbl>
+ 1    1951    60    63 rh_rostralmiddlefr… rh_supe…   246      0.863    1.73e-13
+ 2    1853    23    62 lh_precentral       rh_supe…   246      0.0147   3.38e-12
+ 3    1740    29    60 lh_superiortemporal rh_rost…   246      0.655    2.79e-11
+ 4      64     9    12 lh_isthmuscingulate lh_ling…   246      0.504    1.15e-10
+ 5     926    23    44 lh_precentral       rh_late…   246      0.997    4.07e-10
+ 6     243    12    23 lh_lingual          lh_prec…   246      0.334    1.57e- 9
+ 7    1620    24    58 lh_precuneus        rh_prec…   246      0.104    1.72e- 9
+ 8    2111    31    66 lh_frontalpole      rh_temp…   246      0.593    1.97e- 9
+ 9    2140    60    66 rh_rostralmiddlefr… rh_temp…   246      0.795    2.26e- 9
+10      55    10    11 lh_lateraloccipital lh_late…   246      0.0360   7.49e- 9
+# ℹ 595 more rows
+# ℹ 14 more variables: p_Interaction <dbl>, p_Diagnosis_FDR <dbl>,
+#   p_AgeGroup_FDR <dbl>, p_Interaction_FDR <dbl>,
+#   p_Interaction_FDR_diagSig <dbl>, eta2_Diagnosis <dbl>, eta2_AgeGroup <dbl>,
+#   eta2_Interaction <dbl>, cohens_f_Diagnosis <dbl>, cohens_f_AgeGroup <dbl>,
+#   cohens_f_Interaction <dbl>, mean_Child <dbl>, mean_Adult <dbl>,
+#   direction <chr>
+No significant Interaction results for degree (FDR<0.05)
+NULL
+No significant Interaction results for edge (FDR<0.05)
+NULL
+
+DONE.
+End: Wed Mar 25 09:59:26 AM UTC 2026

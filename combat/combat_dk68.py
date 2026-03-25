@@ -18,12 +18,18 @@ from neuroCombat import neuroCombat
 
 # ====================== 路径配置 ======================
 EXCEL_PATH = "/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx"
-MIND_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND(DK68)"
+MIND_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68"
 OUT_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_combat"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 N_ROI = 68
 TRIU_IDX = np.triu_indices(N_ROI, k=1)  # 上三角索引，不含对角线
+
+
+def calc_degree(mat: np.ndarray) -> np.ndarray:
+    mat = mat.copy()
+    np.fill_diagonal(mat, np.nan)
+    return np.nanmean(mat, axis=1)
 
 # ====================== 1. 读协变量表 ======================
 cov_df = pd.read_excel(EXCEL_PATH)
@@ -115,7 +121,7 @@ res = neuroCombat(
 dat_combat = res["data"]  # (2278, n_subj)
 print("[ComBat] 校正完成！")
 
-# ====================== 6. 重建并保存 68×68 矩阵 ======================
+# ====================== 6. 重建并保存 68×68 矩阵 + degree ======================
 for i, sid in enumerate(used_ids):
     edges_h = dat_combat[:, i]
     
@@ -128,10 +134,20 @@ for i, sid in enumerate(used_ids):
     orig_mat = orig_df.values
     np.fill_diagonal(mat_h, np.diagonal(orig_mat))
     
-    # 保存为 CSV 格式，保留行列标签
+    # 保存 combat 后矩阵
     mat_h_df = pd.DataFrame(mat_h, index=orig_df.index, columns=orig_df.columns)
-    out_path = os.path.join(OUT_DIR, f"{sid}_combat.csv")
-    mat_h_df.to_csv(out_path)
-    print(f"[保存] ID={sid}")
+    matrix_out_path = os.path.join(OUT_DIR, f"{sid}_combat.csv")
+    mat_h_df.to_csv(matrix_out_path)
+    
+    # 保存该被试的 degree
+    degree = calc_degree(mat_h)
+    degree_df = pd.DataFrame({
+        "ROI": orig_df.index,
+        "degree": degree
+    })
+    degree_out_path = os.path.join(OUT_DIR, f"{sid}_combat_degree.csv")
+    degree_df.to_csv(degree_out_path, index=False)
+    
+    print(f"[保存] ID={sid} | matrix={os.path.basename(matrix_out_path)} | degree={os.path.basename(degree_out_path)}")
 
 print(f"\n✅ 全部完成！输出目录：{OUT_DIR}")

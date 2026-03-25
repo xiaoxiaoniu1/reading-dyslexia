@@ -1,6 +1,6 @@
 # ============================================================
 # DGLM (Dispersion Generalized Linear Model) Analysis
-# for DK-318 MIND degree and edges
+# for DK-68 MIND degree and edges
 # 
 # Interaction check using DGLM with:
 #  - Mean model: y ~ Diagnosis * AgeGroup + Sex
@@ -27,13 +27,13 @@ library(stringr)
 # 1) Paths
 # ----------------------------
 demo_file       <- "/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx"
-mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK318_combat"
+mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_combat"
 
-out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DGLM_DK318/"
+out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_DGLM/"
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
-out_degree_csv <- file.path(out_dir, "DGLM_DK318_degree_results.csv")
-out_edge_csv   <- file.path(out_dir, "DGLM_DK318_edge_results.csv")
+out_degree_csv <- file.path(out_dir, "DGLM_DK68_degree_results.csv")
+out_edge_csv   <- file.path(out_dir, "DGLM_DK68_edge_results.csv")
 
 # ----------------------------
 # 2) Load demo + recode factors
@@ -42,10 +42,10 @@ df <- read_excel(demo_file, sheet = "Sheet1")
 
 df <- df %>%
   mutate(
-    original_project = as.character(`original-project`),
-    id_old = as.character(id_old),
-    subj_prefix = paste0(original_project, "_", id_old),
-    file_base = paste0(subj_prefix, "_MIND_DK318_combat"),
+    subj_id = as.character(id),
+    subj_id = trimws(subj_id),
+
+    file_base = paste0(subj_id, "_combat"),
     mind_file = file.path(mind_combat_dir, paste0(file_base, ".csv")),
     degree_file = file.path(mind_combat_dir, paste0(file_base, "_degree.csv")),
     
@@ -59,7 +59,7 @@ df <- df %>%
     
     has_file  = file.exists(mind_file) & file.exists(degree_file)
   ) %>%
-  filter(!is.na(original_project), !is.na(id_old), original_project != "", id_old != "")
+  filter(!is.na(id), subj_id != "", site != 3)
 
 cat("Subjects in demo:", nrow(df), "\n")
 cat("Subjects with matrix+degree csv:", sum(df$has_file), "\n")
@@ -84,7 +84,7 @@ read_degree_csv <- function(fp) {
 }
 
 if (nrow(df2) == 0) {
-  stop("No valid subjects with existing DK318 combat matrix/degree csv files were found.")
+  stop("No valid subjects with existing DK68 combat matrix/degree csv files were found.")
 }
 
 tmp_mat <- read_mind_csv(df2$mind_file[1])
@@ -99,14 +99,14 @@ if (is.null(roi_names) || any(is.na(roi_names)) || length(roi_names) != n_roi) {
   roi_names <- rownames(tmp_mat)
 }
 if (is.null(roi_names) || any(is.na(roi_names)) || length(roi_names) != n_roi) {
-  stop("Failed to obtain ROI names from DK318 combat matrix csv.")
+  stop("Failed to obtain ROI names from DK68 combat matrix csv.")
 }
 
 if (length(tmp_deg) != n_roi) {
-  stop("Degree length does not match matrix ROI count for first DK318 subject.")
+  stop("Degree length does not match matrix ROI count for first DK68 subject.")
 }
 if (!all(names(tmp_deg) == roi_names)) {
-  stop("ROI names in degree csv do not match ROI names in matrix csv for first DK318 subject.")
+  stop("ROI names in degree csv do not match ROI names in matrix csv for first DK68 subject.")
 }
 
 upper_idx <- which(upper.tri(matrix(1, n_roi, n_roi)), arr.ind = TRUE)
@@ -423,10 +423,10 @@ for (ci in seq_along(deg_sig_cols)) {
 }
 
 # Save degree interaction-significant tables split by mean/dispersion and correction
-out_deg_mean_interaction_fdr_csv <- file.path(out_dir, "DGLM_DK318_degree_mean_interaction_significant_fdr.csv")
-out_deg_mean_interaction_unc_csv <- file.path(out_dir, "DGLM_DK318_degree_mean_interaction_significant_uncorrected.csv")
-out_deg_disp_interaction_fdr_csv <- file.path(out_dir, "DGLM_DK318_degree_dispersion_interaction_significant_fdr.csv")
-out_deg_disp_interaction_unc_csv <- file.path(out_dir, "DGLM_DK318_degree_dispersion_interaction_significant_uncorrected.csv")
+out_deg_mean_interaction_fdr_csv <- file.path(out_dir, "DGLM_DK68_degree_mean_interaction_significant_fdr.csv")
+out_deg_mean_interaction_unc_csv <- file.path(out_dir, "DGLM_DK68_degree_mean_interaction_significant_uncorrected.csv")
+out_deg_disp_interaction_fdr_csv <- file.path(out_dir, "DGLM_DK68_degree_dispersion_interaction_significant_fdr.csv")
+out_deg_disp_interaction_unc_csv <- file.path(out_dir, "DGLM_DK68_degree_dispersion_interaction_significant_uncorrected.csv")
 
 deg_mean_interaction_fdr_sig <- degree_res[
   !is.na(degree_res$p_mean_Interaction_FDR) & degree_res$p_mean_Interaction_FDR < threshold, ]
@@ -487,10 +487,10 @@ for (ci in seq_along(edge_sig_cols)) {
 }
 
 # Save edge interaction-significant tables split by mean/dispersion and correction
-out_edge_mean_interaction_fdr_csv <- file.path(out_dir, "DGLM_DK318_edge_mean_interaction_significant_fdr.csv")
-out_edge_mean_interaction_unc_csv <- file.path(out_dir, "DGLM_DK318_edge_mean_interaction_significant_uncorrected.csv")
-out_edge_disp_interaction_fdr_csv <- file.path(out_dir, "DGLM_DK318_edge_dispersion_interaction_significant_fdr.csv")
-out_edge_disp_interaction_unc_csv <- file.path(out_dir, "DGLM_DK318_edge_dispersion_interaction_significant_uncorrected.csv")
+out_edge_mean_interaction_fdr_csv <- file.path(out_dir, "DGLM_DK68_edge_mean_interaction_significant_fdr.csv")
+out_edge_mean_interaction_unc_csv <- file.path(out_dir, "DGLM_DK68_edge_mean_interaction_significant_uncorrected.csv")
+out_edge_disp_interaction_fdr_csv <- file.path(out_dir, "DGLM_DK68_edge_dispersion_interaction_significant_fdr.csv")
+out_edge_disp_interaction_unc_csv <- file.path(out_dir, "DGLM_DK68_edge_dispersion_interaction_significant_uncorrected.csv")
 
 edge_mean_interaction_fdr_sig <- edge_res[
   !is.na(edge_res$p_mean_Interaction_FDR) & edge_res$p_mean_Interaction_FDR < threshold, ]

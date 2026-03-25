@@ -1,0 +1,277 @@
+==========================================
+开始执行 DK-68 Combat 批次校正
+开始时间: 2026-03-25 09:44:51
+==========================================
+协变量表总行数： 246
+
+有效被试数: 246, 每个被试 edge 数: 2278
+
+【诊断】site × group 交叉表:
+group   0    1
+site          
+1      75  107
+2      44   20
+
+✅ 有效站点: ['1', '2']
+
+过滤后被试数: 246
+
+[ComBat] 使用官方 NeuroComBat (mean_only=True) 开始校正...
+[neuroCombat] Creating design matrix
+[neuroCombat] Standardizing data across features
+[neuroCombat] Fitting L/S model and finding priors
+[neuroCombat] Finding parametric adjustments
+[neuroCombat] Final adjustment of data
+[ComBat] 校正完成！
+[保存] ID=1 | matrix=1_combat.csv | degree=1_combat_degree.csv
+[保存] ID=2 | matrix=2_combat.csv | degree=2_combat_degree.csv
+[保存] ID=3 | matrix=3_combat.csv | degree=3_combat_degree.csv
+[保存] ID=4 | matrix=4_combat.csv | degree=4_combat_degree.csv
+[保存] ID=5 | matrix=5_combat.csv | degree=5_combat_degree.csv
+[保存] ID=6 | matrix=6_combat.csv | degree=6_combat_degree.csv
+[保存] ID=7 | matrix=7_combat.csv | degree=7_combat_degree.csv
+[保存] ID=8 | matrix=8_combat.csv | degree=8_combat_degree.csv
+[保存] ID=9 | matrix=9_combat.csv | degree=9_combat_degree.csv
+[保存] ID=10 | matrix=10_combat.csv | degree=10_combat_degree.csv
+[保存] ID=11 | matrix=11_combat.csv | degree=11_combat_degree.csv
+[保存] ID=12 | matrix=12_combat.csv | degree=12_combat_degree.csv
+[保存] ID=13 | matrix=13_combat.csv | degree=13_combat_degree.csv
+[保存] ID=14 | matrix=14_combat.csv | degree=14_combat_degree.csv
+[保存] ID=15 | matrix=15_combat.csv | degree=15_combat_degree.csv
+[保存] ID=16 | matrix=16_combat.csv | degree=16_combat_degree.csv
+[保存] ID=17 | matrix=17_combat.csv | degree=17_combat_degree.csv
+[保存] ID=18 | matrix=18_combat.csv | degree=18_combat_degree.csv
+[保存] ID=19 | matrix=19_combat.csv | degree=19_combat_degree.csv
+[保存] ID=20 | matrix=20_combat.csv | degree=20_combat_degree.csv
+[保存] ID=21 | matrix=21_combat.csv | degree=21_combat_degree.csv
+[保存] ID=22 | matrix=22_combat.csv | degree=22_combat_degree.csv
+[保存] ID=23 | matrix=23_combat.csv | degree=23_combat_degree.csv
+[保存] ID=24 | matrix=24_combat.csv | degree=24_combat_degree.csv
+[保存] ID=25 | matrix=25_combat.csv | degree=25_combat_degree.csv
+[保存] ID=27 | matrix=27_combat.csv | degree=27_combat_degree.csv
+[保存] ID=28 | matrix=28_combat.csv | degree=28_combat_degree.csv
+[保存] ID=29 | matrix=29_combat.csv | degree=29_combat_degree.csv
+[保存] ID=30 | matrix=30_combat.csv | degree=30_combat_degree.csv
+[保存] ID=35 | matrix=35_combat.csv | degree=35_combat_degree.csv
+[保存] ID=37 | matrix=37_combat.csv | degree=37_combat_degree.csv
+[保存] ID=39 | matrix=39_combat.csv | degree=39_combat_degree.csv
+[保存] ID=40 | matrix=40_combat.csv | degree=40_combat_degree.csv
+[保存] ID=44 | matrix=44_combat.csv | degree=44_combat_degree.csv
+[保存] ID=45 | matrix=45_combat.csv | degree=45_combat_degree.csv
+[保存] ID=46 | matrix=46_combat.csv | degree=46_combat_degree.csv
+[保存] ID=47 | matrix=47_combat.csv | degree=47_combat_degree.csv
+[保存] ID=50 | matrix=50_combat.csv | degree=50_combat_degree.csv
+[保存] ID=52 | matrix=52_combat.csv | degree=52_combat_degree.csv
+[保存] ID=54 | matrix=54_combat.csv | degree=54_combat_degree.csv
+[保存] ID=57 | matrix=57_combat.csv | degree=57_combat_degree.csv
+[保存] ID=58 | matrix=58_combat.csv | degree=58_combat_degree.csv
+[保存] ID=59 | matrix=59_combat.csv | degree=59_combat_degree.csv
+[保存] ID=61 | matrix=61_combat.csv | degree=61_combat_degree.csv
+[保存] ID=65 | matrix=65_combat.csv | degree=65_combat_degree.csv
+[保存] ID=66 | matrix=66_combat.csv | degree=66_combat_degree.csv
+[保存] ID=67 | matrix=67_combat.csv | degree=67_combat_degree.csv
+[保存] ID=69 | matrix=69_combat.csv | degree=69_combat_degree.csv
+[保存] ID=70 | matrix=70_combat.csv | degree=70_combat_degree.csv
+[保存] ID=71 | matrix=71_combat.csv | degree=71_combat_degree.csv
+[保存] ID=72 | matrix=72_combat.csv | degree=72_combat_degree.csv
+[保存] ID=73 | matrix=73_combat.csv | degree=73_combat_degree.csv
+[保存] ID=74 | matrix=74_combat.csv | degree=74_combat_degree.csv
+[保存] ID=75 | matrix=75_combat.csv | degree=75_combat_degree.csv
+[保存] ID=76 | matrix=76_combat.csv | degree=76_combat_degree.csv
+[保存] ID=77 | matrix=77_combat.csv | degree=77_combat_degree.csv
+[保存] ID=78 | matrix=78_combat.csv | degree=78_combat_degree.csv
+[保存] ID=79 | matrix=79_combat.csv | degree=79_combat_degree.csv
+[保存] ID=80 | matrix=80_combat.csv | degree=80_combat_degree.csv
+[保存] ID=81 | matrix=81_combat.csv | degree=81_combat_degree.csv
+[保存] ID=82 | matrix=82_combat.csv | degree=82_combat_degree.csv
+[保存] ID=83 | matrix=83_combat.csv | degree=83_combat_degree.csv
+[保存] ID=84 | matrix=84_combat.csv | degree=84_combat_degree.csv
+[保存] ID=85 | matrix=85_combat.csv | degree=85_combat_degree.csv
+[保存] ID=86 | matrix=86_combat.csv | degree=86_combat_degree.csv
+[保存] ID=87 | matrix=87_combat.csv | degree=87_combat_degree.csv
+[保存] ID=88 | matrix=88_combat.csv | degree=88_combat_degree.csv
+[保存] ID=89 | matrix=89_combat.csv | degree=89_combat_degree.csv
+[保存] ID=90 | matrix=90_combat.csv | degree=90_combat_degree.csv
+[保存] ID=91 | matrix=91_combat.csv | degree=91_combat_degree.csv
+[保存] ID=92 | matrix=92_combat.csv | degree=92_combat_degree.csv
+[保存] ID=93 | matrix=93_combat.csv | degree=93_combat_degree.csv
+[保存] ID=94 | matrix=94_combat.csv | degree=94_combat_degree.csv
+[保存] ID=95 | matrix=95_combat.csv | degree=95_combat_degree.csv
+[保存] ID=96 | matrix=96_combat.csv | degree=96_combat_degree.csv
+[保存] ID=97 | matrix=97_combat.csv | degree=97_combat_degree.csv
+[保存] ID=98 | matrix=98_combat.csv | degree=98_combat_degree.csv
+[保存] ID=99 | matrix=99_combat.csv | degree=99_combat_degree.csv
+[保存] ID=100 | matrix=100_combat.csv | degree=100_combat_degree.csv
+[保存] ID=101 | matrix=101_combat.csv | degree=101_combat_degree.csv
+[保存] ID=102 | matrix=102_combat.csv | degree=102_combat_degree.csv
+[保存] ID=103 | matrix=103_combat.csv | degree=103_combat_degree.csv
+[保存] ID=104 | matrix=104_combat.csv | degree=104_combat_degree.csv
+[保存] ID=105 | matrix=105_combat.csv | degree=105_combat_degree.csv
+[保存] ID=106 | matrix=106_combat.csv | degree=106_combat_degree.csv
+[保存] ID=107 | matrix=107_combat.csv | degree=107_combat_degree.csv
+[保存] ID=108 | matrix=108_combat.csv | degree=108_combat_degree.csv
+[保存] ID=109 | matrix=109_combat.csv | degree=109_combat_degree.csv
+[保存] ID=110 | matrix=110_combat.csv | degree=110_combat_degree.csv
+[保存] ID=111 | matrix=111_combat.csv | degree=111_combat_degree.csv
+[保存] ID=112 | matrix=112_combat.csv | degree=112_combat_degree.csv
+[保存] ID=113 | matrix=113_combat.csv | degree=113_combat_degree.csv
+[保存] ID=114 | matrix=114_combat.csv | degree=114_combat_degree.csv
+[保存] ID=115 | matrix=115_combat.csv | degree=115_combat_degree.csv
+[保存] ID=116 | matrix=116_combat.csv | degree=116_combat_degree.csv
+[保存] ID=117 | matrix=117_combat.csv | degree=117_combat_degree.csv
+[保存] ID=118 | matrix=118_combat.csv | degree=118_combat_degree.csv
+[保存] ID=119 | matrix=119_combat.csv | degree=119_combat_degree.csv
+[保存] ID=120 | matrix=120_combat.csv | degree=120_combat_degree.csv
+[保存] ID=121 | matrix=121_combat.csv | degree=121_combat_degree.csv
+[保存] ID=122 | matrix=122_combat.csv | degree=122_combat_degree.csv
+[保存] ID=123 | matrix=123_combat.csv | degree=123_combat_degree.csv
+[保存] ID=124 | matrix=124_combat.csv | degree=124_combat_degree.csv
+[保存] ID=125 | matrix=125_combat.csv | degree=125_combat_degree.csv
+[保存] ID=126 | matrix=126_combat.csv | degree=126_combat_degree.csv
+[保存] ID=127 | matrix=127_combat.csv | degree=127_combat_degree.csv
+[保存] ID=128 | matrix=128_combat.csv | degree=128_combat_degree.csv
+[保存] ID=129 | matrix=129_combat.csv | degree=129_combat_degree.csv
+[保存] ID=130 | matrix=130_combat.csv | degree=130_combat_degree.csv
+[保存] ID=131 | matrix=131_combat.csv | degree=131_combat_degree.csv
+[保存] ID=132 | matrix=132_combat.csv | degree=132_combat_degree.csv
+[保存] ID=133 | matrix=133_combat.csv | degree=133_combat_degree.csv
+[保存] ID=134 | matrix=134_combat.csv | degree=134_combat_degree.csv
+[保存] ID=135 | matrix=135_combat.csv | degree=135_combat_degree.csv
+[保存] ID=136 | matrix=136_combat.csv | degree=136_combat_degree.csv
+[保存] ID=137 | matrix=137_combat.csv | degree=137_combat_degree.csv
+[保存] ID=138 | matrix=138_combat.csv | degree=138_combat_degree.csv
+[保存] ID=139 | matrix=139_combat.csv | degree=139_combat_degree.csv
+[保存] ID=140 | matrix=140_combat.csv | degree=140_combat_degree.csv
+[保存] ID=141 | matrix=141_combat.csv | degree=141_combat_degree.csv
+[保存] ID=142 | matrix=142_combat.csv | degree=142_combat_degree.csv
+[保存] ID=143 | matrix=143_combat.csv | degree=143_combat_degree.csv
+[保存] ID=144 | matrix=144_combat.csv | degree=144_combat_degree.csv
+[保存] ID=145 | matrix=145_combat.csv | degree=145_combat_degree.csv
+[保存] ID=146 | matrix=146_combat.csv | degree=146_combat_degree.csv
+[保存] ID=147 | matrix=147_combat.csv | degree=147_combat_degree.csv
+[保存] ID=148 | matrix=148_combat.csv | degree=148_combat_degree.csv
+[保存] ID=149 | matrix=149_combat.csv | degree=149_combat_degree.csv
+[保存] ID=150 | matrix=150_combat.csv | degree=150_combat_degree.csv
+[保存] ID=151 | matrix=151_combat.csv | degree=151_combat_degree.csv
+[保存] ID=152 | matrix=152_combat.csv | degree=152_combat_degree.csv
+[保存] ID=153 | matrix=153_combat.csv | degree=153_combat_degree.csv
+[保存] ID=154 | matrix=154_combat.csv | degree=154_combat_degree.csv
+[保存] ID=155 | matrix=155_combat.csv | degree=155_combat_degree.csv
+[保存] ID=156 | matrix=156_combat.csv | degree=156_combat_degree.csv
+[保存] ID=157 | matrix=157_combat.csv | degree=157_combat_degree.csv
+[保存] ID=158 | matrix=158_combat.csv | degree=158_combat_degree.csv
+[保存] ID=159 | matrix=159_combat.csv | degree=159_combat_degree.csv
+[保存] ID=160 | matrix=160_combat.csv | degree=160_combat_degree.csv
+[保存] ID=161 | matrix=161_combat.csv | degree=161_combat_degree.csv
+[保存] ID=162 | matrix=162_combat.csv | degree=162_combat_degree.csv
+[保存] ID=163 | matrix=163_combat.csv | degree=163_combat_degree.csv
+[保存] ID=164 | matrix=164_combat.csv | degree=164_combat_degree.csv
+[保存] ID=165 | matrix=165_combat.csv | degree=165_combat_degree.csv
+[保存] ID=166 | matrix=166_combat.csv | degree=166_combat_degree.csv
+[保存] ID=167 | matrix=167_combat.csv | degree=167_combat_degree.csv
+[保存] ID=168 | matrix=168_combat.csv | degree=168_combat_degree.csv
+[保存] ID=169 | matrix=169_combat.csv | degree=169_combat_degree.csv
+[保存] ID=170 | matrix=170_combat.csv | degree=170_combat_degree.csv
+[保存] ID=171 | matrix=171_combat.csv | degree=171_combat_degree.csv
+[保存] ID=172 | matrix=172_combat.csv | degree=172_combat_degree.csv
+[保存] ID=173 | matrix=173_combat.csv | degree=173_combat_degree.csv
+[保存] ID=174 | matrix=174_combat.csv | degree=174_combat_degree.csv
+[保存] ID=175 | matrix=175_combat.csv | degree=175_combat_degree.csv
+[保存] ID=176 | matrix=176_combat.csv | degree=176_combat_degree.csv
+[保存] ID=177 | matrix=177_combat.csv | degree=177_combat_degree.csv
+[保存] ID=178 | matrix=178_combat.csv | degree=178_combat_degree.csv
+[保存] ID=179 | matrix=179_combat.csv | degree=179_combat_degree.csv
+[保存] ID=180 | matrix=180_combat.csv | degree=180_combat_degree.csv
+[保存] ID=181 | matrix=181_combat.csv | degree=181_combat_degree.csv
+[保存] ID=182 | matrix=182_combat.csv | degree=182_combat_degree.csv
+[保存] ID=183 | matrix=183_combat.csv | degree=183_combat_degree.csv
+[保存] ID=184 | matrix=184_combat.csv | degree=184_combat_degree.csv
+[保存] ID=185 | matrix=185_combat.csv | degree=185_combat_degree.csv
+[保存] ID=186 | matrix=186_combat.csv | degree=186_combat_degree.csv
+[保存] ID=187 | matrix=187_combat.csv | degree=187_combat_degree.csv
+[保存] ID=188 | matrix=188_combat.csv | degree=188_combat_degree.csv
+[保存] ID=189 | matrix=189_combat.csv | degree=189_combat_degree.csv
+[保存] ID=190 | matrix=190_combat.csv | degree=190_combat_degree.csv
+[保存] ID=192 | matrix=192_combat.csv | degree=192_combat_degree.csv
+[保存] ID=193 | matrix=193_combat.csv | degree=193_combat_degree.csv
+[保存] ID=194 | matrix=194_combat.csv | degree=194_combat_degree.csv
+[保存] ID=195 | matrix=195_combat.csv | degree=195_combat_degree.csv
+[保存] ID=196 | matrix=196_combat.csv | degree=196_combat_degree.csv
+[保存] ID=197 | matrix=197_combat.csv | degree=197_combat_degree.csv
+[保存] ID=198 | matrix=198_combat.csv | degree=198_combat_degree.csv
+[保存] ID=199 | matrix=199_combat.csv | degree=199_combat_degree.csv
+[保存] ID=200 | matrix=200_combat.csv | degree=200_combat_degree.csv
+[保存] ID=201 | matrix=201_combat.csv | degree=201_combat_degree.csv
+[保存] ID=202 | matrix=202_combat.csv | degree=202_combat_degree.csv
+[保存] ID=203 | matrix=203_combat.csv | degree=203_combat_degree.csv
+[保存] ID=204 | matrix=204_combat.csv | degree=204_combat_degree.csv
+[保存] ID=206 | matrix=206_combat.csv | degree=206_combat_degree.csv
+[保存] ID=207 | matrix=207_combat.csv | degree=207_combat_degree.csv
+[保存] ID=208 | matrix=208_combat.csv | degree=208_combat_degree.csv
+[保存] ID=209 | matrix=209_combat.csv | degree=209_combat_degree.csv
+[保存] ID=210 | matrix=210_combat.csv | degree=210_combat_degree.csv
+[保存] ID=211 | matrix=211_combat.csv | degree=211_combat_degree.csv
+[保存] ID=212 | matrix=212_combat.csv | degree=212_combat_degree.csv
+[保存] ID=213 | matrix=213_combat.csv | degree=213_combat_degree.csv
+[保存] ID=214 | matrix=214_combat.csv | degree=214_combat_degree.csv
+[保存] ID=215 | matrix=215_combat.csv | degree=215_combat_degree.csv
+[保存] ID=216 | matrix=216_combat.csv | degree=216_combat_degree.csv
+[保存] ID=217 | matrix=217_combat.csv | degree=217_combat_degree.csv
+[保存] ID=218 | matrix=218_combat.csv | degree=218_combat_degree.csv
+[保存] ID=219 | matrix=219_combat.csv | degree=219_combat_degree.csv
+[保存] ID=220 | matrix=220_combat.csv | degree=220_combat_degree.csv
+[保存] ID=221 | matrix=221_combat.csv | degree=221_combat_degree.csv
+[保存] ID=222 | matrix=222_combat.csv | degree=222_combat_degree.csv
+[保存] ID=224 | matrix=224_combat.csv | degree=224_combat_degree.csv
+[保存] ID=225 | matrix=225_combat.csv | degree=225_combat_degree.csv
+[保存] ID=226 | matrix=226_combat.csv | degree=226_combat_degree.csv
+[保存] ID=227 | matrix=227_combat.csv | degree=227_combat_degree.csv
+[保存] ID=228 | matrix=228_combat.csv | degree=228_combat_degree.csv
+[保存] ID=229 | matrix=229_combat.csv | degree=229_combat_degree.csv
+[保存] ID=231 | matrix=231_combat.csv | degree=231_combat_degree.csv
+[保存] ID=232 | matrix=232_combat.csv | degree=232_combat_degree.csv
+[保存] ID=233 | matrix=233_combat.csv | degree=233_combat_degree.csv
+[保存] ID=234 | matrix=234_combat.csv | degree=234_combat_degree.csv
+[保存] ID=236 | matrix=236_combat.csv | degree=236_combat_degree.csv
+[保存] ID=238 | matrix=238_combat.csv | degree=238_combat_degree.csv
+[保存] ID=241 | matrix=241_combat.csv | degree=241_combat_degree.csv
+[保存] ID=242 | matrix=242_combat.csv | degree=242_combat_degree.csv
+[保存] ID=243 | matrix=243_combat.csv | degree=243_combat_degree.csv
+[保存] ID=244 | matrix=244_combat.csv | degree=244_combat_degree.csv
+[保存] ID=245 | matrix=245_combat.csv | degree=245_combat_degree.csv
+[保存] ID=246 | matrix=246_combat.csv | degree=246_combat_degree.csv
+[保存] ID=247 | matrix=247_combat.csv | degree=247_combat_degree.csv
+[保存] ID=248 | matrix=248_combat.csv | degree=248_combat_degree.csv
+[保存] ID=249 | matrix=249_combat.csv | degree=249_combat_degree.csv
+[保存] ID=250 | matrix=250_combat.csv | degree=250_combat_degree.csv
+[保存] ID=251 | matrix=251_combat.csv | degree=251_combat_degree.csv
+[保存] ID=252 | matrix=252_combat.csv | degree=252_combat_degree.csv
+[保存] ID=253 | matrix=253_combat.csv | degree=253_combat_degree.csv
+[保存] ID=254 | matrix=254_combat.csv | degree=254_combat_degree.csv
+[保存] ID=255 | matrix=255_combat.csv | degree=255_combat_degree.csv
+[保存] ID=256 | matrix=256_combat.csv | degree=256_combat_degree.csv
+[保存] ID=257 | matrix=257_combat.csv | degree=257_combat_degree.csv
+[保存] ID=258 | matrix=258_combat.csv | degree=258_combat_degree.csv
+[保存] ID=259 | matrix=259_combat.csv | degree=259_combat_degree.csv
+[保存] ID=260 | matrix=260_combat.csv | degree=260_combat_degree.csv
+[保存] ID=261 | matrix=261_combat.csv | degree=261_combat_degree.csv
+[保存] ID=262 | matrix=262_combat.csv | degree=262_combat_degree.csv
+[保存] ID=263 | matrix=263_combat.csv | degree=263_combat_degree.csv
+[保存] ID=264 | matrix=264_combat.csv | degree=264_combat_degree.csv
+[保存] ID=265 | matrix=265_combat.csv | degree=265_combat_degree.csv
+[保存] ID=266 | matrix=266_combat.csv | degree=266_combat_degree.csv
+[保存] ID=267 | matrix=267_combat.csv | degree=267_combat_degree.csv
+[保存] ID=268 | matrix=268_combat.csv | degree=268_combat_degree.csv
+[保存] ID=269 | matrix=269_combat.csv | degree=269_combat_degree.csv
+[保存] ID=270 | matrix=270_combat.csv | degree=270_combat_degree.csv
+[保存] ID=271 | matrix=271_combat.csv | degree=271_combat_degree.csv
+[保存] ID=272 | matrix=272_combat.csv | degree=272_combat_degree.csv
+[保存] ID=273 | matrix=273_combat.csv | degree=273_combat_degree.csv
+[保存] ID=274 | matrix=274_combat.csv | degree=274_combat_degree.csv
+[保存] ID=275 | matrix=275_combat.csv | degree=275_combat_degree.csv
+
+✅ 全部完成！输出目录：/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_combat
+==========================================
+DK-68 Combat 批次校正完成
+结束时间: 2026-03-25 09:47:22
+==========================================

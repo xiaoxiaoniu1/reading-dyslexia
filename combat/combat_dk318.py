@@ -16,13 +16,23 @@ import pandas as pd
 from neuroCombat import neuroCombat
 
 # ====================== 路径配置 ======================
-EXCEL_PATH = "/data1/tqi/share/after_freesurfer/all_data_cqt.xlsx"
-MIND_DIR = "/data1/tqi/share/after_freesurfer/fs_subjects_all/MIND_out"
-OUT_DIR = "/data1/tqi/share/after_freesurfer/fs_subjects_all/MIND_out_combat_group"
+EXCEL_PATH = "/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx"
+MIND_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK318"
+OUT_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK318_combat"
+ROI_NAME_PATH = "/data/home/tqi/data1/share/after_freesurfer/FILE/DK-318/DK318_roi_names.csv"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 N_ROI = 318
 TRIU_IDX = np.triu_indices(N_ROI, k=1)
+ROI_LABELS = pd.read_csv(ROI_NAME_PATH)["region"].astype(str).tolist()
+if len(ROI_LABELS) != N_ROI:
+    raise ValueError(f"ROI name count mismatch: expected {N_ROI}, got {len(ROI_LABELS)}")
+
+
+def calc_degree(mat: np.ndarray) -> np.ndarray:
+    mat = mat.copy()
+    np.fill_diagonal(mat, np.nan)
+    return np.nanmean(mat, axis=1)
 
 # ====================== 1. 读协变量表 ======================
 cov_df = pd.read_excel(EXCEL_PATH)
@@ -112,7 +122,7 @@ res = neuroCombat(
 dat_combat = res["data"]  # (50403, n_subj)
 print("[ComBat] 校正完成！")
 
-# ====================== 6. 重建并保存 318×318 矩阵 ======================
+# ====================== 6. 重建并保存 318×318 矩阵 + degree ======================
 for i, sub in enumerate(used_subs):
     edges_h = dat_combat[:, i]
 
@@ -124,8 +134,20 @@ for i, sub in enumerate(used_subs):
     orig_mat = np.load(os.path.join(MIND_DIR, f"{sub}_MIND_DK318.npy"))
     np.fill_diagonal(mat_h, np.diagonal(orig_mat))
 
-    out_path = os.path.join(OUT_DIR, f"{sub}_MIND_DK318_combat.npy")
-    np.save(out_path, mat_h)
-    print(f"[保存] {sub}")
+    # 保存 combat 后矩阵为 csv
+    mat_h_df = pd.DataFrame(mat_h, index=ROI_LABELS, columns=ROI_LABELS)
+    matrix_out_path = os.path.join(OUT_DIR, f"{sub}_MIND_DK318_combat.csv")
+    mat_h_df.to_csv(matrix_out_path)
+
+    # 保存该被试的 degree
+    degree = calc_degree(mat_h)
+    degree_df = pd.DataFrame({
+        "ROI": ROI_LABELS,
+        "degree": degree
+    })
+    degree_out_path = os.path.join(OUT_DIR, f"{sub}_MIND_DK318_combat_degree.csv")
+    degree_df.to_csv(degree_out_path, index=False)
+
+    print(f"[保存] {sub} | matrix={os.path.basename(matrix_out_path)} | degree={os.path.basename(degree_out_path)}")
 
 print(f"\n✅ 全部完成！输出目录：{OUT_DIR}")

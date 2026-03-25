@@ -26,6 +26,14 @@ set -u
 # 进入代码目录（按你的实际路径改）
 cd /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
 
+# 设置 R 临时目录，避免节点默认临时目录不可写
+mkdir -p tmp
+export TMPDIR="$(pwd)/tmp"
+export TMP="$TMPDIR"
+export TEMP="$TMPDIR"
+
+echo "TMPDIR: ${TMPDIR}"
+
 # 跑R脚本
 Rscript anova_dk68_degree_edge.R
 

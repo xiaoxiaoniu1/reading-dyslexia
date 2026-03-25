@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=DK318_ANOVA
-#SBATCH --output=logs/DK318_ANOVA_%j.out
-#SBATCH --error=logs/DK318_ANOVA_%j.err
+#SBATCH --job-name=DK68_DGLM
+#SBATCH --output=logs/DK68_DGLM_%j.out
+#SBATCH --error=logs/DK68_DGLM_%j.err
 #SBATCH --partition=partition_1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -9,7 +9,6 @@
 #SBATCH --mem=32G
 #SBATCH --time=72:00:00
 #SBATCH --account=""
-
 
 set -euo pipefail
 
@@ -23,7 +22,7 @@ source /data/software/miniconda/etc/profile.d/conda.sh
 conda activate rd_env_r
 set -u
 
-# 进入代码目录（按你的实际路径改）
+# 进入代码目录
 cd /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
 
 # 设置 R 临时目录，避免节点默认临时目录不可写
@@ -34,7 +33,7 @@ export TEMP="$TMPDIR"
 
 echo "TMPDIR: ${TMPDIR}"
 
-# 跑R脚本
-Rscript anova_dk318_degree_edge.R
+# 跑 DGLM R 脚本
+Rscript dglm_dk68_degree_edge.R
 
 echo "End: $(date)"

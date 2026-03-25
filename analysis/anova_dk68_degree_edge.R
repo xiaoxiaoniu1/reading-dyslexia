@@ -2,7 +2,7 @@
 # Two-way ANOVA (Diagnosis x AgeGroup) for:
 #  (A) DK-68 MIND degree (ROI-wise)
 #  (B) DK-68 MIND edges (upper-triangle vector)
-# Covariates: age_month, Sex, Site
+# Input: per-subject combat matrix CSV + per-subject degree CSV
 # ============================================================
 
 library(readxl)
@@ -15,8 +15,8 @@ library(tools)
 # ----------------------------
 # 1) Paths
 # ----------------------------
-demo_file    <- "/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx"
-mind_csv_dir <- "/data/home/tqi/data1/share/after_freesurfer/fs_subjects_all/MIND_DK68_combat"
+demo_file       <- "/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx"
+mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_combat"
 
 out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA/"
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
@@ -29,73 +29,91 @@ out_edge_csv   <- file.path(out_dir, "ANOVA_DK68_edge_results.csv")
 # ----------------------------
 df <- read_excel(demo_file, sheet = "Sheet1")
 
-# DK68 文件命名规则：id + "_combat.csv"
-# 例如：1_combat.csv, 100_combat.csv
+# DK68 文件命名规则：
+#   id + "_combat.csv"
+#   id + "_combat_degree.csv"
 df <- df %>%
   mutate(
     subj_id = as.character(id),
-    
-    # 文件名：1_combat.csv
+    subj_id = trimws(subj_id),
+
     file_base = paste0(subj_id, "_combat"),
-    
-    # 完整路径
-    mind_file = file.path(mind_csv_dir, paste0(file_base, ".csv")),
-    
-    # 组别/协变量
+    mind_file = file.path(mind_combat_dir, paste0(file_base, ".csv")),
+    degree_file = file.path(mind_combat_dir, paste0(file_base, "_degree.csv")),
+
     Diagnosis = ifelse(group_d_or_c == 0, "TD", "DD"),
     AgeGroup  = ifelse(group_age == 1, "Adult", "Child"),
     Sex       = ifelse(sex == 1, "Male", "Female"),
     Site      = as.factor(site),
-    
+
     Diagnosis = factor(Diagnosis, levels = c("TD", "DD")),
     AgeGroup  = factor(AgeGroup,  levels = c("Child", "Adult")),
     Sex       = factor(Sex),
-    
-    has_file  = file.exists(mind_file)
+
+    has_file  = file.exists(mind_file) & file.exists(degree_file)
   ) %>%
-  # 防呆：去掉任何 NA / 空 id 的行，并去掉 site=3
-  filter(!is.na(id), id != "", site != 3)
+  filter(!is.na(id), subj_id != "", site != 3)
 
 # ----------------------------
-# 3) Filter missing matrix subjects + write missing list
+# 3) Filter missing subjects + write missing list
 # ----------------------------
 cat("Subjects in demo (after basic cleaning):", nrow(df), "\n")
-cat("Subjects with existing MIND csv:", sum(df$has_file), "\n")
+cat("Subjects with existing matrix+degree csv:", sum(df$has_file), "\n")
 cat("Missing subjects (demo has but file not):", sum(!df$has_file), "\n")
 
 missing_df <- df %>%
   filter(!has_file) %>%
-  select(id, subj_id, file_base, mind_file)
+  select(id, subj_id, file_base, mind_file, degree_file)
 
 write.csv(missing_df,
           file = file.path(out_dir, "missing_subjects_no_matrix.csv"),
           row.names = FALSE)
 
-# 只保留有矩阵文件的被试
 df2 <- df %>% filter(has_file)
 
 # ----------------------------
-# 4) Read matrix + helpers
+# 4) Read matrix/degree + helpers
 # ----------------------------
 read_mind_csv <- function(fp) {
-  # DK68 文件格式：第一列是行名，第一行是列名
   mat <- as.matrix(read.csv(fp, row.names = 1, check.names = FALSE))
   storage.mode(mat) <- "numeric"
   mat
 }
 
-calc_degree <- function(mat) {
-  diag(mat) <- NA
-  rowMeans(mat, na.rm = TRUE)
+read_degree_csv <- function(fp) {
+  d <- read.csv(fp, check.names = FALSE, stringsAsFactors = FALSE)
+  stopifnot(all(c("ROI", "degree") %in% colnames(d)))
+  vals <- as.numeric(d$degree)
+  names(vals) <- as.character(d$ROI)
+  vals
 }
 
-# detect ROI count from first subject
-tmp <- read_mind_csv(df2$mind_file[1])
-n_roi <- nrow(tmp)
-stopifnot(n_roi == ncol(tmp))
+if (nrow(df2) == 0) {
+  stop("No valid subjects with existing DK68 combat matrix/degree csv files were found.")
+}
+
+tmp_mat <- read_mind_csv(df2$mind_file[1])
+tmp_deg <- read_degree_csv(df2$degree_file[1])
+
+n_roi <- nrow(tmp_mat)
+stopifnot(n_roi == ncol(tmp_mat))
 cat("Detected ROI number:", n_roi, "\n")
 
-# upper-triangle indices mapping
+roi_names <- colnames(tmp_mat)
+if (is.null(roi_names) || any(is.na(roi_names)) || length(roi_names) != n_roi) {
+  roi_names <- rownames(tmp_mat)
+}
+if (is.null(roi_names) || any(is.na(roi_names)) || length(roi_names) != n_roi) {
+  stop("Failed to obtain ROI names from DK68 combat matrix csv.")
+}
+
+if (length(tmp_deg) != n_roi) {
+  stop("Degree length does not match matrix ROI count for first DK68 subject.")
+}
+if (!all(names(tmp_deg) == roi_names)) {
+  stop("ROI names in degree csv do not match ROI names in matrix csv for first DK68 subject.")
+}
+
 upper_idx <- which(upper.tri(matrix(1, n_roi, n_roi)), arr.ind = TRUE)
 n_edge <- nrow(upper_idx)
 cat("Number of edges (upper triangle):", n_edge, "\n")
@@ -105,12 +123,6 @@ cat("Number of edges (upper triangle):", n_edge, "\n")
 # ----------------------------
 n_subj <- nrow(df2)
 
-# 用 ROI 真名作为列名（如果你矩阵带 ROI 名）
-roi_names <- rownames(tmp)
-if (is.null(roi_names) || any(is.na(roi_names)) || length(roi_names) != n_roi) {
-  roi_names <- paste0("ROI_", seq_len(n_roi))
-}
-
 degree_mat <- matrix(NA_real_, nrow = n_subj, ncol = n_roi,
                      dimnames = list(df2$file_base, roi_names))
 
@@ -118,13 +130,24 @@ edge_mat <- matrix(NA_real_, nrow = n_subj, ncol = n_edge,
                    dimnames = list(df2$file_base, paste0("E_", seq_len(n_edge))))
 
 for (s in seq_len(n_subj)) {
-  fp <- df2$mind_file[s]
-  m  <- read_mind_csv(fp)
-  
-  # degree
-  degree_mat[s, ] <- calc_degree(m)
-  
-  # edges (upper triangle) — 用 upper.tri(m) 得到逻辑索引
+  m <- read_mind_csv(df2$mind_file[s])
+  d <- read_degree_csv(df2$degree_file[s])
+
+  if (!all(dim(m) == c(n_roi, n_roi))) {
+    stop("Matrix dimension mismatch for file: ", df2$mind_file[s],
+         " | expected ", n_roi, "x", n_roi,
+         ", got ", paste(dim(m), collapse = "x"))
+  }
+
+  if (!identical(colnames(m), roi_names) || !identical(rownames(m), roi_names)) {
+    stop("ROI names/order mismatch in matrix file: ", df2$mind_file[s])
+  }
+
+  if (length(d) != n_roi || !identical(names(d), roi_names)) {
+    stop("ROI names/order mismatch in degree file: ", df2$degree_file[s])
+  }
+
+  degree_mat[s, ] <- d
   edge_mat[s, ] <- m[upper.tri(m)]
 }
 

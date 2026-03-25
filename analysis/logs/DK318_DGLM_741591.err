@@ -1,0 +1,29 @@
+Loading required package: readxl
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: purrr
+Loading required package: dglm
+Loading required package: stringr
+New names:
+• `` -> `...9`
+Warning messages:
+1: step size truncated due to divergence 
+2: step size truncated due to divergence 
+3: glm.fit: algorithm did not converge 
+4: glm.fit: algorithm did not converge 
+5: step size truncated due to divergence 
+6: step size truncated due to divergence 
+7: step size truncated due to divergence 
+8: step size truncated due to divergence 
+9: step size truncated due to divergence 
+10: glm.fit: algorithm did not converge 
