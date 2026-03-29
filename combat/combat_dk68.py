@@ -17,9 +17,9 @@ import pandas as pd
 from neuroCombat import neuroCombat
 
 # ====================== 路径配置 ======================
-EXCEL_PATH = "/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx"
+EXCEL_PATH = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/all_data_cqt_any_2.xlsx"
 MIND_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68"
-OUT_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_combat"
+OUT_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/MIND_DK68_combat"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 N_ROI = 68

@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=DK318_ANOVA
-#SBATCH --output=logs/DK318_ANOVA_%j.out
-#SBATCH --error=logs/DK318_ANOVA_%j.err
+#SBATCH --output=analysis/logs/DK318_ANOVA_%j.out
+#SBATCH --error=analysis/logs/DK318_ANOVA_%j.err
 #SBATCH --partition=partition_1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

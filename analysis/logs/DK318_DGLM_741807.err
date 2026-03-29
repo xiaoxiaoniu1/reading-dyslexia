@@ -1,0 +1,18 @@
+Loading required package: readxl
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: purrr
+Loading required package: dglm
+Loading required package: stringr
+Error: `path` does not exist: ‘/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx’
+Execution halted

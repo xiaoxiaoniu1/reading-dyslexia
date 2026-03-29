@@ -1,0 +1,26 @@
+==== TEMP DEBUG INFO ====
+Host: node3
+PWD: /data/home/tqi/data1/share/after_freesurfer/CODE
+TMPDIR(before): /tmp
+--- env tmp vars ---
+TMPDIR=/tmp
+--- system tmp status ---
+drwxrwxrwt 35 root root 2568192 Mar 26 04:10 /tmp
+Filesystem                         Size  Used Avail Use% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv   98G   94G     0 100% /
+Filesystem                         Inodes  IUsed   IFree IUse% Mounted on
+/dev/mapper/ubuntu--vg-ubuntu--lv 6553600 415726 6137874    7% /
+--- current dir tmp status ---
+drwxrwxr-x 2 1010 1010 10 Mar 26 04:35 tmp
+Filesystem      Size  Used Avail Use% Mounted on
+node1:/data1    419T  402T   17T  96% /data1
+Filesystem         Inodes     IUsed      IFree IUse% Mounted on
+node1:/data1   8984398336 302473329 8681925007    4% /data1
+--- write test /tmp ---
+write /tmp ok
+--- write test local tmp ---
+write local tmp ok
+=========================
+Host: node3
+Start: Thu Mar 26 04:35:02 AM UTC 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/tmp

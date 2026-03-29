@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=behavior_brain_scatter
-#SBATCH --output=logs/behavior_brain_scatter_%j.out
-#SBATCH --error=logs/behavior_brain_scatter_%j.err
+#SBATCH --output=analysis/logs/behavior_brain_scatter_%j.out
+#SBATCH --error=analysis/logs/behavior_brain_scatter_%j.err
 #SBATCH --partition=partition_1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

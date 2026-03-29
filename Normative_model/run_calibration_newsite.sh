@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name=DK_normative_calibration_newsite
-#SBATCH --output=logs/DK_normative_calibration_newsite_%j.out
-#SBATCH --error=logs/DK_normative_calibration_newsite_%j.err
+#SBATCH --output=Normative_model/logs/DK_normative_calibration_newsite_%j.out
+#SBATCH --error=Normative_model/logs/DK_normative_calibration_newsite_%j.err
 #SBATCH --partition=partition_1
-#SBATCH --nodes=2
+#SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G

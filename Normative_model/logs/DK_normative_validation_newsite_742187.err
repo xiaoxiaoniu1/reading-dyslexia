@@ -32,6 +32,7 @@ Loading required package: parallel
 For more on GAMLSS look at https://www.gamlss.com/
 Type gamlssNews() to see new features/changes/bug fixes.
 
-New names:
-• `` -> `...9`
-
+Warning message:
+In eval(ei, envir) :
+  Have set a fixed random seed, all runs will be identical unless this is changed (may be good or bad, depending on what you want)
+slurmstepd: error: *** JOB 742187 ON node3 CANCELLED AT 2026-03-27T09:50:02 ***

@@ -5,6 +5,7 @@
 
 import json
 import os
+import random
 import re
 from pathlib import Path
 
@@ -214,13 +215,13 @@ def map_diagnosis(value):
     text = str(value).strip().lower()
     if text.isdigit():
         v = int(text)
-        if v in (0, 1):
-            return 'TD' if v == 0 else 'DD'
-        if v in (1, 2):
-            return 'TD' if v == 1 else 'DD'
-    if 'dd' in text or 'dys' in text:
+        if v == 0:
+            return 'DD'
+        if v == 1:
+            return 'TD'
+    if 'dd' in text or 'dys' in text or 'patient' in text:
         return 'DD'
-    if 'td' in text or 'control' in text:
+    if 'td' in text or 'control' in text or 'healthy' in text:
         return 'TD'
     return pd.NA
 
@@ -549,11 +550,45 @@ def build_log(clinical_out, sheets):
     return log
 
 
+def split_ids_for_calibration(clinical_out, train_ratio=0.7, seed=20260327):
+    td_ids = clinical_out.loc[clinical_out['Diagnosis'] == 'TD', 'ID'].tolist()
+    dd_ids = clinical_out.loc[clinical_out['Diagnosis'] == 'DD', 'ID'].tolist()
+    if not td_ids:
+        raise ValueError('未找到健康人（TD），无法进行 70/30 划分')
+    rng = random.Random(seed)
+    td_ids = list(td_ids)
+    rng.shuffle(td_ids)
+    n_train = int(len(td_ids) * train_ratio)
+    n_train = max(1, min(n_train, len(td_ids)))
+    cal_td_ids = sorted(td_ids[:n_train])
+    ctrl_td_ids = sorted(td_ids[n_train:])
+    control_ids = sorted(ctrl_td_ids + dd_ids)
+    return {
+        'calibration_ids': cal_td_ids,
+        'control_ids': control_ids,
+        'td_total': len(td_ids),
+        'td_calibration': len(cal_td_ids),
+        'td_control': len(ctrl_td_ids),
+        'dd_control': len(dd_ids),
+        'seed': seed,
+        'train_ratio': train_ratio
+    }
+
+
+def subset_sheets(sheets, keep_ids):
+    keep = set(keep_ids)
+    out = {}
+    for name, df in sheets.items():
+        out[name] = df[df['ID'].isin(keep)].copy()
+        out[name] = out[name].sort_values('ID').reset_index(drop=True)
+    return out
+
+
 def main():
-    base_dir = '/data/home/tqi/data1/share/after_freesurfer'
+    base_dir = '/data1/tqi/share/after_freesurfer'
     fs_subjects_dir = f'{base_dir}/fs_subjects_all'
-    clinical_file = f'{base_dir}/FILE/all_data_cqt_without_age_control.xlsx'
-    output_dir = f'{base_dir}/FILE/Normative_data'
+    clinical_file = f'{base_dir}/FILE/test_mean_1.5/all_data_cqt_mean_1.5.xlsx'
+    output_dir = f'{base_dir}/FILE/test_mean_1.5/Normative_model/Datasets/Datasets-new'
 
     os.makedirs(output_dir, exist_ok=True)
 
@@ -578,11 +613,9 @@ def main():
     if not overlap_ids:
         raise ValueError('MRI 与临床无交集，无法导出')
 
-    clinical_out = build_clinical_output(overlap_ids, clinical_df, mri_db)
-    clinical_out_path = f'{output_dir}/Clinical_vars.csv'
-    clinical_out.to_csv(clinical_out_path, index=False)
+    clinical_out_all = build_clinical_output(overlap_ids, clinical_df, mri_db)
 
-    sheets = {
+    sheets_all = {
         'Global.table': build_global_sheet(overlap_ids, mri_db),
         'aseg.vol.table': build_aseg_sheet(overlap_ids, mri_db),
         'lh.aparc.volume.table': build_aparc_sheet(overlap_ids, mri_db, 'lh', 'volume'),
@@ -593,20 +626,47 @@ def main():
         'rh.aparc.area.table': build_aparc_sheet(overlap_ids, mri_db, 'rh', 'area')
     }
 
-    validate_outputs(clinical_out, sheets)
+    split_info = split_ids_for_calibration(clinical_out_all, train_ratio=0.7, seed=20260327)
+    cal_ids = split_info['calibration_ids']
+    ctrl_ids = split_info['control_ids']
+
+    clinical_cal = clinical_out_all[clinical_out_all['ID'].isin(set(cal_ids))].copy()
+    clinical_cal = clinical_cal.sort_values('ID').reset_index(drop=True)
+    sheets_cal = subset_sheets(sheets_all, cal_ids)
+    validate_outputs(clinical_cal, sheets_cal)
+
+    clinical_ctrl = clinical_out_all[clinical_out_all['ID'].isin(set(ctrl_ids))].copy()
+    clinical_ctrl = clinical_ctrl.sort_values('ID').reset_index(drop=True)
+    sheets_ctrl = subset_sheets(sheets_all, ctrl_ids)
+    validate_outputs(clinical_ctrl, sheets_ctrl)
+
+    clinical_out_path = f'{output_dir}/Clinical_vars.csv'
+    clinical_cal.to_csv(clinical_out_path, index=False)
 
     mr_xlsx = f'{output_dir}/MR_measures.xlsx'
     with pd.ExcelWriter(mr_xlsx, engine='openpyxl') as writer:
         for sheet_name in SHEET_ORDER:
-            sheets[sheet_name].to_excel(writer, sheet_name=sheet_name, index=False)
+            sheets_cal[sheet_name].to_excel(writer, sheet_name=sheet_name, index=False)
 
-    log_data = build_log(clinical_out, sheets)
-    log_data['summary'] = {
-        'subjects_in_mri': len(mri_ids),
-        'subjects_in_clinical': len(clinical_ids),
-        'subjects_intersection': len(overlap_ids),
-        'failed_subjects_count': len(failed),
-        'failed_subjects': failed[:100]
+    clinical_ctrl_path = f'{output_dir}/Clinical_vars_control.csv'
+    clinical_ctrl.to_csv(clinical_ctrl_path, index=False)
+
+    mr_ctrl_xlsx = f'{output_dir}/MR_measures_control.xlsx'
+    with pd.ExcelWriter(mr_ctrl_xlsx, engine='openpyxl') as writer:
+        for sheet_name in SHEET_ORDER:
+            sheets_ctrl[sheet_name].to_excel(writer, sheet_name=sheet_name, index=False)
+
+    log_data = {
+        'calibration': build_log(clinical_cal, sheets_cal),
+        'control': build_log(clinical_ctrl, sheets_ctrl),
+        'summary': {
+            'subjects_in_mri': len(mri_ids),
+            'subjects_in_clinical': len(clinical_ids),
+            'subjects_intersection': len(overlap_ids),
+            'failed_subjects_count': len(failed),
+            'failed_subjects': failed[:100],
+            'split': split_info
+        }
     }
     log_file = f'{output_dir}/extraction_log.json'
     with open(log_file, 'w', encoding='utf-8') as f:
@@ -615,8 +675,10 @@ def main():
     print('\n' + '=' * 60)
     print('导出完成')
     print('=' * 60)
-    print(f'Clinical_vars.csv: {clinical_out_path}')
-    print(f'MR_measures.xlsx: {mr_xlsx}')
+    print(f'校准集 Clinical_vars.csv: {clinical_out_path}')
+    print(f'校准集 MR_measures.xlsx: {mr_xlsx}')
+    print(f'对照集 Clinical_vars_control.csv: {clinical_ctrl_path}')
+    print(f'对照集 MR_measures_control.xlsx: {mr_ctrl_xlsx}')
     print(f'日志文件: {log_file}')
 
 

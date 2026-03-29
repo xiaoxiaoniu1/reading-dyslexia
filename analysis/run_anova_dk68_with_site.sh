@@ -5,8 +5,8 @@
 #SBATCH --cpus-per-task=4           # 用几个核
 #SBATCH --mem=16G                   # 内存
 #SBATCH -t 12:00:00                 # 最长运行时间
-#SBATCH -o logs/DK68_site_%j.out
-#SBATCH -e logs/DK68_site_%j.err
+#SBATCH -o analysis_logs/DK68_site_%j.out
+#SBATCH -e analysis_logs/DK68_site_%j.err
 
 set -euo pipefail
 

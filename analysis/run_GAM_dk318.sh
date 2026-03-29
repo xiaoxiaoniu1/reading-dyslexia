@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=DK318_GAM
-#SBATCH --output=logs/DK318_GAM_%j.out
-#SBATCH --error=logs/DK318_GAM_%j.err
+#SBATCH --output=analysis/logs/DK318_GAM_%j.out
+#SBATCH --error=analysis/logs/DK318_GAM_%j.err
 #SBATCH --partition=partition_1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -16,12 +16,24 @@ mkdir -p logs
 echo "Host: $(hostname)"
 echo "Start: $(date)"
 
-# 方式A：如果你用 conda 管 R（常见）
-source ~/.bashrc   # 可留可不留
+# 激活 conda 环境（临时关闭 -u 以避免 conda 激活脚本的未定义变量错误）
+set +u
+source /data/software/miniconda/etc/profile.d/conda.sh
+conda activate rd_env_r
+set -u
 
-cd /data1/tqi/share/after_freesurfer/CODE/analysis
+# 进入代码目录
+cd /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
 
-# 跑【连续年龄】版本的 R 脚本（文件名带括号，一定要加引号）
-conda run -n rd_env_r Rscript "GAM_dk318_degree_edge.R"
+# 设置 R 临时目录，避免节点默认临时目录不可写
+mkdir -p tmp
+export TMPDIR="$(pwd)/tmp"
+export TMP="$TMPDIR"
+export TEMP="$TMPDIR"
+
+echo "TMPDIR: ${TMPDIR}"
+
+# 跑 GAM R 脚本
+Rscript GAM_dk318_degree_edge.R
 
 echo "End: $(date)"

@@ -1,0 +1,7 @@
+Loading required package: pacman
+Warning message:
+package ‘pacman’ was built under R version 4.3.3 
+Error: `path` does not exist: ‘/data1/tqi/share/after_freesurfer/FILE/all_data_cqt.xlsx’
+Execution halted
+
+ERROR conda.cli.main_run:execute(49): `conda run Rscript GAM_dk318_degree_edge.R` failed. (See above for error)

@@ -12,10 +12,10 @@ pacman::p_load(readxl, dplyr, purrr, stringr, tools, mgcv, ggplot2)
 # 1) Paths & Settings
 # ============================================================
 # 请务必确认路径正确
-demo_file    <- "/data1/tqi/share/after_freesurfer/FILE/all_data_cqt.xlsx"
-mind_csv_dir <- "/data1/tqi/share/after_freesurfer/fs_subjects_all/MIND_out_combat_degree/"
+demo_file    <- "/data1/tqi/share/after_freesurfer/FILE/test_any_2/all_data_cqt_any_2.xlsx"
+mind_csv_dir <- "/data1/tqi/share/after_freesurfer/FILE/test_any_2/MIND_DK318_combat/"
 
-out_dir <- "/data1/tqi/share/after_freesurfer/FILE/MIND_GAM"
+out_dir <- "/data1/tqi/share/after_freesurfer/FILE/test_any_2/MIND_GAM_DK318"
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
 out_degree_csv <- file.path(out_dir, "GAM_DK318_degree_results.csv")
@@ -36,7 +36,7 @@ df <- df %>%
     original_project = as.character(`original-project`),
     id_old = as.character(id_old),
     subj_prefix = paste0(original_project, "_", id_old, "_MIND_DK318"),
-    file_base = paste0(subj_prefix, "_combat_labeled"),
+    file_base = paste0(subj_prefix, "_combat"),
     mind_file = file.path(mind_csv_dir, paste0(file_base, ".csv")),
     
     # === 核心变量定义 ===

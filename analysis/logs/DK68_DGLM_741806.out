@@ -1,0 +1,136 @@
+Host: node5
+Start: Thu Mar 26 12:34:32 PM CST 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/tmp
+Subjects in demo: 209 
+Subjects with matrix+degree csv: 209 
+ROI number: 68 
+Number of edges: 2278 
+Degree matrix: 209 x 68 
+Edge matrix: 209 x 2278 
+
+=== Diagnostic ===
+Diagnosis counts: TD=112, DD=97 
+AgeGroup  counts: Child=118, Adult=91 
+Sex       counts: Female=110, Male=99 
+First ROI: n valid = 209 , var = 0.00043259 
+Mean model coef colnames:  Estimate, Std. Error, t value, Pr(>|t|) 
+Disp model coef colnames:  Estimate, Std. Error, t value, Pr(>|t|) 
+DiagnosisDD mean p-value:  0.05158266 
+dglm fit names:  coefficients, residuals, fitted.values, effects, weights, rank, assign, qr, df.residual, call, formula, terms, model, family, linear.predictors, prior.weights, contrasts, df.null, deviance, aic, null.deviance, y, dispersion.fit, iter, method, m2loglik 
+
+=== Running DGLM (degree) ===
+Significant mean Interaction (degree, FDR<0.05): 0 
+Significant dispersion Interaction (degree, FDR<0.05): 0 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_degree_results.csv 
+
+=== Running DGLM (edges) ===
+Edge chunk 1 / 2 
+Edge chunk 2 / 2 
+Significant mean Interaction (edges, FDR<0.05): 0 
+Significant dispersion Interaction (edges, FDR<0.05): 0 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_edge_results.csv 
+
+==============================
+Significant Degree Results (FDR < 0.05 )
+==============================
+
+[mean_Diagnosis] n_sig = 15
+                     feature   n  p_raw  p_FDR
+         lh_inferiortemporal 209 0.0006 0.0136
+     lh_lateralorbitofrontal 209 0.0107 0.0483
+           lh_middletemporal 209 0.0038 0.0236
+       lh_posteriorcingulate 209 0.0038 0.0236
+ lh_rostralanteriorcingulate 209 0.0036 0.0236
+     lh_rostralmiddlefrontal 209 0.0037 0.0236
+            lh_supramarginal 209 0.0004 0.0124
+      rh_caudalmiddlefrontal 209 0.0000 0.0022
+                   rh_cuneus 209 0.0083 0.0436
+         rh_inferiorparietal 209 0.0008 0.0136
+           rh_middletemporal 209 0.0056 0.0318
+              rh_paracentral 209 0.0094 0.0454
+               rh_precentral 209 0.0016 0.0184
+                rh_precuneus 209 0.0015 0.0184
+            rh_supramarginal 209 0.0036 0.0236
+
+[mean_AgeGroup] n_sig = 0
+
+[mean_Interaction] n_sig = 0
+
+[disp_Diagnosis] n_sig = 0
+
+[disp_AgeGroup] n_sig = 0
+
+[disp_Interaction] n_sig = 0
+
+Degree mean interaction significant (FDR): 0 ROIs. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_degree_mean_interaction_significant_fdr.csv
+Degree mean interaction significant (uncorrected): 2 ROIs. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_degree_mean_interaction_significant_uncorrected.csv
+Degree dispersion interaction significant (FDR): 0 ROIs. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_degree_dispersion_interaction_significant_fdr.csv
+Degree dispersion interaction significant (uncorrected): 0 ROIs. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_degree_dispersion_interaction_significant_uncorrected.csv
+
+==============================
+Significant Edge Results (FDR < 0.05 )
+==============================
+
+[mean_Diagnosis] n_sig = 68
+  (showing top 20 by FDR)
+                    region_i                region_j   n p_raw  p_FDR
+         lh_inferiortemporal  rh_caudalmiddlefrontal 209 0e+00 0.0012
+      rh_caudalmiddlefrontal       rh_middletemporal 209 0e+00 0.0020
+ lh_rostralanteriorcingulate  rh_caudalmiddlefrontal 209 0e+00 0.0029
+       lh_transversetemporal          rh_paracentral 209 0e+00 0.0029
+      rh_caudalmiddlefrontal rh_lateralorbitofrontal 209 0e+00 0.0038
+      rh_caudalmiddlefrontal     rh_superiortemporal 209 0e+00 0.0038
+      rh_caudalmiddlefrontal        rh_supramarginal 209 0e+00 0.0038
+                   lh_cuneus          rh_postcentral 209 0e+00 0.0044
+     lh_lateralorbitofrontal  rh_caudalmiddlefrontal 209 0e+00 0.0046
+                   rh_cuneus          rh_postcentral 209 0e+00 0.0050
+      lh_medialorbitofrontal  rh_caudalmiddlefrontal 209 0e+00 0.0064
+      rh_caudalmiddlefrontal             rh_fusiform 209 0e+00 0.0066
+         rh_parstriangularis           rh_precentral 209 0e+00 0.0081
+                 lh_fusiform  rh_caudalmiddlefrontal 209 1e-04 0.0085
+           lh_middletemporal  rh_caudalmiddlefrontal 209 1e-04 0.0151
+                 lh_fusiform      rh_superiorfrontal 209 1e-04 0.0151
+                 rh_bankssts          rh_paracentral 209 1e-04 0.0155
+ lh_rostralanteriorcingulate      rh_superiorfrontal 209 1e-04 0.0155
+           rh_middletemporal      rh_superiorfrontal 209 1e-04 0.0155
+      rh_caudalmiddlefrontal  rh_medialorbitofrontal 209 1e-04 0.0163
+
+[mean_AgeGroup] n_sig = 149
+  (showing top 20 by FDR)
+                region_i                    region_j   n p_raw p_FDR
+           lh_precentral         rh_superiorparietal 209     0 0e+00
+ rh_rostralmiddlefrontal         rh_superiortemporal 209     0 0e+00
+               lh_cuneus               lh_precentral 209     0 0e+00
+           lh_precentral         lh_superiorparietal 209     0 0e+00
+              lh_lingual               lh_precentral 209     0 2e-04
+           lh_precentral                   rh_cuneus 209     0 3e-04
+           lh_precentral                  rh_lingual 209     0 3e-04
+           lh_precentral         rh_lateraloccipital 209     0 4e-04
+           rh_precentral         rh_superiorparietal 209     0 4e-04
+ lh_rostralmiddlefrontal         rh_superiortemporal 209     0 5e-04
+        lh_pericalcarine               lh_precentral 209     0 7e-04
+              lh_lingual         rh_isthmuscingulate 209     0 7e-04
+     lh_superiortemporal     rh_rostralmiddlefrontal 209     0 7e-04
+     lh_isthmuscingulate                  lh_lingual 209     0 8e-04
+      rh_parsopercularis               rh_precentral 209     0 8e-04
+        rh_parsorbitalis          rh_superiorfrontal 209     0 8e-04
+             lh_fusiform rh_rostralanteriorcingulate 209     0 8e-04
+        lh_pericalcarine               rh_precentral 209     0 9e-04
+               lh_cuneus               rh_precentral 209     0 9e-04
+           lh_precentral              rh_postcentral 209     0 1e-03
+
+[mean_Interaction] n_sig = 0
+
+[disp_Diagnosis] n_sig = 0
+
+[disp_AgeGroup] n_sig = 0
+
+[disp_Interaction] n_sig = 0
+
+Edge mean interaction significant (FDR): 0 edges. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_edge_mean_interaction_significant_fdr.csv
+Edge mean interaction significant (uncorrected): 105 edges. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_edge_mean_interaction_significant_uncorrected.csv
+Edge dispersion interaction significant (FDR): 0 edges. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_edge_dispersion_interaction_significant_fdr.csv
+Edge dispersion interaction significant (uncorrected): 18 edges. Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM//DGLM_DK68_edge_dispersion_interaction_significant_uncorrected.csv
+
+DONE.
+End: Thu Mar 26 12:35:10 PM CST 2026

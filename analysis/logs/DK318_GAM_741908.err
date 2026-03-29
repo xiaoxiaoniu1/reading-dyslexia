@@ -1,0 +1,13 @@
+Loading required package: pacman
+Warning message:
+package ‘pacman’ was built under R version 4.3.3 
+New names:
+• `` -> `...9`
+Warning messages:
+1: In min(df2$Age_Raw) : no non-missing arguments to min; returning Inf
+2: In max(df2$Age_Raw) : no non-missing arguments to max; returning -Inf
+Error in 1:n_roi : argument of length 0
+Calls: paste0
+Execution halted
+
+ERROR conda.cli.main_run:execute(49): `conda run Rscript GAM_dk318_degree_edge.R` failed. (See above for error)

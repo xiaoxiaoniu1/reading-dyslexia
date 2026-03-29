@@ -1,0 +1,106 @@
+Host: node5
+Start: Sat Mar 28 09:05:38 AM CST 2026
+Processing: Global.table - GMV 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: Global.table - sGMV 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: Global.table - WMV 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: Global.table - Ventricles 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: Global.table - TCV 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: Global.table - total_surface_arrea 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Left.Accumbens.area 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Right.Accumbens.area 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Left.Amygdala 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Right.Amygdala 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Left.Caudate 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Right.Caudate 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Left.Hippocampus 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Right.Hippocampus 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Left.Pallidum 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Right.Pallidum 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Left.Putamen 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Right.Putamen 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Left.Thalamus 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Right.Thalamus 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Left.VentralDC 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Right.VentralDC 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: aseg.vol.table - Brain.Stem 
+  raw model not found, skip
+Processing: aseg.vol.table - cerebellum_total 
+  raw model not found, skip
+Processing: aseg.vol.table - BrainSegVol 
+  raw model not found, skip
+Processing: aseg.vol.table - BrainSegVolNotVent 
+  raw model not found, skip
+Processing: aseg.vol.table - lhCortexVol 
+  raw model not found, skip
+Processing: aseg.vol.table - rhCortexVol 
+  raw model not found, skip
+Processing: aseg.vol.table - CortexVol 
+  raw model not found, skip
+Processing: aseg.vol.table - CerebralWhiteMatterVol 
+  raw model not found, skip
+Processing: aseg.vol.table - SubCortGrayVol 
+  raw model not found, skip
+Processing: aseg.vol.table - TotalGrayVol 
+  raw model not found, skip
+Processing: aseg.vol.table - EstimatedTotalIntraCranialVol 
+  raw model not found, skip
+Processing: lh.aparc.volume.table - lh_bankssts_volume 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: lh.aparc.volume.table - lh_caudalanteriorcingulate_volume 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: lh.aparc.volume.table - lh_caudalmiddlefrontal_volume 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: lh.aparc.volume.table - lh_cuneus_volume 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: lh.aparc.volume.table - lh_entorhinal_volume 
+  Z_raw failed: subscript out of bounds 
+  Z_cal failed: subscript out of bounds 
+Processing: lh.aparc.volume.table - lh_fusiform_volume 

@@ -26,10 +26,10 @@ library(stringr)
 # ----------------------------
 # 1) Paths
 # ----------------------------
-demo_file       <- "/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx"
-mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_combat"
+demo_file       <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/all_data_cqt_any_2.xlsx"
+mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/MIND_DK68_combat"
 
-out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_DGLM/"
+out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/MIND_DK68_DGLM/"
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
 out_degree_csv <- file.path(out_dir, "DGLM_DK68_degree_results.csv")

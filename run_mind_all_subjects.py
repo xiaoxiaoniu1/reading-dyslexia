@@ -23,11 +23,11 @@ import pandas as pd
 MIND_CODE_DIR = "/data1/tqi/share/after_freesurfer/CODE/MIND"  # 如有变化改这里
 
 # 2）FreeSurfer 输出的根目录（包含所有被试）
-BASE_FS_DIR = "/data1/tqi/share/after_freesurfer/fs_subjects_all"
+BASE_FS_DIR = "/data1/tqi/share/after_freesurfer/FILE"
 
 
 # 3）MIND 结果输出目录
-MIND_OUT_DIR = os.path.join(BASE_FS_DIR, "MIND_out")
+MIND_OUT_DIR = os.path.join(BASE_FS_DIR, "MIND_DK318")
 os.makedirs(MIND_OUT_DIR, exist_ok=True)
 
 # =================== 加载 MIND 函数 ===================

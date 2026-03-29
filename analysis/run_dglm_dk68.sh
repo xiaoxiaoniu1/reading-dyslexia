@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=DK68_DGLM
-#SBATCH --output=logs/DK68_DGLM_%j.out
-#SBATCH --error=logs/DK68_DGLM_%j.err
+#SBATCH --output=analysis/logs/DK68_DGLM_%j.out
+#SBATCH --error=analysis/logs/DK68_DGLM_%j.err
 #SBATCH --partition=partition_1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

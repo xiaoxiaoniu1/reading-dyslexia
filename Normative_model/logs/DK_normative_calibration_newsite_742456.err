@@ -1,0 +1,38 @@
+Loading required package: splines
+Loading required package: gamlss.data
+
+Attaching package: ‘gamlss.data’
+
+The following object is masked from ‘package:datasets’:
+
+    sleep
+
+Loading required package: gamlss.dist
+Loading required package: nlme
+Loading required package: parallel
+ **********   GAMLSS Version 5.5-0  ********** 
+For more on GAMLSS look at https://www.gamlss.com/
+Type gamlssNews() to see new features/changes/bug fixes.
+
+Warning message:
+In eval(ei, envir) :
+  Have set a fixed random seed, all runs will be identical unless this is changed (may be good or bad, depending on what you want)
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:nlme’:
+
+    collapse
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+WARNING: gamlss calibration failed for lh_frontalpole_volume, keeping original model. Error: missing value where TRUE/FALSE needed
+WARNING: gamlss calibration failed for rh_isthmuscingulate_volume, keeping original model. Error: missing value where TRUE/FALSE needed
+WARNING: gamlss calibration failed for rh_superiortemporal_area, keeping original model. Error: missing value where TRUE/FALSE needed
+There were 22 warnings (use warnings() to see them)

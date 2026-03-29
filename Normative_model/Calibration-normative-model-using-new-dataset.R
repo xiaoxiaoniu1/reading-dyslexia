@@ -3,10 +3,10 @@ library(readxl)
 
 #set your own directory
 datapath='/data/home/tqi/data1/share/after_freesurfer/CODE/Normative_model/Source-codes'  # Change the directory where you save the Source-codes  
-clinical_datapath='/data/home/tqi/data1/share/after_freesurfer/FILE/Normative_model/Datasets/Dataset-new/Clinical_vars.csv'  # Change the directory where you save the clinical variables  
-MR_datapath='/data/home/tqi/data1/share/after_freesurfer/FILE/Normative_model/Datasets/Dataset-new/MR_measures.xlsx'  # Change the directory where you save the MR measures  
-modelpath<-'/data/home/tqi/data1/share/after_freesurfer/FILE/Normative_model/Models/GAMLSS/DK' #Chnage the path you have saved your normative models in "Normative-model-fit.R"
-savepath='/data/home/tqi/data1/share/after_freesurfer/FILE/Normative_model/Results/newsite';# Create and determine the directory where you would save the results  
+clinical_datapath='/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Datasets/Datasets-new/Clinical_vars.csv'  # Change the directory where you save the clinical variables  
+MR_datapath='/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Datasets/Datasets-new/MR_measures.xlsx'  # Change the directory where you save the MR measures  
+modelpath<-'/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Models/GAMLSS/DK' #Chnage the path you have saved your normative models in "Normative-model-fit.R"
+savepath='/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Newsite';# Create and determine the directory where you would save the results  
 
 
 
@@ -125,6 +125,10 @@ if(i=='total_surface_arrea'){rdsfile='Total_surface_area_normative_model.rds'}
 if(file.exists(rdsfile)){print('file exist');
   
   results<-readRDS(rdsfile)} else {next}
+
+# Skip if calibrated result already exists
+cal_outfile <- paste0(savepath,'/',str,'/',str,'_',i,'_loop_our_model_new_site_calibrated.rds')
+if(file.exists(cal_outfile)){print(paste0('calibrated file already exists, skipping: ',i)); next}
   
   
 m2<-results$m2;
@@ -133,7 +137,8 @@ m0<-results$m0
 setwd(datapath)  
 data1<-read.csv(clinical_datapath,header=TRUE);
 data1 <- data1[toupper(trimws(as.character(data1$Diagnosis))) == 'TD',]
-data1$Site_ZZZ<-paste0(data1$Province,data1$Center,data1$Manufacturer)
+# Only use Center to define sites (ignore Province and Manufacturer)
+data1$Site_ZZZ<-data1$Center
 
 library(dplyr)
 
@@ -216,12 +221,23 @@ data2[,'sigmafix']<-sigmafix
 data2 <- na.omit(data2)
 
 con=gamlss.control()
-m2_cal<-gamlss(formula=feature~offset(mufix)+random(Site_ZZZ),
-               sigma.formula = feature~offset(sigmafix)+random(Site_ZZZ),
-           control=con,
-           family = GG(mu.link='log',sigma.link = 'log',nu.link = 'identity'),
-           data=data2)
+m2_cal <- tryCatch({
+  gamlss(formula=feature~offset(mufix)+random(Site_ZZZ),
+         sigma.formula = feature~offset(sigmafix)+random(Site_ZZZ),
+         control=con,
+         family = GG(mu.link='log',sigma.link = 'log',nu.link = 'identity'),
+         data=data2)
+}, error = function(e) {
+  message(paste0('WARNING: gamlss calibration failed for ', i, ', keeping original model. Error: ', e$message))
+  NULL
+})
 
+# If calibration failed, save original model as fallback and skip to next
+if(is.null(m2_cal)){
+  setwd(paste0(savepath,'/',str))
+  saveRDS(m2, paste0(str,'_',i,'_loop_our_model_new_site_calibrated.rds'))
+  next
+}
 
 model_cal<-m2;
 for(new_site in names(m2_cal$mu.coefSmo[[1]][1]$coef))

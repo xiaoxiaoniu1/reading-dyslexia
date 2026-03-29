@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=DK68_ANOVA
-#SBATCH --output=logs/DK68_ANOVA%j.out
-#SBATCH --error=logs/DK68_ANOVA%j.err
+#SBATCH --output=analysis/logs/DK68_ANOVA%j.out
+#SBATCH --error=analysis/logs/DK68_ANOVA%j.err
 #SBATCH --partition=partition_1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

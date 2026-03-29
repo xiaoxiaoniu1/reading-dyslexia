@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=DK318_STRAT_DD_TD
-#SBATCH --output=logs/DK318_STRAT_DD_TD_%j.out
-#SBATCH --error=logs/DK318_STRAT_DD_TD_%j.err
+#SBATCH --output=analysis/logs/t_test_stratified_dk318_%j.out
+#SBATCH --error=analysis/logs/t_test_stratified_dk318_%j.err
 #SBATCH --partition=partition_1
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
@@ -27,6 +27,6 @@ cd /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
 #python stratified_analysis_dd_td.py
 
 # 如果你希望指定 conda 环境，可以改成下面这种：
-conda run -n rd_env python stratified_analysis_dd_td.py
+conda run -n rd_env python t_test_stratified_dk318.py
 
 echo "End: $(date)"

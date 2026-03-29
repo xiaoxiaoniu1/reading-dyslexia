@@ -15,10 +15,10 @@ library(tools)
 # ----------------------------
 # 1) Paths
 # ----------------------------
-demo_file      <- "/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx"
-mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK318_combat"
+demo_file      <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/all_data_cqt_any_2.xlsx"
+mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/MIND_DK318_combat"
 
-out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK318_ANOVA"
+out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/MIND_DK318_ANOVA"
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
 out_degree_csv <- file.path(out_dir, "ANOVA_DK318_degree_results.csv")
