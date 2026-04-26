@@ -1,0 +1,8 @@
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:184: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf_stat_map(
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:184: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf_stat_map(
+/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/nilearn/plotting/_utils.py:133: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/nilearn/plotting/_utils.py:136: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)

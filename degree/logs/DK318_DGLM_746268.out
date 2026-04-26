@@ -1,0 +1,11 @@
+Start: Wed Apr 15 03:04:21 AM UTC 2026
+当前工作目录： /data1/tqi/share/after_freesurfer
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+LH surface vertices: 163842
+RH surface vertices: 163842
+LH annot vertices: 163842
+RH annot vertices: 163842
+
+========== 绘制 Mean Interaction (uncorrected) ==========

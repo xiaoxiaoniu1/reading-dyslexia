@@ -23,6 +23,7 @@ conda activate rd_env
 set -u
 
 # 运行 Python 脚本
-python degree_analysis_DK318.py
+DATASET="${DK318_DATASET:-main}"
+python degree_analysis_DK318.py --dataset "$DATASET"
 
 echo "End: $(date)"

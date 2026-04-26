@@ -19,10 +19,10 @@ plt.rcParams['axes.unicode_minus'] = False
 # =============================================================================
 # 1) 路径配置
 # =============================================================================
-demo_file = "/data1/tqi/share/after_freesurfer/FILE/all_data_cqt.xlsx"
-mind_csv_dir = "/data/home/tqi/data1/share/after_freesurfer/fs_subjects_all/MIND_DK68_combat"
-sig_degree_file = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA/Significant_Diagnosis_DK68_degree_results.csv"
-out_dir = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_DK68_ANOVA/degree_diagnosis_barplot"
+demo_file = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/all_data_cqt_mean_1.5.xlsx"
+mind_csv_dir = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_combat/"
+sig_degree_file = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_ANOVA/Significant_Diagnosis_DK68_degree_results.csv"
+out_dir = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_ANOVA/degree_diagnosis_barplot"
 
 os.makedirs(out_dir, exist_ok=True)
 

@@ -1,0 +1,107 @@
+Host: node3
+Start: Wed Apr 15 11:54:18 AM UTC 2026
+[1] "GMV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 2338.454 
+GAMLSS-RS iteration 2: Global Deviance = 2338.451 
+GAMLSS-RS iteration 3: Global Deviance = 2338.451 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "sGMV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1867.206 
+GAMLSS-RS iteration 2: Global Deviance = 1866.786 
+GAMLSS-RS iteration 3: Global Deviance = 1866.651 
+GAMLSS-RS iteration 4: Global Deviance = 1866.603 
+GAMLSS-RS iteration 5: Global Deviance = 1866.585 
+GAMLSS-RS iteration 6: Global Deviance = 1866.577 
+GAMLSS-RS iteration 7: Global Deviance = 1866.574 
+GAMLSS-RS iteration 8: Global Deviance = 1866.572 
+GAMLSS-RS iteration 9: Global Deviance = 1866.571 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "WMV"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 2309.812 
+GAMLSS-RS iteration 2: Global Deviance = 2309.494 
+GAMLSS-RS iteration 3: Global Deviance = 2309.421 
+GAMLSS-RS iteration 4: Global Deviance = 2309.405 
+GAMLSS-RS iteration 5: Global Deviance = 2309.402 
+GAMLSS-RS iteration 6: Global Deviance = 2309.401 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "Ventricles"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1851.717 
+GAMLSS-RS iteration 2: Global Deviance = 1848.6 
+GAMLSS-RS iteration 3: Global Deviance = 1847.1 
+GAMLSS-RS iteration 4: Global Deviance = 1846.397 
+GAMLSS-RS iteration 5: Global Deviance = 1846.068 
+GAMLSS-RS iteration 6: Global Deviance = 1845.912 
+GAMLSS-RS iteration 7: Global Deviance = 1845.837 
+GAMLSS-RS iteration 8: Global Deviance = 1845.801 
+GAMLSS-RS iteration 9: Global Deviance = 1845.783 
+GAMLSS-RS iteration 10: Global Deviance = 1845.774 
+GAMLSS-RS iteration 11: Global Deviance = 1845.77 
+GAMLSS-RS iteration 12: Global Deviance = 1845.768 
+GAMLSS-RS iteration 13: Global Deviance = 1845.767 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "TCV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 2552.765 
+GAMLSS-RS iteration 2: Global Deviance = 2552.908 
+GAMLSS-RS iteration 3: Global Deviance = 2552.885 
+GAMLSS-RS iteration 4: Global Deviance = 2552.871 
+GAMLSS-RS iteration 5: Global Deviance = 2552.863 
+GAMLSS-RS iteration 6: Global Deviance = 2552.858 
+GAMLSS-RS iteration 7: Global Deviance = 2552.855 
+GAMLSS-RS iteration 8: Global Deviance = 2552.852 
+GAMLSS-RS iteration 9: Global Deviance = 2552.851 
+GAMLSS-RS iteration 10: Global Deviance = 2552.85 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "mean_thickness"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = -229.3312 
+GAMLSS-RS iteration 2: Global Deviance = -229.3932 
+GAMLSS-RS iteration 3: Global Deviance = -229.3953 
+GAMLSS-RS iteration 4: Global Deviance = -229.3962 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "total_surface_arrea"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 2120.1 
+GAMLSS-RS iteration 2: Global Deviance = 2119.792 
+GAMLSS-RS iteration 3: Global Deviance = 2119.7 
+GAMLSS-RS iteration 4: Global Deviance = 2119.672 
+GAMLSS-RS iteration 5: Global Deviance = 2119.664 
+GAMLSS-RS iteration 6: Global Deviance = 2119.661 
+GAMLSS-RS iteration 7: Global Deviance = 2119.66 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "Left.Thalamus"
+[1] "file exist"

@@ -1,0 +1,51 @@
+Start: Tue Apr 21 07:41:29 PM CST 2026
+Script: plot_significant_DK318_stratified_brainmaps.py
+Job ID: 747752
+当前工作目录： /data1/tqi/share/after_freesurfer
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+LH surface vertices: 163842
+RH surface vertices: 163842
+LH annot vertices: 163842
+RH annot vertices: 163842
+
+========================================
+Processing: DD_Adult_vs_Child_mean
+Input: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DD_Adult_vs_Child_mean_DK318_degree_results.csv
+Output: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DD_Adult_vs_Child_mean_significant_brainmaps
+========================================
+Significant_DD_Adult_vs_Child_mean_DK318_degree_results.csv
+LH ROI matched: 5
+RH ROI matched: 11
+LH vertex filled (%): 2.33
+RH vertex filled (%): 6.35
+Color range vmin/vmax: -3.0 3.0
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DD_Adult_vs_Child_mean_significant_brainmaps/significant_regions_for_plot.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DD_Adult_vs_Child_mean_significant_brainmaps/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DD_Adult_vs_Child_mean_significant_brainmaps/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DD_Adult_vs_Child_mean_significant_brainmaps/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DD_Adult_vs_Child_mean_significant_brainmaps/rh_medial.png
+
+========================================
+Processing: TD_Adult_vs_Child_mean
+Input: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_TD_Adult_vs_Child_mean_DK318_degree_results.csv
+Output: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/TD_Adult_vs_Child_mean_significant_brainmaps
+========================================
+Significant_TD_Adult_vs_Child_mean_DK318_degree_results.csv
+LH ROI matched: 19
+RH ROI matched: 11
+LH vertex filled (%): 9.65
+RH vertex filled (%): 7.03
+Color range vmin/vmax: -3.0 3.0
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/TD_Adult_vs_Child_mean_significant_brainmaps/significant_regions_for_plot.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/TD_Adult_vs_Child_mean_significant_brainmaps/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/TD_Adult_vs_Child_mean_significant_brainmaps/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/TD_Adult_vs_Child_mean_significant_brainmaps/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/TD_Adult_vs_Child_mean_significant_brainmaps/rh_medial.png
+
+========================================
+Processing: Adult_DD_vs_TD_mean
+Input: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_Adult_mean_DK318_degree_results.csv
+Output: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Adult_DD_vs_TD_mean_significant_brainmaps
+========================================

@@ -1,0 +1,39 @@
+Start: Wed Apr 22 10:34:18 PM CST 2026
+Host: node4
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network
+当前工作目录: /data/home/tqi/data1/share/after_freesurfer
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+
+========== brain_regions_at_least_one_task_mean_gt_2 ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_regions_at_least_one_task_mean_gt_2.csv
+First column used: brain_region
+Total requested regions: 45
+LH requested ROIs: 38, matched annot names: 38
+RH requested ROIs: 7, matched annot names: 7
+LH unmatched examples: ['lh_bankssts_part1', 'lh_bankssts_part2', 'lh_fusiform_part1', 'lh_fusiform_part3', 'lh_fusiform_part4', 'lh_fusiform_part5', 'lh_fusiform_part6', 'lh_inferiorparietal_part5', 'lh_inferiorparietal_part7', 'lh_inferiortemporal_part2']
+RH unmatched examples: ['rh_fusiform_part1', 'rh_fusiform_part4', 'rh_lateraloccipital_part7', 'rh_lateraloccipital_part9', 'rh_superiorparietal_part10', 'rh_superiortemporal_part1', 'rh_superiortemporal_part4']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_one_task_mean_gt_2/brain_regions_at_least_one_task_mean_gt_2_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_one_task_mean_gt_2/brain_regions_at_least_one_task_mean_gt_2_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_one_task_mean_gt_2/brain_regions_at_least_one_task_mean_gt_2_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_one_task_mean_gt_2/brain_regions_at_least_one_task_mean_gt_2_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_one_task_mean_gt_2/brain_regions_at_least_one_task_mean_gt_2_rh_medial.png
+
+========== brain_regions_at_least_two_tasks_mean_gt_2 ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_regions_at_least_two_tasks_mean_gt_2.csv
+First column used: brain_region
+Total requested regions: 23
+LH requested ROIs: 23, matched annot names: 23
+RH requested ROIs: 0, matched annot names: 0
+LH unmatched examples: ['lh_bankssts_part1', 'lh_bankssts_part2', 'lh_fusiform_part1', 'lh_fusiform_part3', 'lh_fusiform_part5', 'lh_fusiform_part6', 'lh_inferiorparietal_part5', 'lh_inferiortemporal_part2', 'lh_inferiortemporal_part5', 'lh_inferiortemporal_part6']
+RH unmatched examples: []
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_two_tasks_mean_gt_2/brain_regions_at_least_two_tasks_mean_gt_2_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_two_tasks_mean_gt_2/brain_regions_at_least_two_tasks_mean_gt_2_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_two_tasks_mean_gt_2/brain_regions_at_least_two_tasks_mean_gt_2_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_two_tasks_mean_gt_2/brain_regions_at_least_two_tasks_mean_gt_2_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_regions_at_least_two_tasks_mean_gt_2/brain_regions_at_least_two_tasks_mean_gt_2_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_region_table_brainmaps_summary.csv
+
+脑图绘制完成。
+End: Wed Apr 22 10:37:19 PM CST 2026

@@ -9,31 +9,37 @@
 #SBATCH --mem=32G
 #SBATCH --time=72:00:00
 #SBATCH --account=""
-
 set -euo pipefail
-
 mkdir -p logs
 echo "Host: $(hostname)"
 echo "Start: $(date)"
-
-# 激活 conda 环境（临时关闭 -u 以避免 conda 激活脚本的未定义变量错误）
 set +u
 source /data/software/miniconda/etc/profile.d/conda.sh
 conda activate rd_env_r
 set -u
-
-# 进入代码目录
 cd /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
-
-# 设置 R 临时目录，避免节点默认临时目录不可写
 mkdir -p tmp
 export TMPDIR="$(pwd)/tmp"
 export TMP="$TMPDIR"
 export TEMP="$TMPDIR"
-
-echo "TMPDIR: ${TMPDIR}"
-
-# 跑 DGLM R 脚本
-Rscript dglm_dk68_degree_edge.R
-
+ANALYSIS_TYPE="${1:-both}"
+RESULT_DIR="/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM"
+VIOLIN_DIR="${RESULT_DIR}/VIOLIN_Followup"
+echo "Analysis type: ${ANALYSIS_TYPE}"
+echo "DGLM result dir: ${RESULT_DIR}"
+echo "VIOLIN follow-up dir: ${VIOLIN_DIR}"
+echo "===== STEP 1/3: Run DGLM model ====="
+echo "Output dir (STEP 1/3): ${RESULT_DIR}"
+Rscript dglm_dk68_degree_edge.R "${ANALYSIS_TYPE}"
+echo "===== STEP 1/3 DONE ====="
+if [[ "${ANALYSIS_TYPE}" == "both" || "${ANALYSIS_TYPE}" == "degree" ]]; then
+  echo "===== STEP 2/3: Generate DGLM degree brainmaps ====="
+  echo "Output dir (STEP 2/3): ${RESULT_DIR}"
+  python /data/home/tqi/data1/share/after_freesurfer/CODE/degree/degree_analysis_DK68_DGLM.py --result-dir "${RESULT_DIR}"
+  echo "===== STEP 2/3 DONE ====="
+  echo "===== STEP 3/3: Run VIOLIN follow-up plots ====="
+  echo "Output dir (STEP 3/3): ${VIOLIN_DIR}"
+  bash /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/run_violin_dk68.sh overall
+  echo "===== STEP 3/3 DONE ====="
+fi
 echo "End: $(date)"

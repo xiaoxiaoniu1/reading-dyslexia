@@ -1,0 +1,19 @@
+Host: node3
+Start: Wed Apr 15 04:26:49 PM UTC 2026
+
+--- Alignment diagnostics ---
+sheet: Global.table 
+clinical rows: 96  unique subject ids: 96 
+MRI rows: 96  unique subject ids: 96 
+intersection: 96 
+clinical head ids: adoled2203 | adoled2214 | adoled2216 
+MRI head ids: adoled2203 | adoled2214 | adoled2216 
+intersection head ids: adoled2203 | adoled2214 | adoled2216 
+[1] "GMV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1635.018 
+GAMLSS-RS iteration 2: Global Deviance = 1634.934 
+GAMLSS-RS iteration 3: Global Deviance = 1634.909 
+GAMLSS-RS iteration 4: Global Deviance = 1634.902 
+GAMLSS-RS iteration 5: Global Deviance = 1634.9 
+GAMLSS-RS iteration 6: Global Deviance = 1634.899 

@@ -1,0 +1,24 @@
+Error in `draw_panels()`:
+! `facet_wrap()` can't use free scales with `coord_cartesian()` with a
+  fixed `ratio` argument.
+Backtrace:
+     ▆
+  1. └─global make_post_nbs_outputs(...)
+  2.   └─global plot_mni_projection(sig_edges, roi_meta, effect_name, max_edges = max_edges)
+  3.     └─ggplot2::ggsave(...)
+  4.       └─base::lapply(plot, grid.draw)
+  5.         ├─grid (local) FUN(X[[i]], ...)
+  6.         └─ggplot2 (local) `grid.draw.ggplot2::ggplot`(X[[i]], ...)
+  7.           ├─base::print(x)
+  8.           └─ggplot2 (local) `print.ggplot2::ggplot`(x)
+  9.             ├─ggplot2::ggplot_gtable(data)
+ 10.             └─ggplot2 (local) `ggplot_gtable.ggplot2::ggplot_built`(data)
+ 11.               └─layout$render(geom_grobs, data, theme, plot@labels)
+ 12.                 └─ggplot2 (local) render(..., self = self)
+ 13.                   └─self$facet$draw_panels(...)
+ 14.                     └─ggplot2 (local) draw_panels(..., self = self)
+ 15.                       └─ggproto_parent(Facet, self)$draw_panels(...)
+ 16.                         └─ggplot2 (local) draw_panels(..., self = self)
+ 17.                           └─cli::cli_abort(paste0(msg, "."))
+ 18.                             └─rlang::abort(...)
+Execution halted

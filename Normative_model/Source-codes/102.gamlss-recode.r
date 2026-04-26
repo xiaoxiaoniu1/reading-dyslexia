@@ -13,20 +13,11 @@ library("gamlss") ## need gamlss.family objects in all scripts
 ##
 ## bfp() := the in-built gamlss function cannot handle NAs
 ##
-bfpNA <- function (x, powers = c(1, 2), shift = 0, scale = 1) ## have change gamlss:bfp() defaults, now fix shift=0 and scale=1 [DATA DEPENDENT SCALING IS BAD!]
+bfpNA <- function (x, powers = c(1, 2), shift = 0, scale = 1)
 {
-    ## fp.scale <- function(x) {
-    ##     if( all(is.na(x)) ) {stop("All NAs makes no sense")}
-    ##     if (min(x,na.rm=TRUE) <= 0) {
-    ##         xx <- na.omit(x)
-    ##         z <- sort(xx)[-1] - sort(xx)[-length(xx)]
-    ##         shift <- min(z[z > 0]) - min(xx)
-    ##     }
-    ##     else shift <- 0
-    ##     range <- max(x,na.rm=TRUE) - min(x,na.rm=TRUE)
-    ##     scale <- 10^(sign(log10(range)) * trunc(abs(log10(range))))
-    ##     list(shift = shift, scale = scale)
-    ## }
+    if(is.null(powers) || length(powers) == 0) {
+        powers <- c(1, 2)  ## fallback to default if powers is NULL
+    }
     nobs <- length(x)
     npoly <- length(powers)
     X <- matrix(0, nrow = nobs, ncol = npoly)

@@ -1,0 +1,170 @@
+Host: node1
+Start: Sun Apr 26 01:33:18 PM CST 2026
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
+Analysis type: degree
+DGLM result dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified
+Brainmap output dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/stratified_brainmaps
+VIOLIN output dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/VIOLIN_Followup_stratified
+R script: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/dglm_stratified_dk68.R
+===== STEP 1/3: Run stratified DGLM =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified
+Analysis type: degree | run_degree: TRUE | run_edge: FALSE 
+demo_file: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/all_data_cqt_mean_1.5.xlsx 
+mind_combat_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_combat 
+out_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified 
+include_age_covariate: TRUE 
+run_plots: FALSE 
+Subjects in demo: 204 
+Subjects with matrix+degree csv: 204 
+
+Cell counts among subjects with files:
+, , Sex = Female
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    25    45
+       DD    21    17
+
+, , Sex = Male
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    26    16
+       DD    45     9
+
+ROI number: 68 
+Number of edges: 2278 
+Degree matrix: 204 x 68 
+Loaded network: alphabetic_functional | n_roi = 57 
+Loaded network: alphabetic_structural | n_roi = 23 
+Loaded network: brain_regions_at_least_one_task_mean_gt_2 | n_roi = 45 
+Loaded network: brain_regions_at_least_two_tasks_mean_gt_2 | n_roi = 23 
+Loaded network: morphosyllabic_functional | n_roi = 79 
+Loaded network: morphosyllabic_structural | n_roi = 77 
+
+============================================================
+DEGREE STRATIFIED DGLM ANALYSIS
+============================================================
+
+--- Child Diagnosis x Sex ---
+  n = 117 
+    
+     Female Male
+  TD     25   26
+  DD     21   45
+  Feature 1 / 68 
+  Feature 50 / 68 
+  Feature 68 / 68 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_Child_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/Diagnostic_Summary_DGLM_DK68_Child_degree_results.csv 
+                           effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                 p_mean_Diagnosis      68          32            17
+                       p_mean_Sex      68          43            36
+ p_mean_Diagnosis_Sex_Interaction      68           0             0
+                 p_disp_Diagnosis      68           1             0
+                       p_disp_Sex      68           2             0
+ p_disp_Diagnosis_Sex_Interaction      68           1             0
+
+--- Adult Diagnosis x Sex ---
+  n = 87 
+    
+     Female Male
+  TD     45   16
+  DD     17    9
+  Feature 1 / 68 
+  Feature 50 / 68 
+  Feature 68 / 68 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_Adult_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/Diagnostic_Summary_DGLM_DK68_Adult_degree_results.csv 
+                           effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                 p_mean_Diagnosis      68          12             0
+                       p_mean_Sex      68           8             1
+ p_mean_Diagnosis_Sex_Interaction      68          10             3
+                 p_disp_Diagnosis      68           4             1
+                       p_disp_Sex      68           5             0
+ p_disp_Diagnosis_Sex_Interaction      68           2             0
+
+--- DD AgeGroup x Sex ---
+  n = 92 
+       
+        Female Male
+  Child     21   45
+  Adult     17    9
+  Feature 1 / 68 
+  Feature 50 / 68 
+  Feature 68 / 68 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_DD_Adult_vs_Child_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/Diagnostic_Summary_DGLM_DK68_DD_Adult_vs_Child_degree_results.csv 
+                          effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                 p_mean_AgeGroup      68          10             5
+                      p_mean_Sex      68          34            22
+ p_mean_AgeGroup_Sex_Interaction      68           7             2
+                 p_disp_AgeGroup      68           6             0
+                      p_disp_Sex      68           2             0
+ p_disp_AgeGroup_Sex_Interaction      68           3             0
+
+--- TD AgeGroup x Sex ---
+  n = 112 
+       
+        Female Male
+  Child     25   26
+  Adult     45   16
+  Feature 1 / 68 
+  Feature 50 / 68 
+  Feature 68 / 68 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_TD_Adult_vs_Child_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/Diagnostic_Summary_DGLM_DK68_TD_Adult_vs_Child_degree_results.csv 
+                          effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                 p_mean_AgeGroup      68           4             0
+                      p_mean_Sex      68           8             0
+ p_mean_AgeGroup_Sex_Interaction      68          24             1
+                 p_disp_AgeGroup      68           4             0
+                      p_disp_Sex      68           1             0
+ p_disp_AgeGroup_Sex_Interaction      68           0             0
+
+--- Male Diagnosis x AgeGroup ---
+  n = 96 
+    
+     Child Adult
+  TD    26    16
+  DD    45     9
+  Feature 1 / 68 
+  Feature 50 / 68 
+  Feature 68 / 68 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/Diagnostic_Summary_DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results.csv 
+                                effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                      p_mean_Diagnosis      68           5             0
+                       p_mean_AgeGroup      68           8             2
+ p_mean_Diagnosis_AgeGroup_Interaction      68           7             1
+                      p_disp_Diagnosis      68           1             0
+                       p_disp_AgeGroup      68          11             3
+ p_disp_Diagnosis_AgeGroup_Interaction      68           0             0
+
+--- Female Diagnosis x AgeGroup ---
+  n = 108 
+    
+     Child Adult
+  TD    25    45
+  DD    21    17
+  Feature 1 / 68 
+  Feature 50 / 68 
+  Feature 68 / 68 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/Diagnostic_Summary_DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results.csv 
+                                effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                      p_mean_Diagnosis      68          43            30
+                       p_mean_AgeGroup      68          30            15
+ p_mean_Diagnosis_AgeGroup_Interaction      68           1             0
+                      p_disp_Diagnosis      68           9             1
+                       p_disp_AgeGroup      68           1             1
+ p_disp_Diagnosis_AgeGroup_Interaction      68           1             0
+Skipping edge analysis.
+
+ALL DONE.
+===== STEP 1/3 DONE =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified
+===== STEP 2/3: Plot stratified significant degree brainmaps =====
+Output dir (STEP 2/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/stratified_brainmaps
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage

@@ -1,0 +1,22 @@
+Host: node3
+Start: Wed Apr 15 12:27:48 PM UTC 2026
+[1] "GMV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 2338.454 
+GAMLSS-RS iteration 2: Global Deviance = 2338.451 
+GAMLSS-RS iteration 3: Global Deviance = 2338.451 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "sGMV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1867.206 
+GAMLSS-RS iteration 2: Global Deviance = 1866.786 
+GAMLSS-RS iteration 3: Global Deviance = 1866.651 
+GAMLSS-RS iteration 4: Global Deviance = 1866.603 
+GAMLSS-RS iteration 5: Global Deviance = 1866.585 
+GAMLSS-RS iteration 6: Global Deviance = 1866.577 
+GAMLSS-RS iteration 7: Global Deviance = 1866.574 
+GAMLSS-RS iteration 8: Global Deviance = 1866.572 
+GAMLSS-RS iteration 9: Global Deviance = 1866.571 
+[1] "no random effects for this term"

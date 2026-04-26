@@ -1,0 +1,3327 @@
+Host: node5
+Start: Wed Apr  8 01:56:53 PM CST 2026
+[1] "GMV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1580.159 
+GAMLSS-RS iteration 2: Global Deviance = 1578.388 
+GAMLSS-RS iteration 3: Global Deviance = 1577.574 
+GAMLSS-RS iteration 4: Global Deviance = 1577.151 
+GAMLSS-RS iteration 5: Global Deviance = 1576.917 
+GAMLSS-RS iteration 6: Global Deviance = 1576.783 
+GAMLSS-RS iteration 7: Global Deviance = 1576.702 
+GAMLSS-RS iteration 8: Global Deviance = 1576.652 
+GAMLSS-RS iteration 9: Global Deviance = 1576.621 
+GAMLSS-RS iteration 10: Global Deviance = 1576.6 
+GAMLSS-RS iteration 11: Global Deviance = 1576.587 
+GAMLSS-RS iteration 12: Global Deviance = 1576.578 
+GAMLSS-RS iteration 13: Global Deviance = 1576.572 
+GAMLSS-RS iteration 14: Global Deviance = 1576.568 
+GAMLSS-RS iteration 15: Global Deviance = 1576.565 
+GAMLSS-RS iteration 16: Global Deviance = 1576.563 
+GAMLSS-RS iteration 17: Global Deviance = 1576.562 
+GAMLSS-RS iteration 18: Global Deviance = 1576.561 
+[1] "sGMV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1291.407 
+GAMLSS-RS iteration 2: Global Deviance = 1291.471 
+GAMLSS-RS iteration 3: Global Deviance = 1291.699 
+GAMLSS-RS iteration 4: Global Deviance = 1291.902 
+GAMLSS-RS iteration 5: Global Deviance = 1292.081 
+GAMLSS-RS iteration 6: Global Deviance = 1292.232 
+GAMLSS-RS iteration 7: Global Deviance = 1292.383 
+GAMLSS-RS iteration 8: Global Deviance = 1292.515 
+GAMLSS-RS iteration 9: Global Deviance = 1292.643 
+GAMLSS-RS iteration 10: Global Deviance = 1292.775 
+GAMLSS-RS iteration 11: Global Deviance = 1292.916 
+GAMLSS-RS iteration 12: Global Deviance = 1293.068 
+GAMLSS-RS iteration 13: Global Deviance = 1293.357 
+GAMLSS-RS iteration 14: Global Deviance = 1293.421 
+GAMLSS-RS iteration 15: Global Deviance = 1293.435 
+GAMLSS-RS iteration 16: Global Deviance = 1293.446 
+GAMLSS-RS iteration 17: Global Deviance = 1293.452 
+GAMLSS-RS iteration 18: Global Deviance = 1293.456 
+GAMLSS-RS iteration 19: Global Deviance = 1293.459 
+GAMLSS-RS iteration 20: Global Deviance = 1293.46 
+[1] "WMV"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1538.791 
+GAMLSS-RS iteration 2: Global Deviance = 1538.594 
+GAMLSS-RS iteration 3: Global Deviance = 1538.549 
+GAMLSS-RS iteration 4: Global Deviance = 1538.533 
+GAMLSS-RS iteration 5: Global Deviance = 1538.526 
+GAMLSS-RS iteration 6: Global Deviance = 1538.523 
+GAMLSS-RS iteration 7: Global Deviance = 1538.522 
+GAMLSS-RS iteration 8: Global Deviance = 1538.522 
+[1] "Ventricles"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1266.007 
+GAMLSS-RS iteration 2: Global Deviance = 1264.259 
+GAMLSS-RS iteration 3: Global Deviance = 1263.872 
+GAMLSS-RS iteration 4: Global Deviance = 1263.71 
+GAMLSS-RS iteration 5: Global Deviance = 1263.64 
+GAMLSS-RS iteration 6: Global Deviance = 1263.61 
+GAMLSS-RS iteration 7: Global Deviance = 1263.598 
+GAMLSS-RS iteration 8: Global Deviance = 1263.592 
+GAMLSS-RS iteration 9: Global Deviance = 1263.59 
+GAMLSS-RS iteration 10: Global Deviance = 1263.589 
+[1] "TCV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1767.072 
+GAMLSS-RS iteration 2: Global Deviance = 1765.854 
+GAMLSS-RS iteration 3: Global Deviance = 1765.192 
+GAMLSS-RS iteration 4: Global Deviance = 1764.814 
+GAMLSS-RS iteration 5: Global Deviance = 1764.598 
+GAMLSS-RS iteration 6: Global Deviance = 1764.474 
+GAMLSS-RS iteration 7: Global Deviance = 1764.4 
+GAMLSS-RS iteration 8: Global Deviance = 1764.357 
+GAMLSS-RS iteration 9: Global Deviance = 1764.33 
+GAMLSS-RS iteration 10: Global Deviance = 1764.313 
+GAMLSS-RS iteration 11: Global Deviance = 1764.302 
+GAMLSS-RS iteration 12: Global Deviance = 1764.295 
+GAMLSS-RS iteration 13: Global Deviance = 1764.292 
+GAMLSS-RS iteration 14: Global Deviance = 1764.287 
+GAMLSS-RS iteration 15: Global Deviance = 1764.286 
+[1] "mean_thickness"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = -165.6408 
+GAMLSS-RS iteration 2: Global Deviance = -165.7918 
+GAMLSS-RS iteration 3: Global Deviance = -165.8449 
+GAMLSS-RS iteration 4: Global Deviance = -165.8656 
+GAMLSS-RS iteration 5: Global Deviance = -165.8736 
+GAMLSS-RS iteration 6: Global Deviance = -165.8767 
+GAMLSS-RS iteration 7: Global Deviance = -165.8778 
+GAMLSS-RS iteration 8: Global Deviance = -165.8783 
+[1] "total_surface_arrea"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1457.701 
+GAMLSS-RS iteration 2: Global Deviance = 1457.888 
+GAMLSS-RS iteration 3: Global Deviance = 1457.934 
+GAMLSS-RS iteration 4: Global Deviance = 1457.947 
+GAMLSS-RS iteration 5: Global Deviance = 1457.952 
+GAMLSS-RS iteration 6: Global Deviance = 1457.954 
+GAMLSS-RS iteration 7: Global Deviance = 1457.955 
+GAMLSS-RS iteration 8: Global Deviance = 1457.956 
+[1] "Measure.volume"
+[1] "Left.Lateral.Ventricle"
+[1] "Left.Inf.Lat.Vent"
+[1] "Left.Cerebellum.White.Matter"
+[1] "Left.Cerebellum.Cortex"
+[1] "Left.Thalamus"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1041.882 
+GAMLSS-RS iteration 2: Global Deviance = 1040.462 
+GAMLSS-RS iteration 3: Global Deviance = 1040.097 
+GAMLSS-RS iteration 4: Global Deviance = 1039.978 
+GAMLSS-RS iteration 5: Global Deviance = 1039.939 
+GAMLSS-RS iteration 6: Global Deviance = 1039.923 
+GAMLSS-RS iteration 7: Global Deviance = 1039.917 
+GAMLSS-RS iteration 8: Global Deviance = 1039.914 
+GAMLSS-RS iteration 9: Global Deviance = 1039.912 
+GAMLSS-RS iteration 10: Global Deviance = 1039.912 
+[1] "Left.Caudate"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 990.5641 
+GAMLSS-RS iteration 2: Global Deviance = 990.4885 
+GAMLSS-RS iteration 3: Global Deviance = 990.4622 
+GAMLSS-RS iteration 4: Global Deviance = 990.4499 
+GAMLSS-RS iteration 5: Global Deviance = 990.4441 
+GAMLSS-RS iteration 6: Global Deviance = 990.4414 
+GAMLSS-RS iteration 7: Global Deviance = 990.4402 
+GAMLSS-RS iteration 8: Global Deviance = 990.4396 
+[1] "Left.Putamen"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1029.525 
+GAMLSS-RS iteration 2: Global Deviance = 1026.198 
+GAMLSS-RS iteration 3: Global Deviance = 1025.145 
+GAMLSS-RS iteration 4: Global Deviance = 1024.77 
+GAMLSS-RS iteration 5: Global Deviance = 1024.609 
+GAMLSS-RS iteration 6: Global Deviance = 1024.53 
+GAMLSS-RS iteration 7: Global Deviance = 1024.486 
+GAMLSS-RS iteration 8: Global Deviance = 1024.461 
+GAMLSS-RS iteration 9: Global Deviance = 1024.445 
+GAMLSS-RS iteration 10: Global Deviance = 1024.433 
+GAMLSS-RS iteration 11: Global Deviance = 1024.425 
+GAMLSS-RS iteration 12: Global Deviance = 1024.421 
+GAMLSS-RS iteration 13: Global Deviance = 1024.418 
+GAMLSS-RS iteration 14: Global Deviance = 1024.417 
+[1] "Left.Pallidum"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 890.4538 
+GAMLSS-RS iteration 2: Global Deviance = 889.8412 
+GAMLSS-RS iteration 3: Global Deviance = 889.5983 
+GAMLSS-RS iteration 4: Global Deviance = 889.4817 
+GAMLSS-RS iteration 5: Global Deviance = 889.4241 
+GAMLSS-RS iteration 6: Global Deviance = 889.3936 
+GAMLSS-RS iteration 7: Global Deviance = 889.3791 
+GAMLSS-RS iteration 8: Global Deviance = 889.3717 
+GAMLSS-RS iteration 9: Global Deviance = 889.3679 
+GAMLSS-RS iteration 10: Global Deviance = 889.366 
+GAMLSS-RS iteration 11: Global Deviance = 889.365 
+[1] "X3rd.Ventricle"
+[1] "X4th.Ventricle"
+[1] "Brain.Stem"
+[1] "Left.Hippocampus"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 961.9028 
+GAMLSS-RS iteration 2: Global Deviance = 960.4475 
+GAMLSS-RS iteration 3: Global Deviance = 959.7946 
+GAMLSS-RS iteration 4: Global Deviance = 959.4734 
+GAMLSS-RS iteration 5: Global Deviance = 959.3075 
+GAMLSS-RS iteration 6: Global Deviance = 959.2209 
+GAMLSS-RS iteration 7: Global Deviance = 959.1746 
+GAMLSS-RS iteration 8: Global Deviance = 959.1495 
+GAMLSS-RS iteration 9: Global Deviance = 959.1358 
+GAMLSS-RS iteration 10: Global Deviance = 959.1282 
+GAMLSS-RS iteration 11: Global Deviance = 959.124 
+GAMLSS-RS iteration 12: Global Deviance = 959.1217 
+GAMLSS-RS iteration 13: Global Deviance = 959.1203 
+GAMLSS-RS iteration 14: Global Deviance = 959.1196 
+[1] "Left.Amygdala"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 931.584 
+GAMLSS-RS iteration 2: Global Deviance = 918.2763 
+GAMLSS-RS iteration 3: Global Deviance = 916.4046 
+GAMLSS-RS iteration 4: Global Deviance = 916.0215 
+GAMLSS-RS iteration 5: Global Deviance = 915.9069 
+GAMLSS-RS iteration 6: Global Deviance = 915.8961 
+GAMLSS-RS iteration 7: Global Deviance = 915.9271 
+GAMLSS-RS iteration 8: Global Deviance = 915.9674 
+GAMLSS-RS iteration 9: Global Deviance = 916.0012 
+GAMLSS-RS iteration 10: Global Deviance = 916.0344 
+GAMLSS-RS iteration 11: Global Deviance = 916.0611 
+GAMLSS-RS iteration 12: Global Deviance = 916.0776 
+GAMLSS-RS iteration 13: Global Deviance = 916.0922 
+GAMLSS-RS iteration 14: Global Deviance = 916.1043 
+GAMLSS-RS iteration 15: Global Deviance = 916.1129 
+GAMLSS-RS iteration 16: Global Deviance = 916.1189 
+GAMLSS-RS iteration 17: Global Deviance = 916.1231 
+GAMLSS-RS iteration 18: Global Deviance = 916.126 
+GAMLSS-RS iteration 19: Global Deviance = 916.128 
+GAMLSS-RS iteration 20: Global Deviance = 916.1294 
+[1] "CSF"
+[1] "Left.Accumbens.area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 806.4112 
+GAMLSS-RS iteration 2: Global Deviance = 808.3456 
+GAMLSS-RS iteration 3: Global Deviance = 808.2856 
+GAMLSS-RS iteration 4: Global Deviance = 808.2525 
+GAMLSS-RS iteration 5: Global Deviance = 808.2363 
+GAMLSS-RS iteration 6: Global Deviance = 808.2283 
+GAMLSS-RS iteration 7: Global Deviance = 808.2243 
+GAMLSS-RS iteration 8: Global Deviance = 808.2222 
+GAMLSS-RS iteration 9: Global Deviance = 808.2213 
+[1] "Left.VentralDC"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 969.8416 
+GAMLSS-RS iteration 2: Global Deviance = 969.7859 
+GAMLSS-RS iteration 3: Global Deviance = 969.7732 
+GAMLSS-RS iteration 4: Global Deviance = 969.7683 
+GAMLSS-RS iteration 5: Global Deviance = 969.7669 
+GAMLSS-RS iteration 6: Global Deviance = 969.7662 
+[1] "Left.vessel"
+[1] "Left.choroid.plexus"
+[1] "Right.Lateral.Ventricle"
+[1] "Right.Inf.Lat.Vent"
+[1] "Right.Cerebellum.White.Matter"
+[1] "Right.Cerebellum.Cortex"
+[1] "Right.Thalamus"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1061.704 
+GAMLSS-RS iteration 2: Global Deviance = 1060.234 
+GAMLSS-RS iteration 3: Global Deviance = 1059.975 
+GAMLSS-RS iteration 4: Global Deviance = 1059.97 
+GAMLSS-RS iteration 5: Global Deviance = 1059.97 
+[1] "Right.Caudate"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 983.4626 
+GAMLSS-RS iteration 2: Global Deviance = 983.1644 
+GAMLSS-RS iteration 3: Global Deviance = 983.0532 
+GAMLSS-RS iteration 4: Global Deviance = 983.0015 
+GAMLSS-RS iteration 5: Global Deviance = 982.9771 
+GAMLSS-RS iteration 6: Global Deviance = 982.9656 
+GAMLSS-RS iteration 7: Global Deviance = 982.96 
+GAMLSS-RS iteration 8: Global Deviance = 982.9573 
+GAMLSS-RS iteration 9: Global Deviance = 982.956 
+GAMLSS-RS iteration 10: Global Deviance = 982.9554 
+[1] "Right.Putamen"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1004.008 
+GAMLSS-RS iteration 2: Global Deviance = 1003.813 
+GAMLSS-RS iteration 3: Global Deviance = 1003.747 
+GAMLSS-RS iteration 4: Global Deviance = 1003.715 
+GAMLSS-RS iteration 5: Global Deviance = 1003.699 
+GAMLSS-RS iteration 6: Global Deviance = 1003.692 
+GAMLSS-RS iteration 7: Global Deviance = 1003.688 
+GAMLSS-RS iteration 8: Global Deviance = 1003.686 
+GAMLSS-RS iteration 9: Global Deviance = 1003.686 
+[1] "Right.Pallidum"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 869.0512 
+GAMLSS-RS iteration 2: Global Deviance = 868.7744 
+GAMLSS-RS iteration 3: Global Deviance = 868.6866 
+GAMLSS-RS iteration 4: Global Deviance = 868.6401 
+GAMLSS-RS iteration 5: Global Deviance = 868.6142 
+GAMLSS-RS iteration 6: Global Deviance = 868.5996 
+GAMLSS-RS iteration 7: Global Deviance = 868.5913 
+GAMLSS-RS iteration 8: Global Deviance = 868.5866 
+GAMLSS-RS iteration 9: Global Deviance = 868.5838 
+GAMLSS-RS iteration 10: Global Deviance = 868.5823 
+GAMLSS-RS iteration 11: Global Deviance = 868.5814 
+[1] "Right.Hippocampus"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 973.0009 
+GAMLSS-RS iteration 2: Global Deviance = 971.9933 
+GAMLSS-RS iteration 3: Global Deviance = 971.6962 
+GAMLSS-RS iteration 4: Global Deviance = 971.6045 
+GAMLSS-RS iteration 5: Global Deviance = 971.567 
+GAMLSS-RS iteration 6: Global Deviance = 971.5482 
+GAMLSS-RS iteration 7: Global Deviance = 971.5356 
+GAMLSS-RS iteration 8: Global Deviance = 971.526 
+GAMLSS-RS iteration 9: Global Deviance = 971.5186 
+GAMLSS-RS iteration 10: Global Deviance = 971.5128 
+GAMLSS-RS iteration 11: Global Deviance = 971.5083 
+GAMLSS-RS iteration 12: Global Deviance = 971.5051 
+GAMLSS-RS iteration 13: Global Deviance = 971.5009 
+GAMLSS-RS iteration 14: Global Deviance = 971.4991 
+GAMLSS-RS iteration 15: Global Deviance = 971.4976 
+GAMLSS-RS iteration 16: Global Deviance = 971.4965 
+GAMLSS-RS iteration 17: Global Deviance = 971.4955 
+[1] "Right.Amygdala"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 862.6243 
+GAMLSS-RS iteration 2: Global Deviance = 862.5072 
+GAMLSS-RS iteration 3: Global Deviance = 862.4062 
+GAMLSS-RS iteration 4: Global Deviance = 862.2925 
+GAMLSS-RS iteration 5: Global Deviance = 862.196 
+GAMLSS-RS iteration 6: Global Deviance = 862.1229 
+GAMLSS-RS iteration 7: Global Deviance = 862.0679 
+GAMLSS-RS iteration 8: Global Deviance = 862.0278 
+GAMLSS-RS iteration 9: Global Deviance = 861.9986 
+GAMLSS-RS iteration 10: Global Deviance = 861.9774 
+GAMLSS-RS iteration 11: Global Deviance = 861.9622 
+GAMLSS-RS iteration 12: Global Deviance = 861.9505 
+GAMLSS-RS iteration 13: Global Deviance = 861.9416 
+GAMLSS-RS iteration 14: Global Deviance = 861.9349 
+GAMLSS-RS iteration 15: Global Deviance = 861.9299 
+GAMLSS-RS iteration 16: Global Deviance = 861.9263 
+GAMLSS-RS iteration 17: Global Deviance = 861.9235 
+GAMLSS-RS iteration 18: Global Deviance = 861.9214 
+GAMLSS-RS iteration 19: Global Deviance = 861.9197 
+GAMLSS-RS iteration 20: Global Deviance = 861.9188 
+[1] "Right.Accumbens.area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 778.5502 
+GAMLSS-RS iteration 2: Global Deviance = 777.9521 
+GAMLSS-RS iteration 3: Global Deviance = 777.8157 
+GAMLSS-RS iteration 4: Global Deviance = 777.7648 
+GAMLSS-RS iteration 5: Global Deviance = 777.7453 
+GAMLSS-RS iteration 6: Global Deviance = 777.7377 
+GAMLSS-RS iteration 7: Global Deviance = 777.7347 
+GAMLSS-RS iteration 8: Global Deviance = 777.7336 
+GAMLSS-RS iteration 9: Global Deviance = 777.7331 
+[1] "Right.VentralDC"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 958.8412 
+GAMLSS-RS iteration 2: Global Deviance = 957.8008 
+GAMLSS-RS iteration 3: Global Deviance = 957.3525 
+GAMLSS-RS iteration 4: Global Deviance = 957.1886 
+GAMLSS-RS iteration 5: Global Deviance = 957.1475 
+GAMLSS-RS iteration 6: Global Deviance = 957.1591 
+GAMLSS-RS iteration 7: Global Deviance = 957.1907 
+GAMLSS-RS iteration 8: Global Deviance = 957.2274 
+GAMLSS-RS iteration 9: Global Deviance = 957.2621 
+GAMLSS-RS iteration 10: Global Deviance = 957.2924 
+GAMLSS-RS iteration 11: Global Deviance = 957.3177 
+GAMLSS-RS iteration 12: Global Deviance = 957.3378 
+GAMLSS-RS iteration 13: Global Deviance = 957.3534 
+GAMLSS-RS iteration 14: Global Deviance = 957.3654 
+GAMLSS-RS iteration 15: Global Deviance = 957.3745 
+GAMLSS-RS iteration 16: Global Deviance = 957.3813 
+GAMLSS-RS iteration 17: Global Deviance = 957.3864 
+GAMLSS-RS iteration 18: Global Deviance = 957.3902 
+GAMLSS-RS iteration 19: Global Deviance = 957.393 
+GAMLSS-RS iteration 20: Global Deviance = 957.395 
+[1] "Right.vessel"
+[1] "Right.choroid.plexus"
+[1] "X5th.Ventricle"
+[1] "WM.hypointensities"
+[1] "Left.WM.hypointensities"
+[1] "Right.WM.hypointensities"
+[1] "non.WM.hypointensities"
+[1] "Left.non.WM.hypointensities"
+[1] "Right.non.WM.hypointensities"
+[1] "Optic.Chiasm"
+[1] "CC_Posterior"
+[1] "CC_Mid_Posterior"
+[1] "CC_Central"
+[1] "CC_Mid_Anterior"
+[1] "CC_Anterior"
+[1] "BrainSegVol"
+[1] "BrainSegVolNotVent"
+[1] "lhCortexVol"
+[1] "rhCortexVol"
+[1] "CortexVol"
+[1] "lhCerebralWhiteMatterVol"
+[1] "rhCerebralWhiteMatterVol"
+[1] "CerebralWhiteMatterVol"
+[1] "SubCortGrayVol"
+[1] "TotalGrayVol"
+[1] "SupraTentorialVol"
+[1] "SupraTentorialVolNotVent"
+[1] "MaskVol"
+[1] "BrainSegVol.to.eTIV"
+[1] "MaskVol.to.eTIV"
+[1] "SurfaceHoles"
+[1] "EstimatedTotalIntraCranialVol"
+[1] "cerebellum_WM"
+[1] "cerebellum_GM"
+[1] "cerebellum_total"
+[1] "CC"
+[1] "lh.aparc.volume"
+[1] "lh_bankssts_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1023.381 
+GAMLSS-RS iteration 2: Global Deviance = 1021.576 
+GAMLSS-RS iteration 3: Global Deviance = 1021.228 
+GAMLSS-RS iteration 4: Global Deviance = 1021.112 
+GAMLSS-RS iteration 5: Global Deviance = 1021.057 
+GAMLSS-RS iteration 6: Global Deviance = 1021.026 
+GAMLSS-RS iteration 7: Global Deviance = 1021.009 
+GAMLSS-RS iteration 8: Global Deviance = 1020.999 
+GAMLSS-RS iteration 9: Global Deviance = 1020.992 
+GAMLSS-RS iteration 10: Global Deviance = 1020.988 
+GAMLSS-RS iteration 11: Global Deviance = 1020.985 
+GAMLSS-RS iteration 12: Global Deviance = 1020.983 
+GAMLSS-RS iteration 13: Global Deviance = 1020.982 
+[1] "lh_caudalanteriorcingulate_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 974.5656 
+GAMLSS-RS iteration 2: Global Deviance = 974.4337 
+GAMLSS-RS iteration 3: Global Deviance = 974.3779 
+GAMLSS-RS iteration 4: Global Deviance = 974.3501 
+GAMLSS-RS iteration 5: Global Deviance = 974.3363 
+GAMLSS-RS iteration 6: Global Deviance = 974.3294 
+GAMLSS-RS iteration 7: Global Deviance = 974.326 
+GAMLSS-RS iteration 8: Global Deviance = 974.3244 
+GAMLSS-RS iteration 9: Global Deviance = 974.3236 
+[1] "lh_caudalmiddlefrontal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1146.362 
+GAMLSS-RS iteration 2: Global Deviance = 1146.343 
+GAMLSS-RS iteration 3: Global Deviance = 1146.337 
+GAMLSS-RS iteration 4: Global Deviance = 1146.335 
+GAMLSS-RS iteration 5: Global Deviance = 1146.334 
+[1] "lh_cuneus_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 976.0139 
+GAMLSS-RS iteration 2: Global Deviance = 975.9986 
+GAMLSS-RS iteration 3: Global Deviance = 975.9984 
+[1] "lh_entorhinal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 991.3369 
+GAMLSS-RS iteration 2: Global Deviance = 986.0622 
+GAMLSS-RS iteration 3: Global Deviance = 984.9351 
+GAMLSS-RS iteration 4: Global Deviance = 984.1512 
+GAMLSS-RS iteration 5: Global Deviance = 983.7517 
+GAMLSS-RS iteration 6: Global Deviance = 983.5347 
+GAMLSS-RS iteration 7: Global Deviance = 983.4113 
+GAMLSS-RS iteration 8: Global Deviance = 983.3415 
+GAMLSS-RS iteration 9: Global Deviance = 983.3018 
+GAMLSS-RS iteration 10: Global Deviance = 983.2799 
+GAMLSS-RS iteration 11: Global Deviance = 983.2693 
+GAMLSS-RS iteration 12: Global Deviance = 983.2654 
+GAMLSS-RS iteration 13: Global Deviance = 983.2654 
+[1] "lh_fusiform_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1132.483 
+GAMLSS-RS iteration 2: Global Deviance = 1132.408 
+GAMLSS-RS iteration 3: Global Deviance = 1132.4 
+GAMLSS-RS iteration 4: Global Deviance = 1132.397 
+GAMLSS-RS iteration 5: Global Deviance = 1132.396 
+GAMLSS-RS iteration 6: Global Deviance = 1132.395 
+[1] "lh_inferiorparietal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1176.545 
+GAMLSS-RS iteration 2: Global Deviance = 1175.554 
+GAMLSS-RS iteration 3: Global Deviance = 1175.268 
+GAMLSS-RS iteration 4: Global Deviance = 1175.186 
+GAMLSS-RS iteration 5: Global Deviance = 1175.175 
+GAMLSS-RS iteration 6: Global Deviance = 1175.185 
+GAMLSS-RS iteration 7: Global Deviance = 1175.199 
+GAMLSS-RS iteration 8: Global Deviance = 1175.211 
+GAMLSS-RS iteration 9: Global Deviance = 1175.22 
+GAMLSS-RS iteration 10: Global Deviance = 1175.227 
+GAMLSS-RS iteration 11: Global Deviance = 1175.231 
+GAMLSS-RS iteration 12: Global Deviance = 1175.234 
+GAMLSS-RS iteration 13: Global Deviance = 1175.237 
+GAMLSS-RS iteration 14: Global Deviance = 1175.238 
+GAMLSS-RS iteration 15: Global Deviance = 1175.239 
+GAMLSS-RS iteration 16: Global Deviance = 1175.24 
+[1] "lh_inferiortemporal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1149.616 
+GAMLSS-RS iteration 2: Global Deviance = 1149.169 
+GAMLSS-RS iteration 3: Global Deviance = 1149.032 
+GAMLSS-RS iteration 4: Global Deviance = 1148.985 
+GAMLSS-RS iteration 5: Global Deviance = 1148.969 
+GAMLSS-RS iteration 6: Global Deviance = 1148.963 
+GAMLSS-RS iteration 7: Global Deviance = 1148.961 
+GAMLSS-RS iteration 8: Global Deviance = 1148.96 
+[1] "lh_isthmuscingulate_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 944.8334 
+GAMLSS-RS iteration 2: Global Deviance = 944.8095 
+GAMLSS-RS iteration 3: Global Deviance = 944.8024 
+GAMLSS-RS iteration 4: Global Deviance = 944.8001 
+GAMLSS-RS iteration 5: Global Deviance = 944.7993 
+[1] "lh_lateraloccipital_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1134.859 
+GAMLSS-RS iteration 2: Global Deviance = 1133.36 
+GAMLSS-RS iteration 3: Global Deviance = 1132.921 
+GAMLSS-RS iteration 4: Global Deviance = 1132.744 
+GAMLSS-RS iteration 5: Global Deviance = 1132.667 
+GAMLSS-RS iteration 6: Global Deviance = 1132.633 
+GAMLSS-RS iteration 7: Global Deviance = 1132.618 
+GAMLSS-RS iteration 8: Global Deviance = 1132.611 
+GAMLSS-RS iteration 9: Global Deviance = 1132.608 
+GAMLSS-RS iteration 10: Global Deviance = 1132.607 
+GAMLSS-RS iteration 11: Global Deviance = 1132.606 
+[1] "lh_lateralorbitofrontal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1049.532 
+GAMLSS-RS iteration 2: Global Deviance = 1049.105 
+GAMLSS-RS iteration 3: Global Deviance = 1049.328 
+GAMLSS-RS iteration 4: Global Deviance = 1049.468 
+GAMLSS-RS iteration 5: Global Deviance = 1049.515 
+GAMLSS-RS iteration 6: Global Deviance = 1049.551 
+GAMLSS-RS iteration 7: Global Deviance = 1049.574 
+GAMLSS-RS iteration 8: Global Deviance = 1049.59 
+GAMLSS-RS iteration 9: Global Deviance = 1049.604 
+GAMLSS-RS iteration 10: Global Deviance = 1049.613 
+GAMLSS-RS iteration 11: Global Deviance = 1049.621 
+GAMLSS-RS iteration 12: Global Deviance = 1049.627 
+GAMLSS-RS iteration 13: Global Deviance = 1049.631 
+GAMLSS-RS iteration 14: Global Deviance = 1049.634 
+GAMLSS-RS iteration 15: Global Deviance = 1049.638 
+GAMLSS-RS iteration 16: Global Deviance = 1049.639 
+GAMLSS-RS iteration 17: Global Deviance = 1049.641 
+GAMLSS-RS iteration 18: Global Deviance = 1049.642 
+[1] "lh_lingual_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1104.966 
+GAMLSS-RS iteration 2: Global Deviance = 1104.869 
+GAMLSS-RS iteration 3: Global Deviance = 1104.827 
+GAMLSS-RS iteration 4: Global Deviance = 1104.805 
+GAMLSS-RS iteration 5: Global Deviance = 1104.793 
+GAMLSS-RS iteration 6: Global Deviance = 1104.787 
+GAMLSS-RS iteration 7: Global Deviance = 1104.784 
+GAMLSS-RS iteration 8: Global Deviance = 1104.782 
+GAMLSS-RS iteration 9: Global Deviance = 1104.781 
+[1] "lh_medialorbitofrontal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1031.15 
+GAMLSS-RS iteration 2: Global Deviance = 1030.323 
+GAMLSS-RS iteration 3: Global Deviance = 1030.192 
+GAMLSS-RS iteration 4: Global Deviance = 1030.156 
+GAMLSS-RS iteration 5: Global Deviance = 1030.142 
+GAMLSS-RS iteration 6: Global Deviance = 1030.137 
+GAMLSS-RS iteration 7: Global Deviance = 1030.134 
+GAMLSS-RS iteration 8: Global Deviance = 1030.133 
+GAMLSS-RS iteration 9: Global Deviance = 1030.134 
+GAMLSS-RS iteration 10: Global Deviance = 1030.134 
+[1] "lh_middletemporal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1168.099 
+GAMLSS-RS iteration 2: Global Deviance = 1166.426 
+GAMLSS-RS iteration 3: Global Deviance = 1165.78 
+GAMLSS-RS iteration 4: Global Deviance = 1165.51 
+GAMLSS-RS iteration 5: Global Deviance = 1165.394 
+GAMLSS-RS iteration 6: Global Deviance = 1165.342 
+GAMLSS-RS iteration 7: Global Deviance = 1165.318 
+GAMLSS-RS iteration 8: Global Deviance = 1165.307 
+GAMLSS-RS iteration 9: Global Deviance = 1165.302 
+GAMLSS-RS iteration 10: Global Deviance = 1165.3 
+GAMLSS-RS iteration 11: Global Deviance = 1165.299 
+GAMLSS-RS iteration 12: Global Deviance = 1165.298 
+[1] "lh_parahippocampal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 953.4946 
+GAMLSS-RS iteration 2: Global Deviance = 953.2914 
+GAMLSS-RS iteration 3: Global Deviance = 953.2634 
+GAMLSS-RS iteration 4: Global Deviance = 953.2527 
+GAMLSS-RS iteration 5: Global Deviance = 953.2476 
+GAMLSS-RS iteration 6: Global Deviance = 953.2451 
+GAMLSS-RS iteration 7: Global Deviance = 953.2439 
+GAMLSS-RS iteration 8: Global Deviance = 953.2432 
+[1] "lh_paracentral_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1025.409 
+GAMLSS-RS iteration 2: Global Deviance = 1022.619 
+GAMLSS-RS iteration 3: Global Deviance = 1021.45 
+GAMLSS-RS iteration 4: Global Deviance = 1020.872 
+GAMLSS-RS iteration 5: Global Deviance = 1020.564 
+GAMLSS-RS iteration 6: Global Deviance = 1020.393 
+GAMLSS-RS iteration 7: Global Deviance = 1020.294 
+GAMLSS-RS iteration 8: Global Deviance = 1020.235 
+GAMLSS-RS iteration 9: Global Deviance = 1020.199 
+GAMLSS-RS iteration 10: Global Deviance = 1020.177 
+GAMLSS-RS iteration 11: Global Deviance = 1020.164 
+GAMLSS-RS iteration 12: Global Deviance = 1020.155 
+GAMLSS-RS iteration 13: Global Deviance = 1020.149 
+GAMLSS-RS iteration 14: Global Deviance = 1020.146 
+GAMLSS-RS iteration 15: Global Deviance = 1020.144 
+GAMLSS-RS iteration 16: Global Deviance = 1020.143 
+GAMLSS-RS iteration 17: Global Deviance = 1020.141 
+[1] "lh_parsopercularis_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1100.823 
+GAMLSS-RS iteration 2: Global Deviance = 1099.938 
+GAMLSS-RS iteration 3: Global Deviance = 1099.914 
+GAMLSS-RS iteration 4: Global Deviance = 1099.906 
+GAMLSS-RS iteration 5: Global Deviance = 1099.902 
+GAMLSS-RS iteration 6: Global Deviance = 1099.9 
+GAMLSS-RS iteration 7: Global Deviance = 1099.899 
+GAMLSS-RS iteration 8: Global Deviance = 1099.898 
+[1] "lh_parsorbitalis_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 977.0643 
+GAMLSS-RS iteration 2: Global Deviance = 975.4248 
+GAMLSS-RS iteration 3: Global Deviance = 974.7347 
+GAMLSS-RS iteration 4: Global Deviance = 974.3964 
+GAMLSS-RS iteration 5: Global Deviance = 974.221 
+GAMLSS-RS iteration 6: Global Deviance = 974.1269 
+GAMLSS-RS iteration 7: Global Deviance = 974.0753 
+GAMLSS-RS iteration 8: Global Deviance = 974.0466 
+GAMLSS-RS iteration 9: Global Deviance = 974.0301 
+GAMLSS-RS iteration 10: Global Deviance = 974.0211 
+GAMLSS-RS iteration 11: Global Deviance = 974.0158 
+GAMLSS-RS iteration 12: Global Deviance = 974.0128 
+GAMLSS-RS iteration 13: Global Deviance = 974.011 
+GAMLSS-RS iteration 14: Global Deviance = 974.01 
+GAMLSS-RS iteration 15: Global Deviance = 974.0094 
+[1] "lh_parstriangularis_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1051.371 
+GAMLSS-RS iteration 2: Global Deviance = 1050.373 
+GAMLSS-RS iteration 3: Global Deviance = 1050.072 
+GAMLSS-RS iteration 4: Global Deviance = 1049.93 
+GAMLSS-RS iteration 5: Global Deviance = 1049.858 
+GAMLSS-RS iteration 6: Global Deviance = 1049.82 
+GAMLSS-RS iteration 7: Global Deviance = 1049.799 
+GAMLSS-RS iteration 8: Global Deviance = 1049.788 
+GAMLSS-RS iteration 9: Global Deviance = 1049.781 
+GAMLSS-RS iteration 10: Global Deviance = 1049.778 
+GAMLSS-RS iteration 11: Global Deviance = 1049.776 
+GAMLSS-RS iteration 12: Global Deviance = 1049.775 
+[1] "lh_pericalcarine_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1011.741 
+GAMLSS-RS iteration 2: Global Deviance = 1009.321 
+GAMLSS-RS iteration 3: Global Deviance = 1008.681 
+GAMLSS-RS iteration 4: Global Deviance = 1008.484 
+GAMLSS-RS iteration 5: Global Deviance = 1008.416 
+GAMLSS-RS iteration 6: Global Deviance = 1008.386 
+GAMLSS-RS iteration 7: Global Deviance = 1008.372 
+GAMLSS-RS iteration 8: Global Deviance = 1008.366 
+GAMLSS-RS iteration 9: Global Deviance = 1008.361 
+GAMLSS-RS iteration 10: Global Deviance = 1008.358 
+GAMLSS-RS iteration 11: Global Deviance = 1008.356 
+GAMLSS-RS iteration 12: Global Deviance = 1008.354 
+GAMLSS-RS iteration 13: Global Deviance = 1008.352 
+GAMLSS-RS iteration 14: Global Deviance = 1008.351 
+[1] "lh_postcentral_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1091.935 
+GAMLSS-RS iteration 2: Global Deviance = 1091.761 
+GAMLSS-RS iteration 3: Global Deviance = 1091.73 
+GAMLSS-RS iteration 4: Global Deviance = 1091.717 
+GAMLSS-RS iteration 5: Global Deviance = 1091.712 
+GAMLSS-RS iteration 6: Global Deviance = 1091.71 
+GAMLSS-RS iteration 7: Global Deviance = 1091.709 
+[1] "lh_posteriorcingulate_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 998.5123 
+GAMLSS-RS iteration 2: Global Deviance = 996.0522 
+GAMLSS-RS iteration 3: Global Deviance = 994.5718 
+GAMLSS-RS iteration 4: Global Deviance = 993.834 
+GAMLSS-RS iteration 5: Global Deviance = 993.5018 
+GAMLSS-RS iteration 6: Global Deviance = 993.3679 
+GAMLSS-RS iteration 7: Global Deviance = 993.3131 
+GAMLSS-RS iteration 8: Global Deviance = 993.2887 
+GAMLSS-RS iteration 9: Global Deviance = 993.2771 
+GAMLSS-RS iteration 10: Global Deviance = 993.2718 
+GAMLSS-RS iteration 11: Global Deviance = 993.2689 
+GAMLSS-RS iteration 12: Global Deviance = 993.2664 
+GAMLSS-RS iteration 13: Global Deviance = 993.2654 
+[1] "lh_precentral_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1141.143 
+GAMLSS-RS iteration 2: Global Deviance = 1139.218 
+GAMLSS-RS iteration 3: Global Deviance = 1138.467 
+GAMLSS-RS iteration 4: Global Deviance = 1138.141 
+GAMLSS-RS iteration 5: Global Deviance = 1137.991 
+GAMLSS-RS iteration 6: Global Deviance = 1137.918 
+GAMLSS-RS iteration 7: Global Deviance = 1137.884 
+GAMLSS-RS iteration 8: Global Deviance = 1137.867 
+GAMLSS-RS iteration 9: Global Deviance = 1137.858 
+GAMLSS-RS iteration 10: Global Deviance = 1137.854 
+GAMLSS-RS iteration 11: Global Deviance = 1137.852 
+GAMLSS-RS iteration 12: Global Deviance = 1137.851 
+GAMLSS-RS iteration 13: Global Deviance = 1137.85 
+[1] "lh_precuneus_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1128.812 
+GAMLSS-RS iteration 2: Global Deviance = 1125.424 
+GAMLSS-RS iteration 3: Global Deviance = 1123.847 
+GAMLSS-RS iteration 4: Global Deviance = 1123.319 
+GAMLSS-RS iteration 5: Global Deviance = 1123.139 
+GAMLSS-RS iteration 6: Global Deviance = 1123.086 
+GAMLSS-RS iteration 7: Global Deviance = 1123.054 
+GAMLSS-RS iteration 8: Global Deviance = 1123.038 
+GAMLSS-RS iteration 9: Global Deviance = 1123.023 
+GAMLSS-RS iteration 10: Global Deviance = 1123.017 
+GAMLSS-RS iteration 11: Global Deviance = 1123.014 
+GAMLSS-RS iteration 12: Global Deviance = 1123.012 
+GAMLSS-RS iteration 13: Global Deviance = 1123.011 
+[1] "lh_rostralanteriorcingulate_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1030.882 
+GAMLSS-RS iteration 2: Global Deviance = 1032.38 
+GAMLSS-RS iteration 3: Global Deviance = 1032.317 
+GAMLSS-RS iteration 4: Global Deviance = 1032.283 
+GAMLSS-RS iteration 5: Global Deviance = 1032.263 
+GAMLSS-RS iteration 6: Global Deviance = 1032.25 
+GAMLSS-RS iteration 7: Global Deviance = 1032.243 
+GAMLSS-RS iteration 8: Global Deviance = 1032.238 
+GAMLSS-RS iteration 9: Global Deviance = 1032.235 
+GAMLSS-RS iteration 10: Global Deviance = 1032.234 
+GAMLSS-RS iteration 11: Global Deviance = 1032.233 
+[1] "lh_rostralmiddlefrontal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1183.05 
+GAMLSS-RS iteration 2: Global Deviance = 1181.816 
+GAMLSS-RS iteration 3: Global Deviance = 1181.452 
+GAMLSS-RS iteration 4: Global Deviance = 1181.278 
+GAMLSS-RS iteration 5: Global Deviance = 1181.19 
+GAMLSS-RS iteration 6: Global Deviance = 1181.145 
+GAMLSS-RS iteration 7: Global Deviance = 1181.121 
+GAMLSS-RS iteration 8: Global Deviance = 1181.108 
+GAMLSS-RS iteration 9: Global Deviance = 1181.101 
+GAMLSS-RS iteration 10: Global Deviance = 1181.098 
+GAMLSS-RS iteration 11: Global Deviance = 1181.096 
+GAMLSS-RS iteration 12: Global Deviance = 1181.094 
+GAMLSS-RS iteration 13: Global Deviance = 1181.094 
+[1] "lh_superiorfrontal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1230.843 
+GAMLSS-RS iteration 2: Global Deviance = 1229.373 
+GAMLSS-RS iteration 3: Global Deviance = 1228.959 
+GAMLSS-RS iteration 4: Global Deviance = 1228.761 
+GAMLSS-RS iteration 5: Global Deviance = 1228.661 
+GAMLSS-RS iteration 6: Global Deviance = 1228.608 
+GAMLSS-RS iteration 7: Global Deviance = 1228.579 
+GAMLSS-RS iteration 8: Global Deviance = 1228.563 
+GAMLSS-RS iteration 9: Global Deviance = 1228.553 
+GAMLSS-RS iteration 10: Global Deviance = 1228.548 
+GAMLSS-RS iteration 11: Global Deviance = 1228.545 
+GAMLSS-RS iteration 12: Global Deviance = 1228.543 
+GAMLSS-RS iteration 13: Global Deviance = 1228.542 
+[1] "lh_superiorparietal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1187.986 
+GAMLSS-RS iteration 2: Global Deviance = 1186.221 
+GAMLSS-RS iteration 3: Global Deviance = 1185.961 
+GAMLSS-RS iteration 4: Global Deviance = 1185.912 
+GAMLSS-RS iteration 5: Global Deviance = 1185.9 
+GAMLSS-RS iteration 6: Global Deviance = 1185.898 
+GAMLSS-RS iteration 7: Global Deviance = 1185.897 
+GAMLSS-RS iteration 8: Global Deviance = 1185.897 
+[1] "lh_superiortemporal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1149.821 
+GAMLSS-RS iteration 2: Global Deviance = 1149.589 
+GAMLSS-RS iteration 3: Global Deviance = 1149.582 
+GAMLSS-RS iteration 4: Global Deviance = 1149.582 
+[1] "lh_supramarginal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1192.155 
+GAMLSS-RS iteration 2: Global Deviance = 1189.331 
+GAMLSS-RS iteration 3: Global Deviance = 1187.829 
+GAMLSS-RS iteration 4: Global Deviance = 1186.918 
+GAMLSS-RS iteration 5: Global Deviance = 1186.321 
+GAMLSS-RS iteration 6: Global Deviance = 1185.907 
+GAMLSS-RS iteration 7: Global Deviance = 1185.606 
+GAMLSS-RS iteration 8: Global Deviance = 1185.381 
+GAMLSS-RS iteration 9: Global Deviance = 1185.207 
+GAMLSS-RS iteration 10: Global Deviance = 1185.071 
+GAMLSS-RS iteration 11: Global Deviance = 1184.963 
+GAMLSS-RS iteration 12: Global Deviance = 1184.874 
+GAMLSS-RS iteration 13: Global Deviance = 1184.801 
+GAMLSS-RS iteration 14: Global Deviance = 1184.74 
+GAMLSS-RS iteration 15: Global Deviance = 1184.689 
+GAMLSS-RS iteration 16: Global Deviance = 1184.646 
+GAMLSS-RS iteration 17: Global Deviance = 1184.608 
+GAMLSS-RS iteration 18: Global Deviance = 1184.576 
+GAMLSS-RS iteration 19: Global Deviance = 1184.549 
+GAMLSS-RS iteration 20: Global Deviance = 1184.525 
+[1] "lh_frontalpole_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 873.9647 
+GAMLSS-RS iteration 2: Global Deviance = 873.8819 
+GAMLSS-RS iteration 3: Global Deviance = 873.8475 
+GAMLSS-RS iteration 4: Global Deviance = 873.8297 
+GAMLSS-RS iteration 5: Global Deviance = 873.8202 
+GAMLSS-RS iteration 6: Global Deviance = 873.8151 
+GAMLSS-RS iteration 7: Global Deviance = 873.8123 
+GAMLSS-RS iteration 8: Global Deviance = 873.8109 
+GAMLSS-RS iteration 9: Global Deviance = 873.8101 
+[1] "lh_temporalpole_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 983.6446 
+GAMLSS-RS iteration 2: Global Deviance = 982.7997 
+GAMLSS-RS iteration 3: Global Deviance = 982.612 
+GAMLSS-RS iteration 4: Global Deviance = 982.5166 
+GAMLSS-RS iteration 5: Global Deviance = 982.4663 
+GAMLSS-RS iteration 6: Global Deviance = 982.4392 
+GAMLSS-RS iteration 7: Global Deviance = 982.4243 
+GAMLSS-RS iteration 8: Global Deviance = 982.416 
+GAMLSS-RS iteration 9: Global Deviance = 982.4113 
+GAMLSS-RS iteration 10: Global Deviance = 982.4086 
+GAMLSS-RS iteration 11: Global Deviance = 982.4071 
+GAMLSS-RS iteration 12: Global Deviance = 982.4064 
+[1] "lh_transversetemporal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 899.8005 
+GAMLSS-RS iteration 2: Global Deviance = 899.7138 
+GAMLSS-RS iteration 3: Global Deviance = 899.6812 
+GAMLSS-RS iteration 4: Global Deviance = 899.6652 
+GAMLSS-RS iteration 5: Global Deviance = 899.6573 
+GAMLSS-RS iteration 6: Global Deviance = 899.6533 
+GAMLSS-RS iteration 7: Global Deviance = 899.6514 
+GAMLSS-RS iteration 8: Global Deviance = 899.6505 
+[1] "lh_insula_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1075.331 
+GAMLSS-RS iteration 2: Global Deviance = 1075.322 
+GAMLSS-RS iteration 3: Global Deviance = 1075.321 
+[1] "BrainSegVolNotVent"
+[1] "eTIV"
+[1] "rh.aparc.volume"
+[1] "rh_bankssts_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 975.4329 
+GAMLSS-RS iteration 2: Global Deviance = 975.6808 
+GAMLSS-RS iteration 3: Global Deviance = 975.577 
+GAMLSS-RS iteration 4: Global Deviance = 975.5399 
+GAMLSS-RS iteration 5: Global Deviance = 975.5259 
+GAMLSS-RS iteration 6: Global Deviance = 975.5206 
+GAMLSS-RS iteration 7: Global Deviance = 975.5186 
+GAMLSS-RS iteration 8: Global Deviance = 975.5179 
+[1] "rh_caudalanteriorcingulate_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 999.7635 
+GAMLSS-RS iteration 2: Global Deviance = 1000.14 
+GAMLSS-RS iteration 3: Global Deviance = 1000.191 
+GAMLSS-RS iteration 4: Global Deviance = 1000.198 
+GAMLSS-RS iteration 5: Global Deviance = 1000.204 
+GAMLSS-RS iteration 6: Global Deviance = 1000.205 
+[1] "rh_caudalmiddlefrontal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1156.951 
+GAMLSS-RS iteration 2: Global Deviance = 1155.674 
+GAMLSS-RS iteration 3: Global Deviance = 1155.307 
+GAMLSS-RS iteration 4: Global Deviance = 1155.058 
+GAMLSS-RS iteration 5: Global Deviance = 1154.869 
+GAMLSS-RS iteration 6: Global Deviance = 1154.723 
+GAMLSS-RS iteration 7: Global Deviance = 1154.608 
+GAMLSS-RS iteration 8: Global Deviance = 1154.516 
+GAMLSS-RS iteration 9: Global Deviance = 1154.443 
+GAMLSS-RS iteration 10: Global Deviance = 1154.383 
+GAMLSS-RS iteration 11: Global Deviance = 1154.335 
+GAMLSS-RS iteration 12: Global Deviance = 1154.295 
+GAMLSS-RS iteration 13: Global Deviance = 1154.262 
+GAMLSS-RS iteration 14: Global Deviance = 1154.234 
+GAMLSS-RS iteration 15: Global Deviance = 1154.21 
+GAMLSS-RS iteration 16: Global Deviance = 1154.19 
+GAMLSS-RS iteration 17: Global Deviance = 1154.173 
+GAMLSS-RS iteration 18: Global Deviance = 1154.158 
+GAMLSS-RS iteration 19: Global Deviance = 1154.146 
+GAMLSS-RS iteration 20: Global Deviance = 1154.135 
+[1] "rh_cuneus_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1001.344 
+GAMLSS-RS iteration 2: Global Deviance = 1000.747 
+GAMLSS-RS iteration 3: Global Deviance = 1000.49 
+GAMLSS-RS iteration 4: Global Deviance = 1000.374 
+GAMLSS-RS iteration 5: Global Deviance = 1000.32 
+GAMLSS-RS iteration 6: Global Deviance = 1000.293 
+GAMLSS-RS iteration 7: Global Deviance = 1000.28 
+GAMLSS-RS iteration 8: Global Deviance = 1000.273 
+GAMLSS-RS iteration 9: Global Deviance = 1000.27 
+GAMLSS-RS iteration 10: Global Deviance = 1000.268 
+GAMLSS-RS iteration 11: Global Deviance = 1000.268 
+[1] "rh_entorhinal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 936.6561 
+GAMLSS-RS iteration 2: Global Deviance = 935.9988 
+GAMLSS-RS iteration 3: Global Deviance = 935.9897 
+GAMLSS-RS iteration 4: Global Deviance = 935.9889 
+[1] "rh_fusiform_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1127.014 
+GAMLSS-RS iteration 2: Global Deviance = 1126.641 
+GAMLSS-RS iteration 3: Global Deviance = 1126.586 
+GAMLSS-RS iteration 4: Global Deviance = 1126.57 
+GAMLSS-RS iteration 5: Global Deviance = 1126.568 
+GAMLSS-RS iteration 6: Global Deviance = 1126.571 
+GAMLSS-RS iteration 7: Global Deviance = 1126.575 
+GAMLSS-RS iteration 8: Global Deviance = 1126.578 
+GAMLSS-RS iteration 9: Global Deviance = 1126.581 
+GAMLSS-RS iteration 10: Global Deviance = 1126.584 
+GAMLSS-RS iteration 11: Global Deviance = 1126.585 
+GAMLSS-RS iteration 12: Global Deviance = 1126.587 
+GAMLSS-RS iteration 13: Global Deviance = 1126.588 
+GAMLSS-RS iteration 14: Global Deviance = 1126.589 
+[1] "rh_inferiorparietal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1192.059 
+GAMLSS-RS iteration 2: Global Deviance = 1191.429 
+GAMLSS-RS iteration 3: Global Deviance = 1191.192 
+GAMLSS-RS iteration 4: Global Deviance = 1191.09 
+GAMLSS-RS iteration 5: Global Deviance = 1191.042 
+GAMLSS-RS iteration 6: Global Deviance = 1191.017 
+GAMLSS-RS iteration 7: Global Deviance = 1191.003 
+GAMLSS-RS iteration 8: Global Deviance = 1190.995 
+GAMLSS-RS iteration 9: Global Deviance = 1190.989 
+GAMLSS-RS iteration 10: Global Deviance = 1190.986 
+GAMLSS-RS iteration 11: Global Deviance = 1190.984 
+GAMLSS-RS iteration 12: Global Deviance = 1190.983 
+GAMLSS-RS iteration 13: Global Deviance = 1190.982 
+[1] "rh_inferiortemporal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1132.25 
+GAMLSS-RS iteration 2: Global Deviance = 1129.354 
+GAMLSS-RS iteration 3: Global Deviance = 1127.779 
+GAMLSS-RS iteration 4: Global Deviance = 1126.861 
+GAMLSS-RS iteration 5: Global Deviance = 1126.3 
+GAMLSS-RS iteration 6: Global Deviance = 1125.944 
+GAMLSS-RS iteration 7: Global Deviance = 1125.715 
+GAMLSS-RS iteration 8: Global Deviance = 1125.563 
+GAMLSS-RS iteration 9: Global Deviance = 1125.461 
+GAMLSS-RS iteration 10: Global Deviance = 1125.394 
+GAMLSS-RS iteration 11: Global Deviance = 1125.347 
+GAMLSS-RS iteration 12: Global Deviance = 1125.314 
+GAMLSS-RS iteration 13: Global Deviance = 1125.292 
+GAMLSS-RS iteration 14: Global Deviance = 1125.277 
+GAMLSS-RS iteration 15: Global Deviance = 1125.266 
+GAMLSS-RS iteration 16: Global Deviance = 1125.258 
+GAMLSS-RS iteration 17: Global Deviance = 1125.253 
+GAMLSS-RS iteration 18: Global Deviance = 1125.249 
+GAMLSS-RS iteration 19: Global Deviance = 1125.247 
+GAMLSS-RS iteration 20: Global Deviance = 1125.245 
+[1] "rh_isthmuscingulate_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 941.8323 
+GAMLSS-RS iteration 2: Global Deviance = 941.4834 
+GAMLSS-RS iteration 3: Global Deviance = 941.468 
+GAMLSS-RS iteration 4: Global Deviance = 941.4612 
+GAMLSS-RS iteration 5: Global Deviance = 941.4579 
+GAMLSS-RS iteration 6: Global Deviance = 941.4563 
+GAMLSS-RS iteration 7: Global Deviance = 941.4555 
+[1] "rh_lateraloccipital_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1153.04 
+GAMLSS-RS iteration 2: Global Deviance = 1151.605 
+GAMLSS-RS iteration 3: Global Deviance = 1151.543 
+GAMLSS-RS iteration 4: Global Deviance = 1151.531 
+GAMLSS-RS iteration 5: Global Deviance = 1151.527 
+GAMLSS-RS iteration 6: Global Deviance = 1151.525 
+GAMLSS-RS iteration 7: Global Deviance = 1151.525 
+[1] "rh_lateralorbitofrontal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1053.049 
+GAMLSS-RS iteration 2: Global Deviance = 1052.933 
+GAMLSS-RS iteration 3: Global Deviance = 1052.922 
+GAMLSS-RS iteration 4: Global Deviance = 1052.919 
+GAMLSS-RS iteration 5: Global Deviance = 1052.917 
+GAMLSS-RS iteration 6: Global Deviance = 1052.917 
+[1] "rh_lingual_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1115.236 
+GAMLSS-RS iteration 2: Global Deviance = 1114.951 
+GAMLSS-RS iteration 3: Global Deviance = 1114.892 
+GAMLSS-RS iteration 4: Global Deviance = 1114.862 
+GAMLSS-RS iteration 5: Global Deviance = 1114.846 
+GAMLSS-RS iteration 6: Global Deviance = 1114.837 
+GAMLSS-RS iteration 7: Global Deviance = 1114.833 
+GAMLSS-RS iteration 8: Global Deviance = 1114.831 
+GAMLSS-RS iteration 9: Global Deviance = 1114.829 
+GAMLSS-RS iteration 10: Global Deviance = 1114.829 
+[1] "rh_medialorbitofrontal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1022.815 
+GAMLSS-RS iteration 2: Global Deviance = 1022.572 
+GAMLSS-RS iteration 3: Global Deviance = 1022.533 
+GAMLSS-RS iteration 4: Global Deviance = 1022.517 
+GAMLSS-RS iteration 5: Global Deviance = 1022.51 
+GAMLSS-RS iteration 6: Global Deviance = 1022.507 
+GAMLSS-RS iteration 7: Global Deviance = 1022.506 
+GAMLSS-RS iteration 8: Global Deviance = 1022.505 
+[1] "rh_middletemporal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1172.248 
+GAMLSS-RS iteration 2: Global Deviance = 1172.126 
+GAMLSS-RS iteration 3: Global Deviance = 1172.092 
+GAMLSS-RS iteration 4: Global Deviance = 1172.077 
+GAMLSS-RS iteration 5: Global Deviance = 1172.071 
+GAMLSS-RS iteration 6: Global Deviance = 1172.068 
+GAMLSS-RS iteration 7: Global Deviance = 1172.067 
+GAMLSS-RS iteration 8: Global Deviance = 1172.066 
+[1] "rh_parahippocampal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 952.0008 
+GAMLSS-RS iteration 2: Global Deviance = 951.4043 
+GAMLSS-RS iteration 3: Global Deviance = 951.2594 
+GAMLSS-RS iteration 4: Global Deviance = 951.216 
+GAMLSS-RS iteration 5: Global Deviance = 951.1954 
+GAMLSS-RS iteration 6: Global Deviance = 951.188 
+GAMLSS-RS iteration 7: Global Deviance = 951.1849 
+GAMLSS-RS iteration 8: Global Deviance = 951.1837 
+GAMLSS-RS iteration 9: Global Deviance = 951.1832 
+[1] "rh_paracentral_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1004.403 
+GAMLSS-RS iteration 2: Global Deviance = 1004.127 
+GAMLSS-RS iteration 3: Global Deviance = 1003.985 
+GAMLSS-RS iteration 4: Global Deviance = 1003.91 
+GAMLSS-RS iteration 5: Global Deviance = 1003.87 
+GAMLSS-RS iteration 6: Global Deviance = 1003.849 
+GAMLSS-RS iteration 7: Global Deviance = 1003.837 
+GAMLSS-RS iteration 8: Global Deviance = 1003.831 
+GAMLSS-RS iteration 9: Global Deviance = 1003.827 
+GAMLSS-RS iteration 10: Global Deviance = 1003.825 
+GAMLSS-RS iteration 11: Global Deviance = 1003.824 
+GAMLSS-RS iteration 12: Global Deviance = 1003.823 
+[1] "rh_parsopercularis_volume"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1054.504 
+GAMLSS-RS iteration 2: Global Deviance = 1053.093 
+GAMLSS-RS iteration 3: Global Deviance = 1052.721 
+GAMLSS-RS iteration 4: Global Deviance = 1052.563 
+GAMLSS-RS iteration 5: Global Deviance = 1052.494 
+GAMLSS-RS iteration 6: Global Deviance = 1052.462 
+GAMLSS-RS iteration 7: Global Deviance = 1052.446 
+GAMLSS-RS iteration 8: Global Deviance = 1052.439 
+GAMLSS-RS iteration 9: Global Deviance = 1052.436 
+GAMLSS-RS iteration 10: Global Deviance = 1052.434 
+GAMLSS-RS iteration 11: Global Deviance = 1052.434 
+[1] "rh_parsorbitalis_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 982.7236 
+GAMLSS-RS iteration 2: Global Deviance = 981.6499 
+GAMLSS-RS iteration 3: Global Deviance = 981.2253 
+GAMLSS-RS iteration 4: Global Deviance = 981.0386 
+GAMLSS-RS iteration 5: Global Deviance = 980.9527 
+GAMLSS-RS iteration 6: Global Deviance = 980.9131 
+GAMLSS-RS iteration 7: Global Deviance = 980.8943 
+GAMLSS-RS iteration 8: Global Deviance = 980.8853 
+GAMLSS-RS iteration 9: Global Deviance = 980.8809 
+GAMLSS-RS iteration 10: Global Deviance = 980.8788 
+GAMLSS-RS iteration 11: Global Deviance = 980.8778 
+[1] "rh_parstriangularis_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1114.329 
+GAMLSS-RS iteration 2: Global Deviance = 1112.296 
+GAMLSS-RS iteration 3: Global Deviance = 1111.507 
+GAMLSS-RS iteration 4: Global Deviance = 1111.167 
+GAMLSS-RS iteration 5: Global Deviance = 1111.018 
+GAMLSS-RS iteration 6: Global Deviance = 1110.949 
+GAMLSS-RS iteration 7: Global Deviance = 1110.917 
+GAMLSS-RS iteration 8: Global Deviance = 1110.901 
+GAMLSS-RS iteration 9: Global Deviance = 1110.894 
+GAMLSS-RS iteration 10: Global Deviance = 1110.89 
+GAMLSS-RS iteration 11: Global Deviance = 1110.888 
+GAMLSS-RS iteration 12: Global Deviance = 1110.888 
+[1] "rh_pericalcarine_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1026.407 
+GAMLSS-RS iteration 2: Global Deviance = 1026.03 
+GAMLSS-RS iteration 3: Global Deviance = 1025.969 
+GAMLSS-RS iteration 4: Global Deviance = 1025.942 
+GAMLSS-RS iteration 5: Global Deviance = 1025.928 
+GAMLSS-RS iteration 6: Global Deviance = 1025.921 
+GAMLSS-RS iteration 7: Global Deviance = 1025.917 
+GAMLSS-RS iteration 8: Global Deviance = 1025.915 
+GAMLSS-RS iteration 9: Global Deviance = 1025.914 
+[1] "rh_postcentral_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1161.028 
+GAMLSS-RS iteration 2: Global Deviance = 1160.937 
+GAMLSS-RS iteration 3: Global Deviance = 1160.914 
+GAMLSS-RS iteration 4: Global Deviance = 1160.903 
+GAMLSS-RS iteration 5: Global Deviance = 1160.899 
+GAMLSS-RS iteration 6: Global Deviance = 1160.897 
+GAMLSS-RS iteration 7: Global Deviance = 1160.896 
+[1] "rh_posteriorcingulate_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 990.1927 
+GAMLSS-RS iteration 2: Global Deviance = 989.6148 
+GAMLSS-RS iteration 3: Global Deviance = 989.5553 
+GAMLSS-RS iteration 4: Global Deviance = 989.54 
+GAMLSS-RS iteration 5: Global Deviance = 989.5368 
+GAMLSS-RS iteration 6: Global Deviance = 989.538 
+GAMLSS-RS iteration 7: Global Deviance = 989.5398 
+GAMLSS-RS iteration 8: Global Deviance = 989.5415 
+GAMLSS-RS iteration 9: Global Deviance = 989.5428 
+GAMLSS-RS iteration 10: Global Deviance = 989.5437 
+[1] "rh_precentral_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1210.875 
+GAMLSS-RS iteration 2: Global Deviance = 1202.634 
+GAMLSS-RS iteration 3: Global Deviance = 1198.441 
+GAMLSS-RS iteration 4: Global Deviance = 1195.903 
+GAMLSS-RS iteration 5: Global Deviance = 1194.308 
+GAMLSS-RS iteration 6: Global Deviance = 1193.283 
+GAMLSS-RS iteration 7: Global Deviance = 1192.61 
+GAMLSS-RS iteration 8: Global Deviance = 1192.161 
+GAMLSS-RS iteration 9: Global Deviance = 1191.858 
+GAMLSS-RS iteration 10: Global Deviance = 1191.649 
+GAMLSS-RS iteration 11: Global Deviance = 1191.502 
+GAMLSS-RS iteration 12: Global Deviance = 1191.399 
+GAMLSS-RS iteration 13: Global Deviance = 1191.324 
+GAMLSS-RS iteration 14: Global Deviance = 1191.271 
+GAMLSS-RS iteration 15: Global Deviance = 1191.232 
+GAMLSS-RS iteration 16: Global Deviance = 1191.203 
+GAMLSS-RS iteration 17: Global Deviance = 1191.183 
+GAMLSS-RS iteration 18: Global Deviance = 1191.167 
+GAMLSS-RS iteration 19: Global Deviance = 1191.156 
+GAMLSS-RS iteration 20: Global Deviance = 1191.148 
+[1] "rh_precuneus_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1141.333 
+GAMLSS-RS iteration 2: Global Deviance = 1139.066 
+GAMLSS-RS iteration 3: Global Deviance = 1138.471 
+GAMLSS-RS iteration 4: Global Deviance = 1138.315 
+GAMLSS-RS iteration 5: Global Deviance = 1138.268 
+GAMLSS-RS iteration 6: Global Deviance = 1138.247 
+GAMLSS-RS iteration 7: Global Deviance = 1138.239 
+GAMLSS-RS iteration 8: Global Deviance = 1138.236 
+GAMLSS-RS iteration 9: Global Deviance = 1138.237 
+[1] "rh_rostralanteriorcingulate_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 993.5887 
+GAMLSS-RS iteration 2: Global Deviance = 993.271 
+GAMLSS-RS iteration 3: Global Deviance = 993.1973 
+GAMLSS-RS iteration 4: Global Deviance = 993.1763 
+GAMLSS-RS iteration 5: Global Deviance = 993.1698 
+GAMLSS-RS iteration 6: Global Deviance = 993.1681 
+GAMLSS-RS iteration 7: Global Deviance = 993.1674 
+[1] "rh_rostralmiddlefrontal_volume"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1236.883 
+GAMLSS-RS iteration 2: Global Deviance = 1236.705 
+GAMLSS-RS iteration 3: Global Deviance = 1236.672 
+GAMLSS-RS iteration 4: Global Deviance = 1236.66 
+GAMLSS-RS iteration 5: Global Deviance = 1236.655 
+GAMLSS-RS iteration 6: Global Deviance = 1236.654 
+GAMLSS-RS iteration 7: Global Deviance = 1236.653 
+[1] "rh_superiorfrontal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1239.999 
+GAMLSS-RS iteration 2: Global Deviance = 1239.709 
+GAMLSS-RS iteration 3: Global Deviance = 1239.698 
+GAMLSS-RS iteration 4: Global Deviance = 1239.694 
+GAMLSS-RS iteration 5: Global Deviance = 1239.693 
+GAMLSS-RS iteration 6: Global Deviance = 1239.692 
+[1] "rh_superiorparietal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1209.647 
+GAMLSS-RS iteration 2: Global Deviance = 1207.694 
+GAMLSS-RS iteration 3: Global Deviance = 1207.162 
+GAMLSS-RS iteration 4: Global Deviance = 1206.986 
+GAMLSS-RS iteration 5: Global Deviance = 1206.941 
+GAMLSS-RS iteration 6: Global Deviance = 1206.943 
+GAMLSS-RS iteration 7: Global Deviance = 1206.964 
+GAMLSS-RS iteration 8: Global Deviance = 1206.995 
+GAMLSS-RS iteration 9: Global Deviance = 1207.028 
+GAMLSS-RS iteration 10: Global Deviance = 1207.057 
+GAMLSS-RS iteration 11: Global Deviance = 1207.082 
+GAMLSS-RS iteration 12: Global Deviance = 1207.102 
+GAMLSS-RS iteration 13: Global Deviance = 1207.118 
+GAMLSS-RS iteration 14: Global Deviance = 1207.13 
+GAMLSS-RS iteration 15: Global Deviance = 1207.14 
+GAMLSS-RS iteration 16: Global Deviance = 1207.148 
+GAMLSS-RS iteration 17: Global Deviance = 1207.153 
+GAMLSS-RS iteration 18: Global Deviance = 1207.158 
+GAMLSS-RS iteration 19: Global Deviance = 1207.161 
+GAMLSS-RS iteration 20: Global Deviance = 1207.164 
+[1] "rh_superiortemporal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1154.85 
+GAMLSS-RS iteration 2: Global Deviance = 1154.5 
+GAMLSS-RS iteration 3: Global Deviance = 1154.349 
+GAMLSS-RS iteration 4: Global Deviance = 1154.266 
+GAMLSS-RS iteration 5: Global Deviance = 1154.221 
+GAMLSS-RS iteration 6: Global Deviance = 1154.194 
+GAMLSS-RS iteration 7: Global Deviance = 1154.178 
+GAMLSS-RS iteration 8: Global Deviance = 1154.169 
+GAMLSS-RS iteration 9: Global Deviance = 1154.164 
+GAMLSS-RS iteration 10: Global Deviance = 1154.161 
+GAMLSS-RS iteration 11: Global Deviance = 1154.159 
+GAMLSS-RS iteration 12: Global Deviance = 1154.158 
+GAMLSS-RS iteration 13: Global Deviance = 1154.157 
+[1] "rh_supramarginal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1190.071 
+GAMLSS-RS iteration 2: Global Deviance = 1189.499 
+GAMLSS-RS iteration 3: Global Deviance = 1189.188 
+GAMLSS-RS iteration 4: Global Deviance = 1189.008 
+GAMLSS-RS iteration 5: Global Deviance = 1188.9 
+GAMLSS-RS iteration 6: Global Deviance = 1188.835 
+GAMLSS-RS iteration 7: Global Deviance = 1188.795 
+GAMLSS-RS iteration 8: Global Deviance = 1188.77 
+GAMLSS-RS iteration 9: Global Deviance = 1188.753 
+GAMLSS-RS iteration 10: Global Deviance = 1188.742 
+GAMLSS-RS iteration 11: Global Deviance = 1188.735 
+GAMLSS-RS iteration 12: Global Deviance = 1188.731 
+GAMLSS-RS iteration 13: Global Deviance = 1188.727 
+GAMLSS-RS iteration 14: Global Deviance = 1188.725 
+GAMLSS-RS iteration 15: Global Deviance = 1188.724 
+GAMLSS-RS iteration 16: Global Deviance = 1188.723 
+[1] "rh_frontalpole_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 923.5007 
+GAMLSS-RS iteration 2: Global Deviance = 923.1193 
+GAMLSS-RS iteration 3: Global Deviance = 923.0969 
+GAMLSS-RS iteration 4: Global Deviance = 923.0949 
+GAMLSS-RS iteration 5: Global Deviance = 923.0946 
+[1] "rh_temporalpole_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1005.59 
+GAMLSS-RS iteration 2: Global Deviance = 1005.305 
+GAMLSS-RS iteration 3: Global Deviance = 1005.323 
+GAMLSS-RS iteration 4: Global Deviance = 1005.357 
+GAMLSS-RS iteration 5: Global Deviance = 1005.391 
+GAMLSS-RS iteration 6: Global Deviance = 1005.415 
+GAMLSS-RS iteration 7: Global Deviance = 1005.434 
+GAMLSS-RS iteration 8: Global Deviance = 1005.449 
+GAMLSS-RS iteration 9: Global Deviance = 1005.462 
+GAMLSS-RS iteration 10: Global Deviance = 1005.472 
+GAMLSS-RS iteration 11: Global Deviance = 1005.48 
+GAMLSS-RS iteration 12: Global Deviance = 1005.485 
+GAMLSS-RS iteration 13: Global Deviance = 1005.489 
+GAMLSS-RS iteration 14: Global Deviance = 1005.492 
+GAMLSS-RS iteration 15: Global Deviance = 1005.494 
+GAMLSS-RS iteration 16: Global Deviance = 1005.496 
+GAMLSS-RS iteration 17: Global Deviance = 1005.497 
+GAMLSS-RS iteration 18: Global Deviance = 1005.498 
+[1] "rh_transversetemporal_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 849.6505 
+GAMLSS-RS iteration 2: Global Deviance = 848.7554 
+GAMLSS-RS iteration 3: Global Deviance = 848.5144 
+GAMLSS-RS iteration 4: Global Deviance = 848.4475 
+GAMLSS-RS iteration 5: Global Deviance = 848.429 
+GAMLSS-RS iteration 6: Global Deviance = 848.4235 
+GAMLSS-RS iteration 7: Global Deviance = 848.4218 
+GAMLSS-RS iteration 8: Global Deviance = 848.4213 
+[1] "rh_insula_volume"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1068.145 
+GAMLSS-RS iteration 2: Global Deviance = 1067.136 
+GAMLSS-RS iteration 3: Global Deviance = 1066.78 
+GAMLSS-RS iteration 4: Global Deviance = 1066.649 
+GAMLSS-RS iteration 5: Global Deviance = 1066.599 
+GAMLSS-RS iteration 6: Global Deviance = 1066.58 
+GAMLSS-RS iteration 7: Global Deviance = 1066.573 
+GAMLSS-RS iteration 8: Global Deviance = 1066.568 
+GAMLSS-RS iteration 9: Global Deviance = 1066.567 
+GAMLSS-RS iteration 10: Global Deviance = 1066.567 
+[1] "BrainSegVolNotVent"
+[1] "eTIV"
+[1] "lh.aparc.thickness"
+[1] "lh_bankssts_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -64.1026 
+GAMLSS-RS iteration 2: Global Deviance = -64.2516 
+GAMLSS-RS iteration 3: Global Deviance = -64.31 
+GAMLSS-RS iteration 4: Global Deviance = -64.3357 
+GAMLSS-RS iteration 5: Global Deviance = -64.3485 
+GAMLSS-RS iteration 6: Global Deviance = -64.3538 
+GAMLSS-RS iteration 7: Global Deviance = -64.3562 
+GAMLSS-RS iteration 8: Global Deviance = -64.3573 
+GAMLSS-RS iteration 9: Global Deviance = -64.3577 
+[1] "lh_caudalanteriorcingulate_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -35.4861 
+GAMLSS-RS iteration 2: Global Deviance = -35.8766 
+GAMLSS-RS iteration 3: Global Deviance = -35.9031 
+GAMLSS-RS iteration 4: Global Deviance = -35.9187 
+GAMLSS-RS iteration 5: Global Deviance = -35.9192 
+[1] "lh_caudalmiddlefrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -71.2578 
+GAMLSS-RS iteration 2: Global Deviance = -71.5921 
+GAMLSS-RS iteration 3: Global Deviance = -71.5908 
+GAMLSS-RS iteration 4: Global Deviance = -71.5896 
+GAMLSS-RS iteration 5: Global Deviance = -71.5901 
+[1] "lh_cuneus_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -111.2061 
+GAMLSS-RS iteration 2: Global Deviance = -111.3255 
+GAMLSS-RS iteration 3: Global Deviance = -111.0063 
+GAMLSS-RS iteration 4: Global Deviance = -110.7787 
+GAMLSS-RS iteration 5: Global Deviance = -110.7476 
+GAMLSS-RS iteration 6: Global Deviance = -110.7423 
+GAMLSS-RS iteration 7: Global Deviance = -110.7408 
+GAMLSS-RS iteration 8: Global Deviance = -110.7402 
+[1] "lh_entorhinal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 66.5684 
+GAMLSS-RS iteration 2: Global Deviance = 66.4291 
+GAMLSS-RS iteration 3: Global Deviance = 66.3791 
+GAMLSS-RS iteration 4: Global Deviance = 66.3584 
+GAMLSS-RS iteration 5: Global Deviance = 66.3492 
+GAMLSS-RS iteration 6: Global Deviance = 66.3449 
+GAMLSS-RS iteration 7: Global Deviance = 66.3431 
+GAMLSS-RS iteration 8: Global Deviance = 66.3422 
+[1] "lh_fusiform_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -105.4937 
+GAMLSS-RS iteration 2: Global Deviance = -106.1605 
+GAMLSS-RS iteration 3: Global Deviance = -106.2917 
+GAMLSS-RS iteration 4: Global Deviance = -106.3258 
+GAMLSS-RS iteration 5: Global Deviance = -106.3364 
+GAMLSS-RS iteration 6: Global Deviance = -106.3411 
+GAMLSS-RS iteration 7: Global Deviance = -106.3436 
+GAMLSS-RS iteration 8: Global Deviance = -106.3448 
+GAMLSS-RS iteration 9: Global Deviance = -106.3456 
+[1] "lh_inferiorparietal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -105.8509 
+GAMLSS-RS iteration 2: Global Deviance = -106.1 
+GAMLSS-RS iteration 3: Global Deviance = -106.1512 
+GAMLSS-RS iteration 4: Global Deviance = -106.1734 
+GAMLSS-RS iteration 5: Global Deviance = -106.1835 
+GAMLSS-RS iteration 6: Global Deviance = -106.1813 
+GAMLSS-RS iteration 7: Global Deviance = -106.1831 
+GAMLSS-RS iteration 8: Global Deviance = -106.1839 
+[1] "lh_inferiortemporal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -100.7453 
+GAMLSS-RS iteration 2: Global Deviance = -101.3775 
+GAMLSS-RS iteration 3: Global Deviance = -101.5039 
+GAMLSS-RS iteration 4: Global Deviance = -101.4261 
+GAMLSS-RS iteration 5: Global Deviance = -101.2605 
+GAMLSS-RS iteration 6: Global Deviance = -101.0643 
+GAMLSS-RS iteration 7: Global Deviance = -100.8604 
+GAMLSS-RS iteration 8: Global Deviance = -100.6544 
+GAMLSS-RS iteration 9: Global Deviance = -100.4445 
+GAMLSS-RS iteration 10: Global Deviance = -100.2229 
+GAMLSS-RS iteration 11: Global Deviance = -99.9823 
+GAMLSS-RS iteration 12: Global Deviance = -99.6583 
+GAMLSS-RS iteration 13: Global Deviance = -99.6231 
+GAMLSS-RS iteration 14: Global Deviance = -99.6087 
+GAMLSS-RS iteration 15: Global Deviance = -99.5985 
+GAMLSS-RS iteration 16: Global Deviance = -99.5923 
+GAMLSS-RS iteration 17: Global Deviance = -99.5881 
+GAMLSS-RS iteration 18: Global Deviance = -99.5853 
+GAMLSS-RS iteration 19: Global Deviance = -99.5832 
+GAMLSS-RS iteration 20: Global Deviance = -99.5816 
+[1] "lh_isthmuscingulate_thickness"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = -86.6714 
+GAMLSS-RS iteration 2: Global Deviance = -87.2557 
+GAMLSS-RS iteration 3: Global Deviance = -87.4451 
+GAMLSS-RS iteration 4: Global Deviance = -87.5333 
+GAMLSS-RS iteration 5: Global Deviance = -87.5688 
+GAMLSS-RS iteration 6: Global Deviance = -87.588 
+GAMLSS-RS iteration 7: Global Deviance = -87.6011 
+GAMLSS-RS iteration 8: Global Deviance = -87.6112 
+GAMLSS-RS iteration 9: Global Deviance = -87.6184 
+GAMLSS-RS iteration 10: Global Deviance = -87.6233 
+GAMLSS-RS iteration 11: Global Deviance = -87.6267 
+GAMLSS-RS iteration 12: Global Deviance = -87.6289 
+GAMLSS-RS iteration 13: Global Deviance = -87.6304 
+GAMLSS-RS iteration 14: Global Deviance = -87.6313 
+[1] "lh_lateraloccipital_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -119.7309 
+GAMLSS-RS iteration 2: Global Deviance = -119.8653 
+GAMLSS-RS iteration 3: Global Deviance = -119.8404 
+GAMLSS-RS iteration 4: Global Deviance = -119.8088 
+GAMLSS-RS iteration 5: Global Deviance = -119.784 
+GAMLSS-RS iteration 6: Global Deviance = -119.7643 
+GAMLSS-RS iteration 7: Global Deviance = -119.7495 
+GAMLSS-RS iteration 8: Global Deviance = -119.7387 
+GAMLSS-RS iteration 9: Global Deviance = -119.7309 
+GAMLSS-RS iteration 10: Global Deviance = -119.7254 
+GAMLSS-RS iteration 11: Global Deviance = -119.7215 
+GAMLSS-RS iteration 12: Global Deviance = -119.7188 
+GAMLSS-RS iteration 13: Global Deviance = -119.7171 
+GAMLSS-RS iteration 14: Global Deviance = -119.7159 
+GAMLSS-RS iteration 15: Global Deviance = -119.7151 
+[1] "lh_lateralorbitofrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -75.3562 
+GAMLSS-RS iteration 2: Global Deviance = -76.753 
+GAMLSS-RS iteration 3: Global Deviance = -77.4823 
+GAMLSS-RS iteration 4: Global Deviance = -77.8892 
+GAMLSS-RS iteration 5: Global Deviance = -78.1236 
+GAMLSS-RS iteration 6: Global Deviance = -78.2618 
+GAMLSS-RS iteration 7: Global Deviance = -78.346 
+GAMLSS-RS iteration 8: Global Deviance = -78.4009 
+GAMLSS-RS iteration 9: Global Deviance = -78.4315 
+GAMLSS-RS iteration 10: Global Deviance = -78.452 
+GAMLSS-RS iteration 11: Global Deviance = -78.4653 
+GAMLSS-RS iteration 12: Global Deviance = -78.4739 
+GAMLSS-RS iteration 13: Global Deviance = -78.4795 
+GAMLSS-RS iteration 14: Global Deviance = -78.4832 
+GAMLSS-RS iteration 15: Global Deviance = -78.4857 
+GAMLSS-RS iteration 16: Global Deviance = -78.4873 
+GAMLSS-RS iteration 17: Global Deviance = -78.4883 
+[1] "lh_lingual_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -103.3472 
+GAMLSS-RS iteration 2: Global Deviance = -102.6798 
+GAMLSS-RS iteration 3: Global Deviance = -102.9247 
+GAMLSS-RS iteration 4: Global Deviance = -102.96 
+GAMLSS-RS iteration 5: Global Deviance = -102.9549 
+GAMLSS-RS iteration 6: Global Deviance = -102.9396 
+GAMLSS-RS iteration 7: Global Deviance = -102.9231 
+GAMLSS-RS iteration 8: Global Deviance = -102.9118 
+GAMLSS-RS iteration 9: Global Deviance = -102.9042 
+GAMLSS-RS iteration 10: Global Deviance = -102.8992 
+GAMLSS-RS iteration 11: Global Deviance = -102.8958 
+GAMLSS-RS iteration 12: Global Deviance = -102.8935 
+GAMLSS-RS iteration 13: Global Deviance = -102.8919 
+GAMLSS-RS iteration 14: Global Deviance = -102.8909 
+GAMLSS-RS iteration 15: Global Deviance = -102.8902 
+[1] "lh_medialorbitofrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -77.3847 
+GAMLSS-RS iteration 2: Global Deviance = -78.1322 
+GAMLSS-RS iteration 3: Global Deviance = -78.3067 
+GAMLSS-RS iteration 4: Global Deviance = -78.3902 
+GAMLSS-RS iteration 5: Global Deviance = -78.4324 
+GAMLSS-RS iteration 6: Global Deviance = -78.4551 
+GAMLSS-RS iteration 7: Global Deviance = -78.4678 
+GAMLSS-RS iteration 8: Global Deviance = -78.4747 
+GAMLSS-RS iteration 9: Global Deviance = -78.4787 
+GAMLSS-RS iteration 10: Global Deviance = -78.4799 
+GAMLSS-RS iteration 11: Global Deviance = -78.4824 
+GAMLSS-RS iteration 12: Global Deviance = -78.4831 
+[1] "lh_middletemporal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -97.9522 
+GAMLSS-RS iteration 2: Global Deviance = -98.2068 
+GAMLSS-RS iteration 3: Global Deviance = -98.3597 
+GAMLSS-RS iteration 4: Global Deviance = -98.4559 
+GAMLSS-RS iteration 5: Global Deviance = -98.5171 
+GAMLSS-RS iteration 6: Global Deviance = -98.5549 
+GAMLSS-RS iteration 7: Global Deviance = -98.58 
+GAMLSS-RS iteration 8: Global Deviance = -98.5973 
+GAMLSS-RS iteration 9: Global Deviance = -98.6094 
+GAMLSS-RS iteration 10: Global Deviance = -98.6176 
+GAMLSS-RS iteration 11: Global Deviance = -98.6233 
+GAMLSS-RS iteration 12: Global Deviance = -98.6276 
+GAMLSS-RS iteration 13: Global Deviance = -98.6309 
+GAMLSS-RS iteration 14: Global Deviance = -98.6334 
+GAMLSS-RS iteration 15: Global Deviance = -98.6353 
+GAMLSS-RS iteration 16: Global Deviance = -98.6368 
+GAMLSS-RS iteration 17: Global Deviance = -98.6377 
+[1] "lh_parahippocampal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -6.7374 
+GAMLSS-RS iteration 2: Global Deviance = -7.1604 
+GAMLSS-RS iteration 3: Global Deviance = -7.2929 
+GAMLSS-RS iteration 4: Global Deviance = -7.3492 
+GAMLSS-RS iteration 5: Global Deviance = -7.374 
+GAMLSS-RS iteration 6: Global Deviance = -7.3838 
+GAMLSS-RS iteration 7: Global Deviance = -7.3887 
+GAMLSS-RS iteration 8: Global Deviance = -7.391 
+GAMLSS-RS iteration 9: Global Deviance = -7.392 
+GAMLSS-RS iteration 10: Global Deviance = -7.3925 
+[1] "lh_paracentral_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -43.3135 
+GAMLSS-RS iteration 2: Global Deviance = -47.6441 
+GAMLSS-RS iteration 3: Global Deviance = -49.6407 
+GAMLSS-RS iteration 4: Global Deviance = -50.6628 
+GAMLSS-RS iteration 5: Global Deviance = -51.2299 
+GAMLSS-RS iteration 6: Global Deviance = -51.5599 
+GAMLSS-RS iteration 7: Global Deviance = -51.7584 
+GAMLSS-RS iteration 8: Global Deviance = -51.8806 
+GAMLSS-RS iteration 9: Global Deviance = -51.9571 
+GAMLSS-RS iteration 10: Global Deviance = -52.0057 
+GAMLSS-RS iteration 11: Global Deviance = -52.0368 
+GAMLSS-RS iteration 12: Global Deviance = -52.0569 
+GAMLSS-RS iteration 13: Global Deviance = -52.07 
+GAMLSS-RS iteration 14: Global Deviance = -52.0785 
+GAMLSS-RS iteration 15: Global Deviance = -52.0841 
+GAMLSS-RS iteration 16: Global Deviance = -52.0878 
+GAMLSS-RS iteration 17: Global Deviance = -52.0902 
+GAMLSS-RS iteration 18: Global Deviance = -52.0918 
+GAMLSS-RS iteration 19: Global Deviance = -52.0929 
+GAMLSS-RS iteration 20: Global Deviance = -52.0936 
+[1] "lh_parsopercularis_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -91.6414 
+GAMLSS-RS iteration 2: Global Deviance = -91.828 
+GAMLSS-RS iteration 3: Global Deviance = -91.8768 
+GAMLSS-RS iteration 4: Global Deviance = -91.8941 
+GAMLSS-RS iteration 5: Global Deviance = -91.9013 
+GAMLSS-RS iteration 6: Global Deviance = -91.9044 
+GAMLSS-RS iteration 7: Global Deviance = -91.9056 
+GAMLSS-RS iteration 8: Global Deviance = -91.9061 
+[1] "lh_parsorbitalis_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -32.8923 
+GAMLSS-RS iteration 2: Global Deviance = -33.5139 
+GAMLSS-RS iteration 3: Global Deviance = -33.7688 
+GAMLSS-RS iteration 4: Global Deviance = -33.8708 
+GAMLSS-RS iteration 5: Global Deviance = -33.9129 
+GAMLSS-RS iteration 6: Global Deviance = -33.9304 
+GAMLSS-RS iteration 7: Global Deviance = -33.9402 
+GAMLSS-RS iteration 8: Global Deviance = -33.9432 
+GAMLSS-RS iteration 9: Global Deviance = -33.9444 
+GAMLSS-RS iteration 10: Global Deviance = -33.9449 
+[1] "lh_parstriangularis_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -90.466 
+GAMLSS-RS iteration 2: Global Deviance = -90.8294 
+GAMLSS-RS iteration 3: Global Deviance = -90.9954 
+GAMLSS-RS iteration 4: Global Deviance = -91.0768 
+GAMLSS-RS iteration 5: Global Deviance = -91.1168 
+GAMLSS-RS iteration 6: Global Deviance = -91.1373 
+GAMLSS-RS iteration 7: Global Deviance = -91.148 
+GAMLSS-RS iteration 8: Global Deviance = -91.1536 
+GAMLSS-RS iteration 9: Global Deviance = -91.1519 
+GAMLSS-RS iteration 10: Global Deviance = -91.1533 
+GAMLSS-RS iteration 11: Global Deviance = -91.154 
+[1] "lh_pericalcarine_thickness"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = -78.0741 
+GAMLSS-RS iteration 2: Global Deviance = -78.0821 
+GAMLSS-RS iteration 3: Global Deviance = -78.0824 
+[1] "lh_postcentral_thickness"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = -111.2771 
+GAMLSS-RS iteration 2: Global Deviance = -114.5078 
+GAMLSS-RS iteration 3: Global Deviance = -115.8152 
+GAMLSS-RS iteration 4: Global Deviance = -116.5165 
+GAMLSS-RS iteration 5: Global Deviance = -116.946 
+GAMLSS-RS iteration 6: Global Deviance = -117.2259 
+GAMLSS-RS iteration 7: Global Deviance = -117.4138 
+GAMLSS-RS iteration 8: Global Deviance = -117.5424 
+GAMLSS-RS iteration 9: Global Deviance = -117.6319 
+GAMLSS-RS iteration 10: Global Deviance = -117.6951 
+GAMLSS-RS iteration 11: Global Deviance = -117.7407 
+GAMLSS-RS iteration 12: Global Deviance = -117.7738 
+GAMLSS-RS iteration 13: Global Deviance = -117.7982 
+GAMLSS-RS iteration 14: Global Deviance = -117.8163 
+GAMLSS-RS iteration 15: Global Deviance = -117.8295 
+GAMLSS-RS iteration 16: Global Deviance = -117.8394 
+GAMLSS-RS iteration 17: Global Deviance = -117.847 
+GAMLSS-RS iteration 18: Global Deviance = -117.8528 
+GAMLSS-RS iteration 19: Global Deviance = -117.8573 
+GAMLSS-RS iteration 20: Global Deviance = -117.8607 
+[1] "lh_posteriorcingulate_thickness"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = -63.3945 
+GAMLSS-RS iteration 2: Global Deviance = -63.515 
+GAMLSS-RS iteration 3: Global Deviance = -63.5692 
+GAMLSS-RS iteration 4: Global Deviance = -63.5965 
+GAMLSS-RS iteration 5: Global Deviance = -63.6103 
+GAMLSS-RS iteration 6: Global Deviance = -63.6173 
+GAMLSS-RS iteration 7: Global Deviance = -63.621 
+GAMLSS-RS iteration 8: Global Deviance = -63.6229 
+GAMLSS-RS iteration 9: Global Deviance = -63.6238 
+[1] "lh_precentral_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -109.4432 
+GAMLSS-RS iteration 2: Global Deviance = -110.438 
+GAMLSS-RS iteration 3: Global Deviance = -110.9178 
+GAMLSS-RS iteration 4: Global Deviance = -111.1643 
+GAMLSS-RS iteration 5: Global Deviance = -111.2953 
+GAMLSS-RS iteration 6: Global Deviance = -111.366 
+GAMLSS-RS iteration 7: Global Deviance = -111.4058 
+GAMLSS-RS iteration 8: Global Deviance = -111.4285 
+GAMLSS-RS iteration 9: Global Deviance = -111.4417 
+GAMLSS-RS iteration 10: Global Deviance = -111.4493 
+GAMLSS-RS iteration 11: Global Deviance = -111.4538 
+GAMLSS-RS iteration 12: Global Deviance = -111.4564 
+GAMLSS-RS iteration 13: Global Deviance = -111.458 
+GAMLSS-RS iteration 14: Global Deviance = -111.4589 
+[1] "lh_precuneus_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -103.2591 
+GAMLSS-RS iteration 2: Global Deviance = -103.4395 
+GAMLSS-RS iteration 3: Global Deviance = -103.4995 
+GAMLSS-RS iteration 4: Global Deviance = -103.528 
+GAMLSS-RS iteration 5: Global Deviance = -103.5431 
+GAMLSS-RS iteration 6: Global Deviance = -103.5515 
+GAMLSS-RS iteration 7: Global Deviance = -103.5559 
+GAMLSS-RS iteration 8: Global Deviance = -103.5583 
+GAMLSS-RS iteration 9: Global Deviance = -103.5595 
+GAMLSS-RS iteration 10: Global Deviance = -103.5602 
+[1] "lh_rostralanteriorcingulate_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -54.6886 
+GAMLSS-RS iteration 2: Global Deviance = -55.3201 
+GAMLSS-RS iteration 3: Global Deviance = -55.5842 
+GAMLSS-RS iteration 4: Global Deviance = -55.6986 
+GAMLSS-RS iteration 5: Global Deviance = -55.7503 
+GAMLSS-RS iteration 6: Global Deviance = -55.7738 
+GAMLSS-RS iteration 7: Global Deviance = -55.7846 
+GAMLSS-RS iteration 8: Global Deviance = -55.7896 
+GAMLSS-RS iteration 9: Global Deviance = -55.7919 
+GAMLSS-RS iteration 10: Global Deviance = -55.7929 
+GAMLSS-RS iteration 11: Global Deviance = -55.7934 
+[1] "lh_rostralmiddlefrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -112.8737 
+GAMLSS-RS iteration 2: Global Deviance = -114.11 
+GAMLSS-RS iteration 3: Global Deviance = -114.5975 
+GAMLSS-RS iteration 4: Global Deviance = -114.7985 
+GAMLSS-RS iteration 5: Global Deviance = -114.8811 
+GAMLSS-RS iteration 6: Global Deviance = -114.9166 
+GAMLSS-RS iteration 7: Global Deviance = -114.932 
+GAMLSS-RS iteration 8: Global Deviance = -114.9387 
+GAMLSS-RS iteration 9: Global Deviance = -114.9417 
+GAMLSS-RS iteration 10: Global Deviance = -114.943 
+GAMLSS-RS iteration 11: Global Deviance = -114.9476 
+GAMLSS-RS iteration 12: Global Deviance = -114.9478 
+[1] "lh_superiorfrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -73.9746 
+GAMLSS-RS iteration 2: Global Deviance = -74.9355 
+GAMLSS-RS iteration 3: Global Deviance = -75.1148 
+GAMLSS-RS iteration 4: Global Deviance = -75.1984 
+GAMLSS-RS iteration 5: Global Deviance = -75.247 
+GAMLSS-RS iteration 6: Global Deviance = -75.277 
+GAMLSS-RS iteration 7: Global Deviance = -75.2953 
+GAMLSS-RS iteration 8: Global Deviance = -75.3066 
+GAMLSS-RS iteration 9: Global Deviance = -75.3142 
+GAMLSS-RS iteration 10: Global Deviance = -75.3188 
+GAMLSS-RS iteration 11: Global Deviance = -75.3215 
+GAMLSS-RS iteration 12: Global Deviance = -75.3236 
+GAMLSS-RS iteration 13: Global Deviance = -75.3246 
+[1] "lh_superiorparietal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -102.1624 
+GAMLSS-RS iteration 2: Global Deviance = -102.6183 
+GAMLSS-RS iteration 3: Global Deviance = -102.874 
+GAMLSS-RS iteration 4: Global Deviance = -103.0175 
+GAMLSS-RS iteration 5: Global Deviance = -103.1015 
+GAMLSS-RS iteration 6: Global Deviance = -103.1516 
+GAMLSS-RS iteration 7: Global Deviance = -103.1815 
+GAMLSS-RS iteration 8: Global Deviance = -103.2001 
+GAMLSS-RS iteration 9: Global Deviance = -103.2119 
+GAMLSS-RS iteration 10: Global Deviance = -103.2195 
+GAMLSS-RS iteration 11: Global Deviance = -103.2243 
+GAMLSS-RS iteration 12: Global Deviance = -103.2274 
+GAMLSS-RS iteration 13: Global Deviance = -103.234 
+GAMLSS-RS iteration 14: Global Deviance = -103.235 
+[1] "lh_superiortemporal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -73.6202 
+GAMLSS-RS iteration 2: Global Deviance = -72.1742 
+GAMLSS-RS iteration 3: Global Deviance = -72.1832 
+GAMLSS-RS iteration 4: Global Deviance = -72.1864 
+GAMLSS-RS iteration 5: Global Deviance = -72.1876 
+GAMLSS-RS iteration 6: Global Deviance = -72.188 
+[1] "lh_supramarginal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -80.3904 
+GAMLSS-RS iteration 2: Global Deviance = -80.4285 
+GAMLSS-RS iteration 3: Global Deviance = -80.4407 
+GAMLSS-RS iteration 4: Global Deviance = -80.445 
+GAMLSS-RS iteration 5: Global Deviance = -80.4467 
+GAMLSS-RS iteration 6: Global Deviance = -80.4475 
+[1] "lh_frontalpole_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -0.4794 
+GAMLSS-RS iteration 2: Global Deviance = -0.6965 
+GAMLSS-RS iteration 3: Global Deviance = -0.8166 
+GAMLSS-RS iteration 4: Global Deviance = -0.8943 
+GAMLSS-RS iteration 5: Global Deviance = -0.9453 
+GAMLSS-RS iteration 6: Global Deviance = -0.9794 
+GAMLSS-RS iteration 7: Global Deviance = -1.0015 
+GAMLSS-RS iteration 8: Global Deviance = -1.0168 
+GAMLSS-RS iteration 9: Global Deviance = -1.0276 
+GAMLSS-RS iteration 10: Global Deviance = -1.0351 
+GAMLSS-RS iteration 11: Global Deviance = -1.0404 
+GAMLSS-RS iteration 12: Global Deviance = -1.0442 
+GAMLSS-RS iteration 13: Global Deviance = -1.0469 
+GAMLSS-RS iteration 14: Global Deviance = -1.0488 
+GAMLSS-RS iteration 15: Global Deviance = -1.05 
+GAMLSS-RS iteration 16: Global Deviance = -1.0509 
+[1] "lh_temporalpole_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 26.3763 
+GAMLSS-RS iteration 2: Global Deviance = 23.8716 
+GAMLSS-RS iteration 3: Global Deviance = 22.9661 
+GAMLSS-RS iteration 4: Global Deviance = 22.5833 
+GAMLSS-RS iteration 5: Global Deviance = 22.4079 
+GAMLSS-RS iteration 6: Global Deviance = 22.3209 
+GAMLSS-RS iteration 7: Global Deviance = 22.2781 
+GAMLSS-RS iteration 8: Global Deviance = 22.2559 
+GAMLSS-RS iteration 9: Global Deviance = 22.2443 
+GAMLSS-RS iteration 10: Global Deviance = 22.2381 
+GAMLSS-RS iteration 11: Global Deviance = 22.2347 
+GAMLSS-RS iteration 12: Global Deviance = 22.2329 
+GAMLSS-RS iteration 13: Global Deviance = 22.2319 
+[1] "lh_transversetemporal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -11.7406 
+GAMLSS-RS iteration 2: Global Deviance = -12.0068 
+GAMLSS-RS iteration 3: Global Deviance = -12.1151 
+GAMLSS-RS iteration 4: Global Deviance = -12.1641 
+GAMLSS-RS iteration 5: Global Deviance = -12.1869 
+GAMLSS-RS iteration 6: Global Deviance = -12.1976 
+GAMLSS-RS iteration 7: Global Deviance = -12.2027 
+GAMLSS-RS iteration 8: Global Deviance = -12.2052 
+GAMLSS-RS iteration 9: Global Deviance = -12.2063 
+GAMLSS-RS iteration 10: Global Deviance = -12.2069 
+[1] "lh_insula_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -75.7455 
+GAMLSS-RS iteration 2: Global Deviance = -75.9553 
+GAMLSS-RS iteration 3: Global Deviance = -76.0541 
+GAMLSS-RS iteration 4: Global Deviance = -76.1031 
+GAMLSS-RS iteration 5: Global Deviance = -76.128 
+GAMLSS-RS iteration 6: Global Deviance = -76.1417 
+GAMLSS-RS iteration 7: Global Deviance = -76.1487 
+GAMLSS-RS iteration 8: Global Deviance = -76.1522 
+GAMLSS-RS iteration 9: Global Deviance = -76.1537 
+GAMLSS-RS iteration 10: Global Deviance = -76.1551 
+GAMLSS-RS iteration 11: Global Deviance = -76.1549 
+[1] "lh_MeanThickness_thickness"
+[1] "BrainSegVolNotVent"
+[1] "eTIV"
+[1] "rh.aparc.thickness"
+[1] "rh_bankssts_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -75.4111 
+GAMLSS-RS iteration 2: Global Deviance = -75.6545 
+GAMLSS-RS iteration 3: Global Deviance = -75.7627 
+GAMLSS-RS iteration 4: Global Deviance = -75.8159 
+GAMLSS-RS iteration 5: Global Deviance = -75.8417 
+GAMLSS-RS iteration 6: Global Deviance = -75.855 
+GAMLSS-RS iteration 7: Global Deviance = -75.8618 
+GAMLSS-RS iteration 8: Global Deviance = -75.8653 
+GAMLSS-RS iteration 9: Global Deviance = -75.8672 
+GAMLSS-RS iteration 10: Global Deviance = -75.868 
+[1] "rh_caudalanteriorcingulate_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -43.2332 
+GAMLSS-RS iteration 2: Global Deviance = -43.3191 
+GAMLSS-RS iteration 3: Global Deviance = -43.3541 
+GAMLSS-RS iteration 4: Global Deviance = -43.371 
+GAMLSS-RS iteration 5: Global Deviance = -43.3792 
+GAMLSS-RS iteration 6: Global Deviance = -43.3833 
+GAMLSS-RS iteration 7: Global Deviance = -43.3852 
+GAMLSS-RS iteration 8: Global Deviance = -43.3861 
+[1] "rh_caudalmiddlefrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -38.2402 
+GAMLSS-RS iteration 2: Global Deviance = -38.4768 
+GAMLSS-RS iteration 3: Global Deviance = -38.6902 
+GAMLSS-RS iteration 4: Global Deviance = -38.7888 
+GAMLSS-RS iteration 5: Global Deviance = -38.8321 
+GAMLSS-RS iteration 6: Global Deviance = -38.8511 
+GAMLSS-RS iteration 7: Global Deviance = -38.8596 
+GAMLSS-RS iteration 8: Global Deviance = -38.8633 
+GAMLSS-RS iteration 9: Global Deviance = -38.865 
+GAMLSS-RS iteration 10: Global Deviance = -38.8658 
+[1] "rh_cuneus_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -84.0951 
+GAMLSS-RS iteration 2: Global Deviance = -84.1641 
+GAMLSS-RS iteration 3: Global Deviance = -84.1662 
+GAMLSS-RS iteration 4: Global Deviance = -84.1668 
+[1] "rh_entorhinal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 56.2877 
+GAMLSS-RS iteration 2: Global Deviance = 53.7382 
+GAMLSS-RS iteration 3: Global Deviance = 53.3842 
+GAMLSS-RS iteration 4: Global Deviance = 53.32 
+GAMLSS-RS iteration 5: Global Deviance = 53.3009 
+GAMLSS-RS iteration 6: Global Deviance = 53.2922 
+GAMLSS-RS iteration 7: Global Deviance = 53.2875 
+GAMLSS-RS iteration 8: Global Deviance = 53.2857 
+GAMLSS-RS iteration 9: Global Deviance = 53.2847 
+GAMLSS-RS iteration 10: Global Deviance = 53.284 
+[1] "rh_fusiform_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -117.1645 
+GAMLSS-RS iteration 2: Global Deviance = -117.6009 
+GAMLSS-RS iteration 3: Global Deviance = -117.7173 
+GAMLSS-RS iteration 4: Global Deviance = -117.7637 
+GAMLSS-RS iteration 5: Global Deviance = -117.7824 
+GAMLSS-RS iteration 6: Global Deviance = -117.79 
+GAMLSS-RS iteration 7: Global Deviance = -117.7931 
+GAMLSS-RS iteration 8: Global Deviance = -117.7943 
+GAMLSS-RS iteration 9: Global Deviance = -117.7949 
+[1] "rh_inferiorparietal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -99.2719 
+GAMLSS-RS iteration 2: Global Deviance = -99.7799 
+GAMLSS-RS iteration 3: Global Deviance = -99.911 
+GAMLSS-RS iteration 4: Global Deviance = -99.9694 
+GAMLSS-RS iteration 5: Global Deviance = -99.9969 
+GAMLSS-RS iteration 6: Global Deviance = -100.0087 
+GAMLSS-RS iteration 7: Global Deviance = -100.0157 
+GAMLSS-RS iteration 8: Global Deviance = -100.0175 
+GAMLSS-RS iteration 9: Global Deviance = -100.0195 
+GAMLSS-RS iteration 10: Global Deviance = -100.0197 
+[1] "rh_inferiortemporal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -81.2075 
+GAMLSS-RS iteration 2: Global Deviance = -81.4835 
+GAMLSS-RS iteration 3: Global Deviance = -81.6407 
+GAMLSS-RS iteration 4: Global Deviance = -81.7281 
+GAMLSS-RS iteration 5: Global Deviance = -81.7789 
+GAMLSS-RS iteration 6: Global Deviance = -81.8078 
+GAMLSS-RS iteration 7: Global Deviance = -81.8252 
+GAMLSS-RS iteration 8: Global Deviance = -81.8357 
+GAMLSS-RS iteration 9: Global Deviance = -81.8421 
+GAMLSS-RS iteration 10: Global Deviance = -81.846 
+GAMLSS-RS iteration 11: Global Deviance = -81.8484 
+GAMLSS-RS iteration 12: Global Deviance = -81.8498 
+GAMLSS-RS iteration 13: Global Deviance = -81.8505 
+[1] "rh_isthmuscingulate_thickness"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = -70.0205 
+GAMLSS-RS iteration 2: Global Deviance = -69.947 
+GAMLSS-RS iteration 3: Global Deviance = -69.9122 
+GAMLSS-RS iteration 4: Global Deviance = -69.8772 
+GAMLSS-RS iteration 5: Global Deviance = -69.8471 
+GAMLSS-RS iteration 6: Global Deviance = -69.8231 
+GAMLSS-RS iteration 7: Global Deviance = -69.8058 
+GAMLSS-RS iteration 8: Global Deviance = -69.7933 
+GAMLSS-RS iteration 9: Global Deviance = -69.7849 
+GAMLSS-RS iteration 10: Global Deviance = -69.7793 
+GAMLSS-RS iteration 11: Global Deviance = -69.7756 
+GAMLSS-RS iteration 12: Global Deviance = -69.7732 
+GAMLSS-RS iteration 13: Global Deviance = -69.7716 
+GAMLSS-RS iteration 14: Global Deviance = -69.7705 
+GAMLSS-RS iteration 15: Global Deviance = -69.7698 
+[1] "rh_lateraloccipital_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -118.9248 
+GAMLSS-RS iteration 2: Global Deviance = -119.1242 
+GAMLSS-RS iteration 3: Global Deviance = -119.2035 
+GAMLSS-RS iteration 4: Global Deviance = -119.2414 
+GAMLSS-RS iteration 5: Global Deviance = -119.2616 
+GAMLSS-RS iteration 6: Global Deviance = -119.2697 
+GAMLSS-RS iteration 7: Global Deviance = -119.2743 
+GAMLSS-RS iteration 8: Global Deviance = -119.2767 
+GAMLSS-RS iteration 9: Global Deviance = -119.2777 
+GAMLSS-RS iteration 10: Global Deviance = -119.2786 
+[1] "rh_lateralorbitofrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -73.4084 
+GAMLSS-RS iteration 2: Global Deviance = -77.0696 
+GAMLSS-RS iteration 3: Global Deviance = -78.1279 
+GAMLSS-RS iteration 4: Global Deviance = -78.5916 
+GAMLSS-RS iteration 5: Global Deviance = -78.8445 
+GAMLSS-RS iteration 6: Global Deviance = -78.9979 
+GAMLSS-RS iteration 7: Global Deviance = -79.1021 
+GAMLSS-RS iteration 8: Global Deviance = -79.1754 
+GAMLSS-RS iteration 9: Global Deviance = -79.2292 
+GAMLSS-RS iteration 10: Global Deviance = -79.269 
+GAMLSS-RS iteration 11: Global Deviance = -79.2995 
+GAMLSS-RS iteration 12: Global Deviance = -79.3228 
+GAMLSS-RS iteration 13: Global Deviance = -79.3414 
+GAMLSS-RS iteration 14: Global Deviance = -79.3558 
+GAMLSS-RS iteration 15: Global Deviance = -79.3658 
+GAMLSS-RS iteration 16: Global Deviance = -79.3744 
+GAMLSS-RS iteration 17: Global Deviance = -79.3816 
+GAMLSS-RS iteration 18: Global Deviance = -79.3876 
+GAMLSS-RS iteration 19: Global Deviance = -79.3926 
+GAMLSS-RS iteration 20: Global Deviance = -79.3967 
+[1] "rh_lingual_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -109.8184 
+GAMLSS-RS iteration 2: Global Deviance = -110.1167 
+GAMLSS-RS iteration 3: Global Deviance = -110.2126 
+GAMLSS-RS iteration 4: Global Deviance = -110.2545 
+GAMLSS-RS iteration 5: Global Deviance = -110.2727 
+GAMLSS-RS iteration 6: Global Deviance = -110.2806 
+GAMLSS-RS iteration 7: Global Deviance = -110.2842 
+GAMLSS-RS iteration 8: Global Deviance = -110.2857 
+GAMLSS-RS iteration 9: Global Deviance = -110.2864 
+[1] "rh_medialorbitofrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -94.0964 
+GAMLSS-RS iteration 2: Global Deviance = -98.052 
+GAMLSS-RS iteration 3: Global Deviance = -98.3627 
+GAMLSS-RS iteration 4: Global Deviance = -98.3924 
+GAMLSS-RS iteration 5: Global Deviance = -98.3483 
+GAMLSS-RS iteration 6: Global Deviance = -98.2834 
+GAMLSS-RS iteration 7: Global Deviance = -98.2159 
+GAMLSS-RS iteration 8: Global Deviance = -98.1529 
+GAMLSS-RS iteration 9: Global Deviance = -98.0971 
+GAMLSS-RS iteration 10: Global Deviance = -98.049 
+GAMLSS-RS iteration 11: Global Deviance = -98.008 
+GAMLSS-RS iteration 12: Global Deviance = -97.9736 
+GAMLSS-RS iteration 13: Global Deviance = -97.9447 
+GAMLSS-RS iteration 14: Global Deviance = -97.9207 
+GAMLSS-RS iteration 15: Global Deviance = -97.9016 
+GAMLSS-RS iteration 16: Global Deviance = -97.8857 
+GAMLSS-RS iteration 17: Global Deviance = -97.8726 
+GAMLSS-RS iteration 18: Global Deviance = -97.8617 
+GAMLSS-RS iteration 19: Global Deviance = -97.8527 
+GAMLSS-RS iteration 20: Global Deviance = -97.8452 
+[1] "rh_middletemporal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -93.3381 
+GAMLSS-RS iteration 2: Global Deviance = -93.3588 
+GAMLSS-RS iteration 3: Global Deviance = -93.3604 
+GAMLSS-RS iteration 4: Global Deviance = -93.3611 
+[1] "rh_parahippocampal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -22.7019 
+GAMLSS-RS iteration 2: Global Deviance = -22.8992 
+GAMLSS-RS iteration 3: Global Deviance = -22.9644 
+GAMLSS-RS iteration 4: Global Deviance = -22.9886 
+GAMLSS-RS iteration 5: Global Deviance = -22.9978 
+GAMLSS-RS iteration 6: Global Deviance = -23.0014 
+GAMLSS-RS iteration 7: Global Deviance = -23.0027 
+GAMLSS-RS iteration 8: Global Deviance = -23.0033 
+[1] "rh_paracentral_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -42.7132 
+GAMLSS-RS iteration 2: Global Deviance = -42.9748 
+GAMLSS-RS iteration 3: Global Deviance = -43.0815 
+GAMLSS-RS iteration 4: Global Deviance = -43.1331 
+GAMLSS-RS iteration 5: Global Deviance = -43.1583 
+GAMLSS-RS iteration 6: Global Deviance = -43.171 
+GAMLSS-RS iteration 7: Global Deviance = -43.1756 
+GAMLSS-RS iteration 8: Global Deviance = -43.1786 
+GAMLSS-RS iteration 9: Global Deviance = -43.1801 
+GAMLSS-RS iteration 10: Global Deviance = -43.1808 
+[1] "rh_parsopercularis_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -76.1431 
+GAMLSS-RS iteration 2: Global Deviance = -78.6934 
+GAMLSS-RS iteration 3: Global Deviance = -79.7529 
+GAMLSS-RS iteration 4: Global Deviance = -80.2501 
+GAMLSS-RS iteration 5: Global Deviance = -80.4943 
+GAMLSS-RS iteration 6: Global Deviance = -80.6215 
+GAMLSS-RS iteration 7: Global Deviance = -80.6854 
+GAMLSS-RS iteration 8: Global Deviance = -80.7212 
+GAMLSS-RS iteration 9: Global Deviance = -80.7406 
+GAMLSS-RS iteration 10: Global Deviance = -80.7514 
+GAMLSS-RS iteration 11: Global Deviance = -80.7573 
+GAMLSS-RS iteration 12: Global Deviance = -80.7606 
+GAMLSS-RS iteration 13: Global Deviance = -80.7625 
+GAMLSS-RS iteration 14: Global Deviance = -80.7606 
+GAMLSS-RS iteration 15: Global Deviance = -80.7612 
+[1] "rh_parsorbitalis_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -54.2419 
+GAMLSS-RS iteration 2: Global Deviance = -54.3949 
+GAMLSS-RS iteration 3: Global Deviance = -54.4596 
+GAMLSS-RS iteration 4: Global Deviance = -54.4922 
+GAMLSS-RS iteration 5: Global Deviance = -54.5091 
+GAMLSS-RS iteration 6: Global Deviance = -54.521 
+GAMLSS-RS iteration 7: Global Deviance = -54.5254 
+GAMLSS-RS iteration 8: Global Deviance = -54.5276 
+GAMLSS-RS iteration 9: Global Deviance = -54.5287 
+GAMLSS-RS iteration 10: Global Deviance = -54.5293 
+[1] "rh_parstriangularis_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -86.6535 
+GAMLSS-RS iteration 2: Global Deviance = -87.1323 
+GAMLSS-RS iteration 3: Global Deviance = -87.2827 
+GAMLSS-RS iteration 4: Global Deviance = -87.3611 
+GAMLSS-RS iteration 5: Global Deviance = -87.4086 
+GAMLSS-RS iteration 6: Global Deviance = -87.437 
+GAMLSS-RS iteration 7: Global Deviance = -87.4551 
+GAMLSS-RS iteration 8: Global Deviance = -87.4668 
+GAMLSS-RS iteration 9: Global Deviance = -87.4744 
+GAMLSS-RS iteration 10: Global Deviance = -87.4793 
+GAMLSS-RS iteration 11: Global Deviance = -87.4822 
+GAMLSS-RS iteration 12: Global Deviance = -87.4842 
+GAMLSS-RS iteration 13: Global Deviance = -87.4852 
+[1] "rh_pericalcarine_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -77.0878 
+GAMLSS-RS iteration 2: Global Deviance = -77.2003 
+GAMLSS-RS iteration 3: Global Deviance = -77.2267 
+GAMLSS-RS iteration 4: Global Deviance = -77.238 
+GAMLSS-RS iteration 5: Global Deviance = -77.2429 
+GAMLSS-RS iteration 6: Global Deviance = -77.245 
+GAMLSS-RS iteration 7: Global Deviance = -77.2459 
+[1] "rh_postcentral_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -65.9052 
+GAMLSS-RS iteration 2: Global Deviance = -65.873 
+GAMLSS-RS iteration 3: Global Deviance = -66.0021 
+GAMLSS-RS iteration 4: Global Deviance = -66.1222 
+GAMLSS-RS iteration 5: Global Deviance = -66.2111 
+GAMLSS-RS iteration 6: Global Deviance = -66.2725 
+GAMLSS-RS iteration 7: Global Deviance = -66.3155 
+GAMLSS-RS iteration 8: Global Deviance = -66.3445 
+GAMLSS-RS iteration 9: Global Deviance = -66.3654 
+GAMLSS-RS iteration 10: Global Deviance = -66.3814 
+GAMLSS-RS iteration 11: Global Deviance = -66.3928 
+GAMLSS-RS iteration 12: Global Deviance = -66.4016 
+GAMLSS-RS iteration 13: Global Deviance = -66.4078 
+GAMLSS-RS iteration 14: Global Deviance = -66.4127 
+GAMLSS-RS iteration 15: Global Deviance = -66.416 
+GAMLSS-RS iteration 16: Global Deviance = -66.4187 
+GAMLSS-RS iteration 17: Global Deviance = -66.4209 
+GAMLSS-RS iteration 18: Global Deviance = -66.4226 
+GAMLSS-RS iteration 19: Global Deviance = -66.4235 
+[1] "rh_posteriorcingulate_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -102.0974 
+GAMLSS-RS iteration 2: Global Deviance = -102.1524 
+GAMLSS-RS iteration 3: Global Deviance = -102.1573 
+GAMLSS-RS iteration 4: Global Deviance = -102.1596 
+GAMLSS-RS iteration 5: Global Deviance = -102.1607 
+GAMLSS-RS iteration 6: Global Deviance = -102.1612 
+[1] "rh_precentral_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -35.9825 
+GAMLSS-RS iteration 2: Global Deviance = -44.5248 
+GAMLSS-RS iteration 3: Global Deviance = -49.5269 
+GAMLSS-RS iteration 4: Global Deviance = -52.7976 
+GAMLSS-RS iteration 5: Global Deviance = -55.0078 
+GAMLSS-RS iteration 6: Global Deviance = -56.5322 
+GAMLSS-RS iteration 7: Global Deviance = -57.6127 
+GAMLSS-RS iteration 8: Global Deviance = -58.3567 
+GAMLSS-RS iteration 9: Global Deviance = -58.8912 
+GAMLSS-RS iteration 10: Global Deviance = -59.2772 
+GAMLSS-RS iteration 11: Global Deviance = -59.5579 
+GAMLSS-RS iteration 12: Global Deviance = -59.7633 
+GAMLSS-RS iteration 13: Global Deviance = -59.9147 
+GAMLSS-RS iteration 14: Global Deviance = -60.0269 
+GAMLSS-RS iteration 15: Global Deviance = -60.1105 
+GAMLSS-RS iteration 16: Global Deviance = -60.1734 
+GAMLSS-RS iteration 17: Global Deviance = -60.2206 
+GAMLSS-RS iteration 18: Global Deviance = -60.2561 
+GAMLSS-RS iteration 19: Global Deviance = -60.283 
+GAMLSS-RS iteration 20: Global Deviance = -60.3035 
+[1] "rh_precuneus_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -109.2933 
+GAMLSS-RS iteration 2: Global Deviance = -111.0986 
+GAMLSS-RS iteration 3: Global Deviance = -111.3725 
+GAMLSS-RS iteration 4: Global Deviance = -111.4294 
+GAMLSS-RS iteration 5: Global Deviance = -111.4471 
+GAMLSS-RS iteration 6: Global Deviance = -111.4536 
+GAMLSS-RS iteration 7: Global Deviance = -111.456 
+GAMLSS-RS iteration 8: Global Deviance = -111.4569 
+[1] "rh_rostralanteriorcingulate_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -24.4256 
+GAMLSS-RS iteration 2: Global Deviance = -24.8496 
+GAMLSS-RS iteration 3: Global Deviance = -25.0582 
+GAMLSS-RS iteration 4: Global Deviance = -25.166 
+GAMLSS-RS iteration 5: Global Deviance = -25.221 
+GAMLSS-RS iteration 6: Global Deviance = -25.2504 
+GAMLSS-RS iteration 7: Global Deviance = -25.2638 
+GAMLSS-RS iteration 8: Global Deviance = -25.2722 
+GAMLSS-RS iteration 9: Global Deviance = -25.2768 
+GAMLSS-RS iteration 10: Global Deviance = -25.2793 
+GAMLSS-RS iteration 11: Global Deviance = -25.2806 
+GAMLSS-RS iteration 12: Global Deviance = -25.2813 
+[1] "rh_rostralmiddlefrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -101.9463 
+GAMLSS-RS iteration 2: Global Deviance = -102.2913 
+GAMLSS-RS iteration 3: Global Deviance = -102.4222 
+GAMLSS-RS iteration 4: Global Deviance = -102.4787 
+GAMLSS-RS iteration 5: Global Deviance = -102.5003 
+GAMLSS-RS iteration 6: Global Deviance = -102.5092 
+GAMLSS-RS iteration 7: Global Deviance = -102.5128 
+GAMLSS-RS iteration 8: Global Deviance = -102.5143 
+GAMLSS-RS iteration 9: Global Deviance = -102.5149 
+[1] "rh_superiorfrontal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -47.378 
+GAMLSS-RS iteration 2: Global Deviance = -47.5349 
+GAMLSS-RS iteration 3: Global Deviance = -47.55 
+GAMLSS-RS iteration 4: Global Deviance = -47.5559 
+GAMLSS-RS iteration 5: Global Deviance = -47.5584 
+GAMLSS-RS iteration 6: Global Deviance = -47.5594 
+[1] "rh_superiorparietal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -99.5576 
+GAMLSS-RS iteration 2: Global Deviance = -99.7247 
+GAMLSS-RS iteration 3: Global Deviance = -99.8006 
+GAMLSS-RS iteration 4: Global Deviance = -99.8355 
+GAMLSS-RS iteration 5: Global Deviance = -99.8536 
+GAMLSS-RS iteration 6: Global Deviance = -99.8613 
+GAMLSS-RS iteration 7: Global Deviance = -99.8649 
+GAMLSS-RS iteration 8: Global Deviance = -99.8666 
+GAMLSS-RS iteration 9: Global Deviance = -99.869 
+GAMLSS-RS iteration 10: Global Deviance = -99.8693 
+[1] "rh_superiortemporal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -72.3302 
+GAMLSS-RS iteration 2: Global Deviance = -71.7074 
+GAMLSS-RS iteration 3: Global Deviance = -71.3222 
+GAMLSS-RS iteration 4: Global Deviance = -70.9433 
+GAMLSS-RS iteration 5: Global Deviance = -69.9967 
+GAMLSS-RS iteration 6: Global Deviance = -69.9769 
+GAMLSS-RS iteration 7: Global Deviance = -69.977 
+[1] "rh_supramarginal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -87.8943 
+GAMLSS-RS iteration 2: Global Deviance = -90.9571 
+GAMLSS-RS iteration 3: Global Deviance = -92.6306 
+GAMLSS-RS iteration 4: Global Deviance = -93.6185 
+GAMLSS-RS iteration 5: Global Deviance = -94.2287 
+GAMLSS-RS iteration 6: Global Deviance = -94.6196 
+GAMLSS-RS iteration 7: Global Deviance = -94.8781 
+GAMLSS-RS iteration 8: Global Deviance = -95.0502 
+GAMLSS-RS iteration 9: Global Deviance = -95.168 
+GAMLSS-RS iteration 10: Global Deviance = -95.25 
+GAMLSS-RS iteration 11: Global Deviance = -95.3078 
+GAMLSS-RS iteration 12: Global Deviance = -95.349 
+GAMLSS-RS iteration 13: Global Deviance = -95.3789 
+GAMLSS-RS iteration 14: Global Deviance = -95.3907 
+GAMLSS-RS iteration 15: Global Deviance = -95.4043 
+GAMLSS-RS iteration 16: Global Deviance = -95.414 
+GAMLSS-RS iteration 17: Global Deviance = -95.421 
+GAMLSS-RS iteration 18: Global Deviance = -95.4261 
+GAMLSS-RS iteration 19: Global Deviance = -95.4298 
+GAMLSS-RS iteration 20: Global Deviance = -95.4324 
+[1] "rh_frontalpole_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 10.3604 
+GAMLSS-RS iteration 2: Global Deviance = 10.1154 
+GAMLSS-RS iteration 3: Global Deviance = 10.02 
+GAMLSS-RS iteration 4: Global Deviance = 9.9653 
+GAMLSS-RS iteration 5: Global Deviance = 9.9341 
+GAMLSS-RS iteration 6: Global Deviance = 9.9154 
+GAMLSS-RS iteration 7: Global Deviance = 9.9042 
+GAMLSS-RS iteration 8: Global Deviance = 9.8973 
+GAMLSS-RS iteration 9: Global Deviance = 9.8931 
+GAMLSS-RS iteration 10: Global Deviance = 9.8905 
+GAMLSS-RS iteration 11: Global Deviance = 9.8889 
+GAMLSS-RS iteration 12: Global Deviance = 9.8881 
+[1] "rh_temporalpole_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 53.7398 
+GAMLSS-RS iteration 2: Global Deviance = 53.5891 
+GAMLSS-RS iteration 3: Global Deviance = 53.394 
+GAMLSS-RS iteration 4: Global Deviance = 53.2608 
+GAMLSS-RS iteration 5: Global Deviance = 53.1763 
+GAMLSS-RS iteration 6: Global Deviance = 53.1214 
+GAMLSS-RS iteration 7: Global Deviance = 53.0861 
+GAMLSS-RS iteration 8: Global Deviance = 53.0637 
+GAMLSS-RS iteration 9: Global Deviance = 53.0486 
+GAMLSS-RS iteration 10: Global Deviance = 53.0378 
+GAMLSS-RS iteration 11: Global Deviance = 53.031 
+GAMLSS-RS iteration 12: Global Deviance = 53.0263 
+GAMLSS-RS iteration 13: Global Deviance = 53.023 
+GAMLSS-RS iteration 14: Global Deviance = 53.0218 
+GAMLSS-RS iteration 15: Global Deviance = 53.0193 
+GAMLSS-RS iteration 16: Global Deviance = 53.0184 
+[1] "rh_transversetemporal_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -54.0271 
+GAMLSS-RS iteration 2: Global Deviance = -54.1896 
+GAMLSS-RS iteration 3: Global Deviance = -54.2593 
+GAMLSS-RS iteration 4: Global Deviance = -54.2934 
+GAMLSS-RS iteration 5: Global Deviance = -54.3102 
+GAMLSS-RS iteration 6: Global Deviance = -54.3184 
+GAMLSS-RS iteration 7: Global Deviance = -54.3225 
+GAMLSS-RS iteration 8: Global Deviance = -54.3245 
+GAMLSS-RS iteration 9: Global Deviance = -54.3254 
+[1] "rh_insula_thickness"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = -82.7479 
+GAMLSS-RS iteration 2: Global Deviance = -84.7522 
+GAMLSS-RS iteration 3: Global Deviance = -85.5783 
+GAMLSS-RS iteration 4: Global Deviance = -86.03 
+GAMLSS-RS iteration 5: Global Deviance = -86.296 
+GAMLSS-RS iteration 6: Global Deviance = -86.4601 
+GAMLSS-RS iteration 7: Global Deviance = -86.5655 
+GAMLSS-RS iteration 8: Global Deviance = -86.634 
+GAMLSS-RS iteration 9: Global Deviance = -86.6806 
+GAMLSS-RS iteration 10: Global Deviance = -86.7127 
+GAMLSS-RS iteration 11: Global Deviance = -86.7348 
+GAMLSS-RS iteration 12: Global Deviance = -86.7508 
+GAMLSS-RS iteration 13: Global Deviance = -86.7583 
+GAMLSS-RS iteration 14: Global Deviance = -86.7704 
+GAMLSS-RS iteration 15: Global Deviance = -86.7738 
+GAMLSS-RS iteration 16: Global Deviance = -86.781 
+GAMLSS-RS iteration 17: Global Deviance = -86.7825 
+GAMLSS-RS iteration 18: Global Deviance = -86.787 
+GAMLSS-RS iteration 19: Global Deviance = -86.7875 
+[1] "rh_MeanThickness_thickness"
+[1] "BrainSegVolNotVent"
+[1] "eTIV"
+[1] "lh.aparc.area"
+[1] "lh_bankssts_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 854.9358 
+GAMLSS-RS iteration 2: Global Deviance = 854.7798 
+GAMLSS-RS iteration 3: Global Deviance = 854.7743 
+GAMLSS-RS iteration 4: Global Deviance = 854.7728 
+GAMLSS-RS iteration 5: Global Deviance = 854.7722 
+[1] "lh_caudalanteriorcingulate_area"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 822.4721 
+GAMLSS-RS iteration 2: Global Deviance = 821.9426 
+GAMLSS-RS iteration 3: Global Deviance = 821.6541 
+GAMLSS-RS iteration 4: Global Deviance = 821.4934 
+GAMLSS-RS iteration 5: Global Deviance = 821.4027 
+GAMLSS-RS iteration 6: Global Deviance = 821.3507 
+GAMLSS-RS iteration 7: Global Deviance = 821.321 
+GAMLSS-RS iteration 8: Global Deviance = 821.3036 
+GAMLSS-RS iteration 9: Global Deviance = 821.2931 
+GAMLSS-RS iteration 10: Global Deviance = 821.2868 
+GAMLSS-RS iteration 11: Global Deviance = 821.2829 
+GAMLSS-RS iteration 12: Global Deviance = 821.2805 
+GAMLSS-RS iteration 13: Global Deviance = 821.2791 
+GAMLSS-RS iteration 14: Global Deviance = 821.2784 
+[1] "lh_caudalmiddlefrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 972.7373 
+GAMLSS-RS iteration 2: Global Deviance = 972.6887 
+GAMLSS-RS iteration 3: Global Deviance = 972.6883 
+[1] "lh_cuneus_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 875.6813 
+GAMLSS-RS iteration 2: Global Deviance = 875.6526 
+GAMLSS-RS iteration 3: Global Deviance = 875.6502 
+GAMLSS-RS iteration 4: Global Deviance = 875.6493 
+[1] "lh_entorhinal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 756.4531 
+GAMLSS-RS iteration 2: Global Deviance = 755.6796 
+GAMLSS-RS iteration 3: Global Deviance = 755.1697 
+GAMLSS-RS iteration 4: Global Deviance = 755.0496 
+GAMLSS-RS iteration 5: Global Deviance = 754.9951 
+GAMLSS-RS iteration 6: Global Deviance = 754.9894 
+GAMLSS-RS iteration 7: Global Deviance = 754.9886 
+[1] "lh_fusiform_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 944.4884 
+GAMLSS-RS iteration 2: Global Deviance = 944.2906 
+GAMLSS-RS iteration 3: Global Deviance = 944.2163 
+GAMLSS-RS iteration 4: Global Deviance = 944.178 
+GAMLSS-RS iteration 5: Global Deviance = 944.1574 
+GAMLSS-RS iteration 6: Global Deviance = 944.1461 
+GAMLSS-RS iteration 7: Global Deviance = 944.14 
+GAMLSS-RS iteration 8: Global Deviance = 944.1366 
+GAMLSS-RS iteration 9: Global Deviance = 944.1348 
+GAMLSS-RS iteration 10: Global Deviance = 944.1338 
+[1] "lh_inferiorparietal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1029.312 
+GAMLSS-RS iteration 2: Global Deviance = 1029.289 
+GAMLSS-RS iteration 3: Global Deviance = 1029.111 
+GAMLSS-RS iteration 4: Global Deviance = 1029.044 
+GAMLSS-RS iteration 5: Global Deviance = 1029.018 
+GAMLSS-RS iteration 6: Global Deviance = 1029.007 
+GAMLSS-RS iteration 7: Global Deviance = 1029.003 
+GAMLSS-RS iteration 8: Global Deviance = 1029.001 
+GAMLSS-RS iteration 9: Global Deviance = 1029.001 
+[1] "lh_inferiortemporal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 972.1199 
+GAMLSS-RS iteration 2: Global Deviance = 971.4546 
+GAMLSS-RS iteration 3: Global Deviance = 971.2212 
+GAMLSS-RS iteration 4: Global Deviance = 971.1348 
+GAMLSS-RS iteration 5: Global Deviance = 971.1018 
+GAMLSS-RS iteration 6: Global Deviance = 971.0878 
+GAMLSS-RS iteration 7: Global Deviance = 971.0829 
+GAMLSS-RS iteration 8: Global Deviance = 971.081 
+GAMLSS-RS iteration 9: Global Deviance = 971.0802 
+[1] "lh_isthmuscingulate_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 811.721 
+GAMLSS-RS iteration 2: Global Deviance = 811.6247 
+GAMLSS-RS iteration 3: Global Deviance = 811.6148 
+GAMLSS-RS iteration 4: Global Deviance = 811.6117 
+GAMLSS-RS iteration 5: Global Deviance = 811.6107 
+GAMLSS-RS iteration 6: Global Deviance = 811.6103 
+[1] "lh_lateraloccipital_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1002.939 
+GAMLSS-RS iteration 2: Global Deviance = 1001.547 
+GAMLSS-RS iteration 3: Global Deviance = 1001.467 
+GAMLSS-RS iteration 4: Global Deviance = 1001.441 
+GAMLSS-RS iteration 5: Global Deviance = 1001.433 
+GAMLSS-RS iteration 6: Global Deviance = 1001.43 
+GAMLSS-RS iteration 7: Global Deviance = 1001.429 
+GAMLSS-RS iteration 8: Global Deviance = 1001.428 
+[1] "lh_lateralorbitofrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 926.5303 
+GAMLSS-RS iteration 2: Global Deviance = 926.1881 
+GAMLSS-RS iteration 3: Global Deviance = 926.0558 
+GAMLSS-RS iteration 4: Global Deviance = 926.0021 
+GAMLSS-RS iteration 5: Global Deviance = 925.9802 
+GAMLSS-RS iteration 6: Global Deviance = 925.9712 
+GAMLSS-RS iteration 7: Global Deviance = 925.9675 
+GAMLSS-RS iteration 8: Global Deviance = 925.9659 
+GAMLSS-RS iteration 9: Global Deviance = 925.9653 
+[1] "lh_lingual_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 981.433 
+GAMLSS-RS iteration 2: Global Deviance = 981.0553 
+GAMLSS-RS iteration 3: Global Deviance = 980.9219 
+GAMLSS-RS iteration 4: Global Deviance = 980.8508 
+GAMLSS-RS iteration 5: Global Deviance = 980.813 
+GAMLSS-RS iteration 6: Global Deviance = 980.7921 
+GAMLSS-RS iteration 7: Global Deviance = 980.7805 
+GAMLSS-RS iteration 8: Global Deviance = 980.7739 
+GAMLSS-RS iteration 9: Global Deviance = 980.7703 
+GAMLSS-RS iteration 10: Global Deviance = 980.7682 
+GAMLSS-RS iteration 11: Global Deviance = 980.7672 
+GAMLSS-RS iteration 12: Global Deviance = 980.7666 
+[1] "lh_medialorbitofrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 863.8928 
+GAMLSS-RS iteration 2: Global Deviance = 861.4807 
+GAMLSS-RS iteration 3: Global Deviance = 860.6315 
+GAMLSS-RS iteration 4: Global Deviance = 860.2586 
+GAMLSS-RS iteration 5: Global Deviance = 860.0611 
+GAMLSS-RS iteration 6: Global Deviance = 859.9473 
+GAMLSS-RS iteration 7: Global Deviance = 859.8799 
+GAMLSS-RS iteration 8: Global Deviance = 859.8383 
+GAMLSS-RS iteration 9: Global Deviance = 859.8124 
+GAMLSS-RS iteration 10: Global Deviance = 859.7944 
+GAMLSS-RS iteration 11: Global Deviance = 859.7842 
+GAMLSS-RS iteration 12: Global Deviance = 859.7777 
+GAMLSS-RS iteration 13: Global Deviance = 859.7735 
+GAMLSS-RS iteration 14: Global Deviance = 859.7707 
+GAMLSS-RS iteration 15: Global Deviance = 859.769 
+GAMLSS-RS iteration 16: Global Deviance = 859.768 
+GAMLSS-RS iteration 17: Global Deviance = 859.7673 
+[1] "lh_middletemporal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 971.3575 
+GAMLSS-RS iteration 2: Global Deviance = 969.587 
+GAMLSS-RS iteration 3: Global Deviance = 968.941 
+GAMLSS-RS iteration 4: Global Deviance = 968.6724 
+GAMLSS-RS iteration 5: Global Deviance = 968.5548 
+GAMLSS-RS iteration 6: Global Deviance = 968.5014 
+GAMLSS-RS iteration 7: Global Deviance = 968.4766 
+GAMLSS-RS iteration 8: Global Deviance = 968.4649 
+GAMLSS-RS iteration 9: Global Deviance = 968.4593 
+GAMLSS-RS iteration 10: Global Deviance = 968.4566 
+GAMLSS-RS iteration 11: Global Deviance = 968.4553 
+GAMLSS-RS iteration 12: Global Deviance = 968.4547 
+[1] "lh_parahippocampal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 786.3405 
+GAMLSS-RS iteration 2: Global Deviance = 786.2656 
+GAMLSS-RS iteration 3: Global Deviance = 786.2629 
+GAMLSS-RS iteration 4: Global Deviance = 786.2617 
+GAMLSS-RS iteration 5: Global Deviance = 786.2612 
+[1] "lh_paracentral_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 857.1033 
+GAMLSS-RS iteration 2: Global Deviance = 856.7511 
+GAMLSS-RS iteration 3: Global Deviance = 856.683 
+GAMLSS-RS iteration 4: Global Deviance = 856.6481 
+GAMLSS-RS iteration 5: Global Deviance = 856.6282 
+GAMLSS-RS iteration 6: Global Deviance = 856.6169 
+GAMLSS-RS iteration 7: Global Deviance = 856.6104 
+GAMLSS-RS iteration 8: Global Deviance = 856.6066 
+GAMLSS-RS iteration 9: Global Deviance = 856.6045 
+GAMLSS-RS iteration 10: Global Deviance = 856.6034 
+GAMLSS-RS iteration 11: Global Deviance = 856.6027 
+[1] "lh_parsopercularis_area"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 952.9891 
+GAMLSS-RS iteration 2: Global Deviance = 951.887 
+GAMLSS-RS iteration 3: Global Deviance = 951.8596 
+GAMLSS-RS iteration 4: Global Deviance = 951.8584 
+GAMLSS-RS iteration 5: Global Deviance = 951.8578 
+[1] "lh_parsorbitalis_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 775.057 
+GAMLSS-RS iteration 2: Global Deviance = 774.9198 
+GAMLSS-RS iteration 3: Global Deviance = 774.9011 
+GAMLSS-RS iteration 4: Global Deviance = 774.8952 
+GAMLSS-RS iteration 5: Global Deviance = 774.8931 
+GAMLSS-RS iteration 6: Global Deviance = 774.8923 
+[1] "lh_parstriangularis_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 897.4205 
+GAMLSS-RS iteration 2: Global Deviance = 896.2605 
+GAMLSS-RS iteration 3: Global Deviance = 895.6608 
+GAMLSS-RS iteration 4: Global Deviance = 895.323 
+GAMLSS-RS iteration 5: Global Deviance = 895.1226 
+GAMLSS-RS iteration 6: Global Deviance = 894.9987 
+GAMLSS-RS iteration 7: Global Deviance = 894.9213 
+GAMLSS-RS iteration 8: Global Deviance = 894.8713 
+GAMLSS-RS iteration 9: Global Deviance = 894.8384 
+GAMLSS-RS iteration 10: Global Deviance = 894.8165 
+GAMLSS-RS iteration 11: Global Deviance = 894.8018 
+GAMLSS-RS iteration 12: Global Deviance = 894.7919 
+GAMLSS-RS iteration 13: Global Deviance = 894.7852 
+GAMLSS-RS iteration 14: Global Deviance = 894.7806 
+GAMLSS-RS iteration 15: Global Deviance = 894.7772 
+GAMLSS-RS iteration 16: Global Deviance = 894.7749 
+GAMLSS-RS iteration 17: Global Deviance = 894.7737 
+GAMLSS-RS iteration 18: Global Deviance = 894.7728 
+[1] "lh_pericalcarine_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 929.1678 
+GAMLSS-RS iteration 2: Global Deviance = 929.0979 
+GAMLSS-RS iteration 3: Global Deviance = 929.0771 
+GAMLSS-RS iteration 4: Global Deviance = 929.0663 
+GAMLSS-RS iteration 5: Global Deviance = 929.0605 
+GAMLSS-RS iteration 6: Global Deviance = 929.0576 
+GAMLSS-RS iteration 7: Global Deviance = 929.056 
+GAMLSS-RS iteration 8: Global Deviance = 929.0552 
+[1] "lh_postcentral_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 989.9367 
+GAMLSS-RS iteration 2: Global Deviance = 988.6288 
+GAMLSS-RS iteration 3: Global Deviance = 988.305 
+GAMLSS-RS iteration 4: Global Deviance = 988.188 
+GAMLSS-RS iteration 5: Global Deviance = 988.145 
+GAMLSS-RS iteration 6: Global Deviance = 988.1286 
+GAMLSS-RS iteration 7: Global Deviance = 988.1224 
+GAMLSS-RS iteration 8: Global Deviance = 988.12 
+GAMLSS-RS iteration 9: Global Deviance = 988.1189 
+GAMLSS-RS iteration 10: Global Deviance = 988.1186 
+[1] "lh_posteriorcingulate_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 834.3968 
+GAMLSS-RS iteration 2: Global Deviance = 832.9336 
+GAMLSS-RS iteration 3: Global Deviance = 832.519 
+GAMLSS-RS iteration 4: Global Deviance = 832.3667 
+GAMLSS-RS iteration 5: Global Deviance = 832.3076 
+GAMLSS-RS iteration 6: Global Deviance = 832.283 
+GAMLSS-RS iteration 7: Global Deviance = 832.2715 
+GAMLSS-RS iteration 8: Global Deviance = 832.2658 
+GAMLSS-RS iteration 9: Global Deviance = 832.2634 
+GAMLSS-RS iteration 10: Global Deviance = 832.2618 
+GAMLSS-RS iteration 11: Global Deviance = 832.2611 
+[1] "lh_precentral_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 977.268 
+GAMLSS-RS iteration 2: Global Deviance = 977.183 
+GAMLSS-RS iteration 3: Global Deviance = 977.1584 
+GAMLSS-RS iteration 4: Global Deviance = 977.1464 
+GAMLSS-RS iteration 5: Global Deviance = 977.1405 
+GAMLSS-RS iteration 6: Global Deviance = 977.1376 
+GAMLSS-RS iteration 7: Global Deviance = 977.1361 
+GAMLSS-RS iteration 8: Global Deviance = 977.1354 
+[1] "lh_precuneus_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 991.497 
+GAMLSS-RS iteration 2: Global Deviance = 989.2804 
+GAMLSS-RS iteration 3: Global Deviance = 988.5407 
+GAMLSS-RS iteration 4: Global Deviance = 988.2732 
+GAMLSS-RS iteration 5: Global Deviance = 988.1764 
+GAMLSS-RS iteration 6: Global Deviance = 988.1401 
+GAMLSS-RS iteration 7: Global Deviance = 988.1264 
+GAMLSS-RS iteration 8: Global Deviance = 988.1205 
+GAMLSS-RS iteration 9: Global Deviance = 988.1182 
+GAMLSS-RS iteration 10: Global Deviance = 988.117 
+GAMLSS-RS iteration 11: Global Deviance = 988.1166 
+[1] "lh_rostralanteriorcingulate_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 844.851 
+GAMLSS-RS iteration 2: Global Deviance = 844.4445 
+GAMLSS-RS iteration 3: Global Deviance = 844.2989 
+GAMLSS-RS iteration 4: Global Deviance = 844.2197 
+GAMLSS-RS iteration 5: Global Deviance = 844.1794 
+GAMLSS-RS iteration 6: Global Deviance = 844.16 
+GAMLSS-RS iteration 7: Global Deviance = 844.1521 
+GAMLSS-RS iteration 8: Global Deviance = 844.1502 
+GAMLSS-RS iteration 9: Global Deviance = 844.1511 
+[1] "lh_rostralmiddlefrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1041.982 
+GAMLSS-RS iteration 2: Global Deviance = 1041.654 
+GAMLSS-RS iteration 3: Global Deviance = 1041.309 
+GAMLSS-RS iteration 4: Global Deviance = 1041.162 
+GAMLSS-RS iteration 5: Global Deviance = 1041.096 
+GAMLSS-RS iteration 6: Global Deviance = 1041.066 
+GAMLSS-RS iteration 7: Global Deviance = 1041.053 
+GAMLSS-RS iteration 8: Global Deviance = 1041.046 
+GAMLSS-RS iteration 9: Global Deviance = 1041.043 
+GAMLSS-RS iteration 10: Global Deviance = 1041.041 
+GAMLSS-RS iteration 11: Global Deviance = 1041.041 
+[1] "lh_superiorfrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1044.158 
+GAMLSS-RS iteration 2: Global Deviance = 1043.574 
+GAMLSS-RS iteration 3: Global Deviance = 1043.368 
+GAMLSS-RS iteration 4: Global Deviance = 1043.287 
+GAMLSS-RS iteration 5: Global Deviance = 1043.25 
+GAMLSS-RS iteration 6: Global Deviance = 1043.232 
+GAMLSS-RS iteration 7: Global Deviance = 1043.223 
+GAMLSS-RS iteration 8: Global Deviance = 1043.218 
+GAMLSS-RS iteration 9: Global Deviance = 1043.216 
+GAMLSS-RS iteration 10: Global Deviance = 1043.215 
+GAMLSS-RS iteration 11: Global Deviance = 1043.214 
+[1] "lh_superiorparietal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1029.599 
+GAMLSS-RS iteration 2: Global Deviance = 1027.37 
+GAMLSS-RS iteration 3: Global Deviance = 1026.944 
+GAMLSS-RS iteration 4: Global Deviance = 1026.847 
+GAMLSS-RS iteration 5: Global Deviance = 1026.825 
+GAMLSS-RS iteration 6: Global Deviance = 1026.818 
+GAMLSS-RS iteration 7: Global Deviance = 1026.817 
+GAMLSS-RS iteration 8: Global Deviance = 1026.816 
+[1] "lh_superiortemporal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 970.6245 
+GAMLSS-RS iteration 2: Global Deviance = 970.5278 
+GAMLSS-RS iteration 3: Global Deviance = 970.5219 
+GAMLSS-RS iteration 4: Global Deviance = 970.5209 
+[1] "lh_supramarginal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1042.268 
+GAMLSS-RS iteration 2: Global Deviance = 1040.365 
+GAMLSS-RS iteration 3: Global Deviance = 1039.604 
+GAMLSS-RS iteration 4: Global Deviance = 1039.264 
+GAMLSS-RS iteration 5: Global Deviance = 1039.104 
+GAMLSS-RS iteration 6: Global Deviance = 1039.025 
+GAMLSS-RS iteration 7: Global Deviance = 1038.985 
+GAMLSS-RS iteration 8: Global Deviance = 1038.965 
+GAMLSS-RS iteration 9: Global Deviance = 1038.954 
+GAMLSS-RS iteration 10: Global Deviance = 1038.949 
+GAMLSS-RS iteration 11: Global Deviance = 1038.946 
+GAMLSS-RS iteration 12: Global Deviance = 1038.944 
+GAMLSS-RS iteration 13: Global Deviance = 1038.943 
+[1] "lh_frontalpole_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 631.5254 
+GAMLSS-RS iteration 2: Global Deviance = 631.5378 
+GAMLSS-RS iteration 3: Global Deviance = 631.1956 
+GAMLSS-RS iteration 4: Global Deviance = 631.014 
+GAMLSS-RS iteration 5: Global Deviance = 630.9246 
+GAMLSS-RS iteration 6: Global Deviance = 630.8792 
+GAMLSS-RS iteration 7: Global Deviance = 630.8555 
+GAMLSS-RS iteration 8: Global Deviance = 630.8428 
+GAMLSS-RS iteration 9: Global Deviance = 630.836 
+GAMLSS-RS iteration 10: Global Deviance = 630.8322 
+GAMLSS-RS iteration 11: Global Deviance = 630.8302 
+GAMLSS-RS iteration 12: Global Deviance = 630.829 
+GAMLSS-RS iteration 13: Global Deviance = 630.8284 
+[1] "lh_temporalpole_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 717.6101 
+GAMLSS-RS iteration 2: Global Deviance = 715.7668 
+GAMLSS-RS iteration 3: Global Deviance = 715.3109 
+GAMLSS-RS iteration 4: Global Deviance = 715.1688 
+GAMLSS-RS iteration 5: Global Deviance = 715.1209 
+GAMLSS-RS iteration 6: Global Deviance = 715.1044 
+GAMLSS-RS iteration 7: Global Deviance = 715.0958 
+GAMLSS-RS iteration 8: Global Deviance = 715.0911 
+GAMLSS-RS iteration 9: Global Deviance = 715.0883 
+GAMLSS-RS iteration 10: Global Deviance = 715.0865 
+GAMLSS-RS iteration 11: Global Deviance = 715.0856 
+[1] "lh_transversetemporal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 736.5027 
+GAMLSS-RS iteration 2: Global Deviance = 736.4961 
+GAMLSS-RS iteration 3: Global Deviance = 736.4957 
+[1] "lh_insula_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 917.6175 
+GAMLSS-RS iteration 2: Global Deviance = 917.3696 
+GAMLSS-RS iteration 3: Global Deviance = 917.3606 
+GAMLSS-RS iteration 4: Global Deviance = 917.357 
+GAMLSS-RS iteration 5: Global Deviance = 917.3556 
+GAMLSS-RS iteration 6: Global Deviance = 917.3551 
+[1] "lh_WhiteSurfArea_area"
+[1] "BrainSegVolNotVent"
+[1] "eTIV"
+[1] "rh.aparc.area"
+[1] "rh_bankssts_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 820.8884 
+GAMLSS-RS iteration 2: Global Deviance = 820.3354 
+GAMLSS-RS iteration 3: Global Deviance = 820.1446 
+GAMLSS-RS iteration 4: Global Deviance = 820.0727 
+GAMLSS-RS iteration 5: Global Deviance = 820.0449 
+GAMLSS-RS iteration 6: Global Deviance = 820.0343 
+GAMLSS-RS iteration 7: Global Deviance = 820.0301 
+GAMLSS-RS iteration 8: Global Deviance = 820.0282 
+GAMLSS-RS iteration 9: Global Deviance = 820.0275 
+[1] "rh_caudalanteriorcingulate_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 801.5621 
+GAMLSS-RS iteration 2: Global Deviance = 801.4908 
+GAMLSS-RS iteration 3: Global Deviance = 801.423 
+GAMLSS-RS iteration 4: Global Deviance = 801.393 
+GAMLSS-RS iteration 5: Global Deviance = 801.3778 
+GAMLSS-RS iteration 6: Global Deviance = 801.3697 
+GAMLSS-RS iteration 7: Global Deviance = 801.3653 
+GAMLSS-RS iteration 8: Global Deviance = 801.3629 
+GAMLSS-RS iteration 9: Global Deviance = 801.3617 
+GAMLSS-RS iteration 10: Global Deviance = 801.361 
+[1] "rh_caudalmiddlefrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 981.0845 
+GAMLSS-RS iteration 2: Global Deviance = 980.3834 
+GAMLSS-RS iteration 3: Global Deviance = 980.0998 
+GAMLSS-RS iteration 4: Global Deviance = 979.9559 
+GAMLSS-RS iteration 5: Global Deviance = 979.8796 
+GAMLSS-RS iteration 6: Global Deviance = 979.8386 
+GAMLSS-RS iteration 7: Global Deviance = 979.8163 
+GAMLSS-RS iteration 8: Global Deviance = 979.8041 
+GAMLSS-RS iteration 9: Global Deviance = 979.7974 
+GAMLSS-RS iteration 10: Global Deviance = 979.7937 
+GAMLSS-RS iteration 11: Global Deviance = 979.7916 
+GAMLSS-RS iteration 12: Global Deviance = 979.7905 
+GAMLSS-RS iteration 13: Global Deviance = 979.7899 
+[1] "rh_cuneus_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 865.8977 
+GAMLSS-RS iteration 2: Global Deviance = 865.8308 
+GAMLSS-RS iteration 3: Global Deviance = 865.8273 
+GAMLSS-RS iteration 4: Global Deviance = 865.8265 
+[1] "rh_entorhinal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 720.7399 
+GAMLSS-RS iteration 2: Global Deviance = 720.5185 
+GAMLSS-RS iteration 3: Global Deviance = 720.4763 
+GAMLSS-RS iteration 4: Global Deviance = 720.4565 
+GAMLSS-RS iteration 5: Global Deviance = 720.4471 
+GAMLSS-RS iteration 6: Global Deviance = 720.4427 
+GAMLSS-RS iteration 7: Global Deviance = 720.4405 
+GAMLSS-RS iteration 8: Global Deviance = 720.4396 
+[1] "rh_fusiform_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 953.9895 
+GAMLSS-RS iteration 2: Global Deviance = 953.6049 
+GAMLSS-RS iteration 3: Global Deviance = 953.4618 
+GAMLSS-RS iteration 4: Global Deviance = 953.3661 
+GAMLSS-RS iteration 5: Global Deviance = 953.3105 
+GAMLSS-RS iteration 6: Global Deviance = 953.2698 
+GAMLSS-RS iteration 7: Global Deviance = 953.2419 
+GAMLSS-RS iteration 8: Global Deviance = 953.225 
+GAMLSS-RS iteration 9: Global Deviance = 953.2113 
+GAMLSS-RS iteration 10: Global Deviance = 953.2023 
+GAMLSS-RS iteration 11: Global Deviance = 953.1956 
+GAMLSS-RS iteration 12: Global Deviance = 953.1905 
+GAMLSS-RS iteration 13: Global Deviance = 953.1866 
+GAMLSS-RS iteration 14: Global Deviance = 953.1837 
+GAMLSS-RS iteration 15: Global Deviance = 953.1814 
+GAMLSS-RS iteration 16: Global Deviance = 953.1797 
+GAMLSS-RS iteration 17: Global Deviance = 953.1785 
+GAMLSS-RS iteration 18: Global Deviance = 953.1776 
+[1] "rh_inferiorparietal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1032.088 
+GAMLSS-RS iteration 2: Global Deviance = 1030.634 
+GAMLSS-RS iteration 3: Global Deviance = 1030.023 
+GAMLSS-RS iteration 4: Global Deviance = 1029.745 
+GAMLSS-RS iteration 5: Global Deviance = 1029.611 
+GAMLSS-RS iteration 6: Global Deviance = 1029.545 
+GAMLSS-RS iteration 7: Global Deviance = 1029.511 
+GAMLSS-RS iteration 8: Global Deviance = 1029.493 
+GAMLSS-RS iteration 9: Global Deviance = 1029.484 
+GAMLSS-RS iteration 10: Global Deviance = 1029.479 
+GAMLSS-RS iteration 11: Global Deviance = 1029.476 
+GAMLSS-RS iteration 12: Global Deviance = 1029.475 
+GAMLSS-RS iteration 13: Global Deviance = 1029.474 
+[1] "rh_inferiortemporal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 945.0775 
+GAMLSS-RS iteration 2: Global Deviance = 943.849 
+GAMLSS-RS iteration 3: Global Deviance = 943.5051 
+GAMLSS-RS iteration 4: Global Deviance = 943.3482 
+GAMLSS-RS iteration 5: Global Deviance = 943.2732 
+GAMLSS-RS iteration 6: Global Deviance = 943.2359 
+GAMLSS-RS iteration 7: Global Deviance = 943.2172 
+GAMLSS-RS iteration 8: Global Deviance = 943.2077 
+GAMLSS-RS iteration 9: Global Deviance = 943.2029 
+GAMLSS-RS iteration 10: Global Deviance = 943.2004 
+GAMLSS-RS iteration 11: Global Deviance = 943.1991 
+GAMLSS-RS iteration 12: Global Deviance = 943.1984 
+[1] "rh_isthmuscingulate_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 801.6245 
+GAMLSS-RS iteration 2: Global Deviance = 800.663 
+GAMLSS-RS iteration 3: Global Deviance = 800.3117 
+GAMLSS-RS iteration 4: Global Deviance = 800.1691 
+GAMLSS-RS iteration 5: Global Deviance = 800.1107 
+GAMLSS-RS iteration 6: Global Deviance = 800.0858 
+GAMLSS-RS iteration 7: Global Deviance = 800.0752 
+GAMLSS-RS iteration 8: Global Deviance = 800.0706 
+GAMLSS-RS iteration 9: Global Deviance = 800.0686 
+GAMLSS-RS iteration 10: Global Deviance = 800.0676 
+[1] "rh_lateraloccipital_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 999.1839 
+GAMLSS-RS iteration 2: Global Deviance = 998.9871 
+GAMLSS-RS iteration 3: Global Deviance = 998.9795 
+GAMLSS-RS iteration 4: Global Deviance = 998.9769 
+GAMLSS-RS iteration 5: Global Deviance = 998.9759 
+[1] "rh_lateralorbitofrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 926.9673 
+GAMLSS-RS iteration 2: Global Deviance = 926.8171 
+GAMLSS-RS iteration 3: Global Deviance = 926.7701 
+GAMLSS-RS iteration 4: Global Deviance = 926.7529 
+GAMLSS-RS iteration 5: Global Deviance = 926.7466 
+GAMLSS-RS iteration 6: Global Deviance = 926.7442 
+GAMLSS-RS iteration 7: Global Deviance = 926.7433 
+[1] "rh_lingual_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 990.2302 
+GAMLSS-RS iteration 2: Global Deviance = 989.6277 
+GAMLSS-RS iteration 3: Global Deviance = 989.5041 
+GAMLSS-RS iteration 4: Global Deviance = 989.4634 
+GAMLSS-RS iteration 5: Global Deviance = 989.4446 
+GAMLSS-RS iteration 6: Global Deviance = 989.438 
+GAMLSS-RS iteration 7: Global Deviance = 989.4463 
+GAMLSS-RS iteration 8: Global Deviance = 989.4532 
+GAMLSS-RS iteration 9: Global Deviance = 989.4643 
+GAMLSS-RS iteration 10: Global Deviance = 989.4712 
+GAMLSS-RS iteration 11: Global Deviance = 989.4864 
+GAMLSS-RS iteration 12: Global Deviance = 989.4889 
+GAMLSS-RS iteration 13: Global Deviance = 989.5025 
+GAMLSS-RS iteration 14: Global Deviance = 989.5047 
+GAMLSS-RS iteration 15: Global Deviance = 989.511 
+GAMLSS-RS iteration 16: Global Deviance = 989.5154 
+GAMLSS-RS iteration 17: Global Deviance = 989.5195 
+GAMLSS-RS iteration 18: Global Deviance = 989.5231 
+GAMLSS-RS iteration 19: Global Deviance = 989.5262 
+GAMLSS-RS iteration 20: Global Deviance = 989.5289 
+[1] "rh_medialorbitofrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 862.0516 
+GAMLSS-RS iteration 2: Global Deviance = 861.6239 
+GAMLSS-RS iteration 3: Global Deviance = 861.4379 
+GAMLSS-RS iteration 4: Global Deviance = 861.3489 
+GAMLSS-RS iteration 5: Global Deviance = 861.3068 
+GAMLSS-RS iteration 6: Global Deviance = 861.2858 
+GAMLSS-RS iteration 7: Global Deviance = 861.2749 
+GAMLSS-RS iteration 8: Global Deviance = 861.269 
+GAMLSS-RS iteration 9: Global Deviance = 861.2658 
+GAMLSS-RS iteration 10: Global Deviance = 861.2646 
+GAMLSS-RS iteration 11: Global Deviance = 861.2634 
+GAMLSS-RS iteration 12: Global Deviance = 861.2625 
+[1] "rh_middletemporal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 973.153 
+GAMLSS-RS iteration 2: Global Deviance = 972.9022 
+GAMLSS-RS iteration 3: Global Deviance = 972.8587 
+GAMLSS-RS iteration 4: Global Deviance = 972.84 
+GAMLSS-RS iteration 5: Global Deviance = 972.832 
+GAMLSS-RS iteration 6: Global Deviance = 972.8286 
+GAMLSS-RS iteration 7: Global Deviance = 972.8271 
+GAMLSS-RS iteration 8: Global Deviance = 972.8265 
+[1] "rh_parahippocampal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 786.6055 
+GAMLSS-RS iteration 2: Global Deviance = 785.9381 
+GAMLSS-RS iteration 3: Global Deviance = 785.8895 
+GAMLSS-RS iteration 4: Global Deviance = 785.8684 
+GAMLSS-RS iteration 5: Global Deviance = 785.8586 
+GAMLSS-RS iteration 6: Global Deviance = 785.854 
+GAMLSS-RS iteration 7: Global Deviance = 785.8519 
+GAMLSS-RS iteration 8: Global Deviance = 785.8509 
+[1] "rh_paracentral_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 847.2412 
+GAMLSS-RS iteration 2: Global Deviance = 846.8706 
+GAMLSS-RS iteration 3: Global Deviance = 846.7529 
+GAMLSS-RS iteration 4: Global Deviance = 846.6976 
+GAMLSS-RS iteration 5: Global Deviance = 846.6712 
+GAMLSS-RS iteration 6: Global Deviance = 846.6586 
+GAMLSS-RS iteration 7: Global Deviance = 846.6526 
+GAMLSS-RS iteration 8: Global Deviance = 846.6497 
+GAMLSS-RS iteration 9: Global Deviance = 846.6483 
+GAMLSS-RS iteration 10: Global Deviance = 846.6476 
+[1] "rh_parsopercularis_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 882.2769 
+GAMLSS-RS iteration 2: Global Deviance = 881.4906 
+GAMLSS-RS iteration 3: Global Deviance = 881.8646 
+GAMLSS-RS iteration 4: Global Deviance = 882.5049 
+GAMLSS-RS iteration 5: Global Deviance = 882.2808 
+GAMLSS-RS iteration 6: Global Deviance = 882.1383 
+GAMLSS-RS iteration 7: Global Deviance = 882.0537 
+GAMLSS-RS iteration 8: Global Deviance = 882.0016 
+GAMLSS-RS iteration 9: Global Deviance = 881.9682 
+GAMLSS-RS iteration 10: Global Deviance = 881.9465 
+GAMLSS-RS iteration 11: Global Deviance = 881.9323 
+GAMLSS-RS iteration 12: Global Deviance = 881.9229 
+GAMLSS-RS iteration 13: Global Deviance = 881.9176 
+GAMLSS-RS iteration 14: Global Deviance = 881.9122 
+GAMLSS-RS iteration 15: Global Deviance = 881.9089 
+GAMLSS-RS iteration 16: Global Deviance = 881.9068 
+GAMLSS-RS iteration 17: Global Deviance = 881.9051 
+GAMLSS-RS iteration 18: Global Deviance = 881.9039 
+GAMLSS-RS iteration 19: Global Deviance = 881.9031 
+[1] "rh_parsorbitalis_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 788.0148 
+GAMLSS-RS iteration 2: Global Deviance = 787.6624 
+GAMLSS-RS iteration 3: Global Deviance = 787.5865 
+GAMLSS-RS iteration 4: Global Deviance = 787.5517 
+GAMLSS-RS iteration 5: Global Deviance = 787.5354 
+GAMLSS-RS iteration 6: Global Deviance = 787.5277 
+GAMLSS-RS iteration 7: Global Deviance = 787.524 
+GAMLSS-RS iteration 8: Global Deviance = 787.5215 
+GAMLSS-RS iteration 9: Global Deviance = 787.5207 
+[1] "rh_parstriangularis_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 939.299 
+GAMLSS-RS iteration 2: Global Deviance = 936.8112 
+GAMLSS-RS iteration 3: Global Deviance = 935.7936 
+GAMLSS-RS iteration 4: Global Deviance = 935.2999 
+GAMLSS-RS iteration 5: Global Deviance = 935.0512 
+GAMLSS-RS iteration 6: Global Deviance = 934.92 
+GAMLSS-RS iteration 7: Global Deviance = 934.849 
+GAMLSS-RS iteration 8: Global Deviance = 934.8099 
+GAMLSS-RS iteration 9: Global Deviance = 934.788 
+GAMLSS-RS iteration 10: Global Deviance = 934.7757 
+GAMLSS-RS iteration 11: Global Deviance = 934.7686 
+GAMLSS-RS iteration 12: Global Deviance = 934.7646 
+GAMLSS-RS iteration 13: Global Deviance = 934.7622 
+GAMLSS-RS iteration 14: Global Deviance = 934.761 
+GAMLSS-RS iteration 15: Global Deviance = 934.7602 
+[1] "rh_pericalcarine_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 922.3578 
+GAMLSS-RS iteration 2: Global Deviance = 920.4775 
+GAMLSS-RS iteration 3: Global Deviance = 920.8042 
+GAMLSS-RS iteration 4: Global Deviance = 921.1997 
+GAMLSS-RS iteration 5: Global Deviance = 921.6032 
+GAMLSS-RS iteration 6: Global Deviance = 921.9412 
+GAMLSS-RS iteration 7: Global Deviance = 922.1312 
+GAMLSS-RS iteration 8: Global Deviance = 922.2602 
+GAMLSS-RS iteration 9: Global Deviance = 922.3534 
+GAMLSS-RS iteration 10: Global Deviance = 922.4373 
+GAMLSS-RS iteration 11: Global Deviance = 922.5178 
+GAMLSS-RS iteration 12: Global Deviance = 922.5955 
+GAMLSS-RS iteration 13: Global Deviance = 922.6701 
+GAMLSS-RS iteration 14: Global Deviance = 922.7416 
+GAMLSS-RS iteration 15: Global Deviance = 922.8086 
+GAMLSS-RS iteration 16: Global Deviance = 922.8731 
+GAMLSS-RS iteration 17: Global Deviance = 922.9352 
+GAMLSS-RS iteration 18: Global Deviance = 922.9953 
+GAMLSS-RS iteration 19: Global Deviance = 923.0538 
+GAMLSS-RS iteration 20: Global Deviance = 923.1114 
+[1] "rh_postcentral_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1045.37 
+GAMLSS-RS iteration 2: Global Deviance = 1041.356 
+GAMLSS-RS iteration 3: Global Deviance = 1039.39 
+GAMLSS-RS iteration 4: Global Deviance = 1038.307 
+GAMLSS-RS iteration 5: Global Deviance = 1037.66 
+GAMLSS-RS iteration 6: Global Deviance = 1037.255 
+GAMLSS-RS iteration 7: Global Deviance = 1036.987 
+GAMLSS-RS iteration 8: Global Deviance = 1036.806 
+GAMLSS-RS iteration 9: Global Deviance = 1036.679 
+GAMLSS-RS iteration 10: Global Deviance = 1036.589 
+GAMLSS-RS iteration 11: Global Deviance = 1036.525 
+GAMLSS-RS iteration 12: Global Deviance = 1036.478 
+GAMLSS-RS iteration 13: Global Deviance = 1036.443 
+GAMLSS-RS iteration 14: Global Deviance = 1036.417 
+GAMLSS-RS iteration 15: Global Deviance = 1036.398 
+GAMLSS-RS iteration 16: Global Deviance = 1036.383 
+GAMLSS-RS iteration 17: Global Deviance = 1036.372 
+GAMLSS-RS iteration 18: Global Deviance = 1036.363 
+GAMLSS-RS iteration 19: Global Deviance = 1036.356 
+GAMLSS-RS iteration 20: Global Deviance = 1036.351 
+[1] "rh_posteriorcingulate_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 846.4753 
+GAMLSS-RS iteration 2: Global Deviance = 845.9305 
+GAMLSS-RS iteration 3: Global Deviance = 845.8749 
+GAMLSS-RS iteration 4: Global Deviance = 845.8674 
+GAMLSS-RS iteration 5: Global Deviance = 845.859 
+GAMLSS-RS iteration 6: Global Deviance = 845.8587 
+[1] "rh_precentral_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1033.148 
+GAMLSS-RS iteration 2: Global Deviance = 1029.225 
+GAMLSS-RS iteration 3: Global Deviance = 1027.959 
+GAMLSS-RS iteration 4: Global Deviance = 1027.441 
+GAMLSS-RS iteration 5: Global Deviance = 1027.219 
+GAMLSS-RS iteration 6: Global Deviance = 1027.123 
+GAMLSS-RS iteration 7: Global Deviance = 1027.079 
+GAMLSS-RS iteration 8: Global Deviance = 1027.058 
+GAMLSS-RS iteration 9: Global Deviance = 1027.049 
+GAMLSS-RS iteration 10: Global Deviance = 1027.044 
+GAMLSS-RS iteration 11: Global Deviance = 1027.042 
+GAMLSS-RS iteration 12: Global Deviance = 1027.041 
+GAMLSS-RS iteration 13: Global Deviance = 1027.041 
+[1] "rh_precuneus_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1000.748 
+GAMLSS-RS iteration 2: Global Deviance = 999.7596 
+GAMLSS-RS iteration 3: Global Deviance = 999.3895 
+GAMLSS-RS iteration 4: Global Deviance = 999.193 
+GAMLSS-RS iteration 5: Global Deviance = 999.0838 
+GAMLSS-RS iteration 6: Global Deviance = 999.0221 
+GAMLSS-RS iteration 7: Global Deviance = 998.9858 
+GAMLSS-RS iteration 8: Global Deviance = 998.9641 
+GAMLSS-RS iteration 9: Global Deviance = 998.9511 
+GAMLSS-RS iteration 10: Global Deviance = 998.9431 
+GAMLSS-RS iteration 11: Global Deviance = 998.9383 
+GAMLSS-RS iteration 12: Global Deviance = 998.9369 
+GAMLSS-RS iteration 13: Global Deviance = 998.9351 
+GAMLSS-RS iteration 14: Global Deviance = 998.9341 
+GAMLSS-RS iteration 15: Global Deviance = 998.9334 
+[1] "rh_rostralanteriorcingulate_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 802.2959 
+GAMLSS-RS iteration 2: Global Deviance = 802.1122 
+GAMLSS-RS iteration 3: Global Deviance = 802.0629 
+GAMLSS-RS iteration 4: Global Deviance = 802.0476 
+GAMLSS-RS iteration 5: Global Deviance = 802.0426 
+GAMLSS-RS iteration 6: Global Deviance = 802.0411 
+GAMLSS-RS iteration 7: Global Deviance = 802.0406 
+[1] "rh_rostralmiddlefrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1072.975 
+GAMLSS-RS iteration 2: Global Deviance = 1072.395 
+GAMLSS-RS iteration 3: Global Deviance = 1072.246 
+GAMLSS-RS iteration 4: Global Deviance = 1072.197 
+GAMLSS-RS iteration 5: Global Deviance = 1072.182 
+GAMLSS-RS iteration 6: Global Deviance = 1072.177 
+GAMLSS-RS iteration 7: Global Deviance = 1072.175 
+GAMLSS-RS iteration 8: Global Deviance = 1072.175 
+[1] "rh_superiorfrontal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1068.513 
+GAMLSS-RS iteration 2: Global Deviance = 1068.479 
+GAMLSS-RS iteration 3: Global Deviance = 1068.468 
+GAMLSS-RS iteration 4: Global Deviance = 1068.462 
+GAMLSS-RS iteration 5: Global Deviance = 1068.459 
+GAMLSS-RS iteration 6: Global Deviance = 1068.457 
+GAMLSS-RS iteration 7: Global Deviance = 1068.457 
+[1] "rh_superiorparietal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1082.806 
+GAMLSS-RS iteration 2: Global Deviance = 1077.88 
+GAMLSS-RS iteration 3: Global Deviance = 1076.266 
+GAMLSS-RS iteration 4: Global Deviance = 1075.619 
+GAMLSS-RS iteration 5: Global Deviance = 1075.364 
+GAMLSS-RS iteration 6: Global Deviance = 1075.27 
+GAMLSS-RS iteration 7: Global Deviance = 1075.231 
+GAMLSS-RS iteration 8: Global Deviance = 1075.222 
+GAMLSS-RS iteration 9: Global Deviance = 1075.229 
+GAMLSS-RS iteration 10: Global Deviance = 1075.245 
+GAMLSS-RS iteration 11: Global Deviance = 1075.269 
+GAMLSS-RS iteration 12: Global Deviance = 1075.291 
+GAMLSS-RS iteration 13: Global Deviance = 1075.31 
+GAMLSS-RS iteration 14: Global Deviance = 1075.326 
+GAMLSS-RS iteration 15: Global Deviance = 1075.339 
+GAMLSS-RS iteration 16: Global Deviance = 1075.349 
+GAMLSS-RS iteration 17: Global Deviance = 1075.358 
+GAMLSS-RS iteration 18: Global Deviance = 1075.364 
+GAMLSS-RS iteration 19: Global Deviance = 1075.369 
+GAMLSS-RS iteration 20: Global Deviance = 1075.372 
+[1] "rh_superiortemporal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 968.6605 
+GAMLSS-RS iteration 2: Global Deviance = 967.6378 
+GAMLSS-RS iteration 3: Global Deviance = 967.214 
+GAMLSS-RS iteration 4: Global Deviance = 967.02 
+GAMLSS-RS iteration 5: Global Deviance = 966.9277 
+GAMLSS-RS iteration 6: Global Deviance = 966.8828 
+GAMLSS-RS iteration 7: Global Deviance = 966.8604 
+GAMLSS-RS iteration 8: Global Deviance = 966.849 
+GAMLSS-RS iteration 9: Global Deviance = 966.8433 
+GAMLSS-RS iteration 10: Global Deviance = 966.8403 
+GAMLSS-RS iteration 11: Global Deviance = 966.8387 
+GAMLSS-RS iteration 12: Global Deviance = 966.838 
+[1] "rh_supramarginal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1018.464 
+GAMLSS-RS iteration 2: Global Deviance = 1017.024 
+GAMLSS-RS iteration 3: Global Deviance = 1016.293 
+GAMLSS-RS iteration 4: Global Deviance = 1015.89 
+GAMLSS-RS iteration 5: Global Deviance = 1015.658 
+GAMLSS-RS iteration 6: Global Deviance = 1015.518 
+GAMLSS-RS iteration 7: Global Deviance = 1015.433 
+GAMLSS-RS iteration 8: Global Deviance = 1015.379 
+GAMLSS-RS iteration 9: Global Deviance = 1015.343 
+GAMLSS-RS iteration 10: Global Deviance = 1015.321 
+GAMLSS-RS iteration 11: Global Deviance = 1015.306 
+GAMLSS-RS iteration 12: Global Deviance = 1015.296 
+GAMLSS-RS iteration 13: Global Deviance = 1015.289 
+GAMLSS-RS iteration 14: Global Deviance = 1015.285 
+GAMLSS-RS iteration 15: Global Deviance = 1015.282 
+GAMLSS-RS iteration 16: Global Deviance = 1015.28 
+GAMLSS-RS iteration 17: Global Deviance = 1015.279 
+GAMLSS-RS iteration 18: Global Deviance = 1015.278 
+[1] "rh_frontalpole_area"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 659.6516 
+GAMLSS-RS iteration 2: Global Deviance = 658.9425 
+GAMLSS-RS iteration 3: Global Deviance = 658.7274 
+GAMLSS-RS iteration 4: Global Deviance = 658.6291 
+GAMLSS-RS iteration 5: Global Deviance = 658.5826 
+GAMLSS-RS iteration 6: Global Deviance = 658.5603 
+GAMLSS-RS iteration 7: Global Deviance = 658.5505 
+GAMLSS-RS iteration 8: Global Deviance = 658.5453 
+GAMLSS-RS iteration 9: Global Deviance = 658.5426 
+GAMLSS-RS iteration 10: Global Deviance = 658.5413 
+GAMLSS-RS iteration 11: Global Deviance = 658.5407 
+[1] "rh_temporalpole_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 741.4981 
+GAMLSS-RS iteration 2: Global Deviance = 738.592 
+GAMLSS-RS iteration 3: Global Deviance = 737.8075 
+GAMLSS-RS iteration 4: Global Deviance = 737.5733 
+GAMLSS-RS iteration 5: Global Deviance = 737.5422 
+GAMLSS-RS iteration 6: Global Deviance = 737.5692 
+GAMLSS-RS iteration 7: Global Deviance = 737.6232 
+GAMLSS-RS iteration 8: Global Deviance = 737.6636 
+GAMLSS-RS iteration 9: Global Deviance = 737.7051 
+GAMLSS-RS iteration 10: Global Deviance = 737.7409 
+GAMLSS-RS iteration 11: Global Deviance = 737.7597 
+GAMLSS-RS iteration 12: Global Deviance = 737.7773 
+GAMLSS-RS iteration 13: Global Deviance = 737.7964 
+GAMLSS-RS iteration 14: Global Deviance = 737.8103 
+GAMLSS-RS iteration 15: Global Deviance = 737.8202 
+GAMLSS-RS iteration 16: Global Deviance = 737.8272 
+GAMLSS-RS iteration 17: Global Deviance = 737.8321 
+GAMLSS-RS iteration 18: Global Deviance = 737.8356 
+GAMLSS-RS iteration 19: Global Deviance = 737.838 
+GAMLSS-RS iteration 20: Global Deviance = 737.8396 
+[1] "rh_transversetemporal_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 675.8309 
+GAMLSS-RS iteration 2: Global Deviance = 675.7717 
+GAMLSS-RS iteration 3: Global Deviance = 675.7556 
+GAMLSS-RS iteration 4: Global Deviance = 675.7507 
+GAMLSS-RS iteration 5: Global Deviance = 675.7496 
+GAMLSS-RS iteration 6: Global Deviance = 675.7489 
+[1] "rh_insula_area"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 915.8915 
+GAMLSS-RS iteration 2: Global Deviance = 915.2659 
+GAMLSS-RS iteration 3: Global Deviance = 915.1655 
+GAMLSS-RS iteration 4: Global Deviance = 915.1126 
+GAMLSS-RS iteration 5: Global Deviance = 915.0823 
+GAMLSS-RS iteration 6: Global Deviance = 915.0634 
+GAMLSS-RS iteration 7: Global Deviance = 915.0521 
+GAMLSS-RS iteration 8: Global Deviance = 915.0452 
+GAMLSS-RS iteration 9: Global Deviance = 915.0412 
+GAMLSS-RS iteration 10: Global Deviance = 915.0385 
+GAMLSS-RS iteration 11: Global Deviance = 915.0367 
+GAMLSS-RS iteration 12: Global Deviance = 915.0356 
+GAMLSS-RS iteration 13: Global Deviance = 915.0347 
+[1] "rh_WhiteSurfArea_area"
+[1] "BrainSegVolNotVent"
+[1] "eTIV"
+End: Wed Apr  8 02:29:35 PM CST 2026

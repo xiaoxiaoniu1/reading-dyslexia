@@ -1,0 +1,27 @@
+trying URL 'https://cran.r-project.org/src/contrib/NBR_0.1.5.tar.gz'
+Content type 'application/x-gzip' length 574323 bytes (560 KB)
+==================================================
+downloaded 560 KB
+
+* installing *source* package ‘NBR’ ...
+** package ‘NBR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (NBR)
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NBS/tmp/RtmpN2J9wJ/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+slurmstepd: error: *** JOB 747769 ON node4 CANCELLED AT 2026-04-24T22:48:40 DUE TO TIME LIMIT ***

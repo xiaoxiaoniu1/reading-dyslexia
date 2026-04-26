@@ -1,0 +1,116 @@
+also installing the dependency ‘GlobalOptions’
+
+trying URL 'https://cran.r-project.org/src/contrib/GlobalOptions_0.1.4.tar.gz'
+Content type 'application/x-gzip' length 382348 bytes (373 KB)
+==================================================
+downloaded 373 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/circlize_0.4.18.tar.gz'
+Content type 'application/x-gzip' length 2498639 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+* installing *source* package ‘GlobalOptions’ ...
+** package ‘GlobalOptions’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (GlobalOptions)
+* installing *source* package ‘circlize’ ...
+** package ‘circlize’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (circlize)
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NBS/tmp/Rtmp1WG8OM/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+also installing the dependency ‘cpp11’
+
+trying URL 'https://cran.r-project.org/src/contrib/cpp11_0.5.4.tar.gz'
+Content type 'application/x-gzip' length 303477 bytes (296 KB)
+==================================================
+downloaded 296 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/igraph_2.3.0.tar.gz'
+Content type 'application/x-gzip' length 5207775 bytes (5.0 MB)
+==================================================
+downloaded 5.0 MB
+
+* installing *source* package ‘cpp11’ ...
+** package ‘cpp11’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (cpp11)
+* installing *source* package ‘igraph’ ...
+** package ‘igraph’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/sysroot/usr/include/string.h:495,
+                 from vendor/cigraph/vendor/glpk/env/stdc.h:35,
+                 from vendor/cigraph/vendor/glpk/env/env.h:25,
+                 from vendor/cigraph/vendor/glpk/misc/wclique1.c:22:
+In function 'memset',
+    inlined from '_glp_wclique1' at vendor/cigraph/vendor/glpk/misc/wclique1.c:111:7:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/sysroot/usr/include/bits/string_fortified.h:74:10: warning: '__builtin_memset' specified bound between 18446744071562067968 and 18446744073709551615 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   74 |   return __builtin___memset_chk (__dest, __ch, __len,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   75 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function 'memset',
+    inlined from '_glp_wclique1' at vendor/cigraph/vendor/glpk/misc/wclique1.c:113:7:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/sysroot/usr/include/bits/string_fortified.h:74:10: warning: '__builtin_memset' specified bound between 18446744071562067968 and 18446744073709551615 exceeds maximum object size 9223372036854775807 [-Wstringop-overflow=]
+   74 |   return __builtin___memset_chk (__dest, __ch, __len,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   75 |                                  __glibc_objsize0 (__dest));
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-igraph/00new/igraph/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (igraph)
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NBS/tmp/Rtmp1WG8OM/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+slurmstepd: error: *** JOB 748095 ON node4 CANCELLED AT 2026-04-25T15:02:16 ***

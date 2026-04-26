@@ -1,0 +1,15 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in if (cal_dist < uncal_dist) { : 
+  missing value where TRUE/FALSE needed
+Calls: bind_rows -> list2 -> lapply -> FUN
+Execution halted

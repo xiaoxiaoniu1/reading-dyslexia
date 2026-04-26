@@ -1,0 +1,46 @@
+Host: node4
+Start: Tue Apr 21 10:48:27 PM CST 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/NBS/tmp
+Subjects included: 204 
+Diagnosis counts:
+
+ TD  DD 
+112  92 
+AgeGroup counts:
+
+Child Adult 
+  117    87 
+Diagnosis x AgeGroup counts:
+    
+     Child Adult
+  TD    51    61
+  DD    66    26
+Sex counts:
+
+Female   Male 
+   108     96 
+Network matrix dimension: 204 x 50403 
+
+==============================
+Running: DK318_MIND_main_Diagnosis_TD_vs_DD 
+Model: ~ Diagnosis + AgeGroup + Sex 
+Permutations: 1000 
+thrP: 0.01 
+thrT: NULL 
+==============================
+Computing observed stats (setting 79 cluster cores).
+Computing permutated stats (setting 79 cluster cores).
+Permutation progress: ...100...200...300...400...500...600...700...800...900...1000.
+Computing observed stats (setting 79 cluster cores).
+Computing p.adjust.method.
+
+==============================
+Running: DK318_MIND_interaction_Diagnosis_by_AgeGroup 
+Model: ~ Diagnosis * AgeGroup + Sex 
+Permutations: 1000 
+thrP: 0.01 
+thrT: NULL 
+==============================
+Computing observed stats (setting 79 cluster cores).
+Computing permutated stats (setting 79 cluster cores).
+Permutation progress: ...100...200...300...400...500...

@@ -1,0 +1,14 @@
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:190: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf_stat_map(
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:190: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf_stat_map(
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:207: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf(
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:190: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf_stat_map(
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:190: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf_stat_map(
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:190: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf_stat_map(
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:190: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf_stat_map(

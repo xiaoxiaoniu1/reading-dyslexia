@@ -1,0 +1,9 @@
+Host: node5
+Start: Wed Apr  8 08:36:01 PM CST 2026
+TD subjects: 29 
+Found 211 uncalibrated TD application result files
+Saved files:
+/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/TD_uncalibrated_DK/calibration_check/holdout_TD_feature_Zscore_summary.csv 
+/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/TD_uncalibrated_DK/calibration_check/holdout_TD_overall_summary.csv 
+/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/TD_uncalibrated_DK/calibration_check/holdout_TD_subjects.csv 
+End: Wed Apr  8 08:50:53 PM CST 2026

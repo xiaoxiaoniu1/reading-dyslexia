@@ -1,0 +1,10 @@
+Host: node4
+Start: Thu Apr 23 10:51:34 PM CST 2026
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
+Analysis type: degree
+DGLM result dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+Brainmap output dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps
+GAM output dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/GAM_Followup_stratified
+===== STEP 1/3: Run stratified DGLM =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+Analysis type: degree | run_degree: True | run_edge: False

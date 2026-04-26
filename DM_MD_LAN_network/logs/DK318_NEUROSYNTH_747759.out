@@ -1,0 +1,347 @@
+[INFO] Job script started
+[INFO] FreeSurfer environment initialized without SetUpFreeSurfer.sh
+[INFO] Checking FreeSurfer commands in PATH
+[INFO] FreeSurfer commands available
+[INFO] mri_vol2surf: /data/software/freesurfer/bin/mri_vol2surf
+[INFO] mri_segstats: /data/software/freesurfer/bin/mri_segstats
+[INFO] Projecting: phonological_association-test_z_FDR_0.01.nii.gz -> lh
+srcvol = /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/phonological_association-test_z_FDR_0.01.nii.gz
+srcreg = /data/software/freesurfer/average/mni152.register.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = lh
+trgsubject = fsaverage
+surfreg = sphere.reg
+ProjFrac = 0.5
+thickness = thickness
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+niiRead(): detected input as 64 bit double, reading in as 32 bit float
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+WARNING: the voxel resolution in the source volume (2,2,2) differs 
+         from that listed in the registration file (1,1,1)
+-------- original matrix -----------
+ 0.99753  -0.00732   0.01760   0.95709;
+-0.01296  -0.00926   0.99706  -17.81596;
+-0.01460  -1.00094   0.00244  -18.54964;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /data/software/freesurfer/subjects/fsaverage/surf/lh.white
+Done reading source surface
+Reading thickness /data/software/freesurfer/subjects/fsaverage/surf/lh.thickness
+Done
+Mapping Source Volume onto Source Subject Surface
+Projecting 0.5 0.5 1
+ 1 0.5 0.5 0.5
+using old
+Done mapping volume to surface
+Number of source voxels hit = 22699
+Writing to /tmp/tmp.cO70tjuDzl/phonological_association-test_z_FDR_0.01.lh.mgh
+Dim: 163842 1 1
+mri_vol2surf done
+[INFO] Parcel summary: phonological_association-test_z_FDR_0.01.nii.gz -> lh
+[INFO] Projecting: phonological_association-test_z_FDR_0.01.nii.gz -> rh
+srcvol = /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/phonological_association-test_z_FDR_0.01.nii.gz
+srcreg = /data/software/freesurfer/average/mni152.register.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = rh
+trgsubject = fsaverage
+surfreg = sphere.reg
+ProjFrac = 0.5
+thickness = thickness
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+niiRead(): detected input as 64 bit double, reading in as 32 bit float
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+WARNING: the voxel resolution in the source volume (2,2,2) differs 
+         from that listed in the registration file (1,1,1)
+-------- original matrix -----------
+ 0.99753  -0.00732   0.01760   0.95709;
+-0.01296  -0.00926   0.99706  -17.81596;
+-0.01460  -1.00094   0.00244  -18.54964;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /data/software/freesurfer/subjects/fsaverage/surf/rh.white
+Done reading source surface
+Reading thickness /data/software/freesurfer/subjects/fsaverage/surf/rh.thickness
+Done
+Mapping Source Volume onto Source Subject Surface
+Projecting 0.5 0.5 1
+ 1 0.5 0.5 0.5
+using old
+Done mapping volume to surface
+Number of source voxels hit = 22446
+Writing to /tmp/tmp.cO70tjuDzl/phonological_association-test_z_FDR_0.01.rh.mgh
+Dim: 163842 1 1
+mri_vol2surf done
+[INFO] Parcel summary: phonological_association-test_z_FDR_0.01.nii.gz -> rh
+[DONE] /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/phonological_association-test_z_FDR_0.01_DK318.csv
+[INFO] Projecting: reading_association-test_z_FDR_0.01.nii.gz -> lh
+srcvol = /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/reading_association-test_z_FDR_0.01.nii.gz
+srcreg = /data/software/freesurfer/average/mni152.register.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = lh
+trgsubject = fsaverage
+surfreg = sphere.reg
+ProjFrac = 0.5
+thickness = thickness
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+niiRead(): detected input as 64 bit double, reading in as 32 bit float
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+WARNING: the voxel resolution in the source volume (2,2,2) differs 
+         from that listed in the registration file (1,1,1)
+-------- original matrix -----------
+ 0.99753  -0.00732   0.01760   0.95709;
+-0.01296  -0.00926   0.99706  -17.81596;
+-0.01460  -1.00094   0.00244  -18.54964;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /data/software/freesurfer/subjects/fsaverage/surf/lh.white
+Done reading source surface
+Reading thickness /data/software/freesurfer/subjects/fsaverage/surf/lh.thickness
+Done
+Mapping Source Volume onto Source Subject Surface
+Projecting 0.5 0.5 1
+ 1 0.5 0.5 0.5
+using old
+Done mapping volume to surface
+Number of source voxels hit = 22699
+Writing to /tmp/tmp.cO70tjuDzl/reading_association-test_z_FDR_0.01.lh.mgh
+Dim: 163842 1 1
+mri_vol2surf done
+[INFO] Parcel summary: reading_association-test_z_FDR_0.01.nii.gz -> lh
+[INFO] Projecting: reading_association-test_z_FDR_0.01.nii.gz -> rh
+srcvol = /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/reading_association-test_z_FDR_0.01.nii.gz
+srcreg = /data/software/freesurfer/average/mni152.register.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = rh
+trgsubject = fsaverage
+surfreg = sphere.reg
+ProjFrac = 0.5
+thickness = thickness
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+niiRead(): detected input as 64 bit double, reading in as 32 bit float
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+WARNING: the voxel resolution in the source volume (2,2,2) differs 
+         from that listed in the registration file (1,1,1)
+-------- original matrix -----------
+ 0.99753  -0.00732   0.01760   0.95709;
+-0.01296  -0.00926   0.99706  -17.81596;
+-0.01460  -1.00094   0.00244  -18.54964;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /data/software/freesurfer/subjects/fsaverage/surf/rh.white
+Done reading source surface
+Reading thickness /data/software/freesurfer/subjects/fsaverage/surf/rh.thickness
+Done
+Mapping Source Volume onto Source Subject Surface
+Projecting 0.5 0.5 1
+ 1 0.5 0.5 0.5
+using old
+Done mapping volume to surface
+Number of source voxels hit = 22446
+Writing to /tmp/tmp.cO70tjuDzl/reading_association-test_z_FDR_0.01.rh.mgh
+Dim: 163842 1 1
+mri_vol2surf done
+[INFO] Parcel summary: reading_association-test_z_FDR_0.01.nii.gz -> rh
+[DONE] /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/reading_association-test_z_FDR_0.01_DK318.csv
+[INFO] Projecting: sentence comprehension_association-test_z_FDR_0.01.nii.gz -> lh
+srcvol = /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/sentence comprehension_association-test_z_FDR_0.01.nii.gz
+srcreg = /data/software/freesurfer/average/mni152.register.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = lh
+trgsubject = fsaverage
+surfreg = sphere.reg
+ProjFrac = 0.5
+thickness = thickness
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+niiRead(): detected input as 64 bit double, reading in as 32 bit float
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+WARNING: the voxel resolution in the source volume (2,2,2) differs 
+         from that listed in the registration file (1,1,1)
+-------- original matrix -----------
+ 0.99753  -0.00732   0.01760   0.95709;
+-0.01296  -0.00926   0.99706  -17.81596;
+-0.01460  -1.00094   0.00244  -18.54964;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /data/software/freesurfer/subjects/fsaverage/surf/lh.white
+Done reading source surface
+Reading thickness /data/software/freesurfer/subjects/fsaverage/surf/lh.thickness
+Done
+Mapping Source Volume onto Source Subject Surface
+Projecting 0.5 0.5 1
+ 1 0.5 0.5 0.5
+using old
+Done mapping volume to surface
+Number of source voxels hit = 22699
+Writing to /tmp/tmp.cO70tjuDzl/sentence_comprehension_association-test_z_FDR_0.01.lh.mgh
+Dim: 163842 1 1
+mri_vol2surf done
+[INFO] Parcel summary: sentence comprehension_association-test_z_FDR_0.01.nii.gz -> lh
+[INFO] Projecting: sentence comprehension_association-test_z_FDR_0.01.nii.gz -> rh
+srcvol = /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/sentence comprehension_association-test_z_FDR_0.01.nii.gz
+srcreg = /data/software/freesurfer/average/mni152.register.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = rh
+trgsubject = fsaverage
+surfreg = sphere.reg
+ProjFrac = 0.5
+thickness = thickness
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+niiRead(): detected input as 64 bit double, reading in as 32 bit float
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+WARNING: the voxel resolution in the source volume (2,2,2) differs 
+         from that listed in the registration file (1,1,1)
+-------- original matrix -----------
+ 0.99753  -0.00732   0.01760   0.95709;
+-0.01296  -0.00926   0.99706  -17.81596;
+-0.01460  -1.00094   0.00244  -18.54964;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /data/software/freesurfer/subjects/fsaverage/surf/rh.white
+Done reading source surface
+Reading thickness /data/software/freesurfer/subjects/fsaverage/surf/rh.thickness
+Done
+Mapping Source Volume onto Source Subject Surface
+Projecting 0.5 0.5 1
+ 1 0.5 0.5 0.5
+using old
+Done mapping volume to surface
+Number of source voxels hit = 22446
+Writing to /tmp/tmp.cO70tjuDzl/sentence_comprehension_association-test_z_FDR_0.01.rh.mgh
+Dim: 163842 1 1
+mri_vol2surf done
+[INFO] Parcel summary: sentence comprehension_association-test_z_FDR_0.01.nii.gz -> rh
+[DONE] /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/sentence_comprehension_association-test_z_FDR_0.01_DK318.csv
+[INFO] Projecting: word form_association-test_z_FDR_0.01.nii.gz -> lh
+srcvol = /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/word form_association-test_z_FDR_0.01.nii.gz
+srcreg = /data/software/freesurfer/average/mni152.register.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = lh
+trgsubject = fsaverage
+surfreg = sphere.reg
+ProjFrac = 0.5
+thickness = thickness
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+niiRead(): detected input as 64 bit double, reading in as 32 bit float
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+WARNING: the voxel resolution in the source volume (2,2,2) differs 
+         from that listed in the registration file (1,1,1)
+-------- original matrix -----------
+ 0.99753  -0.00732   0.01760   0.95709;
+-0.01296  -0.00926   0.99706  -17.81596;
+-0.01460  -1.00094   0.00244  -18.54964;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /data/software/freesurfer/subjects/fsaverage/surf/lh.white
+Done reading source surface
+Reading thickness /data/software/freesurfer/subjects/fsaverage/surf/lh.thickness
+Done
+Mapping Source Volume onto Source Subject Surface
+Projecting 0.5 0.5 1
+ 1 0.5 0.5 0.5
+using old
+Done mapping volume to surface
+Number of source voxels hit = 22699
+Writing to /tmp/tmp.cO70tjuDzl/word_form_association-test_z_FDR_0.01.lh.mgh
+Dim: 163842 1 1
+mri_vol2surf done
+[INFO] Parcel summary: word form_association-test_z_FDR_0.01.nii.gz -> lh
+[INFO] Projecting: word form_association-test_z_FDR_0.01.nii.gz -> rh
+srcvol = /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/word form_association-test_z_FDR_0.01.nii.gz
+srcreg = /data/software/freesurfer/average/mni152.register.dat
+srcregold = 0
+srcwarp unspecified
+surf = white
+hemi = rh
+trgsubject = fsaverage
+surfreg = sphere.reg
+ProjFrac = 0.5
+thickness = thickness
+reshape = 0
+interp = nearest
+float2int = round
+GetProjMax = 0
+INFO: float2int code = 0
+niiRead(): detected input as 64 bit double, reading in as 32 bit float
+Done loading volume
+INFO: This REGISTER_DAT transform is valid only for volumes between  COR types with c_(r,a,s) = 0.
+Input reg is register.dat
+WARNING: the voxel resolution in the source volume (2,2,2) differs 
+         from that listed in the registration file (1,1,1)
+-------- original matrix -----------
+ 0.99753  -0.00732   0.01760   0.95709;
+-0.01296  -0.00926   0.99706  -17.81596;
+-0.01460  -1.00094   0.00244  -18.54964;
+ 0.00000   0.00000   0.00000   1.00000;
+-------- original matrix -----------
+Reading surface /data/software/freesurfer/subjects/fsaverage/surf/rh.white
+Done reading source surface
+Reading thickness /data/software/freesurfer/subjects/fsaverage/surf/rh.thickness
+Done
+Mapping Source Volume onto Source Subject Surface
+Projecting 0.5 0.5 1
+ 1 0.5 0.5 0.5
+using old
+Done mapping volume to surface
+Number of source voxels hit = 22446
+Writing to /tmp/tmp.cO70tjuDzl/word_form_association-test_z_FDR_0.01.rh.mgh
+Dim: 163842 1 1
+mri_vol2surf done
+[INFO] Parcel summary: word form_association-test_z_FDR_0.01.nii.gz -> rh
+[DONE] /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/word_form_association-test_z_FDR_0.01_DK318.csv
+All networks finished.

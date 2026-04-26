@@ -1,0 +1,145 @@
+Host: node3
+Start: Wed Apr 15 02:00:48 PM UTC 2026
+
+--- Alignment diagnostics ---
+sheet: Global.table 
+clinical rows: 96  unique keys: 96 
+MRI rows: 96  unique keys: 96 
+intersection: 96 
+clinical head keys: /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/rh.aparc.stats 
+MRI head keys: /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/rh.aparc.stats 
+intersection head keys: /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/rh.aparc.stats 
+[1] "GMV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1631.873 
+GAMLSS-RS iteration 2: Global Deviance = 1631.656 
+GAMLSS-RS iteration 3: Global Deviance = 1631.582 
+GAMLSS-RS iteration 4: Global Deviance = 1631.557 
+GAMLSS-RS iteration 5: Global Deviance = 1631.547 
+GAMLSS-RS iteration 6: Global Deviance = 1631.544 
+GAMLSS-RS iteration 7: Global Deviance = 1631.543 
+GAMLSS-RS iteration 8: Global Deviance = 1631.543 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "sGMV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1299.559 
+GAMLSS-RS iteration 2: Global Deviance = 1297.935 
+GAMLSS-RS iteration 3: Global Deviance = 1297.401 
+GAMLSS-RS iteration 4: Global Deviance = 1297.235 
+GAMLSS-RS iteration 5: Global Deviance = 1297.186 
+GAMLSS-RS iteration 6: Global Deviance = 1297.173 
+GAMLSS-RS iteration 7: Global Deviance = 1297.171 
+GAMLSS-RS iteration 8: Global Deviance = 1297.171 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "WMV"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1605.69 
+GAMLSS-RS iteration 2: Global Deviance = 1603.861 
+GAMLSS-RS iteration 3: Global Deviance = 1603.29 
+GAMLSS-RS iteration 4: Global Deviance = 1603.103 
+GAMLSS-RS iteration 5: Global Deviance = 1603.041 
+GAMLSS-RS iteration 6: Global Deviance = 1603.02 
+GAMLSS-RS iteration 7: Global Deviance = 1603.013 
+GAMLSS-RS iteration 8: Global Deviance = 1603.01 
+GAMLSS-RS iteration 9: Global Deviance = 1603.009 
+GAMLSS-RS iteration 10: Global Deviance = 1603.009 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "Ventricles"
+[1] "file exist"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1315.657 
+GAMLSS-RS iteration 2: Global Deviance = 1314.694 
+GAMLSS-RS iteration 3: Global Deviance = 1314.175 
+GAMLSS-RS iteration 4: Global Deviance = 1313.908 
+GAMLSS-RS iteration 5: Global Deviance = 1313.773 
+GAMLSS-RS iteration 6: Global Deviance = 1313.705 
+GAMLSS-RS iteration 7: Global Deviance = 1313.671 
+GAMLSS-RS iteration 8: Global Deviance = 1313.654 
+GAMLSS-RS iteration 9: Global Deviance = 1313.645 
+GAMLSS-RS iteration 10: Global Deviance = 1313.64 
+GAMLSS-RS iteration 11: Global Deviance = 1313.638 
+GAMLSS-RS iteration 12: Global Deviance = 1313.637 
+GAMLSS-RS iteration 13: Global Deviance = 1313.636 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "TCV"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = 1785.129 
+GAMLSS-RS iteration 2: Global Deviance = 1784.965 
+GAMLSS-RS iteration 3: Global Deviance = 1784.879 
+GAMLSS-RS iteration 4: Global Deviance = 1784.835 
+GAMLSS-RS iteration 5: Global Deviance = 1784.81 
+GAMLSS-RS iteration 6: Global Deviance = 1784.796 
+GAMLSS-RS iteration 7: Global Deviance = 1784.789 
+GAMLSS-RS iteration 8: Global Deviance = 1784.784 
+GAMLSS-RS iteration 9: Global Deviance = 1784.782 
+GAMLSS-RS iteration 10: Global Deviance = 1784.78 
+GAMLSS-RS iteration 11: Global Deviance = 1784.78 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "mean_thickness"
+[1] "file exist"
+GAMLSS-RS iteration 1: Global Deviance = -165.7201 
+GAMLSS-RS iteration 2: Global Deviance = -165.7309 
+GAMLSS-RS iteration 3: Global Deviance = -165.7225 
+GAMLSS-RS iteration 4: Global Deviance = -165.7133 
+GAMLSS-RS iteration 5: Global Deviance = -165.7048 
+GAMLSS-RS iteration 6: Global Deviance = -165.6982 
+GAMLSS-RS iteration 7: Global Deviance = -165.693 
+GAMLSS-RS iteration 8: Global Deviance = -165.6889 
+GAMLSS-RS iteration 9: Global Deviance = -165.6857 
+GAMLSS-RS iteration 10: Global Deviance = -165.6833 
+GAMLSS-RS iteration 11: Global Deviance = -165.6815 
+GAMLSS-RS iteration 12: Global Deviance = -165.6802 
+GAMLSS-RS iteration 13: Global Deviance = -165.6791 
+GAMLSS-RS iteration 14: Global Deviance = -165.6784 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "total_surface_arrea"
+[1] "file exist"
+[1] "no random effects for this term"
+GAMLSS-RS iteration 1: Global Deviance = 1481.542 
+GAMLSS-RS iteration 2: Global Deviance = 1481.089 
+GAMLSS-RS iteration 3: Global Deviance = 1480.945 
+GAMLSS-RS iteration 4: Global Deviance = 1480.898 
+GAMLSS-RS iteration 5: Global Deviance = 1480.882 
+GAMLSS-RS iteration 6: Global Deviance = 1480.877 
+GAMLSS-RS iteration 7: Global Deviance = 1480.876 
+GAMLSS-RS iteration 8: Global Deviance = 1480.874 
+GAMLSS-RS iteration 9: Global Deviance = 1480.874 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+
+--- Alignment diagnostics ---
+sheet: aseg.vol.table 
+clinical rows: 96  unique keys: 96 
+MRI rows: 96  unique keys: 96 
+intersection: 0 
+clinical head keys: /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/rh.aparc.stats 
+MRI head keys: /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/aseg.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/aseg.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/aseg.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/rh.aparc.stats 
+clinical-only head keys: /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2217/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2217/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2222/stats/lh.aparc.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2222/stats/rh.aparc.stats 
+MRI-only head keys: /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/aseg.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2203/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/aseg.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2214/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/aseg.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2216/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2217/stats/aseg.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2217/stats/rh.aparc.stats | /data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2222/stats/aseg.stats/data1/tqi/share/after_freesurfer/fs_subjects_all/AdoleD_2222/stats/rh.aparc.stats 

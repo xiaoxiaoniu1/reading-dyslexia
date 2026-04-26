@@ -242,8 +242,8 @@ if __name__ == "__main__":
      rh_labels, _, rh_names) = load_fsaverage_and_aparc()
 
     # 2. 配置 DK-68 ANOVA 结果路径
-    dk68_csv = os.path.join(BASE_DIR, "FILE/MIND_DK68_ANOVA", "ANOVA_DK68_degree_results.csv")
-    dk68_out = os.path.join(BASE_DIR, "FILE/MIND_DK68_ANOVA", "dk68_degree_brainmaps(ANOVA)")
+    dk68_csv = os.path.join(BASE_DIR, "FILE/test_mean_1.5/MIND_DK68_ANOVA", "ANOVA_DK68_degree_results.csv")
+    dk68_out = os.path.join(BASE_DIR, "FILE/test_mean_1.5/MIND_DK68_ANOVA", "dk68_degree_brainmaps(ANOVA)")
     
     # 想要绘制的 P 值列名
     dk68_cols = [

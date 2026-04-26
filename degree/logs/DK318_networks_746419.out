@@ -1,0 +1,42 @@
+Start: Wed Apr 15 04:04:19 PM UTC 2026
+Host: node3
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/degree
+当前工作目录： /data/home/tqi/data1/share/after_freesurfer
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+
+========== LAN ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_Kong17_Language_hard_conservative.csv
+LH requested ROIs: 4, matched annot names: 4
+RH requested ROIs: 3, matched annot names: 3
+LH unmatched examples: ['lh.fusiform_part2', 'lh.rostralmiddlefrontal_part8', 'lh.superiorfrontal_part7', 'lh.superiortemporal_part5', 'lh_fusiform_part2', 'lh_rostralmiddlefrontal_part8', 'lh_superiorfrontal_part7', 'lh_superiortemporal_part5']
+RH unmatched examples: ['rh.bankssts_part2', 'rh.inferiortemporal_part1', 'rh.parstriangularis_part1', 'rh_bankssts_part2', 'rh_inferiortemporal_part1', 'rh_parstriangularis_part1']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/LAN/LAN_regions.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/LAN/LAN_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/LAN/LAN_rh_lateral.png
+
+========== MD ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_Kong17_MD_hard_conservative.csv
+LH requested ROIs: 59, matched annot names: 59
+RH requested ROIs: 65, matched annot names: 65
+LH unmatched examples: ['lh.caudalanteriorcingulate_part1', 'lh.caudalmiddlefrontal_part2', 'lh.caudalmiddlefrontal_part4', 'lh.entorhinal_part1', 'lh.fusiform_part6', 'lh.inferiorparietal_part3', 'lh.inferiorparietal_part5', 'lh.inferiorparietal_part7', 'lh.inferiorparietal_part9', 'lh.inferiortemporal_part2']
+RH unmatched examples: ['rh.caudalanteriorcingulate_part1', 'rh.caudalmiddlefrontal_part1', 'rh.caudalmiddlefrontal_part2', 'rh.caudalmiddlefrontal_part3', 'rh.caudalmiddlefrontal_part4', 'rh.entorhinal_part1', 'rh.inferiorparietal_part5', 'rh.inferiorparietal_part7', 'rh.inferiortemporal_part2', 'rh.inferiortemporal_part4']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/MD/MD_regions.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/MD/MD_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/MD/MD_rh_lateral.png
+
+========== DM ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_Kong17_DM_hard_conservative.csv
+LH requested ROIs: 30, matched annot names: 30
+RH requested ROIs: 26, matched annot names: 26
+LH unmatched examples: ['lh.caudalmiddlefrontal_part1', 'lh.caudalmiddlefrontal_part3', 'lh.frontalpole_part1', 'lh.inferiorparietal_part2', 'lh.inferiorparietal_part4', 'lh.inferiorparietal_part6', 'lh.inferiorparietal_part8', 'lh.inferiortemporal_part3', 'lh.isthmuscingulate_part1', 'lh.isthmuscingulate_part2']
+RH unmatched examples: ['rh.frontalpole_part1', 'rh.fusiform_part2', 'rh.inferiorparietal_part2', 'rh.inferiorparietal_part6', 'rh.inferiorparietal_part8', 'rh.inferiorparietal_part9', 'rh.isthmuscingulate_part1', 'rh.medialorbitofrontal_part2', 'rh.medialorbitofrontal_part4', 'rh.middletemporal_part3']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/DM/DM_regions.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/DM/DM_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/DM/DM_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/DK318_DM_MD_LAN_networks_summary.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/network_region_counts.csv
+
+三个网络脑图绘制完成。
+End: Wed Apr 15 04:07:38 PM UTC 2026

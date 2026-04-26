@@ -60,7 +60,34 @@ export TMPDIR="$(pwd)/tmp"
 
 echo "TMPDIR: ${TMPDIR}"
 
-# 跑 DGLM R 脚本
-Rscript dglm_dk318_degree_edge.R
+# analysis_type: "both" (default), "degree", or "edge"
+ANALYSIS_TYPE="${1:-both}"
+RESULT_DIR="/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318/DGLM"
+VIOLIN_DIR="${RESULT_DIR}/VIOLIN_Followup"
+echo "Analysis type: ${ANALYSIS_TYPE}"
+echo "DGLM result dir: ${RESULT_DIR}"
+echo "VIOLIN follow-up dir: ${VIOLIN_DIR}"
+
+echo "===== STEP 1/3: Run DGLM model ====="
+echo "Output dir (STEP 1/3): ${RESULT_DIR}"
+Rscript dglm_dk318_degree_edge.R "${ANALYSIS_TYPE}"
+
+echo "===== STEP 1/3 DONE ====="
+echo "Output dir (STEP 1/3): ${RESULT_DIR}"
+
+if [[ "${ANALYSIS_TYPE}" == "both" || "${ANALYSIS_TYPE}" == "degree" ]]; then
+  echo "===== STEP 2/3: Generate DGLM degree brainmaps ====="
+  echo "Output dir (STEP 2/3): ${RESULT_DIR}"
+  python /data/home/tqi/data1/share/after_freesurfer/CODE/degree/degree_analysis_DK318_DGLM.py \
+    --result-dir "${RESULT_DIR}"
+
+  echo "===== STEP 2/3 DONE ====="
+  echo "Output dir (STEP 2/3): ${RESULT_DIR}"
+  echo "===== STEP 3/3: Run VIOLIN follow-up plots ====="
+  echo "Output dir (STEP 3/3): ${VIOLIN_DIR}"
+  bash /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/run_violin_dk318.sh overall
+  echo "===== STEP 3/3 DONE ====="
+  echo "Output dir (STEP 3/3): ${VIOLIN_DIR}"
+fi
 
 echo "End: $(date)"

@@ -1,0 +1,55 @@
+Start: Wed Apr 15 02:38:18 PM UTC 2026
+Host: node3
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/degree
+当前工作目录： /data1/tqi/share/after_freesurfer
+读取网络文件： /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_Kong17_MD_DM_Language_parcels.csv
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+LH surface vertices: 163842
+RH surface vertices: 163842
+LH annot vertices: 163842
+RH annot vertices: 163842
+
+========== DM ==========
+LH requested ROIs: 0, matched annot names: 0
+RH requested ROIs: 0, matched annot names: 0
+LH vertex filled (%): 0.00
+RH vertex filled (%): 0.00
+LH unmatched examples: []
+RH unmatched examples: []
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/DM/DM_regions.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/DM/DM_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/DM/DM_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/DM/DM_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/DM/DM_rh_medial.png
+
+========== MD ==========
+LH requested ROIs: 0, matched annot names: 0
+RH requested ROIs: 0, matched annot names: 0
+LH vertex filled (%): 0.00
+RH vertex filled (%): 0.00
+LH unmatched examples: []
+RH unmatched examples: []
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/MD/MD_regions.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/MD/MD_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/MD/MD_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/MD/MD_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/MD/MD_rh_medial.png
+
+========== LAN ==========
+LH requested ROIs: 0, matched annot names: 0
+RH requested ROIs: 0, matched annot names: 0
+LH vertex filled (%): 0.00
+RH vertex filled (%): 0.00
+LH unmatched examples: []
+RH unmatched examples: []
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/LAN/LAN_regions.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/LAN/LAN_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/LAN/LAN_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/LAN/LAN_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/LAN/LAN_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/DK318_network_brainmaps/network_region_counts.csv
+
+三个网络脑图绘制完成。
+End: Wed Apr 15 02:42:49 PM UTC 2026

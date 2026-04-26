@@ -1,0 +1,44 @@
+Loading required package: splines
+Loading required package: gamlss.data
+
+Attaching package: ‘gamlss.data’
+
+The following object is masked from ‘package:datasets’:
+
+    sleep
+
+Loading required package: gamlss.dist
+Loading required package: nlme
+Loading required package: parallel
+ **********   GAMLSS Version 5.5-0  ********** 
+For more on GAMLSS look at https://www.gamlss.com/
+Type gamlssNews() to see new features/changes/bug fixes.
+
+Warning message:
+In eval(ei, envir) :
+  Have set a fixed random seed, all runs will be identical unless this is changed (may be good or bad, depending on what you want)
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:nlme’:
+
+    collapse
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error in if (dv > olddv && itn >= 2 && auto == TRUE) { : 
+  missing value where TRUE/FALSE needed
+Calls: gamlss -> eval -> eval -> RS -> glim.fit
+In addition: Warning messages:
+1: In RS() : Algorithm RS has not yet converged
+2: In RS() : Algorithm RS has not yet converged
+3: In additive.fit(x = X, y = wv, w = wt * w, s = s, who = who, smooth.frame,  :
+  additive.fit convergence not obtained in  30  iterations
+4: In RS() : Algorithm RS has not yet converged
+Execution halted

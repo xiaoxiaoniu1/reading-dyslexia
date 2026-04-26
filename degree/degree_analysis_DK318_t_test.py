@@ -226,16 +226,12 @@ if __name__ == "__main__":
      rh_labels, rh_ctab, rh_names) = load_fsaverage_and_annot()
 
     adult_csv = os.path.join(
-        BASE_DIR, r"FILE/MIND_t_test", "Stratified_Adult_degree_results.csv"
+        BASE_DIR, r"FILE/test_mean_1.5/MIND_DK318_t_test", "Stratified_Adult_degree_results.csv"
     )
-    adult_out = os.path.join(BASE_DIR, "FILE/MIND_t_test/dk318_degree_brainmaps(t-test_Adult_significant)")
-    adult_cols = ["p_fdr","p_value"]
+    adult_out = os.path.join(BASE_DIR, "FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Adult_significant)")
+    adult_cols = ["p_fdr", "p_value"]
     adult_dir_csv = os.path.join(
-        BASE_DIR, r"FILE/MIND_t_test", "Stratified_Adult_degree_results.csv"
-    )
-    adult_sig_p_fdr_csv = os.path.join(
-        BASE_DIR, r"FILE/MIND_t_test/dk318_degree_brainmaps(t-test_Adult_significant)",
-        "p_fdr", "significant_regions_p_fdr.csv"
+        BASE_DIR, r"FILE/test_mean_1.5/MIND_DK318_t_test", "Stratified_Adult_degree_results.csv"
     )
     plot_degree_brainmaps(
         csv_path=adult_csv,
@@ -248,17 +244,16 @@ if __name__ == "__main__":
         rh_labels=rh_labels,
         rh_names=rh_names,
         title_prefix="DK318 t-test Adult",
-        direction_csv=adult_dir_csv,
-        sig_region_csv=adult_sig_p_fdr_csv
+        direction_csv=adult_dir_csv
     )
 
     child_csv = os.path.join(
-        BASE_DIR, r"FILE/MIND_t_test", "Stratified_Child_degree_results.csv"
+        BASE_DIR, r"FILE/test_mean_1.5/MIND_DK318_t_test", "Stratified_Child_degree_results.csv"
     )
-    child_out = os.path.join(BASE_DIR, "FILE/MIND_t_test/dk318_degree_brainmaps(t-test_Child_significant)")
-    child_cols = ["p_fdr"]
+    child_out = os.path.join(BASE_DIR, "FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Child_significant)")
+    child_cols = ["p_fdr", "p_value"]
     child_dir_csv = os.path.join(
-        BASE_DIR, r"FILE/MIND_t_test", "Significant_Child_degree_results.csv"
+        BASE_DIR, r"FILE/test_mean_1.5/MIND_DK318_t_test", "Stratified_Child_degree_results.csv"
     )
     plot_degree_brainmaps(
         csv_path=child_csv,

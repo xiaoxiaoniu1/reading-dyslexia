@@ -1,0 +1,41 @@
+Start: Wed Apr 15 12:23:48 PM UTC 2026
+加载了 318 个脑区坐标
+正在计算效应方向（TD vs DD / Adult vs Child）...
+效应方向计算完成！
+
+==================================================
+处理: p_mean_Interaction
+==================================================
+找到 4199 条显著边
+保留显著性最高的前 20 条边
+矩阵构建完成！
+  TD更强（正值）: 13 条
+  DD更强（负值）: 7 条
+✓ 显著边表格已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/DGLM_DK318_p_mean_Interaction_top20_edges.csv
+✓ 图片已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/DGLM_DK318_p_mean_Interaction_plot.png
+
+==================================================
+处理: p_mean_Interaction_FDR
+==================================================
+⚠️ 提示：p_mean_Interaction_FDR 无显著结果 (p < 0.05)
+
+==================================================
+处理: p_disp_Interaction
+==================================================
+找到 629 条显著边
+保留显著性最高的前 20 条边
+矩阵构建完成！
+  TD更强（正值）: 15 条
+  DD更强（负值）: 5 条
+✓ 显著边表格已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/DGLM_DK318_p_disp_Interaction_top20_edges.csv
+✓ 图片已保存: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/DGLM_DK318_p_disp_Interaction_plot.png
+
+==================================================
+处理: p_disp_Interaction_FDR
+==================================================
+⚠️ 提示：p_disp_Interaction_FDR 无显著结果 (p < 0.05)
+
+==================================================
+所有 DK318 DGLM edge 图片生成完成！
+==================================================
+End: Wed Apr 15 12:24:01 PM UTC 2026

@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/data1/tqi/share/after_freesurfer/CODE/degree/plot_significant_DK318_stratified_brainmaps.py", line 347, in <module>
+    main()
+  File "/data1/tqi/share/after_freesurfer/CODE/degree/plot_significant_DK318_stratified_brainmaps.py", line 331, in main
+    plot_single_result(
+  File "/data1/tqi/share/after_freesurfer/CODE/degree/plot_significant_DK318_stratified_brainmaps.py", line 215, in plot_single_result
+    df = pd.read_csv(csv_path)
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_Adult_mean_DK318_degree_results.csv'

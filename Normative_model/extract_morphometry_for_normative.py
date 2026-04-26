@@ -42,28 +42,57 @@ PROJECT_ALIAS = {
     'controldataagecontrol': 'controldataagecontrol'
 }
 
+# aseg.stats 结构体积映射（按示例数据列顺序排列）
 ASEG_STRUCT_OUTPUT_MAP = {
-    'Left-Accumbens-area': 'Left.Accumbens.area',
-    'Right-Accumbens-area': 'Right.Accumbens.area',
-    'Left-Amygdala': 'Left.Amygdala',
-    'Right-Amygdala': 'Right.Amygdala',
-    'Left-Caudate': 'Left.Caudate',
-    'Right-Caudate': 'Right.Caudate',
-    'Left-Hippocampus': 'Left.Hippocampus',
-    'Right-Hippocampus': 'Right.Hippocampus',
-    'Left-Pallidum': 'Left.Pallidum',
-    'Right-Pallidum': 'Right.Pallidum',
-    'Left-Putamen': 'Left.Putamen',
-    'Right-Putamen': 'Right.Putamen',
+    'Left-Lateral-Ventricle': 'Left.Lateral.Ventricle',
+    'Left-Inf-Lat-Vent': 'Left.Inf.Lat.Vent',
+    'Left-Cerebellum-White-Matter': 'Left.Cerebellum.White.Matter',
+    'Left-Cerebellum-Cortex': 'Left.Cerebellum.Cortex',
     'Left-Thalamus': 'Left.Thalamus',
-    'Right-Thalamus': 'Right.Thalamus',
+    'Left-Caudate': 'Left.Caudate',
+    'Left-Putamen': 'Left.Putamen',
+    'Left-Pallidum': 'Left.Pallidum',
+    '3rd-Ventricle': 'X3rd.Ventricle',
+    '4th-Ventricle': 'X4th.Ventricle',
+    'Brain-Stem': 'Brain.Stem',
+    'Left-Hippocampus': 'Left.Hippocampus',
+    'Left-Amygdala': 'Left.Amygdala',
+    'CSF': 'CSF',
+    'Left-Accumbens-area': 'Left.Accumbens.area',
     'Left-VentralDC': 'Left.VentralDC',
+    'Left-vessel': 'Left.vessel',
+    'Left-choroid-plexus': 'Left.choroid.plexus',
+    'Right-Lateral-Ventricle': 'Right.Lateral.Ventricle',
+    'Right-Inf-Lat-Vent': 'Right.Inf.Lat.Vent',
+    'Right-Cerebellum-White-Matter': 'Right.Cerebellum.White.Matter',
+    'Right-Cerebellum-Cortex': 'Right.Cerebellum.Cortex',
+    'Right-Thalamus': 'Right.Thalamus',
+    'Right-Caudate': 'Right.Caudate',
+    'Right-Putamen': 'Right.Putamen',
+    'Right-Pallidum': 'Right.Pallidum',
+    'Right-Hippocampus': 'Right.Hippocampus',
+    'Right-Amygdala': 'Right.Amygdala',
+    'Right-Accumbens-area': 'Right.Accumbens.area',
     'Right-VentralDC': 'Right.VentralDC',
-    'Brain-Stem': 'Brain.Stem'
+    'Right-vessel': 'Right.vessel',
+    'Right-choroid-plexus': 'Right.choroid.plexus',
+    '5th-Ventricle': 'X5th.Ventricle',
+    'WM-hypointensities': 'WM.hypointensities',
+    'Left-WM-hypointensities': 'Left.WM.hypointensities',
+    'Right-WM-hypointensities': 'Right.WM.hypointensities',
+    'non-WM-hypointensities': 'non.WM.hypointensities',
+    'Left-non-WM-hypointensities': 'Left.non.WM.hypointensities',
+    'Right-non-WM-hypointensities': 'Right.non.WM.hypointensities',
+    'Optic-Chiasm': 'Optic.Chiasm',
+    'CC_Posterior': 'CC_Posterior',
+    'CC_Mid_Posterior': 'CC_Mid_Posterior',
+    'CC_Central': 'CC_Central',
+    'CC_Mid_Anterior': 'CC_Mid_Anterior',
+    'CC_Anterior': 'CC_Anterior',
 }
 
 CLINICAL_COLUMNS = [
-    'ID', 'Freesufer_Path1', 'Freesufer_Path2', 'Freesufer_Path3',
+    'ID', 'Freesurfer_Path1', 'Freesurfer_Path2', 'Freesurfer_Path3',
     'Clinical_Path1', 'Clinical_Path2', 'Clinical_Path3', 'Age', 'Sex',
     'Diagnosis', 'Scanner', 'Age_y', 'Age_m', 'Age_d', 'Filed_strength',
     'Manufacturer', 'euler_number_l', 'euler_number_r', 'City', 'Province',
@@ -295,9 +324,9 @@ def build_mri_database(subjects_dir):
             records[subject_key] = {
                 'ID': subject_key,
                 'SubjectName': subject_dir.name,
-                'Freesufer_Path1': str(subject_dir),
-                'Freesufer_Path2': str(lh_file),
-                'Freesufer_Path3': str(rh_file),
+                'Freesurfer_Path1': str(subject_dir),
+                'Freesurfer_Path2': str(lh_file),
+                'Freesurfer_Path3': str(rh_file),
                 'aseg_path': str(aseg_file),
                 'lh_summary': lh_summary,
                 'rh_summary': rh_summary,
@@ -355,23 +384,35 @@ def build_global_sheet(aligned_ids, mri_db):
         rh_summary = m['rh_summary']
         lh_mean = lh_summary.get('MeanThickness', pd.NA)
         rh_mean = rh_summary.get('MeanThickness', pd.NA)
+        lh_vertex = lh_summary.get('NumVert', pd.NA)
+        rh_vertex = rh_summary.get('NumVert', pd.NA)
+        lh_holes = aseg_summary.get('lhSurfaceHoles', pd.NA)
+        rh_holes = aseg_summary.get('rhSurfaceHoles', pd.NA)
+        lh_eno = (2 - 2 * lh_holes) if pd.notna(lh_holes) else pd.NA
+        rh_eno = (2 - 2 * rh_holes) if pd.notna(rh_holes) else pd.NA
         row = {
-            'ID': sid,
+            'case_dir': sid,
             'GMV': aseg_summary.get('TotalGrayVol', pd.NA),
             'sGMV': aseg_summary.get('SubCortGrayVol', pd.NA),
             'WMV': aseg_summary.get('CerebralWhiteMatterVol', pd.NA),
             'Ventricles': aseg_summary.get('VentricleChoroidVol', pd.NA),
+            'lhVertex': lh_vertex,
+            'rhVertex': rh_vertex,
             'lhMeanThickness': lh_mean,
             'rhMeanThickness': rh_mean,
             'meanCT2': (lh_mean + rh_mean) / 2.0 if pd.notna(lh_mean) and pd.notna(rh_mean) else pd.NA,
             'lh_totaISA2': lh_summary.get('WhiteSurfArea', pd.NA),
             'rh_totaISA2': rh_summary.get('WhiteSurfArea', pd.NA),
             'TCV': aseg_summary.get('eTIV', pd.NA),
-            'euler_number_l': aseg_summary.get('lhSurfaceHoles', pd.NA),
-            'euler_number_r': aseg_summary.get('rhSurfaceHoles', pd.NA),
-            'Freesufer_Path1': m['Freesufer_Path1'],
-            'Freesufer_Path2': m['Freesufer_Path2'],
-            'Freesufer_Path3': m['Freesufer_Path3']
+            'lhholes': lh_holes,
+            'rhholes': rh_holes,
+            'lheno': lh_eno,
+            'rheno': rh_eno,
+            'euler_number_l': lh_holes,
+            'euler_number_r': rh_holes,
+            'Freesurfer_Path1': m['Freesurfer_Path1'],
+            'Freesurfer_Path2': m['Freesurfer_Path2'],
+            'Freesurfer_Path3': m['Freesurfer_Path3']
         }
         rows.append(row)
     return pd.DataFrame(rows)
@@ -383,30 +424,31 @@ def build_aseg_sheet(aligned_ids, mri_db):
         m = mri_db[sid]
         aseg_summary = m['aseg_summary']
         struct = m['aseg_struct']
-        row = {'ID': sid}
+        row = {'Measure.volume': sid}
         for fs_name, out_name in ASEG_STRUCT_OUTPUT_MAP.items():
             row[out_name] = struct.get(fs_name, pd.NA)
-        cerebellum_parts = [
-            struct.get('Left-Cerebellum-Cortex', 0.0),
-            struct.get('Right-Cerebellum-Cortex', 0.0),
-            struct.get('Left-Cerebellum-White-Matter', 0.0),
-            struct.get('Right-Cerebellum-White-Matter', 0.0)
-        ]
-        row['cerebellum_total'] = sum(x for x in cerebellum_parts if pd.notna(x))
         row['BrainSegVol'] = aseg_summary.get('BrainSegVol', pd.NA)
         row['BrainSegVolNotVent'] = aseg_summary.get('BrainSegVolNotVent', pd.NA)
         row['lhCortexVol'] = aseg_summary.get('lhCortexVol', pd.NA)
         row['rhCortexVol'] = aseg_summary.get('rhCortexVol', pd.NA)
         row['CortexVol'] = aseg_summary.get('CortexVol', pd.NA)
+        row['lhCerebralWhiteMatterVol'] = aseg_summary.get('lhCerebralWhiteMatterVol', pd.NA)
+        row['rhCerebralWhiteMatterVol'] = aseg_summary.get('rhCerebralWhiteMatterVol', pd.NA)
         row['CerebralWhiteMatterVol'] = aseg_summary.get('CerebralWhiteMatterVol', pd.NA)
         row['SubCortGrayVol'] = aseg_summary.get('SubCortGrayVol', pd.NA)
         row['TotalGrayVol'] = aseg_summary.get('TotalGrayVol', pd.NA)
-        row['EstimatedTotalIntraCranialVol'] = aseg_summary.get('eTIV', pd.NA)
+        row['SupraTentorialVol'] = aseg_summary.get('SupraTentorialVol', pd.NA)
+        row['SupraTentorialVolNotVent'] = aseg_summary.get('SupraTentorialVolNotVent', pd.NA)
+        row['MaskVol'] = aseg_summary.get('MaskVol', pd.NA)
+        row['BrainSegVol.to.eTIV'] = aseg_summary.get('BrainSegVol-to-eTIV', pd.NA)
+        row['MaskVol.to.eTIV'] = aseg_summary.get('MaskVol-to-eTIV', pd.NA)
         row['lhSurfaceHoles'] = aseg_summary.get('lhSurfaceHoles', pd.NA)
         row['rhSurfaceHoles'] = aseg_summary.get('rhSurfaceHoles', pd.NA)
-        row['Freesufer_Path1'] = m['Freesufer_Path1']
-        row['Freesufer_Path2'] = m['aseg_path']
-        row['Freesufer_Path3'] = m['Freesufer_Path3']
+        row['SurfaceHoles'] = aseg_summary.get('SurfaceHoles', pd.NA)
+        row['EstimatedTotalIntraCranialVol'] = aseg_summary.get('eTIV', pd.NA)
+        row['Freesurfer_Path1'] = m['Freesurfer_Path1']
+        row['Freesurfer_Path2'] = m['aseg_path']
+        row['Freesurfer_Path3'] = m['Freesurfer_Path3']
         rows.append(row)
     return pd.DataFrame(rows)
 
@@ -415,21 +457,24 @@ def build_aparc_sheet(aligned_ids, mri_db, hemi, metric):
     rows = []
     for sid in aligned_ids:
         m = mri_db[sid]
-        hemi_regions = m[f'{hemi}_regions']
+        hemi_regions = m[hemi + '_regions']
         aseg_summary = m['aseg_summary']
-        hemi_summary = m[f'{hemi}_summary']
-        row = {'ID': sid}
+        hemi_summary = m[hemi + '_summary']
+        first_col_name = hemi + '.aparc.' + metric
+        row = {first_col_name: sid}
         for region in DK68_REGIONS:
-            row[f'{hemi}_{region}_{metric}'] = hemi_regions[region][metric]
-        row['MeanThickness'] = hemi_summary.get('MeanThickness', pd.NA)
+            row[hemi + '_' + region + '_' + metric] = hemi_regions[region][metric]
+        if metric == 'thickness':
+            row[hemi + '_MeanThickness_thickness'] = hemi_summary.get('MeanThickness', pd.NA)
+        elif metric == 'area':
+            row[hemi + '_WhiteSurfArea_area'] = hemi_summary.get('WhiteSurfArea', pd.NA)
         row['BrainSegVolNotVent'] = aseg_summary.get('BrainSegVolNotVent', pd.NA)
         row['eTIV'] = aseg_summary.get('eTIV', pd.NA)
-        row['Freesufer_Path1'] = m['Freesufer_Path1']
-        row['Freesufer_Path2'] = m['Freesufer_Path2']
-        row['Freesufer_Path3'] = m['Freesufer_Path3']
+        row['Freesurfer_Path1'] = m['Freesurfer_Path1']
+        row['Freesurfer_Path2'] = m['Freesurfer_Path2']
+        row['Freesurfer_Path3'] = m['Freesurfer_Path3']
         rows.append(row)
     return pd.DataFrame(rows)
-
 
 def build_clinical_output(aligned_ids, clinical_df, mri_db):
     clinical_idx = clinical_df.set_index('subject_key')
@@ -439,9 +484,9 @@ def build_clinical_output(aligned_ids, clinical_df, mri_db):
         m = mri_db[sid]
         row = {
             'ID': sid,
-            'Freesufer_Path1': m['Freesufer_Path1'],
-            'Freesufer_Path2': m['Freesufer_Path2'],
-            'Freesufer_Path3': m['Freesufer_Path3'],
+            'Freesurfer_Path1': m['Freesurfer_Path1'],
+            'Freesurfer_Path2': m['Freesurfer_Path2'],
+            'Freesurfer_Path3': m['Freesurfer_Path3'],
             'Clinical_Path1': c['Clinical_Path1'],
             'Clinical_Path2': c['Clinical_Path2'],
             'Clinical_Path3': c['Clinical_Path3'],
@@ -473,62 +518,26 @@ def validate_outputs(clinical_out, sheets):
     clinical_ids = clinical_out['ID'].tolist()
     clinical_cols = set(clinical_out.columns) - {'ID'}
     allowed_overlap = {
-        'Freesufer_Path1', 'Freesufer_Path2', 'Freesufer_Path3',
+        'Freesurfer_Path1', 'Freesurfer_Path2', 'Freesurfer_Path3',
         'euler_number_l', 'euler_number_r'
     }
     for sheet_name, df in sheets.items():
         if len(df) != len(clinical_out):
-            raise ValueError(f'{sheet_name} 行数 {len(df)} 与 Clinical_vars.csv {len(clinical_out)} 不一致')
-        if df['ID'].tolist() != clinical_ids:
-            raise ValueError(f'{sheet_name} 的被试顺序与 Clinical_vars.csv 不一致')
+            raise ValueError(sheet_name + ' 行数与 Clinical_vars.csv 不一致')
+        if df.iloc[:, 0].tolist() != clinical_ids:
+            raise ValueError(sheet_name + ' 的被试顺序与 Clinical_vars.csv 不一致')
         overlap_cols = (clinical_cols & set(df.columns)) - allowed_overlap
         if overlap_cols:
-            raise ValueError(f'{sheet_name} 出现临床列混入: {sorted(overlap_cols)}')
+            raise ValueError(sheet_name + ' 出现临床列混入: ' + str(sorted(overlap_cols)))
     for hemi in HEMIS:
         for metric in ['thickness', 'area', 'volume']:
-            sheet_name = f'{hemi}.aparc.{metric}.table'
-            expected = [f'{hemi}_{region}_{metric}' for region in DK68_REGIONS]
+            sheet_name = hemi + '.aparc.' + metric + '.table'
+            expected = [hemi + '_' + r + '_' + metric for r in DK68_REGIONS]
             miss = [c for c in expected if c not in sheets[sheet_name].columns]
             if miss:
-                raise ValueError(f'{sheet_name} 缺失 DK 字段: {miss[:5]} ...')
-            for region in ['frontalpole', 'temporalpole']:
-                col = f'{hemi}_{region}_{metric}'
-                if col not in sheets[sheet_name].columns:
-                    raise ValueError(f'{sheet_name} 缺失关键区域字段 {col}')
+                raise ValueError(sheet_name + ' 缺失 DK 字段: ' + str(miss[:5]))
     if len(sheets) != 8:
-        raise ValueError(f'MR_measures.xlsx sheet 数量错误，当前 {len(sheets)}')
-
-
-def build_field_source_map(sheets):
-    source_map = {}
-    for sheet_name, df in sheets.items():
-        col_source = {}
-        for col in df.columns:
-            if col == 'ID':
-                col_source[col] = 'derived:subject_key'
-            elif col.startswith('lh_') or col.startswith('rh_'):
-                col_source[col] = 'direct:aparc_table'
-            elif col in {'GMV', 'sGMV', 'WMV', 'Ventricles', 'TCV'}:
-                col_source[col] = 'direct:aseg_summary'
-            elif col in {'lhMeanThickness', 'rhMeanThickness', 'lh_totaISA2', 'rh_totaISA2'}:
-                col_source[col] = 'direct:aparc_summary'
-            elif col in {'meanCT2', 'cerebellum_total'}:
-                col_source[col] = 'derived:aggregated'
-            elif col in {'BrainSegVol', 'BrainSegVolNotVent', 'lhCortexVol', 'rhCortexVol', 'CortexVol',
-                         'CerebralWhiteMatterVol', 'SubCortGrayVol', 'TotalGrayVol',
-                         'EstimatedTotalIntraCranialVol', 'lhSurfaceHoles', 'rhSurfaceHoles',
-                         'eTIV', 'MeanThickness'}:
-                col_source[col] = 'direct:aseg_or_aparc_summary'
-            elif col.startswith('Left.') or col.startswith('Right.') or col == 'Brain.Stem':
-                col_source[col] = 'direct:aseg_table'
-            elif col.startswith('Freesufer_Path'):
-                col_source[col] = 'direct:path'
-            elif col.startswith('euler_number'):
-                col_source[col] = 'direct:aseg_summary'
-            else:
-                col_source[col] = 'unknown'
-        source_map[sheet_name] = col_source
-    return source_map
+        raise ValueError('MR_measures.xlsx sheet 数量错误，当前 ' + str(len(sheets)))
 
 
 def build_log(clinical_out, sheets):
@@ -542,11 +551,8 @@ def build_log(clinical_out, sheets):
     log['Clinical_vars.csv'] = {
         'rows': int(len(clinical_out)),
         'columns': list(clinical_out.columns),
-        'missing_count': {k: int(v) for k, v in clinical_out.isna().sum().to_dict().items()},
-        'field_source': {c: 'clinical_or_derived' for c in clinical_out.columns}
+        'missing_count': {k: int(v) for k, v in clinical_out.isna().sum().to_dict().items()}
     }
-    for sheet_name, mapping in build_field_source_map(sheets).items():
-        log[sheet_name]['field_source'] = mapping
     return log
 
 
@@ -579,21 +585,22 @@ def subset_sheets(sheets, keep_ids):
     keep = set(keep_ids)
     out = {}
     for name, df in sheets.items():
-        out[name] = df[df['ID'].isin(keep)].copy()
-        out[name] = out[name].sort_values('ID').reset_index(drop=True)
+        id_col = df.columns[0]
+        out[name] = df[df[id_col].isin(keep)].copy()
+        out[name] = out[name].sort_values(id_col).reset_index(drop=True)
     return out
 
 
 def main():
     base_dir = '/data1/tqi/share/after_freesurfer'
-    fs_subjects_dir = f'{base_dir}/fs_subjects_all'
-    clinical_file = f'{base_dir}/FILE/test_mean_1.5/all_data_cqt_mean_1.5.xlsx'
-    output_dir = f'{base_dir}/FILE/test_mean_1.5/Normative_model/Datasets/Datasets-new'
+    fs_subjects_dir = base_dir + '/fs_subjects_all'
+    clinical_file = base_dir + '/FILE/test_mean_1.5/all_data_cqt_mean_1.5.xlsx'
+    output_dir = base_dir + '/FILE/test_mean_1.5/Normative_model/Datasets/Datasets-new'
 
     os.makedirs(output_dir, exist_ok=True)
 
     print('=' * 60)
-    print('第一步：解析 FreeSurfer stats（lh/rh.aparc.stats + aseg.stats）')
+    print('第一步：解析 FreeSurfer stats')
     print('=' * 60)
     mri_db, failed = build_mri_database(fs_subjects_dir)
     mri_ids = set(mri_db.keys())
@@ -605,11 +612,9 @@ def main():
     clinical_ids = set(clinical_df['subject_key'].tolist())
 
     overlap_ids = sorted(mri_ids & clinical_ids)
-    print(f'MRI 被试数: {len(mri_ids)}')
-    print(f'临床被试数: {len(clinical_ids)}')
-    print(f'交集被试数: {len(overlap_ids)}')
-    print(f'仅MRI: {len(mri_ids - clinical_ids)}')
-    print(f'仅临床: {len(clinical_ids - mri_ids)}')
+    print('MRI 被试数: ' + str(len(mri_ids)))
+    print('临床被试数: ' + str(len(clinical_ids)))
+    print('交集被试数: ' + str(len(overlap_ids)))
     if not overlap_ids:
         raise ValueError('MRI 与临床无交集，无法导出')
 
@@ -640,18 +645,18 @@ def main():
     sheets_ctrl = subset_sheets(sheets_all, ctrl_ids)
     validate_outputs(clinical_ctrl, sheets_ctrl)
 
-    clinical_out_path = f'{output_dir}/Clinical_vars.csv'
+    clinical_out_path = output_dir + '/Clinical_vars.csv'
     clinical_cal.to_csv(clinical_out_path, index=False)
 
-    mr_xlsx = f'{output_dir}/MR_measures.xlsx'
+    mr_xlsx = output_dir + '/MR_measures.xlsx'
     with pd.ExcelWriter(mr_xlsx, engine='openpyxl') as writer:
         for sheet_name in SHEET_ORDER:
             sheets_cal[sheet_name].to_excel(writer, sheet_name=sheet_name, index=False)
 
-    clinical_ctrl_path = f'{output_dir}/Clinical_vars_control.csv'
+    clinical_ctrl_path = output_dir + '/Clinical_vars_control.csv'
     clinical_ctrl.to_csv(clinical_ctrl_path, index=False)
 
-    mr_ctrl_xlsx = f'{output_dir}/MR_measures_control.xlsx'
+    mr_ctrl_xlsx = output_dir + '/MR_measures_control.xlsx'
     with pd.ExcelWriter(mr_ctrl_xlsx, engine='openpyxl') as writer:
         for sheet_name in SHEET_ORDER:
             sheets_ctrl[sheet_name].to_excel(writer, sheet_name=sheet_name, index=False)
@@ -668,18 +673,18 @@ def main():
             'split': split_info
         }
     }
-    log_file = f'{output_dir}/extraction_log.json'
+    log_file = output_dir + '/extraction_log.json'
     with open(log_file, 'w', encoding='utf-8') as f:
         json.dump(log_data, f, ensure_ascii=False, indent=2)
 
     print('\n' + '=' * 60)
     print('导出完成')
     print('=' * 60)
-    print(f'校准集 Clinical_vars.csv: {clinical_out_path}')
-    print(f'校准集 MR_measures.xlsx: {mr_xlsx}')
-    print(f'对照集 Clinical_vars_control.csv: {clinical_ctrl_path}')
-    print(f'对照集 MR_measures_control.xlsx: {mr_ctrl_xlsx}')
-    print(f'日志文件: {log_file}')
+    print('校准集 Clinical_vars.csv: ' + clinical_out_path)
+    print('校准集 MR_measures.xlsx: ' + mr_xlsx)
+    print('对照集 Clinical_vars_control.csv: ' + clinical_ctrl_path)
+    print('对照集 MR_measures_control.xlsx: ' + mr_ctrl_xlsx)
+    print('日志文件: ' + log_file)
 
 
 if __name__ == '__main__':

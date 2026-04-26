@@ -2,10 +2,23 @@ rm(list=ls())
 library(readxl)
 #set your own directory
 datapath='/data/home/tqi/data1/share/after_freesurfer/CODE/Normative_model/Source-codes'  # Change the directory where you save the Source-codes  
-clinical_datapath='/data/home/tqi/data1/share/after_freesurfer/FILE/Normative_model/Datasets/Dataset-new/Clinical_vars.csv'  # Change the directory where you save the clinical variables  
-MR_datapath='/data/home/tqi/data1/share/after_freesurfer/FILE/Normative_model/Datasets/Dataset-new/MR_measures.xlsx'  # Change the directory where you save the MR measures  
-savepath1='/data/home/tqi/data1/share/after_freesurfer/FILE/Normative_model/Models/GAMLSS/DK' #Chnage the path you have saved your normative models in "Normative-model-fit.R"; here we used our models for example
-savepath='/data/home/tqi/data1/share/after_freesurfer/FILE/Normative_model/Results/Individual';# Create and determine the directory where you would save the results  
+clinical_datapath='/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Datasets/Datasets-diseases/Clinical_vars_control.csv'  # Change the directory where you save the clinical variables  
+MR_datapath='/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Datasets/Datasets-diseases/MR_measures_control.xlsx'  # Change the directory where you save the MR measures  
+savepath1='/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Newsite_area_volume' #Chnage the path you have saved your normative models in "Normative-model-fit.R"; here we used our models for example
+savepath='/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume';# Create and determine the directory where you would save the results  
+
+if (!(dir.exists(savepath1))) {
+  alt1 <- file.path(dirname(savepath1), "newsite")
+  alt2 <- file.path(dirname(savepath1), "Newsite")
+  if (dir.exists(alt1)) {
+    savepath1 <- alt1
+  } else if (dir.exists(alt2)) {
+    savepath1 <- alt2
+  }
+}
+
+if (!(dir.exists(savepath)))
+{dir.create(savepath, recursive = TRUE)}
 
 setwd(datapath)
 source("100.common-variables.r")
@@ -32,17 +45,20 @@ for(sheet in var)
   MRI <- read_excel(MR_datapath,sheet=sheet)
 
   MRI<-as.data.frame(MRI)
-  if('ID' %in% colnames(MRI))
-  {
-    rownames(MRI)<-as.character(MRI$ID)
-  } else if(all(c('Freesufer_Path2','Freesufer_Path3') %in% colnames(MRI)))
-  {
-    rownames(MRI)<-paste0(MRI$Freesufer_Path2,MRI$Freesufer_Path3)
-  } else if(all(c('Freesurfer_Path2','Freesurfer_Path3') %in% colnames(MRI)))
-  {
+  if(sheet=="aseg.vol.table" && ('Measure.volume' %in% colnames(MRI))) {
+    rownames(MRI)<-as.character(MRI$Measure.volume)
+  } else if('Freesurfer_Path2' %in% colnames(MRI)) {
     rownames(MRI)<-paste0(MRI$Freesurfer_Path2,MRI$Freesurfer_Path3)
+  } else if('Freesufer_Path2' %in% colnames(MRI)) {
+    rownames(MRI)<-paste0(MRI$Freesufer_Path2,MRI$Freesufer_Path3)
+  } else if('case_dir' %in% colnames(MRI)) {
+    rownames(MRI)<-as.character(MRI$case_dir)
+  } else if('ID' %in% colnames(MRI)) {
+    rownames(MRI)<-as.character(MRI$ID)
+  } else {
+    rownames(MRI)<-as.character(MRI[,1])
   }
-  meta_cols <- c('ID','Freesufer_Path1','Freesufer_Path2','Freesufer_Path3','Freesurfer_Path1','Freesurfer_Path2','Freesurfer_Path3','euler_number_l','euler_number_r','lhSurfaceHoles','rhSurfaceHoles')
+  meta_cols <- c('ID','case_dir','Measure.volume','Freesufer_Path1','Freesufer_Path2','Freesufer_Path3','Freesurfer_Path1','Freesurfer_Path2','Freesurfer_Path3','euler_number_l','euler_number_r','lhSurfaceHoles','rhSurfaceHoles')
   tem_feature<-setdiff(colnames(MRI),meta_cols)
   
   str=sheet;
@@ -102,7 +118,7 @@ for(sheet in var)
   
   
   if (!(dir.exists(paste0(savepath,'/',str))))
-  {dir.create(paste0(savepath,'/',str))}
+  {dir.create(paste0(savepath,'/',str), recursive = TRUE)}
   
   setwd(paste0(savepath,'/',str))
   
@@ -115,31 +131,41 @@ for(sheet in var)
     
     print(i)
     setwd(paste0(savepath1,'/',str))
-    rdsfile<-paste0(i,'_normative_model.rds')
-    
-    if(i=='Brain.Stem'){rdsfile='BrainStem_normative_model.rds'}
-    if(i=='cerebellum_total'){rdsfile='Cerebellum_normative_model.rds'}
-    if(i=='mean_thickness'){rdsfile='Cortical_thickness_normative_model.rds'}
-    if(i=='total_surface_arrea'){rdsfile='Total_surface_area_normative_model.rds'}
-    
-    if(file.exists(rdsfile)){
-      
-      results<-readRDS(rdsfile)
-    } else {next}
+    rdsfile <- paste0(str,'_',i,'_loop_our_model_new_site_calibrated.rds')
+    if(i=='Brain.Stem'){rdsfile=paste0(str,'_BrainStem_loop_our_model_new_site_calibrated.rds')}
+    if(i=='cerebellum_total'){rdsfile=paste0(str,'_Cerebellum_loop_our_model_new_site_calibrated.rds')}
+    if(i=='mean_thickness'){rdsfile=paste0(str,'_mean_thickness_loop_our_model_new_site_calibrated.rds')}
+    if(i=='total_surface_arrea'){rdsfile=paste0(str,'_total_surface_arrea_loop_our_model_new_site_calibrated.rds')}
+
+    if(!file.exists(rdsfile)){
+      rdsfile_alt <- sub('_loop_our_model_new_site_calibrated\\.rds$', '_loop_our_model_new_site_calibrated_area_volume.rds', rdsfile)
+      if(file.exists(rdsfile_alt)){
+        rdsfile <- rdsfile_alt
+      } else {next}
+    }
+
+    results<-readRDS(rdsfile)
     
     #for each feature, we should load the oirginal clinical information
     setwd(datapath)  
     data1<-read.csv(clinical_datapath,header=TRUE);
-    data1$Site_ZZZ<-paste0(data1$Province,data1$Center,data1$Manufacturer)
-    if('ID' %in% colnames(data1))
-    {
-      rownames(data1)<-as.character(data1$ID)
-    } else if(all(c('Freesufer_Path2','Freesufer_Path3') %in% colnames(data1)))
-    {
-      rownames(data1)<-paste0(data1$Freesufer_Path2,data1$Freesufer_Path3)
-    } else if(all(c('Freesurfer_Path2','Freesurfer_Path3') %in% colnames(data1)))
-    {
-      rownames(data1)<-paste0(data1$Freesurfer_Path2,data1$Freesurfer_Path3)
+    data1$Site_ZZZ<-data1$Center
+    if(sheet=="aseg.vol.table") {
+      if('ID' %in% colnames(data1)) {
+        rownames(data1)<-as.character(data1$ID)
+      } else if(all(c('Freesurfer_Path2','Freesurfer_Path3') %in% colnames(data1))) {
+        rownames(data1)<-paste0(data1$Freesurfer_Path2,data1$Freesurfer_Path3)
+      } else if(all(c('Freesufer_Path2','Freesufer_Path3') %in% colnames(data1))) {
+        rownames(data1)<-paste0(data1$Freesufer_Path2,data1$Freesufer_Path3)
+      }
+    } else {
+      if(all(c('Freesurfer_Path2','Freesurfer_Path3') %in% colnames(data1))) {
+        rownames(data1)<-paste0(data1$Freesurfer_Path2,data1$Freesurfer_Path3)
+      } else if(all(c('Freesufer_Path2','Freesufer_Path3') %in% colnames(data1))) {
+        rownames(data1)<-paste0(data1$Freesufer_Path2,data1$Freesufer_Path3)
+      } else if('ID' %in% colnames(data1)) {
+        rownames(data1)<-as.character(data1$ID)
+      }
     }
     
     setwd(paste0(savepath,'/',str))
@@ -172,13 +198,38 @@ for(sheet in var)
   
  
     
-    m2<-results$m2
-    m0<-results$m0
+    m2<-results
+    orig_model_base <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Models/GAMLSS/DK"
+    orig_rdsfile <- file.path(orig_model_base, str, paste0(i, "_normative_model.rds"))
+    if(i=="Brain.Stem") orig_rdsfile <- file.path(orig_model_base, str, "BrainStem_normative_model.rds")
+    if(i=="cerebellum_total") orig_rdsfile <- file.path(orig_model_base, str, "Cerebellum_normative_model.rds")
+    if(i=="mean_thickness") orig_rdsfile <- file.path(orig_model_base, str, "Cortical_thickness_normative_model.rds")
+    if(i=="total_surface_arrea") orig_rdsfile <- file.path(orig_model_base, str, "Total_surface_area_normative_model.rds")
+    if(file.exists(orig_rdsfile)) {
+      orig_model <- readRDS(orig_rdsfile)
+      m0 <- orig_model$m0
+    } else {
+      m0 <- m2
+    }
    
     Z_score_sum<-NULL;
     Quant_score_sum<-NULL
     
     model1<-m2;
+    mu_n_powers <- max(2, length(grep("^bfpNA", colnames(model1$mu.x))))
+    bfpNA <- local({
+      n <- mu_n_powers
+      function(x, powers=NULL, shift=0, scale=1) {
+        if(is.null(powers) || length(powers)==0) powers <- seq_len(n)
+        nobs <- length(x)
+        X <- matrix(0, nrow=nobs, ncol=length(powers))
+        for(j in seq_along(powers)) X[,j] <- x^powers[j]
+        X
+      }
+    })
+    environment(model1$mu.formula) <- environment()
+    environment(model1$sigma.formula) <- environment()
+    environment(model1$nu.formula) <- environment()
     
     
     
@@ -186,6 +237,13 @@ for(sheet in var)
     Model.Frame<-model.frame(formula = model1$mu.formula,data=all_data1);
     Model.Matrix<-model.matrix(model1$mu.formula,Model.Frame)
     Fit.fix<-matrix(model1$mu.coefficients[colnames(Model.Matrix)],ncol=1,dimnames = list(colnames(Model.Matrix),'Beta'))
+    if(any(is.na(Fit.fix))) {
+      for(cn in rownames(Fit.fix)[is.na(Fit.fix)]) {
+        base_cn <- sub('[0-9]+$', '', cn)
+        matched <- names(model1$mu.coefficients)[startsWith(names(model1$mu.coefficients), base_cn)]
+        if(length(matched)>0) Fit.fix[cn,] <- model1$mu.coefficients[matched[1]]
+      }
+    }
     if(!is.null(model1$mu.coefSmo[[1]]))
     {Fit.fix[length(Fit.fix)]=0;
     for(iz in 1:dim(all_data1)[1]){
@@ -204,6 +262,13 @@ for(sheet in var)
     Model.Frame<-model.frame(formula = model1$sigma.formula,data=all_data1);
     Model.Matrix<-model.matrix(model1$sigma.formula,Model.Frame)
     Fit.fix<-matrix(model1$sigma.coefficients[colnames(Model.Matrix)],ncol=1,dimnames = list(colnames(Model.Matrix),'Beta'))
+    if(any(is.na(Fit.fix))) {
+      for(cn in rownames(Fit.fix)[is.na(Fit.fix)]) {
+        base_cn <- sub('[0-9]+$', '', cn)
+        matched <- names(model1$sigma.coefficients)[startsWith(names(model1$sigma.coefficients), base_cn)]
+        if(length(matched)>0) Fit.fix[cn,] <- model1$sigma.coefficients[matched[1]]
+      }
+    }
     if(!is.null(model1$sigma.coefSmo[[1]]))
     {Fit.fix[length(Fit.fix)]=0;
     for(iz in 1:dim(all_data1)[1]){

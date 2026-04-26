@@ -343,9 +343,9 @@ if __name__ == "__main__":
 
     # ---- 1) ANOVA 结果 ----
     anova_csv = os.path.join(
-        BASE_DIR, r"FILE/MIND_ANOVA_with_site", "ANOVA_DK318_degree_results.csv"
+        BASE_DIR, r"FILE/test_mean_1.5/MIND_DK318_ANOVA", "ANOVA_DK318_degree_results.csv"
     )
-    anova_out = os.path.join(BASE_DIR, "FILE/MIND_ANOVA_with_site/dk318_degree_brainmaps(ANOVA_significant)")
+    anova_out = os.path.join(BASE_DIR, "FILE/test_mean_1.5/MIND_DK318_ANOVA/dk318_degree_brainmaps(ANOVA_significant)")
     anova_cols = [
         "p_Interaction", "p_Interaction_FDR",
         "p_Diagnosis_FDR","p_AgeGroup_FDR"

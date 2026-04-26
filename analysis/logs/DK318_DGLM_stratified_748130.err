@@ -1,0 +1,57 @@
+Loading required package: readxl
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: purrr
+Loading required package: dglm
+Loading required package: emmeans
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+Loading required package: stringr
+There were 15 warnings (use warnings() to see them)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:212: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:215: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:212: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:215: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:212: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:215: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:212: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:215: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:212: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:215: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:212: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:215: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:212: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:215: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:212: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:215: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:212: RuntimeWarning: All-NaN slice encountered
+  data_min = np.nanmin(data)
+/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/nilearn/plotting/_utils.py:215: RuntimeWarning: All-NaN slice encountered
+  data_max = np.nanmax(data)

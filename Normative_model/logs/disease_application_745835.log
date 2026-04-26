@@ -1,0 +1,3568 @@
+========================================
+Starting Disease Application Analysis
+Job ID: 745835
+R Environment: rd_env_r
+R Path: /data/home/tqi/.conda/envs/rd_env_r/bin/R
+Start time: Wed Apr  8 02:35:52 PM CST 2026
+Script: Disease-application-normative-model.R
+========================================
+Packages already installed. Skipping installation step.
+[1] "GMV"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.07629431 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "sGMV"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.06829266 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "WMV"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1011969 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "Ventricles"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.3698372 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "TCV"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.008480001 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))3 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))3 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "mean_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.02695134 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "total_surface_arrea"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.07480164 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "Left.Thalamus"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Left.Caudate"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Left.Putamen"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Left.Pallidum"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Brain.Stem"
+[1] "Left.Hippocampus"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Left.Amygdala"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Left.Accumbens.area"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Left.VentralDC"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Right.Thalamus"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Right.Caudate"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Right.Putamen"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Right.Pallidum"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Right.Hippocampus"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Right.Amygdala"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Right.Accumbens.area"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "Right.VentralDC"
+inter_row length: 0 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+WARNING: no intersection, skipping
+[1] "cerebellum_WM"
+[1] "cerebellum_GM"
+[1] "cerebellum_total"
+[1] "lh_bankssts_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.176325 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_caudalanteriorcingulate_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.2234559 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_caudalmiddlefrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.161958 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_cuneus_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1538769 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_entorhinal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.171246 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_fusiform_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1213732 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_inferiorparietal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1341981 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_inferiortemporal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1335014 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_isthmuscingulate_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1307034 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_lateraloccipital_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1215465 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_lateralorbitofrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.09535077 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_lingual_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1402175 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_medialorbitofrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1118228 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_middletemporal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1225383 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parahippocampal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1352019 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_paracentral_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1204523 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parsopercularis_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1575107 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parsorbitalis_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1326053 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parstriangularis_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1570237 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_pericalcarine_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.2108757 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_postcentral_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1207921 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_posteriorcingulate_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1330232 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_precentral_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1013704 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_precuneus_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1123516 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_rostralanteriorcingulate_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1834746 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_rostralmiddlefrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.0448082 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_superiorfrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1032658 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_superiorparietal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1207924 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_superiortemporal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1193536 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_supramarginal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1499976 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_frontalpole_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1413509 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_temporalpole_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1382126 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_transversetemporal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1526384 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_insula_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.09822341 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_bankssts_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.155978 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_caudalanteriorcingulate_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.2031317 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_caudalmiddlefrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1757895 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_cuneus_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1407785 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_entorhinal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.17772 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_fusiform_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1207235 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_inferiorparietal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1271598 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_inferiortemporal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1333211 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_isthmuscingulate_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1398977 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_lateraloccipital_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1293915 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_lateralorbitofrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.102163 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_lingual_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1427031 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_medialorbitofrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.09885051 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_middletemporal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1128476 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parahippocampal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1282808 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_paracentral_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1208777 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parsopercularis_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.1486691 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "rh_parsorbitalis_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1300327 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parstriangularis_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.141987 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_pericalcarine_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1923858 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_postcentral_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1257852 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_posteriorcingulate_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1266903 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_precentral_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.2516358 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_precuneus_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1176626 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_rostralanteriorcingulate_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.2145555 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_rostralmiddlefrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.1800135 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "rh_superiorfrontal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1065241 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_superiorparietal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1216016 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_superiortemporal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1026294 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_supramarginal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1418105 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_frontalpole_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.140189 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_temporalpole_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1637654 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_transversetemporal_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1479894 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_insula_volume"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1003302 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_bankssts_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05731922 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_caudalanteriorcingulate_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.07125144 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_caudalmiddlefrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04561057 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_cuneus_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.06428526 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_entorhinal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.08079312 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_fusiform_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.03927089 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_inferiorparietal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04335743 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_inferiortemporal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04618155 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_isthmuscingulate_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.0551153 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "lh_lateraloccipital_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04958581 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_lateralorbitofrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.03732153 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_lingual_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05570615 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_medialorbitofrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04986572 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_middletemporal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.06488303 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_parahippocampal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.09378138 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_paracentral_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05272514 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parsopercularis_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04444897 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parsorbitalis_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05794768 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parstriangularis_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04832374 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_pericalcarine_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.08476357 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "lh_postcentral_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.0389641 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "lh_posteriorcingulate_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.04950211 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "lh_precentral_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.01397008 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_precuneus_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04437195 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_rostralanteriorcingulate_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05811499 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_rostralmiddlefrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04411787 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_superiorfrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04090114 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_superiorparietal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04531079 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_superiortemporal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04536668 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_supramarginal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04498481 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_frontalpole_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.08246159 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_temporalpole_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.0756417 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_transversetemporal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.06958082 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_insula_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.03940431 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_bankssts_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05856814 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_caudalanteriorcingulate_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.07120313 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_caudalmiddlefrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04674165 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_cuneus_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.06025583 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_entorhinal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.08273658 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_fusiform_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04023282 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_inferiorparietal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04268183 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_inferiortemporal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04464987 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_isthmuscingulate_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.05974098 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "rh_lateraloccipital_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04984748 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_lateralorbitofrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04469368 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_lingual_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05479597 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_medialorbitofrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05047527 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_middletemporal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04418738 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parahippocampal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.07426104 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_paracentral_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05089734 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parsopercularis_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04340963 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parsorbitalis_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.06224674 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parstriangularis_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04744727 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_pericalcarine_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.08589342 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_postcentral_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.05609058 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_posteriorcingulate_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04861957 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_precentral_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1540811 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_precuneus_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04236823 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_rostralanteriorcingulate_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.06204829 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_rostralmiddlefrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04526447 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_superiorfrontal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04144696 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_superiorparietal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04677593 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_superiortemporal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04354793 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_supramarginal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04525382 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_frontalpole_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.08246858 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_temporalpole_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.07490154 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_transversetemporal_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.06102137 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_insula_thickness"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.04268307 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_bankssts_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1563581 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_caudalanteriorcingulate_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.2335515 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "lh_caudalmiddlefrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1543243 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_cuneus_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1270294 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_entorhinal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.193524 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_fusiform_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1073078 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_inferiorparietal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.130786 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_inferiortemporal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1305366 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_isthmuscingulate_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1944786 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "lh_lateraloccipital_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1148067 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_lateralorbitofrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1327414 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_lingual_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1252914 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_medialorbitofrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1071561 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_middletemporal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.121277 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parahippocampal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1131812 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_paracentral_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1107272 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parsopercularis_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+sigma NA count: 0 min: 0.1589972 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale random(Site_ZZZ) 
+[1] "no random effects for this term"
+[1] "lh_parsorbitalis_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1228096 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_parstriangularis_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1454802 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_pericalcarine_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.167955 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_postcentral_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1043748 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_posteriorcingulate_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1369976 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_precentral_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.09473804 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_precuneus_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1120571 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_rostralanteriorcingulate_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1787304 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_rostralmiddlefrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1227683 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "lh_superiorfrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1065082 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_superiorparietal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.115365 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_superiortemporal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1064016 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_supramarginal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1505207 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_frontalpole_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1083061 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_temporalpole_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1185516 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_transversetemporal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1404826 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "lh_insula_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.09805988 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_bankssts_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1404894 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_caudalanteriorcingulate_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1885294 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_caudalmiddlefrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1587865 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_cuneus_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1194775 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_entorhinal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.2171953 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_fusiform_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1081064 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_inferiorparietal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1252871 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_inferiortemporal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1215128 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_isthmuscingulate_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1317353 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_lateraloccipital_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1151315 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_lateralorbitofrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1105836 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_lingual_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1247145 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_medialorbitofrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.09469285 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_middletemporal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1111079 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parahippocampal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1177553 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_paracentral_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1238052 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parsopercularis_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1418521 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parsorbitalis_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1225561 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_parstriangularis_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1508392 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_pericalcarine_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1553162 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_postcentral_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.2903159 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_posteriorcingulate_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1357176 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_precentral_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.09455453 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_precuneus_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1151977 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_rostralanteriorcingulate_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1838605 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_rostralmiddlefrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1296732 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))1 bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power))2 SexMale 
+[1] "no random effects for this term"
+[1] "rh_superiorfrontal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1127731 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_superiorparietal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1155484 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_superiortemporal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1008109 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_supramarginal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.138098 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_frontalpole_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex + random(Site_ZZZ) 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1092637 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_temporalpole_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1241732 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_transversetemporal_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1221206 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+[1] "rh_insula_area"
+inter_row length: 141 
+data1 NA in Age: 0 
+data1 NA in Sex: 0 
+data1 Site_ZZZ levels: 2 
+all_data1 nrow: 141 
+Age range: 10 - 22 
+tem_feature NA: 0 
+mu.formula: feature ~ bfpNA(Age, c(m0$mu.coefSmo[[1]]$power)) + Sex 
+mu.coefSmo[[1]]$power: 
+[1] "no random effects for this term"
+[1] "no random effects for this term"
+sigma NA count: 0 min: 0.1060008 
+sigma Fit.fix NA: 0 
+sigma colnames(Model.Matrix): (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+sigma.coefficients names: (Intercept) bfpNA(Age, c(m0$sigma.coefSmo[[1]]$power)) SexMale 
+[1] "no random effects for this term"
+========================================
+End time: Wed Apr  8 03:09:59 PM CST 2026
+Exit code: 0
+========================================

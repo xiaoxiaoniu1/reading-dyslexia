@@ -1,0 +1,299 @@
+Host: node4
+Start: Sat Apr 25 03:31:22 PM CST 2026
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
+Analysis type: degree
+DGLM result dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+Brainmap output dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps
+VIOLIN output dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/VIOLIN_Followup_stratified
+R script: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/dglm_stratified_dk318.R
+===== STEP 1/3: Run stratified DGLM =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+Analysis type: degree | run_degree: TRUE | run_edge: FALSE 
+demo_file: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/all_data_cqt_mean_1.5.xlsx 
+mind_combat_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_combat 
+out_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified 
+include_age_covariate: TRUE 
+run_plots: FALSE 
+Subjects in demo: 204 
+Subjects with matrix+degree csv: 204 
+
+Cell counts among subjects with files:
+, , Sex = Female
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    25    45
+       DD    21    17
+
+, , Sex = Male
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    26    16
+       DD    45     9
+
+ROI number: 318 
+Number of edges: 50403 
+Degree matrix: 204 x 318 
+Loaded network: alphabetic_functional | n_roi = 57 
+Loaded network: alphabetic_structural | n_roi = 23 
+Loaded network: brain_regions_at_least_one_task_mean_gt_2 | n_roi = 45 
+Loaded network: brain_regions_at_least_two_tasks_mean_gt_2 | n_roi = 23 
+Loaded network: morphosyllabic_functional | n_roi = 79 
+Loaded network: morphosyllabic_structural | n_roi = 77 
+
+============================================================
+DEGREE STRATIFIED DGLM ANALYSIS
+============================================================
+
+--- Child Diagnosis x Sex ---
+  n = 117 
+    
+     Female Male
+  TD     25   26
+  DD     21   45
+  Feature 1 / 318 
+  Feature 50 / 318 
+  Feature 100 / 318 
+  Feature 150 / 318 
+  Feature 200 / 318 
+  Feature 250 / 318 
+  Feature 300 / 318 
+  Feature 318 / 318 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Child_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_Child_degree_results.csv 
+                           effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                 p_mean_Diagnosis     318          84            23
+                       p_mean_Sex     318         139            75
+ p_mean_Diagnosis_Sex_Interaction     318           8             0
+                 p_disp_Diagnosis     318           8             0
+                       p_disp_Sex     318           4             0
+ p_disp_Diagnosis_Sex_Interaction     318           5             0
+  Network alphabetic_functional : matched 57 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_alphabetic_functional_restricted_fdr.csv 
+  Network alphabetic_structural : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_alphabetic_structural_restricted_fdr.csv 
+  Network brain_regions_at_least_one_task_mean_gt_2 : matched 45 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv 
+  Network brain_regions_at_least_two_tasks_mean_gt_2 : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv 
+  Network morphosyllabic_functional : matched 79 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_morphosyllabic_functional_restricted_fdr.csv 
+  Network morphosyllabic_structural : matched 77 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_morphosyllabic_structural_restricted_fdr.csv 
+
+--- Adult Diagnosis x Sex ---
+  n = 87 
+    
+     Female Male
+  TD     45   16
+  DD     17    9
+  Feature 1 / 318 
+  Feature 50 / 318 
+  Feature 100 / 318 
+  Feature 150 / 318 
+  Feature 200 / 318 
+  Feature 250 / 318 
+  Feature 300 / 318 
+  Feature 318 / 318 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Adult_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_Adult_degree_results.csv 
+                           effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                 p_mean_Diagnosis     316          43             0
+                       p_mean_Sex     316          45             2
+ p_mean_Diagnosis_Sex_Interaction     316          45             0
+                 p_disp_Diagnosis     316          12             2
+                       p_disp_Sex     316          10             0
+ p_disp_Diagnosis_Sex_Interaction     316           7             0
+  Network alphabetic_functional : matched 57 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_alphabetic_functional_restricted_fdr.csv 
+  Network alphabetic_structural : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_alphabetic_structural_restricted_fdr.csv 
+  Network brain_regions_at_least_one_task_mean_gt_2 : matched 45 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv 
+  Network brain_regions_at_least_two_tasks_mean_gt_2 : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv 
+  Network morphosyllabic_functional : matched 79 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_morphosyllabic_functional_restricted_fdr.csv 
+  Network morphosyllabic_structural : matched 77 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_morphosyllabic_structural_restricted_fdr.csv 
+
+--- DD AgeGroup x Sex ---
+  n = 92 
+       
+        Female Male
+  Child     21   45
+  Adult     17    9
+  Feature 1 / 318 
+  Feature 50 / 318 
+  Feature 100 / 318 
+  Feature 150 / 318 
+  Feature 200 / 318 
+  Feature 250 / 318 
+  Feature 300 / 318 
+  Feature 318 / 318 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_DD_Adult_vs_Child_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_DD_Adult_vs_Child_degree_results.csv 
+                          effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                 p_mean_AgeGroup     316         125           100
+                      p_mean_Sex     316          97            32
+ p_mean_AgeGroup_Sex_Interaction     316          25             3
+                 p_disp_AgeGroup     316          25             0
+                      p_disp_Sex     316           8             0
+ p_disp_AgeGroup_Sex_Interaction     316          10             1
+  Network alphabetic_functional : matched 57 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_alphabetic_functional_restricted_fdr.csv 
+  Network alphabetic_structural : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_alphabetic_structural_restricted_fdr.csv 
+  Network brain_regions_at_least_one_task_mean_gt_2 : matched 45 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv 
+  Network brain_regions_at_least_two_tasks_mean_gt_2 : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv 
+  Network morphosyllabic_functional : matched 79 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_morphosyllabic_functional_restricted_fdr.csv 
+  Network morphosyllabic_structural : matched 77 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_morphosyllabic_structural_restricted_fdr.csv 
+
+--- TD AgeGroup x Sex ---
+  n = 112 
+       
+        Female Male
+  Child     25   26
+  Adult     45   16
+  Feature 1 / 318 
+  Feature 50 / 318 
+  Feature 100 / 318 
+  Feature 150 / 318 
+  Feature 200 / 318 
+  Feature 250 / 318 
+  Feature 300 / 318 
+  Feature 318 / 318 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_TD_Adult_vs_Child_degree_results.csv 
+                          effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                 p_mean_AgeGroup     318          80            13
+                      p_mean_Sex     318          32             0
+ p_mean_AgeGroup_Sex_Interaction     318          32             0
+                 p_disp_AgeGroup     318          10             0
+                      p_disp_Sex     318           1             0
+ p_disp_AgeGroup_Sex_Interaction     318           2             0
+  Network alphabetic_functional : matched 57 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_alphabetic_functional_restricted_fdr.csv 
+  Network alphabetic_structural : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_alphabetic_structural_restricted_fdr.csv 
+  Network brain_regions_at_least_one_task_mean_gt_2 : matched 45 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv 
+  Network brain_regions_at_least_two_tasks_mean_gt_2 : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv 
+  Network morphosyllabic_functional : matched 79 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_morphosyllabic_functional_restricted_fdr.csv 
+  Network morphosyllabic_structural : matched 77 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_morphosyllabic_structural_restricted_fdr.csv 
+
+--- Male Diagnosis x AgeGroup ---
+  n = 96 
+    
+     Child Adult
+  TD    26    16
+  DD    45     9
+  Feature 1 / 318 
+  Feature 50 / 318 
+  Feature 100 / 318 
+  Feature 150 / 318 
+  Feature 200 / 318 
+  Feature 250 / 318 
+  Feature 300 / 318 
+  Feature 318 / 318 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results.csv 
+                                effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                      p_mean_Diagnosis     316          32             0
+                       p_mean_AgeGroup     316          63            26
+ p_mean_Diagnosis_AgeGroup_Interaction     316          32             0
+                      p_disp_Diagnosis     316           6             0
+                       p_disp_AgeGroup     316          23             2
+ p_disp_Diagnosis_AgeGroup_Interaction     316           9             0
+  Network alphabetic_functional : matched 57 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results_alphabetic_functional_restricted_fdr.csv 
+  Network alphabetic_structural : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results_alphabetic_structural_restricted_fdr.csv 
+  Network brain_regions_at_least_one_task_mean_gt_2 : matched 45 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv 
+  Network brain_regions_at_least_two_tasks_mean_gt_2 : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv 
+  Network morphosyllabic_functional : matched 79 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results_morphosyllabic_functional_restricted_fdr.csv 
+  Network morphosyllabic_structural : matched 77 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results_morphosyllabic_structural_restricted_fdr.csv 
+
+--- Female Diagnosis x AgeGroup ---
+  n = 108 
+    
+     Child Adult
+  TD    25    45
+  DD    21    17
+  Feature 1 / 318 
+  Feature 50 / 318 
+  Feature 100 / 318 
+  Feature 150 / 318 
+  Feature 200 / 318 
+  Feature 250 / 318 
+  Feature 300 / 318 
+  Feature 318 / 318 
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results.csv 
+  Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results.csv 
+                                effect n_valid n_p_lt_0_05 n_fdr_lt_0_05
+                      p_mean_Diagnosis     318         122            56
+                       p_mean_AgeGroup     318         141            92
+ p_mean_Diagnosis_AgeGroup_Interaction     318          17             0
+                      p_disp_Diagnosis     318          10             0
+                       p_disp_AgeGroup     318           9             0
+ p_disp_Diagnosis_AgeGroup_Interaction     318           4             0
+  Network alphabetic_functional : matched 57 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results_alphabetic_functional_restricted_fdr.csv 
+  Network alphabetic_structural : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results_alphabetic_structural_restricted_fdr.csv 
+  Network brain_regions_at_least_one_task_mean_gt_2 : matched 45 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv 
+  Network brain_regions_at_least_two_tasks_mean_gt_2 : matched 23 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv 
+  Network morphosyllabic_functional : matched 79 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results_morphosyllabic_functional_restricted_fdr.csv 
+  Network morphosyllabic_structural : matched 77 ROIs -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results_morphosyllabic_structural_restricted_fdr.csv 
+Skipping edge analysis.
+
+ALL DONE.
+===== STEP 1/3 DONE =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+===== STEP 2/3: Plot stratified significant degree brainmaps =====
+Output dir (STEP 2/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Adult_degree_results.csv
+  Plot: DGLM_DK318_Adult_degree_results | mean | Diagnosis | uncorrected
+Red: DD > TD | Blue: TD > DD
+    n_roi: 43 | LH hit: 23 | RH hit: 20
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Adult_degree_results.csv: _plot_surf() got an unexpected keyword argument 'darkness'
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Child_degree_results.csv
+  Plot: DGLM_DK318_Child_degree_results | mean | Diagnosis | uncorrected
+Red: DD > TD | Blue: TD > DD
+    n_roi: 84 | LH hit: 33 | RH hit: 51
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Child_degree_results.csv: _plot_surf() got an unexpected keyword argument 'darkness'
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_DD_Adult_vs_Child_degree_results.csv
+  Plot: DGLM_DK318_DD_Adult_vs_Child_degree_results | mean | AgeGroup | uncorrected
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 125 | LH hit: 61 | RH hit: 64
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_DD_Adult_vs_Child_degree_results.csv: _plot_surf() got an unexpected keyword argument 'darkness'
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results.csv
+  Plot: DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results | mean | Diagnosis | uncorrected
+Red: DD > TD | Blue: TD > DD
+    n_roi: 122 | LH hit: 56 | RH hit: 66
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results.csv: _plot_surf() got an unexpected keyword argument 'darkness'
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results.csv
+  Plot: DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results | mean | Diagnosis | uncorrected
+Red: DD > TD | Blue: TD > DD
+    n_roi: 32 | LH hit: 13 | RH hit: 19
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results.csv: _plot_surf() got an unexpected keyword argument 'darkness'
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_degree_results.csv
+  Plot: DGLM_DK318_TD_Adult_vs_Child_degree_results | mean | AgeGroup | uncorrected
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 80 | LH hit: 40 | RH hit: 40
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_degree_results.csv: _plot_surf() got an unexpected keyword argument 'darkness'
+Done plotting stratified brainmaps.
+===== STEP 2/3 DONE =====
+Output dir (STEP 2/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps
+===== STEP 3/3: Run stratified VIOLIN follow-up for significant interaction ROIs =====
+Output dir (STEP 3/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/VIOLIN_Followup_stratified
+Host: node4
+Start: Sat Apr 25 03:35:45 PM CST 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/tmp
+Result dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+Label: DK318 stratified
+result_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified 
+out_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/VIOLIN_Followup_stratified 
+task p_mean_Diagnosis_Sex_Interaction | subset Child : 8 significant ROIs
+task p_mean_Diagnosis_Sex_Interaction_FDR | subset Child : 0 significant ROIs
+task p_disp_Diagnosis_Sex_Interaction | subset Child : 5 significant ROIs
+task p_disp_Diagnosis_Sex_Interaction_FDR | subset Child : 0 significant ROIs
+task p_mean_Diagnosis_Sex_Interaction | subset Adult : 45 significant ROIs
+task p_mean_Diagnosis_Sex_Interaction_FDR | subset Adult : 0 significant ROIs
+task p_disp_Diagnosis_Sex_Interaction | subset Adult : 7 significant ROIs
+task p_disp_Diagnosis_Sex_Interaction_FDR | subset Adult : 0 significant ROIs
+task p_mean_AgeGroup_Sex_Interaction | subset DD : 25 significant ROIs
+task p_mean_AgeGroup_Sex_Interaction_FDR | subset DD : 3 significant ROIs
+task p_disp_AgeGroup_Sex_Interaction | subset DD : 10 significant ROIs
+task p_disp_AgeGroup_Sex_Interaction_FDR | subset DD : 1 significant ROIs
+task p_mean_AgeGroup_Sex_Interaction | subset TD : 32 significant ROIs
+task p_mean_AgeGroup_Sex_Interaction_FDR | subset TD : 0 significant ROIs
+task p_disp_AgeGroup_Sex_Interaction | subset TD : 2 significant ROIs
+task p_disp_AgeGroup_Sex_Interaction_FDR | subset TD : 0 significant ROIs
+done. success: 138 
+End: Sat Apr 25 03:37:31 PM CST 2026
+===== STEP 3/3 DONE =====
+Output dir (STEP 3/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/VIOLIN_Followup_stratified
+End: Sat Apr 25 03:37:31 PM CST 2026

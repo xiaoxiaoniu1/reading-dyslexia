@@ -1,0 +1,39 @@
+Start: Wed Apr 15 12:23:18 PM UTC 2026
+加载了 318 个脑区坐标
+正在计算效应方向（TD vs DD / Adult vs Child）...
+效应方向计算完成！
+
+==================================================
+正在处理列: p_Diagnosis_FDR (阈值 p < 0.05)
+==================================================
+应用边数限制：保留显著性最高的前 20 条边
+矩阵构建完成！共有 20 条显著连接。
+  TD更强（正值）: 20 条
+  DD更强（负值）: 0 条
+✓ 显著连接表格已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_ANOVA/ANOVA_p_Diagnosis_FDR_top20_edges.csv
+✓ 图片已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_ANOVA/ANOVA_p_Diagnosis_FDR_plot.png
+
+==================================================
+正在处理列: p_AgeGroup_FDR (阈值 p < 0.05)
+==================================================
+应用边数限制：保留显著性最高的前 20 条边
+矩阵构建完成！共有 20 条显著连接。
+  Adult更强（正值）: 20 条
+  Child更强（负值）: 0 条
+✓ 显著连接表格已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_ANOVA/ANOVA_p_AgeGroup_FDR_top20_edges.csv
+✓ 图片已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_ANOVA/ANOVA_p_AgeGroup_FDR_plot.png
+
+==================================================
+正在处理列: p_Interaction (阈值 p < 0.05)
+==================================================
+应用边数限制：保留显著性最高的前 20 条边
+矩阵构建完成！共有 20 条显著连接。
+  TD更强（正值）: 14 条
+  DD更强（负值）: 6 条
+✓ 显著连接表格已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_ANOVA/ANOVA_p_Interaction_top20_edges.csv
+✓ 图片已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_ANOVA/ANOVA_p_Interaction_plot.png
+
+==================================================
+所有图片生成完成！
+==================================================
+End: Wed Apr 15 12:23:33 PM UTC 2026

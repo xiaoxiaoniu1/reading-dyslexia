@@ -1,0 +1,674 @@
+Host: node4
+Start: Fri Apr 24 12:34:35 AM CST 2026
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
+Analysis type: both
+DGLM result dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+Brainmap output dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps
+GAM output dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/GAM_Followup_stratified
+===== STEP 1/3: Run stratified DGLM =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+Analysis type: both | run_degree: True | run_edge: True
+Loading demographic data...
+Total subjects: 204
+  Child-TD: 51
+  Child-DD: 66
+  Adult-TD: 61
+  Adult-DD: 26
+Loaded 6 network ROI sets for restricted FDR.
+
+ROIs: 318, Edges: 50403
+Loading matrices...
+Degree: (204, 318), Edge: (204, 50403)
+
+============================================================
+DEGREE DGLM ANALYSIS (DK318)
+============================================================
+
+Child: n=117, DD=66, TD=51
+  2x2 cell counts:
+    TD × Female: 25
+    TD × Male: 26
+    DD × Female: 21
+    DD × Male: 45
+    Minimum cell count: 21
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Child_degree_results.csv
+  p_mean_Diagnosis: FDR<0.05 -> 0
+  p_mean_Diagnosis: p<0.05 uncorrected -> 36
+  p_mean_Sex: FDR<0.05 -> 0
+  p_mean_Sex: p<0.05 uncorrected -> 59
+  p_mean_Diagnosis_Sex_Interaction: FDR<0.05 -> 0
+  p_mean_Diagnosis_Sex_Interaction: p<0.05 uncorrected -> 5
+  p_disp_Diagnosis: FDR<0.05 -> 0
+  p_disp_Diagnosis: p<0.05 uncorrected -> 26
+  p_disp_Sex: FDR<0.05 -> 0
+  p_disp_Sex: p<0.05 uncorrected -> 24
+  p_disp_Diagnosis_Sex_Interaction: FDR<0.05 -> 0
+  p_disp_Diagnosis_Sex_Interaction: p<0.05 uncorrected -> 31
+  p_mean_Diagnosis: min p=0.000848425, p01=0.00355162, p05=0.015225, n(p<0.05)=36
+  p_mean_Diagnosis: min FDR=0.160775, FDR01=0.197132, FDR05=0.287321, n(FDR<0.05)=0
+  p_mean_Sex: min p=0.000183592, p01=0.00224281, p05=0.00773478, n(p<0.05)=59
+  p_mean_Sex: min FDR=0.0583822, FDR01=0.122352, FDR05=0.145369, n(FDR<0.05)=0
+  p_mean_Diagnosis_Sex_Interaction: min p=0.0108779, p01=0.0412942, p05=0.0974555, n(p<0.05)=5
+  p_mean_Diagnosis_Sex_Interaction: min FDR=0.997006, FDR01=0.997006, FDR05=0.997006, n(FDR<0.05)=0
+  p_disp_Diagnosis: min p=0.00239208, p01=0.00797396, p05=0.0281846, n(p<0.05)=26
+  p_disp_Diagnosis: min FDR=0.475181, FDR01=0.489595, FDR05=0.489595, n(FDR<0.05)=0
+  p_disp_Sex: min p=0.0013869, p01=0.00507822, p05=0.0382303, n(p<0.05)=24
+  p_disp_Sex: min FDR=0.291748, FDR01=0.349726, FDR05=0.641887, n(FDR<0.05)=0
+  p_disp_Diagnosis_Sex_Interaction: min p=0.00289708, p01=0.0061646, p05=0.0259829, n(p<0.05)=31
+  p_disp_Diagnosis_Sex_Interaction: min FDR=0.435984, FDR01=0.435984, FDR05=0.435984, n(FDR<0.05)=0
+  Saved diagnostic summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_Child_degree_results.csv
+  Network alphabetic_functional: matched 57 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_alphabetic_functional_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network alphabetic_structural: matched 23 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_alphabetic_structural_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network brain_regions_at_least_one_task_mean_gt_2: matched 45 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network brain_regions_at_least_two_tasks_mean_gt_2: matched 23 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network morphosyllabic_functional: matched 79 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_morphosyllabic_functional_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network morphosyllabic_structural: matched 77 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Child_degree_results/DGLM_DK318_Child_degree_results_morphosyllabic_structural_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+
+Adult: n=87, DD=26, TD=61
+  2x2 cell counts:
+    TD × Female: 45
+    TD × Male: 16
+    DD × Female: 17
+    DD × Male: 9
+    Minimum cell count: 9
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Adult_degree_results.csv
+  p_mean_Diagnosis: FDR<0.05 -> 10
+  p_mean_Diagnosis: p<0.05 uncorrected -> 101
+  p_mean_Sex: FDR<0.05 -> 0
+  p_mean_Sex: p<0.05 uncorrected -> 19
+  p_mean_Diagnosis_Sex_Interaction: FDR<0.05 -> 0
+  p_mean_Diagnosis_Sex_Interaction: p<0.05 uncorrected -> 43
+  p_disp_Diagnosis: FDR<0.05 -> 0
+  p_disp_Diagnosis: p<0.05 uncorrected -> 15
+  p_disp_Sex: FDR<0.05 -> 0
+  p_disp_Sex: p<0.05 uncorrected -> 11
+  p_disp_Diagnosis_Sex_Interaction: FDR<0.05 -> 0
+  p_disp_Diagnosis_Sex_Interaction: p<0.05 uncorrected -> 20
+  p_mean_Diagnosis: min p=0.000192542, p01=0.000607083, p05=0.00328032, n(p<0.05)=101
+  p_mean_Diagnosis: min FDR=0.0367537, FDR01=0.0430923, FDR05=0.0579538, n(FDR<0.05)=10
+  p_mean_Sex: min p=0.00235668, p01=0.0114698, p05=0.0466886, n(p<0.05)=19
+  p_mean_Sex: min FDR=0.658529, FDR01=0.658529, FDR05=0.658529, n(FDR<0.05)=0
+  p_mean_Diagnosis_Sex_Interaction: min p=0.000807491, p01=0.00294712, p05=0.0226424, n(p<0.05)=43
+  p_mean_Diagnosis_Sex_Interaction: min FDR=0.149647, FDR01=0.214398, FDR05=0.364468, n(FDR<0.05)=0
+  p_disp_Diagnosis: min p=0.000814641, p01=0.00736427, p05=0.0628412, n(p<0.05)=15
+  p_disp_Diagnosis: min FDR=0.175901, FDR01=0.557973, FDR05=0.947972, n(FDR<0.05)=0
+  p_disp_Sex: min p=0.000506086, p01=0.0131072, p05=0.0627887, n(p<0.05)=11
+  p_disp_Sex: min FDR=0.160935, FDR01=0.933064, FDR05=0.933064, n(FDR<0.05)=0
+  p_disp_Diagnosis_Sex_Interaction: min p=0.00202874, p01=0.00934446, p05=0.036948, n(p<0.05)=20
+  p_disp_Diagnosis_Sex_Interaction: min FDR=0.486679, FDR01=0.518404, FDR05=0.68348, n(FDR<0.05)=0
+  Saved diagnostic summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_Adult_degree_results.csv
+  Network alphabetic_functional: matched 57 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_alphabetic_functional_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network alphabetic_structural: matched 23 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_alphabetic_structural_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network brain_regions_at_least_one_task_mean_gt_2: matched 45 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network brain_regions_at_least_two_tasks_mean_gt_2: matched 23 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 1
+  Network morphosyllabic_functional: matched 79 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_morphosyllabic_functional_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network morphosyllabic_structural: matched 77 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_Adult_degree_results/DGLM_DK318_Adult_degree_results_morphosyllabic_structural_restricted_fdr.csv
+    p_mean_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_Diagnosis_Sex_Interaction: within-network FDR<0.05 -> 0
+
+============================================================
+DEGREE DGLM ANALYSIS (DK318) - Adult vs Child WITHIN DIAGNOSIS
+============================================================
+
+DD: n=92, Child=66, Adult=26
+  2x2 cell counts:
+    Child × Female: 21
+    Child × Male: 45
+    Adult × Female: 17
+    Adult × Male: 9
+    Minimum cell count: 9
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_DD_Adult_vs_Child_degree_results.csv
+  p_mean_AgeGroup: FDR<0.05 -> 2
+  p_mean_AgeGroup: p<0.05 uncorrected -> 35
+  p_mean_Sex: FDR<0.05 -> 3
+  p_mean_Sex: p<0.05 uncorrected -> 79
+  p_mean_AgeGroup_Sex_Interaction: FDR<0.05 -> 0
+  p_mean_AgeGroup_Sex_Interaction: p<0.05 uncorrected -> 18
+  p_disp_AgeGroup: FDR<0.05 -> 0
+  p_disp_AgeGroup: p<0.05 uncorrected -> 18
+  p_disp_Sex: FDR<0.05 -> 0
+  p_disp_Sex: p<0.05 uncorrected -> 31
+  p_disp_AgeGroup_Sex_Interaction: FDR<0.05 -> 0
+  p_disp_AgeGroup_Sex_Interaction: p<0.05 uncorrected -> 19
+  p_mean_AgeGroup: min p=0.000130136, p01=0.00185456, p05=0.0145881, n(p<0.05)=35
+  p_mean_AgeGroup: min FDR=0.0413831, FDR01=0.139371, FDR05=0.275301, n(FDR<0.05)=2
+  p_mean_Sex: min p=0.000212812, p01=0.00076033, p05=0.00445167, n(p<0.05)=79
+  p_mean_Sex: min FDR=0.0326655, FDR01=0.0505815, FDR05=0.0763939, n(FDR<0.05)=3
+  p_mean_AgeGroup_Sex_Interaction: min p=0.000285624, p01=0.00256678, p05=0.0472052, n(p<0.05)=18
+  p_mean_AgeGroup_Sex_Interaction: min FDR=0.0649506, FDR01=0.189994, FDR05=0.837706, n(FDR<0.05)=0
+  p_disp_AgeGroup: min p=0.00181579, p01=0.010734, p05=0.0469891, n(p<0.05)=18
+  p_disp_AgeGroup: min FDR=0.577421, FDR01=0.696123, FDR05=0.812655, n(FDR<0.05)=0
+  p_disp_Sex: min p=0.000277219, p01=0.00282753, p05=0.0230717, n(p<0.05)=31
+  p_disp_Sex: min FDR=0.0881556, FDR01=0.208871, FDR05=0.435093, n(FDR<0.05)=0
+  p_disp_AgeGroup_Sex_Interaction: min p=0.00112956, p01=0.00398866, p05=0.0445729, n(p<0.05)=19
+  p_disp_AgeGroup_Sex_Interaction: min FDR=0.291727, FDR01=0.293, FDR05=0.775581, n(FDR<0.05)=0
+  Saved diagnostic summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_DD_Adult_vs_Child_degree_results.csv
+  Network alphabetic_functional: matched 57 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_alphabetic_functional_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network alphabetic_structural: matched 23 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_alphabetic_structural_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network brain_regions_at_least_one_task_mean_gt_2: matched 45 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network brain_regions_at_least_two_tasks_mean_gt_2: matched 23 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 1
+  Network morphosyllabic_functional: matched 79 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_morphosyllabic_functional_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network morphosyllabic_structural: matched 77 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_DD_Adult_vs_Child_degree_results/DGLM_DK318_DD_Adult_vs_Child_degree_results_morphosyllabic_structural_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 1
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+
+TD: n=112, Child=51, Adult=61
+  2x2 cell counts:
+    Child × Female: 25
+    Child × Male: 26
+    Adult × Female: 45
+    Adult × Male: 16
+    Minimum cell count: 16
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_degree_results.csv
+  p_mean_AgeGroup: FDR<0.05 -> 42
+  p_mean_AgeGroup: p<0.05 uncorrected -> 109
+  p_mean_Sex: FDR<0.05 -> 0
+  p_mean_Sex: p<0.05 uncorrected -> 59
+  p_mean_AgeGroup_Sex_Interaction: FDR<0.05 -> 0
+  p_mean_AgeGroup_Sex_Interaction: p<0.05 uncorrected -> 28
+  p_disp_AgeGroup: FDR<0.05 -> 0
+  p_disp_AgeGroup: p<0.05 uncorrected -> 24
+  p_disp_Sex: FDR<0.05 -> 0
+  p_disp_Sex: p<0.05 uncorrected -> 21
+  p_disp_AgeGroup_Sex_Interaction: FDR<0.05 -> 0
+  p_disp_AgeGroup_Sex_Interaction: p<0.05 uncorrected -> 22
+  p_mean_AgeGroup: min p=1.43981e-05, p01=0.000114372, p05=0.00145547, n(p<0.05)=109
+  p_mean_AgeGroup: min FDR=0.00241855, FDR01=0.0073421, FDR05=0.0268786, n(FDR<0.05)=42
+  p_mean_Sex: min p=0.000365422, p01=0.00256808, p05=0.00606481, n(p<0.05)=59
+  p_mean_Sex: min FDR=0.111688, FDR01=0.111688, FDR05=0.111688, n(FDR<0.05)=0
+  p_mean_AgeGroup_Sex_Interaction: min p=0.00204716, p01=0.00316617, p05=0.0240469, n(p<0.05)=28
+  p_mean_AgeGroup_Sex_Interaction: min FDR=0.183974, FDR01=0.183974, FDR05=0.453707, n(FDR<0.05)=0
+  p_disp_AgeGroup: min p=0.000726123, p01=0.00341406, p05=0.0429891, n(p<0.05)=24
+  p_disp_AgeGroup: min FDR=0.173009, FDR01=0.226617, FDR05=0.629889, n(FDR<0.05)=0
+  p_disp_Sex: min p=0.000935728, p01=0.00505561, p05=0.0376083, n(p<0.05)=21
+  p_disp_Sex: min FDR=0.207679, FDR01=0.345721, FDR05=0.663378, n(FDR<0.05)=0
+  p_disp_AgeGroup_Sex_Interaction: min p=0.00238946, p01=0.00727226, p05=0.0432619, n(p<0.05)=22
+  p_disp_AgeGroup_Sex_Interaction: min FDR=0.532442, FDR01=0.532442, FDR05=0.699052, n(FDR<0.05)=0
+  Saved diagnostic summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Diagnostic_Summary_DGLM_DK318_TD_Adult_vs_Child_degree_results.csv
+  Network alphabetic_functional: matched 57 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_alphabetic_functional_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network alphabetic_structural: matched 23 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_alphabetic_structural_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 1
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network brain_regions_at_least_one_task_mean_gt_2: matched 45 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_brain_regions_at_least_one_task_mean_gt_2_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network brain_regions_at_least_two_tasks_mean_gt_2: matched 23 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_brain_regions_at_least_two_tasks_mean_gt_2_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 1
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network morphosyllabic_functional: matched 79 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_morphosyllabic_functional_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+  Network morphosyllabic_structural: matched 77 ROIs -> saved /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/network_restricted_fdr/DGLM_DK318_TD_Adult_vs_Child_degree_results/DGLM_DK318_TD_Adult_vs_Child_degree_results_morphosyllabic_structural_restricted_fdr.csv
+    p_mean_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+    p_disp_AgeGroup_Sex_Interaction: within-network FDR<0.05 -> 0
+
+============================================================
+EDGE DGLM ANALYSIS (DK318)
+============================================================
+
+--- Child ---
+  2x2 cell counts:
+    TD × Female: 25
+    TD × Male: 26
+    DD × Female: 21
+    DD × Male: 45
+    Minimum cell count: 21
+  Chunk 1/26 (edges 0-2000)...
+  Chunk 2/26 (edges 2000-4000)...
+  Chunk 3/26 (edges 4000-6000)...
+  Chunk 4/26 (edges 6000-8000)...
+  Chunk 5/26 (edges 8000-10000)...
+  Chunk 6/26 (edges 10000-12000)...
+  Chunk 7/26 (edges 12000-14000)...
+  Chunk 8/26 (edges 14000-16000)...
+  Chunk 9/26 (edges 16000-18000)...
+  Chunk 10/26 (edges 18000-20000)...
+  Chunk 11/26 (edges 20000-22000)...
+  Chunk 12/26 (edges 22000-24000)...
+  Chunk 13/26 (edges 24000-26000)...
+  Chunk 14/26 (edges 26000-28000)...
+  Chunk 15/26 (edges 28000-30000)...
+  Chunk 16/26 (edges 30000-32000)...
+  Chunk 17/26 (edges 32000-34000)...
+  Chunk 18/26 (edges 34000-36000)...
+  Chunk 19/26 (edges 36000-38000)...
+  Chunk 20/26 (edges 38000-40000)...
+  Chunk 21/26 (edges 40000-42000)...
+  Chunk 22/26 (edges 42000-44000)...
+  Chunk 23/26 (edges 44000-46000)...
+  Chunk 24/26 (edges 46000-48000)...
+  Chunk 25/26 (edges 48000-50000)...
+  Chunk 26/26 (edges 50000-50403)...
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Child_edge_results.csv
+  p_mean_Diagnosis: FDR<0.05 -> 0
+  p_mean_Diagnosis: p<0.05 uncorrected -> 3694
+  p_mean_Sex: FDR<0.05 -> 0
+  p_mean_Sex: p<0.05 uncorrected -> 4495
+  p_mean_Diagnosis_Sex_Interaction: FDR<0.05 -> 0
+  p_mean_Diagnosis_Sex_Interaction: p<0.05 uncorrected -> 2118
+  p_disp_Diagnosis: FDR<0.05 -> 1
+  p_disp_Diagnosis: p<0.05 uncorrected -> 3284
+  p_disp_Sex: FDR<0.05 -> 0
+  p_disp_Sex: p<0.05 uncorrected -> 3170
+  p_disp_Diagnosis_Sex_Interaction: FDR<0.05 -> 0
+  p_disp_Diagnosis_Sex_Interaction: p<0.05 uncorrected -> 3100
+
+--- Adult ---
+  2x2 cell counts:
+    TD × Female: 45
+    TD × Male: 16
+    DD × Female: 17
+    DD × Male: 9
+    Minimum cell count: 9
+  Chunk 1/26 (edges 0-2000)...
+  Chunk 2/26 (edges 2000-4000)...
+  Chunk 3/26 (edges 4000-6000)...
+  Chunk 4/26 (edges 6000-8000)...
+  Chunk 5/26 (edges 8000-10000)...
+  Chunk 6/26 (edges 10000-12000)...
+  Chunk 7/26 (edges 12000-14000)...
+  Chunk 8/26 (edges 14000-16000)...
+  Chunk 9/26 (edges 16000-18000)...
+  Chunk 10/26 (edges 18000-20000)...
+  Chunk 11/26 (edges 20000-22000)...
+  Chunk 12/26 (edges 22000-24000)...
+  Chunk 13/26 (edges 24000-26000)...
+  Chunk 14/26 (edges 26000-28000)...
+  Chunk 15/26 (edges 28000-30000)...
+  Chunk 16/26 (edges 30000-32000)...
+  Chunk 17/26 (edges 32000-34000)...
+  Chunk 18/26 (edges 34000-36000)...
+  Chunk 19/26 (edges 36000-38000)...
+  Chunk 20/26 (edges 38000-40000)...
+  Chunk 21/26 (edges 40000-42000)...
+  Chunk 22/26 (edges 42000-44000)...
+  Chunk 23/26 (edges 44000-46000)...
+  Chunk 24/26 (edges 46000-48000)...
+  Chunk 25/26 (edges 48000-50000)...
+  Chunk 26/26 (edges 50000-50403)...
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Adult_edge_results.csv
+  p_mean_Diagnosis: FDR<0.05 -> 7
+  p_mean_Diagnosis: p<0.05 uncorrected -> 7628
+  p_mean_Sex: FDR<0.05 -> 0
+  p_mean_Sex: p<0.05 uncorrected -> 3971
+  p_mean_Diagnosis_Sex_Interaction: FDR<0.05 -> 0
+  p_mean_Diagnosis_Sex_Interaction: p<0.05 uncorrected -> 4623
+  p_disp_Diagnosis: FDR<0.05 -> 0
+  p_disp_Diagnosis: p<0.05 uncorrected -> 3384
+  p_disp_Sex: FDR<0.05 -> 8
+  p_disp_Sex: p<0.05 uncorrected -> 3160
+  p_disp_Diagnosis_Sex_Interaction: FDR<0.05 -> 0
+  p_disp_Diagnosis_Sex_Interaction: p<0.05 uncorrected -> 3416
+
+============================================================
+EDGE DGLM ANALYSIS (DK318) - Adult vs Child WITHIN DIAGNOSIS
+============================================================
+
+--- DD Adult vs Child ---
+  n=92, Child=66, Adult=26
+  2x2 cell counts:
+    Child × Female: 21
+    Child × Male: 45
+    Adult × Female: 17
+    Adult × Male: 9
+    Minimum cell count: 9
+  Chunk 1/26 (edges 0-2000)...
+  Chunk 2/26 (edges 2000-4000)...
+  Chunk 3/26 (edges 4000-6000)...
+  Chunk 4/26 (edges 6000-8000)...
+  Chunk 5/26 (edges 8000-10000)...
+  Chunk 6/26 (edges 10000-12000)...
+  Chunk 7/26 (edges 12000-14000)...
+  Chunk 8/26 (edges 14000-16000)...
+  Chunk 9/26 (edges 16000-18000)...
+  Chunk 10/26 (edges 18000-20000)...
+  Chunk 11/26 (edges 20000-22000)...
+  Chunk 12/26 (edges 22000-24000)...
+  Chunk 13/26 (edges 24000-26000)...
+  Chunk 14/26 (edges 26000-28000)...
+  Chunk 15/26 (edges 28000-30000)...
+  Chunk 16/26 (edges 30000-32000)...
+  Chunk 17/26 (edges 32000-34000)...
+  Chunk 18/26 (edges 34000-36000)...
+  Chunk 19/26 (edges 36000-38000)...
+  Chunk 20/26 (edges 38000-40000)...
+  Chunk 21/26 (edges 40000-42000)...
+  Chunk 22/26 (edges 42000-44000)...
+  Chunk 23/26 (edges 44000-46000)...
+  Chunk 24/26 (edges 46000-48000)...
+  Chunk 25/26 (edges 48000-50000)...
+  Chunk 26/26 (edges 50000-50403)...
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_DD_Adult_vs_Child_edge_results.csv
+  p_mean_AgeGroup: FDR<0.05 -> 6
+  p_mean_AgeGroup: p<0.05 uncorrected -> 4530
+  p_mean_Sex: FDR<0.05 -> 0
+  p_mean_Sex: p<0.05 uncorrected -> 6663
+  p_mean_AgeGroup_Sex_Interaction: FDR<0.05 -> 272
+  p_mean_AgeGroup_Sex_Interaction: p<0.05 uncorrected -> 5544
+  p_disp_AgeGroup: FDR<0.05 -> 1
+  p_disp_AgeGroup: p<0.05 uncorrected -> 3079
+  p_disp_Sex: FDR<0.05 -> 1
+  p_disp_Sex: p<0.05 uncorrected -> 3650
+  p_disp_AgeGroup_Sex_Interaction: FDR<0.05 -> 0
+  p_disp_AgeGroup_Sex_Interaction: p<0.05 uncorrected -> 3564
+
+--- TD Adult vs Child ---
+  n=112, Child=51, Adult=61
+  2x2 cell counts:
+    Child × Female: 25
+    Child × Male: 26
+    Adult × Female: 45
+    Adult × Male: 16
+    Minimum cell count: 16
+  Chunk 1/26 (edges 0-2000)...
+  Chunk 2/26 (edges 2000-4000)...
+  Chunk 3/26 (edges 4000-6000)...
+  Chunk 4/26 (edges 6000-8000)...
+  Chunk 5/26 (edges 8000-10000)...
+  Chunk 6/26 (edges 10000-12000)...
+  Chunk 7/26 (edges 12000-14000)...
+  Chunk 8/26 (edges 14000-16000)...
+  Chunk 9/26 (edges 16000-18000)...
+  Chunk 10/26 (edges 18000-20000)...
+  Chunk 11/26 (edges 20000-22000)...
+  Chunk 12/26 (edges 22000-24000)...
+  Chunk 13/26 (edges 24000-26000)...
+  Chunk 14/26 (edges 26000-28000)...
+  Chunk 15/26 (edges 28000-30000)...
+  Chunk 16/26 (edges 30000-32000)...
+  Chunk 17/26 (edges 32000-34000)...
+  Chunk 18/26 (edges 34000-36000)...
+  Chunk 19/26 (edges 36000-38000)...
+  Chunk 20/26 (edges 38000-40000)...
+  Chunk 21/26 (edges 40000-42000)...
+  Chunk 22/26 (edges 42000-44000)...
+  Chunk 23/26 (edges 44000-46000)...
+  Chunk 24/26 (edges 46000-48000)...
+  Chunk 25/26 (edges 48000-50000)...
+  Chunk 26/26 (edges 50000-50403)...
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_disp_Diagnosis.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_disp_Diagnosis_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_disp_Sex.csv
+Processing: Significant_DGLM_DK318_Adult_degree_results_p_mean_Diagnosis.csv
+Category: main_effect_FDR
+LH matched: 6 | RH matched: 4
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis/rh_medial.png
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_mean_Diagnosis_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_mean_Sex.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_disp_Diagnosis.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_disp_Diagnosis_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_disp_Sex.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_mean_Diagnosis.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_mean_Diagnosis_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_mean_Sex.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_AgeGroup.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_Sex.csv
+Processing: Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_AgeGroup.csv
+Category: main_effect_FDR
+LH matched: 1 | RH matched: 1
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup/rh_medial.png
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv
+Processing: Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_Sex.csv
+Category: main_effect_FDR
+LH matched: 1 | RH matched: 2
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_Sex/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_Sex/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_Sex/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_Sex/rh_medial.png
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_AgeGroup.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_Sex.csv
+Processing: Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_AgeGroup.csv
+Category: main_effect_FDR
+LH matched: 20 | RH matched: 22
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup/rh_medial.png
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_Sex.csv
+Processing: Uncorrected_Significant_DGLM_DK318_Adult_degree_results_p_disp_Diagnosis_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 9 | RH matched: 11
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_disp_Diagnosis_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_disp_Diagnosis_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_disp_Diagnosis_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_disp_Diagnosis_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_Adult_degree_results_p_disp_Diagnosis_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_Adult_degree_results_p_mean_Diagnosis_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 24 | RH matched: 19
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_Adult_degree_results_p_mean_Diagnosis_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_Child_degree_results_p_disp_Diagnosis_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 13 | RH matched: 18
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_disp_Diagnosis_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_disp_Diagnosis_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_disp_Diagnosis_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_disp_Diagnosis_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_Child_degree_results_p_disp_Diagnosis_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_Child_degree_results_p_mean_Diagnosis_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 1 | RH matched: 4
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_mean_Diagnosis_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_mean_Diagnosis_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_mean_Diagnosis_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_mean_Diagnosis_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_Child_degree_results_p_mean_Diagnosis_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 9 | RH matched: 10
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_disp_AgeGroup_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_disp_AgeGroup_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_disp_AgeGroup_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_disp_AgeGroup_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 11 | RH matched: 7
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 11 | RH matched: 11
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_disp_AgeGroup_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_disp_AgeGroup_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_disp_AgeGroup_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_disp_AgeGroup_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 16 | RH matched: 12
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Done plotting stratified brainmaps.
+  Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_edge_results.csv
+  p_mean_AgeGroup: FDR<0.05 -> 1163
+  p_mean_AgeGroup: p<0.05 uncorrected -> 8720
+  p_mean_Sex: FDR<0.05 -> 0
+  p_mean_Sex: p<0.05 uncorrected -> 4956
+  p_mean_AgeGroup_Sex_Interaction: FDR<0.05 -> 0
+  p_mean_AgeGroup_Sex_Interaction: p<0.05 uncorrected -> 3967
+  p_disp_AgeGroup: FDR<0.05 -> 0
+  p_disp_AgeGroup: p<0.05 uncorrected -> 3318
+  p_disp_Sex: FDR<0.05 -> 0
+  p_disp_Sex: p<0.05 uncorrected -> 3177
+  p_disp_AgeGroup_Sex_Interaction: FDR<0.05 -> 1
+  p_disp_AgeGroup_Sex_Interaction: p<0.05 uncorrected -> 3238
+
+ALL DONE.
+
+Running stratified degree brainmap and interaction follow-up plotting...
+Brainmap and interaction follow-up plotting finished.
+===== STEP 1/3 DONE =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+===== STEP 2/3: Plot stratified significant degree brainmaps =====
+Output dir (STEP 2/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_disp_Diagnosis.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_disp_Diagnosis_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_disp_Sex.csv
+Processing: Significant_DGLM_DK318_Adult_degree_results_p_mean_Diagnosis.csv
+Category: main_effect_FDR
+LH matched: 6 | RH matched: 4
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis/rh_medial.png
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_mean_Diagnosis_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Adult_degree_results_p_mean_Sex.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_disp_Diagnosis.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_disp_Diagnosis_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_disp_Sex.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_mean_Diagnosis.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_mean_Diagnosis_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_Child_degree_results_p_mean_Sex.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_AgeGroup.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_Sex.csv
+Processing: Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_AgeGroup.csv
+Category: main_effect_FDR
+LH matched: 1 | RH matched: 1
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_AgeGroup/rh_medial.png
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv
+Processing: Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_Sex.csv
+Category: main_effect_FDR
+LH matched: 1 | RH matched: 2
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_Sex/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_Sex/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_Sex/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_DD_Adult_vs_Child_degree_results/p_mean_Sex/rh_medial.png
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_AgeGroup.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_Sex.csv
+Processing: Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_AgeGroup.csv
+Category: main_effect_FDR
+LH matched: 20 | RH matched: 22
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/main_effect_FDR/DGLM_DK318_TD_Adult_vs_Child_degree_results/p_mean_AgeGroup/rh_medial.png
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv
+Skip surface plotting for empty placeholder result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_Sex.csv
+Processing: Uncorrected_Significant_DGLM_DK318_Adult_degree_results_p_disp_Diagnosis_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 9 | RH matched: 11
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_disp_Diagnosis_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_disp_Diagnosis_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_disp_Diagnosis_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_disp_Diagnosis_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_Adult_degree_results_p_disp_Diagnosis_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_Adult_degree_results_p_mean_Diagnosis_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 24 | RH matched: 19
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Adult_degree_results/p_mean_Diagnosis_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_Adult_degree_results_p_mean_Diagnosis_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_Child_degree_results_p_disp_Diagnosis_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 13 | RH matched: 18
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_disp_Diagnosis_Sex_Interaction/lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_disp_Diagnosis_Sex_Interaction/lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_disp_Diagnosis_Sex_Interaction/rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_disp_Diagnosis_Sex_Interaction/rh_medial.png
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_Child_degree_results_p_disp_Diagnosis_Sex_Interaction.csv: Could not infer a continuous age column from demographic table.
+Processing: Uncorrected_Significant_DGLM_DK318_Child_degree_results_p_mean_Diagnosis_Sex_Interaction.csv
+Category: interaction_uncorrected
+LH matched: 1 | RH matched: 4
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_Child_degree_results_p_mean_Diagnosis_Sex_Interaction.csv: [Errno 2] No such file or directory: '/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps/interaction_uncorrected/DGLM_DK318_Child_degree_results/p_mean_Diagnosis_Sex_Interaction/lh_lateral.png'
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv: [Errno 2] No such file or directory: '/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv'
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv: [Errno 2] No such file or directory: '/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_DD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv'
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv: [Errno 2] No such file or directory: '/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_disp_AgeGroup_Sex_Interaction.csv'
+Skip /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv: [Errno 2] No such file or directory: '/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/Uncorrected_Significant_DGLM_DK318_TD_Adult_vs_Child_degree_results_p_mean_AgeGroup_Sex_Interaction.csv'
+Done plotting stratified brainmaps.
+===== STEP 2/3 DONE =====
+Output dir (STEP 2/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps
+===== STEP 3/3: Run stratified GAM follow-up for significant interaction ROIs =====
+Output dir (STEP 3/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/GAM_Followup_stratified
+Host: node4
+Start: Fri Apr 24 01:20:17 AM CST 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/tmp
+Result dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+Label: DK318 stratified
+result_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified 
+out_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/GAM_Followup_stratified 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Adult_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Adult_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Adult_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Adult_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_DD_Adult_vs_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_DD_Adult_vs_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_DD_Adult_vs_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_DD_Adult_vs_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_degree_results.csv 
+skip missing /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_degree_results.csv 
+done. success: 0 
+End: Fri Apr 24 01:20:20 AM CST 2026
+===== STEP 3/3 DONE =====
+Output dir (STEP 3/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/GAM_Followup_stratified
+End: Fri Apr 24 01:20:20 AM CST 2026

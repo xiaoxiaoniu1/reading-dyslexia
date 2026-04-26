@@ -15,10 +15,10 @@ library(tools)
 # ----------------------------
 # 1) Paths
 # ----------------------------
-demo_file      <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/all_data_cqt_any_2.xlsx"
-mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/MIND_DK318_combat"
+demo_file      <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/all_data_cqt_mean_1.5.xlsx"
+mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_combat"
 
-out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/MIND_DK318_ANOVA"
+out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_ANOVA"
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
 out_degree_csv <- file.path(out_dir, "ANOVA_DK318_degree_results.csv")
@@ -36,6 +36,7 @@ df <- df %>%
   mutate(
     original_project = as.character(`original-project`),
     id_old = as.character(id_old),
+    Age = as.numeric(age_month),
 
     subj_prefix = paste0(original_project, "_", id_old),
     file_base = paste0(subj_prefix, "_MIND_DK318_combat"),
@@ -53,7 +54,10 @@ df <- df %>%
 
     has_file  = file.exists(mind_file) & file.exists(degree_file)
   ) %>%
-  filter(!is.na(original_project), !is.na(id_old), original_project != "", id_old != "")
+  filter(!is.na(original_project), !is.na(id_old), original_project != "", id_old != "") %>%
+  group_by(AgeGroup) %>%
+  mutate(age_within_group = Age - mean(Age, na.rm = TRUE)) %>%
+  ungroup()
 
 # ----------------------------
 # 3) Filter missing subjects + write missing list
@@ -207,7 +211,7 @@ run_two_way_anova_per_feature <- function(y_mat, df_sub, feature_names,
     }
 
     # 正常拟合
-    fit <- lm(y2 ~ Diagnosis * AgeGroup + Sex, data = d2)
+    fit <- lm(y2 ~ Diagnosis * AgeGroup + Sex + age_within_group, data = d2)
 
     # 防呆3：Anova 出错时不崩溃，返回 NA
     a <- tryCatch(car::Anova(fit, type = 2), error = function(e) NULL)
@@ -259,18 +263,8 @@ run_two_way_anova_per_feature <- function(y_mat, df_sub, feature_names,
   out$p_Diagnosis_FDR   <- p.adjust(out$p_Diagnosis,   method = "fdr")
   out$p_AgeGroup_FDR    <- p.adjust(out$p_AgeGroup,    method = "fdr")
   out$p_Interaction_FDR <- p.adjust(out$p_Interaction, method = "fdr")
-
-  out$p_Interaction_FDR_diagSig <- NA_real_
-  diag_sig_idx <- which(out$p_Diagnosis_FDR < 0.05 & !is.na(out$p_Interaction))
-  if (length(diag_sig_idx) > 0) {
-    out$p_Interaction_FDR_diagSig[diag_sig_idx] <- p.adjust(out$p_Interaction[diag_sig_idx], method = "fdr")
-  }
-
-  out$p_Interaction_FDR_diagSig <- NA_real_
-  diag_sig_idx <- which(out$p_Diagnosis_FDR < 0.05 & !is.na(out$p_Interaction))
-  if (length(diag_sig_idx) > 0) {
-    out$p_Interaction_FDR_diagSig[diag_sig_idx] <- p.adjust(out$p_Interaction[diag_sig_idx], method = "fdr")
-  }
+  out$p_Interaction_0_01  <- ifelse(!is.na(out$p_Interaction) & out$p_Interaction < 0.01,  out$p_Interaction, NA_real_)
+  out$p_Interaction_0_001 <- ifelse(!is.na(out$p_Interaction) & out$p_Interaction < 0.001, out$p_Interaction, NA_real_)
 
   out$p_Interaction_FDR_diagSig <- NA_real_
   diag_sig_idx <- which(out$p_Diagnosis_FDR < 0.05 & !is.na(out$p_Interaction))
@@ -340,7 +334,7 @@ run_two_way_anova_edgewise_chunked <- function(edge_mat, df_sub, upper_idx, roi_
         ))
       }
 
-      fit <- lm(y2 ~ Diagnosis * AgeGroup + Sex, data = d2)
+      fit <- lm(y2 ~ Diagnosis * AgeGroup + Sex + age_within_group, data = d2)
       a <- tryCatch(car::Anova(fit, type = 2), error = function(e) NULL)
 
       if (is.null(a)) {
@@ -402,6 +396,8 @@ run_two_way_anova_edgewise_chunked <- function(edge_mat, df_sub, upper_idx, roi_
   out$p_Diagnosis_FDR   <- p.adjust(out$p_Diagnosis,   method = "fdr")
   out$p_AgeGroup_FDR    <- p.adjust(out$p_AgeGroup,    method = "fdr")
   out$p_Interaction_FDR <- p.adjust(out$p_Interaction, method = "fdr")
+  out$p_Interaction_0_01  <- ifelse(!is.na(out$p_Interaction) & out$p_Interaction < 0.01,  out$p_Interaction, NA_real_)
+  out$p_Interaction_0_001 <- ifelse(!is.na(out$p_Interaction) & out$p_Interaction < 0.001, out$p_Interaction, NA_real_)
 
   out
 }

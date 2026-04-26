@@ -15,10 +15,10 @@ library(tools)
 # ----------------------------
 # 1) Paths
 # ----------------------------
-demo_file       <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/all_data_cqt_any_2.xlsx"
-mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/MIND_DK68_combat"
+demo_file       <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/all_data_cqt_mean_1.5.xlsx"
+mind_combat_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_combat"
 
-out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_any_2/MIND_DK68_ANOVA/"
+out_dir <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_ANOVA/"
 dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
 
 out_degree_csv <- file.path(out_dir, "ANOVA_DK68_degree_results.csv")
@@ -36,6 +36,7 @@ df <- df %>%
   mutate(
     subj_id = as.character(id),
     subj_id = trimws(subj_id),
+    Age = as.numeric(age_month),
 
     file_base = paste0(subj_id, "_combat"),
     mind_file = file.path(mind_combat_dir, paste0(file_base, ".csv")),
@@ -52,7 +53,10 @@ df <- df %>%
 
     has_file  = file.exists(mind_file) & file.exists(degree_file)
   ) %>%
-  filter(!is.na(id), subj_id != "", site != 3)
+  filter(!is.na(id), subj_id != "", site != 3) %>%
+  group_by(AgeGroup) %>%
+  mutate(age_within_group = Age - mean(Age, na.rm = TRUE)) %>%
+  ungroup()
 
 # ----------------------------
 # 3) Filter missing subjects + write missing list
@@ -206,7 +210,7 @@ run_two_way_anova_per_feature <- function(y_mat, df_sub, feature_names,
     }
     
     # 正常拟合
-    fit <- lm(y2 ~ Diagnosis * AgeGroup + Sex, data = d2)
+    fit <- lm(y2 ~ Diagnosis * AgeGroup + Sex + age_within_group, data = d2)
     
     # 防呆3：Anova 出错时不崩溃，返回 NA
     a <- tryCatch(car::Anova(fit, type = 2), error = function(e) NULL)
@@ -330,7 +334,7 @@ run_two_way_anova_edgewise_chunked <- function(edge_mat, df_sub, upper_idx, roi_
         ))
       }
       
-      fit <- lm(y2 ~ Diagnosis * AgeGroup + Sex, data = d2)
+      fit <- lm(y2 ~ Diagnosis * AgeGroup + Sex + age_within_group, data = d2)
       a <- tryCatch(car::Anova(fit, type = 2), error = function(e) NULL)
       
       if (is.null(a)) {
@@ -422,13 +426,21 @@ cat("\n=== Generating significant results tables ===\n")
 
 # 辅助函数：计算方向并输出
 output_sig_results <- function(res_df, feature_mat, df_demo, effect_name, 
-                                 feature_type = "degree", out_dir) {
+                                 feature_type = "degree", out_dir,
+                                 p_col = NULL, p_cutoff = 0.05,
+                                 output_tag = NULL) {
   
-  p_col <- paste0("p_", effect_name, "_FDR")
-  sig_data <- res_df %>% filter(.data[[p_col]] < 0.05)
+  if (is.null(p_col)) {
+    p_col <- paste0("p_", effect_name, "_FDR")
+  }
+  if (is.null(output_tag)) {
+    output_tag <- effect_name
+  }
+  sig_data <- res_df %>% filter(.data[[p_col]] < p_cutoff)
   
   if (nrow(sig_data) == 0) {
-    cat("No significant", effect_name, "results for", feature_type, "(FDR<0.05)\n")
+    cat("No significant", output_tag, "results for", feature_type,
+        "(", p_col, "<", p_cutoff, ")\n")
     return(NULL)
   }
   
@@ -484,7 +496,7 @@ output_sig_results <- function(res_df, feature_mat, df_demo, effect_name,
   sig_with_dir <- sig_with_dir %>% ungroup() %>% arrange(.data[[p_col]])
   
   out_file <- file.path(out_dir, 
-                        paste0("Significant_", effect_name, "_DK68_", 
+                        paste0("Significant_", output_tag, "_DK68_", 
                               feature_type, "_results.csv"))
   write.csv(sig_with_dir, out_file, row.names = FALSE)
   cat("Significant", effect_name, feature_type, "results (n =", 
@@ -497,12 +509,54 @@ output_sig_results <- function(res_df, feature_mat, df_demo, effect_name,
 output_sig_results(degree_res, degree_mat, df2, "Diagnosis", "degree", out_dir)
 output_sig_results(edge_res, edge_mat, df2, "Diagnosis", "edge", out_dir)
 
+# 输出 Diagnosis 未校正显著结果
+for (p_cutoff in c(0.05, 0.01, 0.001)) {
+  output_sig_results(
+    degree_res, degree_mat, df2, "Diagnosis", "degree", out_dir,
+    p_col = "p_Diagnosis", p_cutoff = p_cutoff,
+    output_tag = paste0("Diagnosis_uncorrected_p_lt_", p_cutoff)
+  )
+  output_sig_results(
+    edge_res, edge_mat, df2, "Diagnosis", "edge", out_dir,
+    p_col = "p_Diagnosis", p_cutoff = p_cutoff,
+    output_tag = paste0("Diagnosis_uncorrected_p_lt_", p_cutoff)
+  )
+}
+
 # 输出 AgeGroup 主效应显著结果
 output_sig_results(degree_res, degree_mat, df2, "AgeGroup", "degree", out_dir)
 output_sig_results(edge_res, edge_mat, df2, "AgeGroup", "edge", out_dir)
 
+# 输出 AgeGroup 未校正显著结果
+for (p_cutoff in c(0.05, 0.01, 0.001)) {
+  output_sig_results(
+    degree_res, degree_mat, df2, "AgeGroup", "degree", out_dir,
+    p_col = "p_AgeGroup", p_cutoff = p_cutoff,
+    output_tag = paste0("AgeGroup_uncorrected_p_lt_", p_cutoff)
+  )
+  output_sig_results(
+    edge_res, edge_mat, df2, "AgeGroup", "edge", out_dir,
+    p_col = "p_AgeGroup", p_cutoff = p_cutoff,
+    output_tag = paste0("AgeGroup_uncorrected_p_lt_", p_cutoff)
+  )
+}
+
 # 输出 Interaction 显著结果
 output_sig_results(degree_res, degree_mat, df2, "Interaction", "degree", out_dir)
 output_sig_results(edge_res, edge_mat, df2, "Interaction", "edge", out_dir)
+
+# 输出 Interaction 未校正显著结果
+for (p_cutoff in c(0.05, 0.01, 0.001)) {
+  output_sig_results(
+    degree_res, degree_mat, df2, "Interaction", "degree", out_dir,
+    p_col = "p_Interaction", p_cutoff = p_cutoff,
+    output_tag = paste0("Interaction_uncorrected_p_lt_", p_cutoff)
+  )
+  output_sig_results(
+    edge_res, edge_mat, df2, "Interaction", "edge", out_dir,
+    p_col = "p_Interaction", p_cutoff = p_cutoff,
+    output_tag = paste0("Interaction_uncorrected_p_lt_", p_cutoff)
+  )
+}
 
 cat("\nDONE.\n")

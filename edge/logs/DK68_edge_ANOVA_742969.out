@@ -1,0 +1,18 @@
+Start: Mon Mar 30 10:17:25 AM UTC 2026
+加载了 68 个脑区坐标
+正在计算效应方向（TD vs DD / Adult vs Child）...
+找到 209 个有效的矩阵文件用于计算效应方向
+找到 209 个有效的矩阵文件用于计算效应方向
+效应方向计算完成！
+
+处理: p_Diagnosis_FDR
+✓ 已保存图片: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_ANOVA/ANOVA_DK68_p_Diagnosis_FDR_plot.png
+
+处理: p_AgeGroup_FDR
+✓ 已保存图片: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_ANOVA/ANOVA_DK68_p_AgeGroup_FDR_plot.png
+
+处理: p_Interaction
+✓ 已保存图片: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_ANOVA/ANOVA_DK68_p_Interaction_plot.png
+
+全部完成！
+End: Mon Mar 30 10:17:33 AM UTC 2026

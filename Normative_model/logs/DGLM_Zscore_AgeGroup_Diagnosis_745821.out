@@ -1,0 +1,1316 @@
+Host: node5
+Start: Wed Apr  8 11:54:06 AM CST 2026
+[DEBUG] Z-score CSV not found, rebuilding from RDS files
+Found 227 rds files
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Left.Accumbens.area_loop_our_model_individual.rds 
+[DEBUG] Left.Accumbens.area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Left.Accumbens.area - rows after ID normalization: 141 
+Done: Left.Accumbens.area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Left.Amygdala_loop_our_model_individual.rds 
+[DEBUG] Left.Amygdala - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Left.Amygdala - rows after ID normalization: 141 
+[DEBUG] Left.Amygdala - matrix rows: 141 -> 141  cols: 2 
+Done: Left.Amygdala 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Left.Caudate_loop_our_model_individual.rds 
+[DEBUG] Left.Caudate - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Left.Caudate - rows after ID normalization: 141 
+[DEBUG] Left.Caudate - matrix rows: 141 -> 141  cols: 3 
+Done: Left.Caudate 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Left.Hippocampus_loop_our_model_individual.rds 
+[DEBUG] Left.Hippocampus - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Left.Hippocampus - rows after ID normalization: 141 
+[DEBUG] Left.Hippocampus - matrix rows: 141 -> 141  cols: 4 
+Done: Left.Hippocampus 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Left.Pallidum_loop_our_model_individual.rds 
+[DEBUG] Left.Pallidum - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Left.Pallidum - rows after ID normalization: 141 
+[DEBUG] Left.Pallidum - matrix rows: 141 -> 141  cols: 5 
+Done: Left.Pallidum 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Left.Putamen_loop_our_model_individual.rds 
+[DEBUG] Left.Putamen - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Left.Putamen - rows after ID normalization: 141 
+[DEBUG] Left.Putamen - matrix rows: 141 -> 141  cols: 6 
+Done: Left.Putamen 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Left.Thalamus_loop_our_model_individual.rds 
+[DEBUG] Left.Thalamus - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Left.Thalamus - rows after ID normalization: 141 
+[DEBUG] Left.Thalamus - matrix rows: 141 -> 141  cols: 7 
+Done: Left.Thalamus 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Left.VentralDC_loop_our_model_individual.rds 
+[DEBUG] Left.VentralDC - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Left.VentralDC - rows after ID normalization: 141 
+[DEBUG] Left.VentralDC - matrix rows: 141 -> 141  cols: 8 
+Done: Left.VentralDC 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Right.Accumbens.area_loop_our_model_individual.rds 
+[DEBUG] Right.Accumbens.area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Right.Accumbens.area - rows after ID normalization: 141 
+[DEBUG] Right.Accumbens.area - matrix rows: 141 -> 141  cols: 9 
+Done: Right.Accumbens.area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Right.Amygdala_loop_our_model_individual.rds 
+[DEBUG] Right.Amygdala - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Right.Amygdala - rows after ID normalization: 141 
+[DEBUG] Right.Amygdala - matrix rows: 141 -> 141  cols: 10 
+Done: Right.Amygdala 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Right.Caudate_loop_our_model_individual.rds 
+[DEBUG] Right.Caudate - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Right.Caudate - rows after ID normalization: 141 
+[DEBUG] Right.Caudate - matrix rows: 141 -> 141  cols: 11 
+Done: Right.Caudate 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Right.Hippocampus_loop_our_model_individual.rds 
+[DEBUG] Right.Hippocampus - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Right.Hippocampus - rows after ID normalization: 141 
+[DEBUG] Right.Hippocampus - matrix rows: 141 -> 141  cols: 12 
+Done: Right.Hippocampus 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Right.Pallidum_loop_our_model_individual.rds 
+[DEBUG] Right.Pallidum - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Right.Pallidum - rows after ID normalization: 141 
+[DEBUG] Right.Pallidum - matrix rows: 141 -> 141  cols: 13 
+Done: Right.Pallidum 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Right.Putamen_loop_our_model_individual.rds 
+[DEBUG] Right.Putamen - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Right.Putamen - rows after ID normalization: 141 
+[DEBUG] Right.Putamen - matrix rows: 141 -> 141  cols: 14 
+Done: Right.Putamen 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Right.Thalamus_loop_our_model_individual.rds 
+[DEBUG] Right.Thalamus - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Right.Thalamus - rows after ID normalization: 141 
+[DEBUG] Right.Thalamus - matrix rows: 141 -> 141  cols: 15 
+Done: Right.Thalamus 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/aseg.vol.table/aseg.vol.table_Right.VentralDC_loop_our_model_individual.rds 
+[DEBUG] Right.VentralDC - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Right.VentralDC - rows after ID normalization: 141 
+[DEBUG] Right.VentralDC - matrix rows: 141 -> 141  cols: 16 
+Done: Right.VentralDC 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/Global_feature/Global_feature_GMV_loop_our_model_individual.rds 
+[DEBUG] GMV - raw rows: 141  unique raw rownames: 141 
+[DEBUG] GMV - rows after ID normalization: 141 
+[DEBUG] GMV - matrix rows: 141 -> 141  cols: 17 
+Done: GMV 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/Global_feature/Global_feature_mean_thickness_loop_our_model_individual.rds 
+[DEBUG] mean_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] mean_thickness - rows after ID normalization: 141 
+[DEBUG] mean_thickness - matrix rows: 141 -> 141  cols: 18 
+Done: mean_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/Global_feature/Global_feature_sGMV_loop_our_model_individual.rds 
+[DEBUG] sGMV - raw rows: 141  unique raw rownames: 141 
+[DEBUG] sGMV - rows after ID normalization: 141 
+[DEBUG] sGMV - matrix rows: 141 -> 141  cols: 19 
+Done: sGMV 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/Global_feature/Global_feature_TCV_loop_our_model_individual.rds 
+[DEBUG] TCV - raw rows: 141  unique raw rownames: 141 
+[DEBUG] TCV - rows after ID normalization: 141 
+[DEBUG] TCV - matrix rows: 141 -> 141  cols: 20 
+Done: TCV 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/Global_feature/Global_feature_total_surface_arrea_loop_our_model_individual.rds 
+[DEBUG] total_surface_arrea - raw rows: 141  unique raw rownames: 141 
+[DEBUG] total_surface_arrea - rows after ID normalization: 141 
+[DEBUG] total_surface_arrea - matrix rows: 141 -> 141  cols: 21 
+Done: total_surface_arrea 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/Global_feature/Global_feature_Ventricles_loop_our_model_individual.rds 
+[DEBUG] Ventricles - raw rows: 141  unique raw rownames: 141 
+[DEBUG] Ventricles - rows after ID normalization: 141 
+[DEBUG] Ventricles - matrix rows: 141 -> 141  cols: 22 
+Done: Ventricles 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/Global_feature/Global_feature_WMV_loop_our_model_individual.rds 
+[DEBUG] WMV - raw rows: 141  unique raw rownames: 141 
+[DEBUG] WMV - rows after ID normalization: 141 
+[DEBUG] WMV - matrix rows: 141 -> 141  cols: 23 
+Done: WMV 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_bankssts_area_loop_our_model_individual.rds 
+[DEBUG] lh_bankssts_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_bankssts_area - rows after ID normalization: 141 
+[DEBUG] lh_bankssts_area - matrix rows: 141 -> 141  cols: 24 
+Done: lh_bankssts_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_caudalanteriorcingulate_area_loop_our_model_individual.rds 
+[DEBUG] lh_caudalanteriorcingulate_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_caudalanteriorcingulate_area - rows after ID normalization: 141 
+[DEBUG] lh_caudalanteriorcingulate_area - matrix rows: 141 -> 141  cols: 25 
+Done: lh_caudalanteriorcingulate_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_caudalmiddlefrontal_area_loop_our_model_individual.rds 
+[DEBUG] lh_caudalmiddlefrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_caudalmiddlefrontal_area - rows after ID normalization: 141 
+[DEBUG] lh_caudalmiddlefrontal_area - matrix rows: 141 -> 141  cols: 26 
+Done: lh_caudalmiddlefrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_cuneus_area_loop_our_model_individual.rds 
+[DEBUG] lh_cuneus_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_cuneus_area - rows after ID normalization: 141 
+[DEBUG] lh_cuneus_area - matrix rows: 141 -> 141  cols: 27 
+Done: lh_cuneus_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_entorhinal_area_loop_our_model_individual.rds 
+[DEBUG] lh_entorhinal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_entorhinal_area - rows after ID normalization: 141 
+[DEBUG] lh_entorhinal_area - matrix rows: 141 -> 141  cols: 28 
+Done: lh_entorhinal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_frontalpole_area_loop_our_model_individual.rds 
+[DEBUG] lh_frontalpole_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_frontalpole_area - rows after ID normalization: 141 
+[DEBUG] lh_frontalpole_area - matrix rows: 141 -> 141  cols: 29 
+Done: lh_frontalpole_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_fusiform_area_loop_our_model_individual.rds 
+[DEBUG] lh_fusiform_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_fusiform_area - rows after ID normalization: 141 
+[DEBUG] lh_fusiform_area - matrix rows: 141 -> 141  cols: 30 
+Done: lh_fusiform_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_inferiorparietal_area_loop_our_model_individual.rds 
+[DEBUG] lh_inferiorparietal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_inferiorparietal_area - rows after ID normalization: 141 
+[DEBUG] lh_inferiorparietal_area - matrix rows: 141 -> 141  cols: 31 
+Done: lh_inferiorparietal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_inferiortemporal_area_loop_our_model_individual.rds 
+[DEBUG] lh_inferiortemporal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_inferiortemporal_area - rows after ID normalization: 141 
+[DEBUG] lh_inferiortemporal_area - matrix rows: 141 -> 141  cols: 32 
+Done: lh_inferiortemporal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_insula_area_loop_our_model_individual.rds 
+[DEBUG] lh_insula_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_insula_area - rows after ID normalization: 141 
+[DEBUG] lh_insula_area - matrix rows: 141 -> 141  cols: 33 
+Done: lh_insula_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_isthmuscingulate_area_loop_our_model_individual.rds 
+[DEBUG] lh_isthmuscingulate_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_isthmuscingulate_area - rows after ID normalization: 141 
+[DEBUG] lh_isthmuscingulate_area - matrix rows: 141 -> 141  cols: 34 
+Done: lh_isthmuscingulate_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_lateraloccipital_area_loop_our_model_individual.rds 
+[DEBUG] lh_lateraloccipital_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_lateraloccipital_area - rows after ID normalization: 141 
+[DEBUG] lh_lateraloccipital_area - matrix rows: 141 -> 141  cols: 35 
+Done: lh_lateraloccipital_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_lateralorbitofrontal_area_loop_our_model_individual.rds 
+[DEBUG] lh_lateralorbitofrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_lateralorbitofrontal_area - rows after ID normalization: 141 
+[DEBUG] lh_lateralorbitofrontal_area - matrix rows: 141 -> 141  cols: 36 
+Done: lh_lateralorbitofrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_lingual_area_loop_our_model_individual.rds 
+[DEBUG] lh_lingual_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_lingual_area - rows after ID normalization: 141 
+[DEBUG] lh_lingual_area - matrix rows: 141 -> 141  cols: 37 
+Done: lh_lingual_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_medialorbitofrontal_area_loop_our_model_individual.rds 
+[DEBUG] lh_medialorbitofrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_medialorbitofrontal_area - rows after ID normalization: 141 
+[DEBUG] lh_medialorbitofrontal_area - matrix rows: 141 -> 141  cols: 38 
+Done: lh_medialorbitofrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_middletemporal_area_loop_our_model_individual.rds 
+[DEBUG] lh_middletemporal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_middletemporal_area - rows after ID normalization: 141 
+[DEBUG] lh_middletemporal_area - matrix rows: 141 -> 141  cols: 39 
+Done: lh_middletemporal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_paracentral_area_loop_our_model_individual.rds 
+[DEBUG] lh_paracentral_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_paracentral_area - rows after ID normalization: 141 
+[DEBUG] lh_paracentral_area - matrix rows: 141 -> 141  cols: 40 
+Done: lh_paracentral_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_parahippocampal_area_loop_our_model_individual.rds 
+[DEBUG] lh_parahippocampal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parahippocampal_area - rows after ID normalization: 141 
+[DEBUG] lh_parahippocampal_area - matrix rows: 141 -> 141  cols: 41 
+Done: lh_parahippocampal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_parsopercularis_area_loop_our_model_individual.rds 
+[DEBUG] lh_parsopercularis_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parsopercularis_area - rows after ID normalization: 141 
+[DEBUG] lh_parsopercularis_area - matrix rows: 141 -> 141  cols: 42 
+Done: lh_parsopercularis_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_parsorbitalis_area_loop_our_model_individual.rds 
+[DEBUG] lh_parsorbitalis_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parsorbitalis_area - rows after ID normalization: 141 
+[DEBUG] lh_parsorbitalis_area - matrix rows: 141 -> 141  cols: 43 
+Done: lh_parsorbitalis_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_parstriangularis_area_loop_our_model_individual.rds 
+[DEBUG] lh_parstriangularis_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parstriangularis_area - rows after ID normalization: 141 
+[DEBUG] lh_parstriangularis_area - matrix rows: 141 -> 141  cols: 44 
+Done: lh_parstriangularis_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_pericalcarine_area_loop_our_model_individual.rds 
+[DEBUG] lh_pericalcarine_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_pericalcarine_area - rows after ID normalization: 141 
+[DEBUG] lh_pericalcarine_area - matrix rows: 141 -> 141  cols: 45 
+Done: lh_pericalcarine_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_postcentral_area_loop_our_model_individual.rds 
+[DEBUG] lh_postcentral_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_postcentral_area - rows after ID normalization: 141 
+[DEBUG] lh_postcentral_area - matrix rows: 141 -> 141  cols: 46 
+Done: lh_postcentral_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_posteriorcingulate_area_loop_our_model_individual.rds 
+[DEBUG] lh_posteriorcingulate_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_posteriorcingulate_area - rows after ID normalization: 141 
+[DEBUG] lh_posteriorcingulate_area - matrix rows: 141 -> 141  cols: 47 
+Done: lh_posteriorcingulate_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_precentral_area_loop_our_model_individual.rds 
+[DEBUG] lh_precentral_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_precentral_area - rows after ID normalization: 141 
+[DEBUG] lh_precentral_area - matrix rows: 141 -> 141  cols: 48 
+Done: lh_precentral_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_precuneus_area_loop_our_model_individual.rds 
+[DEBUG] lh_precuneus_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_precuneus_area - rows after ID normalization: 141 
+[DEBUG] lh_precuneus_area - matrix rows: 141 -> 141  cols: 49 
+Done: lh_precuneus_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_rostralanteriorcingulate_area_loop_our_model_individual.rds 
+[DEBUG] lh_rostralanteriorcingulate_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_rostralanteriorcingulate_area - rows after ID normalization: 141 
+[DEBUG] lh_rostralanteriorcingulate_area - matrix rows: 141 -> 141  cols: 50 
+Done: lh_rostralanteriorcingulate_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_rostralmiddlefrontal_area_loop_our_model_individual.rds 
+[DEBUG] lh_rostralmiddlefrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_rostralmiddlefrontal_area - rows after ID normalization: 141 
+[DEBUG] lh_rostralmiddlefrontal_area - matrix rows: 141 -> 141  cols: 51 
+Done: lh_rostralmiddlefrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_superiorfrontal_area_loop_our_model_individual.rds 
+[DEBUG] lh_superiorfrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_superiorfrontal_area - rows after ID normalization: 141 
+[DEBUG] lh_superiorfrontal_area - matrix rows: 141 -> 141  cols: 52 
+Done: lh_superiorfrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_superiorparietal_area_loop_our_model_individual.rds 
+[DEBUG] lh_superiorparietal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_superiorparietal_area - rows after ID normalization: 141 
+[DEBUG] lh_superiorparietal_area - matrix rows: 141 -> 141  cols: 53 
+Done: lh_superiorparietal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_superiortemporal_area_loop_our_model_individual.rds 
+[DEBUG] lh_superiortemporal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_superiortemporal_area - rows after ID normalization: 141 
+[DEBUG] lh_superiortemporal_area - matrix rows: 141 -> 141  cols: 54 
+Done: lh_superiortemporal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_supramarginal_area_loop_our_model_individual.rds 
+[DEBUG] lh_supramarginal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_supramarginal_area - rows after ID normalization: 141 
+[DEBUG] lh_supramarginal_area - matrix rows: 141 -> 141  cols: 55 
+Done: lh_supramarginal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_temporalpole_area_loop_our_model_individual.rds 
+[DEBUG] lh_temporalpole_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_temporalpole_area - rows after ID normalization: 141 
+[DEBUG] lh_temporalpole_area - matrix rows: 141 -> 141  cols: 56 
+Done: lh_temporalpole_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.area.table/lh.aparc.area.table_lh_transversetemporal_area_loop_our_model_individual.rds 
+[DEBUG] lh_transversetemporal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_transversetemporal_area - rows after ID normalization: 141 
+[DEBUG] lh_transversetemporal_area - matrix rows: 141 -> 141  cols: 57 
+Done: lh_transversetemporal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_bankssts_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_bankssts_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_bankssts_thickness - rows after ID normalization: 141 
+[DEBUG] lh_bankssts_thickness - matrix rows: 141 -> 141  cols: 58 
+Done: lh_bankssts_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_caudalanteriorcingulate_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_caudalanteriorcingulate_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_caudalanteriorcingulate_thickness - rows after ID normalization: 141 
+[DEBUG] lh_caudalanteriorcingulate_thickness - matrix rows: 141 -> 141  cols: 59 
+Done: lh_caudalanteriorcingulate_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_caudalmiddlefrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_caudalmiddlefrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_caudalmiddlefrontal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_caudalmiddlefrontal_thickness - matrix rows: 141 -> 141  cols: 60 
+Done: lh_caudalmiddlefrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_cuneus_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_cuneus_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_cuneus_thickness - rows after ID normalization: 141 
+[DEBUG] lh_cuneus_thickness - matrix rows: 141 -> 141  cols: 61 
+Done: lh_cuneus_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_entorhinal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_entorhinal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_entorhinal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_entorhinal_thickness - matrix rows: 141 -> 141  cols: 62 
+Done: lh_entorhinal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_frontalpole_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_frontalpole_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_frontalpole_thickness - rows after ID normalization: 141 
+[DEBUG] lh_frontalpole_thickness - matrix rows: 141 -> 141  cols: 63 
+Done: lh_frontalpole_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_fusiform_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_fusiform_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_fusiform_thickness - rows after ID normalization: 141 
+[DEBUG] lh_fusiform_thickness - matrix rows: 141 -> 141  cols: 64 
+Done: lh_fusiform_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_inferiorparietal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_inferiorparietal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_inferiorparietal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_inferiorparietal_thickness - matrix rows: 141 -> 141  cols: 65 
+Done: lh_inferiorparietal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_inferiortemporal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_inferiortemporal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_inferiortemporal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_inferiortemporal_thickness - matrix rows: 141 -> 141  cols: 66 
+Done: lh_inferiortemporal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_insula_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_insula_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_insula_thickness - rows after ID normalization: 141 
+[DEBUG] lh_insula_thickness - matrix rows: 141 -> 141  cols: 67 
+Done: lh_insula_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_isthmuscingulate_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_isthmuscingulate_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_isthmuscingulate_thickness - rows after ID normalization: 141 
+[DEBUG] lh_isthmuscingulate_thickness - matrix rows: 141 -> 141  cols: 68 
+Done: lh_isthmuscingulate_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_lateraloccipital_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_lateraloccipital_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_lateraloccipital_thickness - rows after ID normalization: 141 
+[DEBUG] lh_lateraloccipital_thickness - matrix rows: 141 -> 141  cols: 69 
+Done: lh_lateraloccipital_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_lateralorbitofrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_lateralorbitofrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_lateralorbitofrontal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_lateralorbitofrontal_thickness - matrix rows: 141 -> 141  cols: 70 
+Done: lh_lateralorbitofrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_lingual_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_lingual_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_lingual_thickness - rows after ID normalization: 141 
+[DEBUG] lh_lingual_thickness - matrix rows: 141 -> 141  cols: 71 
+Done: lh_lingual_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_medialorbitofrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_medialorbitofrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_medialorbitofrontal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_medialorbitofrontal_thickness - matrix rows: 141 -> 141  cols: 72 
+Done: lh_medialorbitofrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_middletemporal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_middletemporal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_middletemporal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_middletemporal_thickness - matrix rows: 141 -> 141  cols: 73 
+Done: lh_middletemporal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_paracentral_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_paracentral_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_paracentral_thickness - rows after ID normalization: 141 
+[DEBUG] lh_paracentral_thickness - matrix rows: 141 -> 141  cols: 74 
+Done: lh_paracentral_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_parahippocampal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_parahippocampal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parahippocampal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_parahippocampal_thickness - matrix rows: 141 -> 141  cols: 75 
+Done: lh_parahippocampal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_parsopercularis_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_parsopercularis_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parsopercularis_thickness - rows after ID normalization: 141 
+[DEBUG] lh_parsopercularis_thickness - matrix rows: 141 -> 141  cols: 76 
+Done: lh_parsopercularis_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_parsorbitalis_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_parsorbitalis_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parsorbitalis_thickness - rows after ID normalization: 141 
+[DEBUG] lh_parsorbitalis_thickness - matrix rows: 141 -> 141  cols: 77 
+Done: lh_parsorbitalis_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_parstriangularis_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_parstriangularis_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parstriangularis_thickness - rows after ID normalization: 141 
+[DEBUG] lh_parstriangularis_thickness - matrix rows: 141 -> 141  cols: 78 
+Done: lh_parstriangularis_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_pericalcarine_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_pericalcarine_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_pericalcarine_thickness - rows after ID normalization: 141 
+[DEBUG] lh_pericalcarine_thickness - matrix rows: 141 -> 141  cols: 79 
+Done: lh_pericalcarine_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_postcentral_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_postcentral_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_postcentral_thickness - rows after ID normalization: 141 
+[DEBUG] lh_postcentral_thickness - matrix rows: 141 -> 141  cols: 80 
+Done: lh_postcentral_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_posteriorcingulate_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_posteriorcingulate_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_posteriorcingulate_thickness - rows after ID normalization: 141 
+[DEBUG] lh_posteriorcingulate_thickness - matrix rows: 141 -> 141  cols: 81 
+Done: lh_posteriorcingulate_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_precentral_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_precentral_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_precentral_thickness - rows after ID normalization: 141 
+[DEBUG] lh_precentral_thickness - matrix rows: 141 -> 141  cols: 82 
+Done: lh_precentral_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_precuneus_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_precuneus_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_precuneus_thickness - rows after ID normalization: 141 
+[DEBUG] lh_precuneus_thickness - matrix rows: 141 -> 141  cols: 83 
+Done: lh_precuneus_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_rostralanteriorcingulate_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_rostralanteriorcingulate_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_rostralanteriorcingulate_thickness - rows after ID normalization: 141 
+[DEBUG] lh_rostralanteriorcingulate_thickness - matrix rows: 141 -> 141  cols: 84 
+Done: lh_rostralanteriorcingulate_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_rostralmiddlefrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_rostralmiddlefrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_rostralmiddlefrontal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_rostralmiddlefrontal_thickness - matrix rows: 141 -> 141  cols: 85 
+Done: lh_rostralmiddlefrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_superiorfrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_superiorfrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_superiorfrontal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_superiorfrontal_thickness - matrix rows: 141 -> 141  cols: 86 
+Done: lh_superiorfrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_superiorparietal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_superiorparietal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_superiorparietal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_superiorparietal_thickness - matrix rows: 141 -> 141  cols: 87 
+Done: lh_superiorparietal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_superiortemporal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_superiortemporal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_superiortemporal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_superiortemporal_thickness - matrix rows: 141 -> 141  cols: 88 
+Done: lh_superiortemporal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_supramarginal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_supramarginal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_supramarginal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_supramarginal_thickness - matrix rows: 141 -> 141  cols: 89 
+Done: lh_supramarginal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_temporalpole_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_temporalpole_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_temporalpole_thickness - rows after ID normalization: 141 
+[DEBUG] lh_temporalpole_thickness - matrix rows: 141 -> 141  cols: 90 
+Done: lh_temporalpole_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.thickness.table/lh.aparc.thickness.table_lh_transversetemporal_thickness_loop_our_model_individual.rds 
+[DEBUG] lh_transversetemporal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_transversetemporal_thickness - rows after ID normalization: 141 
+[DEBUG] lh_transversetemporal_thickness - matrix rows: 141 -> 141  cols: 91 
+Done: lh_transversetemporal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_bankssts_volume_loop_our_model_individual.rds 
+[DEBUG] lh_bankssts_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_bankssts_volume - rows after ID normalization: 141 
+[DEBUG] lh_bankssts_volume - matrix rows: 141 -> 141  cols: 92 
+Done: lh_bankssts_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_caudalanteriorcingulate_volume_loop_our_model_individual.rds 
+[DEBUG] lh_caudalanteriorcingulate_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_caudalanteriorcingulate_volume - rows after ID normalization: 141 
+[DEBUG] lh_caudalanteriorcingulate_volume - matrix rows: 141 -> 141  cols: 93 
+Done: lh_caudalanteriorcingulate_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_caudalmiddlefrontal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_caudalmiddlefrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_caudalmiddlefrontal_volume - rows after ID normalization: 141 
+[DEBUG] lh_caudalmiddlefrontal_volume - matrix rows: 141 -> 141  cols: 94 
+Done: lh_caudalmiddlefrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_cuneus_volume_loop_our_model_individual.rds 
+[DEBUG] lh_cuneus_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_cuneus_volume - rows after ID normalization: 141 
+[DEBUG] lh_cuneus_volume - matrix rows: 141 -> 141  cols: 95 
+Done: lh_cuneus_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_entorhinal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_entorhinal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_entorhinal_volume - rows after ID normalization: 141 
+[DEBUG] lh_entorhinal_volume - matrix rows: 141 -> 141  cols: 96 
+Done: lh_entorhinal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_frontalpole_volume_loop_our_model_individual.rds 
+[DEBUG] lh_frontalpole_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_frontalpole_volume - rows after ID normalization: 141 
+[DEBUG] lh_frontalpole_volume - matrix rows: 141 -> 141  cols: 97 
+Done: lh_frontalpole_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_fusiform_volume_loop_our_model_individual.rds 
+[DEBUG] lh_fusiform_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_fusiform_volume - rows after ID normalization: 141 
+[DEBUG] lh_fusiform_volume - matrix rows: 141 -> 141  cols: 98 
+Done: lh_fusiform_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_inferiorparietal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_inferiorparietal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_inferiorparietal_volume - rows after ID normalization: 141 
+[DEBUG] lh_inferiorparietal_volume - matrix rows: 141 -> 141  cols: 99 
+Done: lh_inferiorparietal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_inferiortemporal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_inferiortemporal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_inferiortemporal_volume - rows after ID normalization: 141 
+[DEBUG] lh_inferiortemporal_volume - matrix rows: 141 -> 141  cols: 100 
+Done: lh_inferiortemporal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_insula_volume_loop_our_model_individual.rds 
+[DEBUG] lh_insula_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_insula_volume - rows after ID normalization: 141 
+[DEBUG] lh_insula_volume - matrix rows: 141 -> 141  cols: 101 
+Done: lh_insula_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_isthmuscingulate_volume_loop_our_model_individual.rds 
+[DEBUG] lh_isthmuscingulate_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_isthmuscingulate_volume - rows after ID normalization: 141 
+[DEBUG] lh_isthmuscingulate_volume - matrix rows: 141 -> 141  cols: 102 
+Done: lh_isthmuscingulate_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_lateraloccipital_volume_loop_our_model_individual.rds 
+[DEBUG] lh_lateraloccipital_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_lateraloccipital_volume - rows after ID normalization: 141 
+[DEBUG] lh_lateraloccipital_volume - matrix rows: 141 -> 141  cols: 103 
+Done: lh_lateraloccipital_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_lateralorbitofrontal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_lateralorbitofrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_lateralorbitofrontal_volume - rows after ID normalization: 141 
+[DEBUG] lh_lateralorbitofrontal_volume - matrix rows: 141 -> 141  cols: 104 
+Done: lh_lateralorbitofrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_lingual_volume_loop_our_model_individual.rds 
+[DEBUG] lh_lingual_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_lingual_volume - rows after ID normalization: 141 
+[DEBUG] lh_lingual_volume - matrix rows: 141 -> 141  cols: 105 
+Done: lh_lingual_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_medialorbitofrontal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_medialorbitofrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_medialorbitofrontal_volume - rows after ID normalization: 141 
+[DEBUG] lh_medialorbitofrontal_volume - matrix rows: 141 -> 141  cols: 106 
+Done: lh_medialorbitofrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_middletemporal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_middletemporal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_middletemporal_volume - rows after ID normalization: 141 
+[DEBUG] lh_middletemporal_volume - matrix rows: 141 -> 141  cols: 107 
+Done: lh_middletemporal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_paracentral_volume_loop_our_model_individual.rds 
+[DEBUG] lh_paracentral_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_paracentral_volume - rows after ID normalization: 141 
+[DEBUG] lh_paracentral_volume - matrix rows: 141 -> 141  cols: 108 
+Done: lh_paracentral_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_parahippocampal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_parahippocampal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parahippocampal_volume - rows after ID normalization: 141 
+[DEBUG] lh_parahippocampal_volume - matrix rows: 141 -> 141  cols: 109 
+Done: lh_parahippocampal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_parsopercularis_volume_loop_our_model_individual.rds 
+[DEBUG] lh_parsopercularis_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parsopercularis_volume - rows after ID normalization: 141 
+[DEBUG] lh_parsopercularis_volume - matrix rows: 141 -> 141  cols: 110 
+Done: lh_parsopercularis_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_parsorbitalis_volume_loop_our_model_individual.rds 
+[DEBUG] lh_parsorbitalis_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parsorbitalis_volume - rows after ID normalization: 141 
+[DEBUG] lh_parsorbitalis_volume - matrix rows: 141 -> 141  cols: 111 
+Done: lh_parsorbitalis_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_parstriangularis_volume_loop_our_model_individual.rds 
+[DEBUG] lh_parstriangularis_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_parstriangularis_volume - rows after ID normalization: 141 
+[DEBUG] lh_parstriangularis_volume - matrix rows: 141 -> 141  cols: 112 
+Done: lh_parstriangularis_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_pericalcarine_volume_loop_our_model_individual.rds 
+[DEBUG] lh_pericalcarine_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_pericalcarine_volume - rows after ID normalization: 141 
+[DEBUG] lh_pericalcarine_volume - matrix rows: 141 -> 141  cols: 113 
+Done: lh_pericalcarine_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_postcentral_volume_loop_our_model_individual.rds 
+[DEBUG] lh_postcentral_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_postcentral_volume - rows after ID normalization: 141 
+[DEBUG] lh_postcentral_volume - matrix rows: 141 -> 141  cols: 114 
+Done: lh_postcentral_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_posteriorcingulate_volume_loop_our_model_individual.rds 
+[DEBUG] lh_posteriorcingulate_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_posteriorcingulate_volume - rows after ID normalization: 141 
+[DEBUG] lh_posteriorcingulate_volume - matrix rows: 141 -> 141  cols: 115 
+Done: lh_posteriorcingulate_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_precentral_volume_loop_our_model_individual.rds 
+[DEBUG] lh_precentral_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_precentral_volume - rows after ID normalization: 141 
+[DEBUG] lh_precentral_volume - matrix rows: 141 -> 141  cols: 116 
+Done: lh_precentral_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_precuneus_volume_loop_our_model_individual.rds 
+[DEBUG] lh_precuneus_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_precuneus_volume - rows after ID normalization: 141 
+[DEBUG] lh_precuneus_volume - matrix rows: 141 -> 141  cols: 117 
+Done: lh_precuneus_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_rostralanteriorcingulate_volume_loop_our_model_individual.rds 
+[DEBUG] lh_rostralanteriorcingulate_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_rostralanteriorcingulate_volume - rows after ID normalization: 141 
+[DEBUG] lh_rostralanteriorcingulate_volume - matrix rows: 141 -> 141  cols: 118 
+Done: lh_rostralanteriorcingulate_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_rostralmiddlefrontal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_rostralmiddlefrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_rostralmiddlefrontal_volume - rows after ID normalization: 141 
+[DEBUG] lh_rostralmiddlefrontal_volume - matrix rows: 141 -> 141  cols: 119 
+Done: lh_rostralmiddlefrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_superiorfrontal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_superiorfrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_superiorfrontal_volume - rows after ID normalization: 141 
+[DEBUG] lh_superiorfrontal_volume - matrix rows: 141 -> 141  cols: 120 
+Done: lh_superiorfrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_superiorparietal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_superiorparietal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_superiorparietal_volume - rows after ID normalization: 141 
+[DEBUG] lh_superiorparietal_volume - matrix rows: 141 -> 141  cols: 121 
+Done: lh_superiorparietal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_superiortemporal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_superiortemporal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_superiortemporal_volume - rows after ID normalization: 141 
+[DEBUG] lh_superiortemporal_volume - matrix rows: 141 -> 141  cols: 122 
+Done: lh_superiortemporal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_supramarginal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_supramarginal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_supramarginal_volume - rows after ID normalization: 141 
+[DEBUG] lh_supramarginal_volume - matrix rows: 141 -> 141  cols: 123 
+Done: lh_supramarginal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_temporalpole_volume_loop_our_model_individual.rds 
+[DEBUG] lh_temporalpole_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_temporalpole_volume - rows after ID normalization: 141 
+[DEBUG] lh_temporalpole_volume - matrix rows: 141 -> 141  cols: 124 
+Done: lh_temporalpole_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/lh.aparc.volume.table/lh.aparc.volume.table_lh_transversetemporal_volume_loop_our_model_individual.rds 
+[DEBUG] lh_transversetemporal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] lh_transversetemporal_volume - rows after ID normalization: 141 
+[DEBUG] lh_transversetemporal_volume - matrix rows: 141 -> 141  cols: 125 
+Done: lh_transversetemporal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_bankssts_area_loop_our_model_individual.rds 
+[DEBUG] rh_bankssts_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_bankssts_area - rows after ID normalization: 141 
+[DEBUG] rh_bankssts_area - matrix rows: 141 -> 141  cols: 126 
+Done: rh_bankssts_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_caudalanteriorcingulate_area_loop_our_model_individual.rds 
+[DEBUG] rh_caudalanteriorcingulate_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_caudalanteriorcingulate_area - rows after ID normalization: 141 
+[DEBUG] rh_caudalanteriorcingulate_area - matrix rows: 141 -> 141  cols: 127 
+Done: rh_caudalanteriorcingulate_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_caudalmiddlefrontal_area_loop_our_model_individual.rds 
+[DEBUG] rh_caudalmiddlefrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_caudalmiddlefrontal_area - rows after ID normalization: 141 
+[DEBUG] rh_caudalmiddlefrontal_area - matrix rows: 141 -> 141  cols: 128 
+Done: rh_caudalmiddlefrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_cuneus_area_loop_our_model_individual.rds 
+[DEBUG] rh_cuneus_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_cuneus_area - rows after ID normalization: 141 
+[DEBUG] rh_cuneus_area - matrix rows: 141 -> 141  cols: 129 
+Done: rh_cuneus_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_entorhinal_area_loop_our_model_individual.rds 
+[DEBUG] rh_entorhinal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_entorhinal_area - rows after ID normalization: 141 
+[DEBUG] rh_entorhinal_area - matrix rows: 141 -> 141  cols: 130 
+Done: rh_entorhinal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_frontalpole_area_loop_our_model_individual.rds 
+[DEBUG] rh_frontalpole_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_frontalpole_area - rows after ID normalization: 141 
+[DEBUG] rh_frontalpole_area - matrix rows: 141 -> 141  cols: 131 
+Done: rh_frontalpole_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_fusiform_area_loop_our_model_individual.rds 
+[DEBUG] rh_fusiform_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_fusiform_area - rows after ID normalization: 141 
+[DEBUG] rh_fusiform_area - matrix rows: 141 -> 141  cols: 132 
+Done: rh_fusiform_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_inferiorparietal_area_loop_our_model_individual.rds 
+[DEBUG] rh_inferiorparietal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_inferiorparietal_area - rows after ID normalization: 141 
+[DEBUG] rh_inferiorparietal_area - matrix rows: 141 -> 141  cols: 133 
+Done: rh_inferiorparietal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_inferiortemporal_area_loop_our_model_individual.rds 
+[DEBUG] rh_inferiortemporal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_inferiortemporal_area - rows after ID normalization: 141 
+[DEBUG] rh_inferiortemporal_area - matrix rows: 141 -> 141  cols: 134 
+Done: rh_inferiortemporal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_insula_area_loop_our_model_individual.rds 
+[DEBUG] rh_insula_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_insula_area - rows after ID normalization: 141 
+[DEBUG] rh_insula_area - matrix rows: 141 -> 141  cols: 135 
+Done: rh_insula_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_isthmuscingulate_area_loop_our_model_individual.rds 
+[DEBUG] rh_isthmuscingulate_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_isthmuscingulate_area - rows after ID normalization: 141 
+[DEBUG] rh_isthmuscingulate_area - matrix rows: 141 -> 141  cols: 136 
+Done: rh_isthmuscingulate_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_lateraloccipital_area_loop_our_model_individual.rds 
+[DEBUG] rh_lateraloccipital_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_lateraloccipital_area - rows after ID normalization: 141 
+[DEBUG] rh_lateraloccipital_area - matrix rows: 141 -> 141  cols: 137 
+Done: rh_lateraloccipital_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_lateralorbitofrontal_area_loop_our_model_individual.rds 
+[DEBUG] rh_lateralorbitofrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_lateralorbitofrontal_area - rows after ID normalization: 141 
+[DEBUG] rh_lateralorbitofrontal_area - matrix rows: 141 -> 141  cols: 138 
+Done: rh_lateralorbitofrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_lingual_area_loop_our_model_individual.rds 
+[DEBUG] rh_lingual_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_lingual_area - rows after ID normalization: 141 
+[DEBUG] rh_lingual_area - matrix rows: 141 -> 141  cols: 139 
+Done: rh_lingual_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_medialorbitofrontal_area_loop_our_model_individual.rds 
+[DEBUG] rh_medialorbitofrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_medialorbitofrontal_area - rows after ID normalization: 141 
+[DEBUG] rh_medialorbitofrontal_area - matrix rows: 141 -> 141  cols: 140 
+Done: rh_medialorbitofrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_middletemporal_area_loop_our_model_individual.rds 
+[DEBUG] rh_middletemporal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_middletemporal_area - rows after ID normalization: 141 
+[DEBUG] rh_middletemporal_area - matrix rows: 141 -> 141  cols: 141 
+Done: rh_middletemporal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_paracentral_area_loop_our_model_individual.rds 
+[DEBUG] rh_paracentral_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_paracentral_area - rows after ID normalization: 141 
+[DEBUG] rh_paracentral_area - matrix rows: 141 -> 141  cols: 142 
+Done: rh_paracentral_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_parahippocampal_area_loop_our_model_individual.rds 
+[DEBUG] rh_parahippocampal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parahippocampal_area - rows after ID normalization: 141 
+[DEBUG] rh_parahippocampal_area - matrix rows: 141 -> 141  cols: 143 
+Done: rh_parahippocampal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_parsopercularis_area_loop_our_model_individual.rds 
+[DEBUG] rh_parsopercularis_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parsopercularis_area - rows after ID normalization: 141 
+[DEBUG] rh_parsopercularis_area - matrix rows: 141 -> 141  cols: 144 
+Done: rh_parsopercularis_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_parsorbitalis_area_loop_our_model_individual.rds 
+[DEBUG] rh_parsorbitalis_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parsorbitalis_area - rows after ID normalization: 141 
+[DEBUG] rh_parsorbitalis_area - matrix rows: 141 -> 141  cols: 145 
+Done: rh_parsorbitalis_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_parstriangularis_area_loop_our_model_individual.rds 
+[DEBUG] rh_parstriangularis_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parstriangularis_area - rows after ID normalization: 141 
+[DEBUG] rh_parstriangularis_area - matrix rows: 141 -> 141  cols: 146 
+Done: rh_parstriangularis_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_pericalcarine_area_loop_our_model_individual.rds 
+[DEBUG] rh_pericalcarine_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_pericalcarine_area - rows after ID normalization: 141 
+[DEBUG] rh_pericalcarine_area - matrix rows: 141 -> 141  cols: 147 
+Done: rh_pericalcarine_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_postcentral_area_loop_our_model_individual.rds 
+[DEBUG] rh_postcentral_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_postcentral_area - rows after ID normalization: 141 
+[DEBUG] rh_postcentral_area - matrix rows: 141 -> 141  cols: 148 
+Done: rh_postcentral_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_posteriorcingulate_area_loop_our_model_individual.rds 
+[DEBUG] rh_posteriorcingulate_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_posteriorcingulate_area - rows after ID normalization: 141 
+[DEBUG] rh_posteriorcingulate_area - matrix rows: 141 -> 141  cols: 149 
+Done: rh_posteriorcingulate_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_precentral_area_loop_our_model_individual.rds 
+[DEBUG] rh_precentral_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_precentral_area - rows after ID normalization: 141 
+[DEBUG] rh_precentral_area - matrix rows: 141 -> 141  cols: 150 
+Done: rh_precentral_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_precuneus_area_loop_our_model_individual.rds 
+[DEBUG] rh_precuneus_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_precuneus_area - rows after ID normalization: 141 
+[DEBUG] rh_precuneus_area - matrix rows: 141 -> 141  cols: 151 
+Done: rh_precuneus_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_rostralanteriorcingulate_area_loop_our_model_individual.rds 
+[DEBUG] rh_rostralanteriorcingulate_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_rostralanteriorcingulate_area - rows after ID normalization: 141 
+[DEBUG] rh_rostralanteriorcingulate_area - matrix rows: 141 -> 141  cols: 152 
+Done: rh_rostralanteriorcingulate_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_rostralmiddlefrontal_area_loop_our_model_individual.rds 
+[DEBUG] rh_rostralmiddlefrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_rostralmiddlefrontal_area - rows after ID normalization: 141 
+[DEBUG] rh_rostralmiddlefrontal_area - matrix rows: 141 -> 141  cols: 153 
+Done: rh_rostralmiddlefrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_superiorfrontal_area_loop_our_model_individual.rds 
+[DEBUG] rh_superiorfrontal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_superiorfrontal_area - rows after ID normalization: 141 
+[DEBUG] rh_superiorfrontal_area - matrix rows: 141 -> 141  cols: 154 
+Done: rh_superiorfrontal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_superiorparietal_area_loop_our_model_individual.rds 
+[DEBUG] rh_superiorparietal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_superiorparietal_area - rows after ID normalization: 141 
+[DEBUG] rh_superiorparietal_area - matrix rows: 141 -> 141  cols: 155 
+Done: rh_superiorparietal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_superiortemporal_area_loop_our_model_individual.rds 
+[DEBUG] rh_superiortemporal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_superiortemporal_area - rows after ID normalization: 141 
+[DEBUG] rh_superiortemporal_area - matrix rows: 141 -> 141  cols: 156 
+Done: rh_superiortemporal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_supramarginal_area_loop_our_model_individual.rds 
+[DEBUG] rh_supramarginal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_supramarginal_area - rows after ID normalization: 141 
+[DEBUG] rh_supramarginal_area - matrix rows: 141 -> 141  cols: 157 
+Done: rh_supramarginal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_temporalpole_area_loop_our_model_individual.rds 
+[DEBUG] rh_temporalpole_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_temporalpole_area - rows after ID normalization: 141 
+[DEBUG] rh_temporalpole_area - matrix rows: 141 -> 141  cols: 158 
+Done: rh_temporalpole_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.area.table/rh.aparc.area.table_rh_transversetemporal_area_loop_our_model_individual.rds 
+[DEBUG] rh_transversetemporal_area - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_transversetemporal_area - rows after ID normalization: 141 
+[DEBUG] rh_transversetemporal_area - matrix rows: 141 -> 141  cols: 159 
+Done: rh_transversetemporal_area 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_bankssts_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_bankssts_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_bankssts_thickness - rows after ID normalization: 141 
+[DEBUG] rh_bankssts_thickness - matrix rows: 141 -> 141  cols: 160 
+Done: rh_bankssts_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_caudalanteriorcingulate_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_caudalanteriorcingulate_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_caudalanteriorcingulate_thickness - rows after ID normalization: 141 
+[DEBUG] rh_caudalanteriorcingulate_thickness - matrix rows: 141 -> 141  cols: 161 
+Done: rh_caudalanteriorcingulate_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_caudalmiddlefrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_caudalmiddlefrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_caudalmiddlefrontal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_caudalmiddlefrontal_thickness - matrix rows: 141 -> 141  cols: 162 
+Done: rh_caudalmiddlefrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_cuneus_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_cuneus_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_cuneus_thickness - rows after ID normalization: 141 
+[DEBUG] rh_cuneus_thickness - matrix rows: 141 -> 141  cols: 163 
+Done: rh_cuneus_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_entorhinal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_entorhinal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_entorhinal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_entorhinal_thickness - matrix rows: 141 -> 141  cols: 164 
+Done: rh_entorhinal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_frontalpole_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_frontalpole_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_frontalpole_thickness - rows after ID normalization: 141 
+[DEBUG] rh_frontalpole_thickness - matrix rows: 141 -> 141  cols: 165 
+Done: rh_frontalpole_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_fusiform_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_fusiform_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_fusiform_thickness - rows after ID normalization: 141 
+[DEBUG] rh_fusiform_thickness - matrix rows: 141 -> 141  cols: 166 
+Done: rh_fusiform_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_inferiorparietal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_inferiorparietal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_inferiorparietal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_inferiorparietal_thickness - matrix rows: 141 -> 141  cols: 167 
+Done: rh_inferiorparietal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_inferiortemporal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_inferiortemporal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_inferiortemporal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_inferiortemporal_thickness - matrix rows: 141 -> 141  cols: 168 
+Done: rh_inferiortemporal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_insula_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_insula_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_insula_thickness - rows after ID normalization: 141 
+[DEBUG] rh_insula_thickness - matrix rows: 141 -> 141  cols: 169 
+Done: rh_insula_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_isthmuscingulate_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_isthmuscingulate_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_isthmuscingulate_thickness - rows after ID normalization: 141 
+[DEBUG] rh_isthmuscingulate_thickness - matrix rows: 141 -> 141  cols: 170 
+Done: rh_isthmuscingulate_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_lateraloccipital_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_lateraloccipital_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_lateraloccipital_thickness - rows after ID normalization: 141 
+[DEBUG] rh_lateraloccipital_thickness - matrix rows: 141 -> 141  cols: 171 
+Done: rh_lateraloccipital_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_lateralorbitofrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_lateralorbitofrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_lateralorbitofrontal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_lateralorbitofrontal_thickness - matrix rows: 141 -> 141  cols: 172 
+Done: rh_lateralorbitofrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_lingual_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_lingual_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_lingual_thickness - rows after ID normalization: 141 
+[DEBUG] rh_lingual_thickness - matrix rows: 141 -> 141  cols: 173 
+Done: rh_lingual_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_medialorbitofrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_medialorbitofrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_medialorbitofrontal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_medialorbitofrontal_thickness - matrix rows: 141 -> 141  cols: 174 
+Done: rh_medialorbitofrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_middletemporal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_middletemporal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_middletemporal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_middletemporal_thickness - matrix rows: 141 -> 141  cols: 175 
+Done: rh_middletemporal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_paracentral_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_paracentral_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_paracentral_thickness - rows after ID normalization: 141 
+[DEBUG] rh_paracentral_thickness - matrix rows: 141 -> 141  cols: 176 
+Done: rh_paracentral_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_parahippocampal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_parahippocampal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parahippocampal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_parahippocampal_thickness - matrix rows: 141 -> 141  cols: 177 
+Done: rh_parahippocampal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_parsopercularis_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_parsopercularis_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parsopercularis_thickness - rows after ID normalization: 141 
+[DEBUG] rh_parsopercularis_thickness - matrix rows: 141 -> 141  cols: 178 
+Done: rh_parsopercularis_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_parsorbitalis_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_parsorbitalis_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parsorbitalis_thickness - rows after ID normalization: 141 
+[DEBUG] rh_parsorbitalis_thickness - matrix rows: 141 -> 141  cols: 179 
+Done: rh_parsorbitalis_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_parstriangularis_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_parstriangularis_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parstriangularis_thickness - rows after ID normalization: 141 
+[DEBUG] rh_parstriangularis_thickness - matrix rows: 141 -> 141  cols: 180 
+Done: rh_parstriangularis_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_pericalcarine_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_pericalcarine_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_pericalcarine_thickness - rows after ID normalization: 141 
+[DEBUG] rh_pericalcarine_thickness - matrix rows: 141 -> 141  cols: 181 
+Done: rh_pericalcarine_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_postcentral_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_postcentral_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_postcentral_thickness - rows after ID normalization: 141 
+[DEBUG] rh_postcentral_thickness - matrix rows: 141 -> 141  cols: 182 
+Done: rh_postcentral_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_posteriorcingulate_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_posteriorcingulate_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_posteriorcingulate_thickness - rows after ID normalization: 141 
+[DEBUG] rh_posteriorcingulate_thickness - matrix rows: 141 -> 141  cols: 183 
+Done: rh_posteriorcingulate_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_precentral_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_precentral_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_precentral_thickness - rows after ID normalization: 141 
+[DEBUG] rh_precentral_thickness - matrix rows: 141 -> 141  cols: 184 
+Done: rh_precentral_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_precuneus_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_precuneus_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_precuneus_thickness - rows after ID normalization: 141 
+[DEBUG] rh_precuneus_thickness - matrix rows: 141 -> 141  cols: 185 
+Done: rh_precuneus_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_rostralanteriorcingulate_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_rostralanteriorcingulate_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_rostralanteriorcingulate_thickness - rows after ID normalization: 141 
+[DEBUG] rh_rostralanteriorcingulate_thickness - matrix rows: 141 -> 141  cols: 186 
+Done: rh_rostralanteriorcingulate_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_rostralmiddlefrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_rostralmiddlefrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_rostralmiddlefrontal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_rostralmiddlefrontal_thickness - matrix rows: 141 -> 141  cols: 187 
+Done: rh_rostralmiddlefrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_superiorfrontal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_superiorfrontal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_superiorfrontal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_superiorfrontal_thickness - matrix rows: 141 -> 141  cols: 188 
+Done: rh_superiorfrontal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_superiorparietal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_superiorparietal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_superiorparietal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_superiorparietal_thickness - matrix rows: 141 -> 141  cols: 189 
+Done: rh_superiorparietal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_superiortemporal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_superiortemporal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_superiortemporal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_superiortemporal_thickness - matrix rows: 141 -> 141  cols: 190 
+Done: rh_superiortemporal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_supramarginal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_supramarginal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_supramarginal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_supramarginal_thickness - matrix rows: 141 -> 141  cols: 191 
+Done: rh_supramarginal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_temporalpole_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_temporalpole_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_temporalpole_thickness - rows after ID normalization: 141 
+[DEBUG] rh_temporalpole_thickness - matrix rows: 141 -> 141  cols: 192 
+Done: rh_temporalpole_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.thickness.table/rh.aparc.thickness.table_rh_transversetemporal_thickness_loop_our_model_individual.rds 
+[DEBUG] rh_transversetemporal_thickness - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_transversetemporal_thickness - rows after ID normalization: 141 
+[DEBUG] rh_transversetemporal_thickness - matrix rows: 141 -> 141  cols: 193 
+Done: rh_transversetemporal_thickness 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_bankssts_volume_loop_our_model_individual.rds 
+[DEBUG] rh_bankssts_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_bankssts_volume - rows after ID normalization: 141 
+[DEBUG] rh_bankssts_volume - matrix rows: 141 -> 141  cols: 194 
+Done: rh_bankssts_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_caudalanteriorcingulate_volume_loop_our_model_individual.rds 
+[DEBUG] rh_caudalanteriorcingulate_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_caudalanteriorcingulate_volume - rows after ID normalization: 141 
+[DEBUG] rh_caudalanteriorcingulate_volume - matrix rows: 141 -> 141  cols: 195 
+Done: rh_caudalanteriorcingulate_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_caudalmiddlefrontal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_caudalmiddlefrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_caudalmiddlefrontal_volume - rows after ID normalization: 141 
+[DEBUG] rh_caudalmiddlefrontal_volume - matrix rows: 141 -> 141  cols: 196 
+Done: rh_caudalmiddlefrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_cuneus_volume_loop_our_model_individual.rds 
+[DEBUG] rh_cuneus_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_cuneus_volume - rows after ID normalization: 141 
+[DEBUG] rh_cuneus_volume - matrix rows: 141 -> 141  cols: 197 
+Done: rh_cuneus_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_entorhinal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_entorhinal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_entorhinal_volume - rows after ID normalization: 141 
+[DEBUG] rh_entorhinal_volume - matrix rows: 141 -> 141  cols: 198 
+Done: rh_entorhinal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_frontalpole_volume_loop_our_model_individual.rds 
+[DEBUG] rh_frontalpole_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_frontalpole_volume - rows after ID normalization: 141 
+[DEBUG] rh_frontalpole_volume - matrix rows: 141 -> 141  cols: 199 
+Done: rh_frontalpole_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_fusiform_volume_loop_our_model_individual.rds 
+[DEBUG] rh_fusiform_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_fusiform_volume - rows after ID normalization: 141 
+[DEBUG] rh_fusiform_volume - matrix rows: 141 -> 141  cols: 200 
+Done: rh_fusiform_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_inferiorparietal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_inferiorparietal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_inferiorparietal_volume - rows after ID normalization: 141 
+[DEBUG] rh_inferiorparietal_volume - matrix rows: 141 -> 141  cols: 201 
+Done: rh_inferiorparietal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_inferiortemporal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_inferiortemporal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_inferiortemporal_volume - rows after ID normalization: 141 
+[DEBUG] rh_inferiortemporal_volume - matrix rows: 141 -> 141  cols: 202 
+Done: rh_inferiortemporal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_insula_volume_loop_our_model_individual.rds 
+[DEBUG] rh_insula_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_insula_volume - rows after ID normalization: 141 
+[DEBUG] rh_insula_volume - matrix rows: 141 -> 141  cols: 203 
+Done: rh_insula_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_isthmuscingulate_volume_loop_our_model_individual.rds 
+[DEBUG] rh_isthmuscingulate_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_isthmuscingulate_volume - rows after ID normalization: 141 
+[DEBUG] rh_isthmuscingulate_volume - matrix rows: 141 -> 141  cols: 204 
+Done: rh_isthmuscingulate_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_lateraloccipital_volume_loop_our_model_individual.rds 
+[DEBUG] rh_lateraloccipital_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_lateraloccipital_volume - rows after ID normalization: 141 
+[DEBUG] rh_lateraloccipital_volume - matrix rows: 141 -> 141  cols: 205 
+Done: rh_lateraloccipital_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_lateralorbitofrontal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_lateralorbitofrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_lateralorbitofrontal_volume - rows after ID normalization: 141 
+[DEBUG] rh_lateralorbitofrontal_volume - matrix rows: 141 -> 141  cols: 206 
+Done: rh_lateralorbitofrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_lingual_volume_loop_our_model_individual.rds 
+[DEBUG] rh_lingual_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_lingual_volume - rows after ID normalization: 141 
+[DEBUG] rh_lingual_volume - matrix rows: 141 -> 141  cols: 207 
+Done: rh_lingual_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_medialorbitofrontal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_medialorbitofrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_medialorbitofrontal_volume - rows after ID normalization: 141 
+[DEBUG] rh_medialorbitofrontal_volume - matrix rows: 141 -> 141  cols: 208 
+Done: rh_medialorbitofrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_middletemporal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_middletemporal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_middletemporal_volume - rows after ID normalization: 141 
+[DEBUG] rh_middletemporal_volume - matrix rows: 141 -> 141  cols: 209 
+Done: rh_middletemporal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_paracentral_volume_loop_our_model_individual.rds 
+[DEBUG] rh_paracentral_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_paracentral_volume - rows after ID normalization: 141 
+[DEBUG] rh_paracentral_volume - matrix rows: 141 -> 141  cols: 210 
+Done: rh_paracentral_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_parahippocampal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_parahippocampal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parahippocampal_volume - rows after ID normalization: 141 
+[DEBUG] rh_parahippocampal_volume - matrix rows: 141 -> 141  cols: 211 
+Done: rh_parahippocampal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_parsopercularis_volume_loop_our_model_individual.rds 
+[DEBUG] rh_parsopercularis_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parsopercularis_volume - rows after ID normalization: 141 
+[DEBUG] rh_parsopercularis_volume - matrix rows: 141 -> 141  cols: 212 
+Done: rh_parsopercularis_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_parsorbitalis_volume_loop_our_model_individual.rds 
+[DEBUG] rh_parsorbitalis_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parsorbitalis_volume - rows after ID normalization: 141 
+[DEBUG] rh_parsorbitalis_volume - matrix rows: 141 -> 141  cols: 213 
+Done: rh_parsorbitalis_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_parstriangularis_volume_loop_our_model_individual.rds 
+[DEBUG] rh_parstriangularis_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_parstriangularis_volume - rows after ID normalization: 141 
+[DEBUG] rh_parstriangularis_volume - matrix rows: 141 -> 141  cols: 214 
+Done: rh_parstriangularis_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_pericalcarine_volume_loop_our_model_individual.rds 
+[DEBUG] rh_pericalcarine_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_pericalcarine_volume - rows after ID normalization: 141 
+[DEBUG] rh_pericalcarine_volume - matrix rows: 141 -> 141  cols: 215 
+Done: rh_pericalcarine_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_postcentral_volume_loop_our_model_individual.rds 
+[DEBUG] rh_postcentral_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_postcentral_volume - rows after ID normalization: 141 
+[DEBUG] rh_postcentral_volume - matrix rows: 141 -> 141  cols: 216 
+Done: rh_postcentral_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_posteriorcingulate_volume_loop_our_model_individual.rds 
+[DEBUG] rh_posteriorcingulate_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_posteriorcingulate_volume - rows after ID normalization: 141 
+[DEBUG] rh_posteriorcingulate_volume - matrix rows: 141 -> 141  cols: 217 
+Done: rh_posteriorcingulate_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_precentral_volume_loop_our_model_individual.rds 
+[DEBUG] rh_precentral_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_precentral_volume - rows after ID normalization: 141 
+[DEBUG] rh_precentral_volume - matrix rows: 141 -> 141  cols: 218 
+Done: rh_precentral_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_precuneus_volume_loop_our_model_individual.rds 
+[DEBUG] rh_precuneus_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_precuneus_volume - rows after ID normalization: 141 
+[DEBUG] rh_precuneus_volume - matrix rows: 141 -> 141  cols: 219 
+Done: rh_precuneus_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_rostralanteriorcingulate_volume_loop_our_model_individual.rds 
+[DEBUG] rh_rostralanteriorcingulate_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_rostralanteriorcingulate_volume - rows after ID normalization: 141 
+[DEBUG] rh_rostralanteriorcingulate_volume - matrix rows: 141 -> 141  cols: 220 
+Done: rh_rostralanteriorcingulate_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_rostralmiddlefrontal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_rostralmiddlefrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_rostralmiddlefrontal_volume - rows after ID normalization: 141 
+[DEBUG] rh_rostralmiddlefrontal_volume - matrix rows: 141 -> 141  cols: 221 
+Done: rh_rostralmiddlefrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_superiorfrontal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_superiorfrontal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_superiorfrontal_volume - rows after ID normalization: 141 
+[DEBUG] rh_superiorfrontal_volume - matrix rows: 141 -> 141  cols: 222 
+Done: rh_superiorfrontal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_superiorparietal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_superiorparietal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_superiorparietal_volume - rows after ID normalization: 141 
+[DEBUG] rh_superiorparietal_volume - matrix rows: 141 -> 141  cols: 223 
+Done: rh_superiorparietal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_superiortemporal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_superiortemporal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_superiortemporal_volume - rows after ID normalization: 141 
+[DEBUG] rh_superiortemporal_volume - matrix rows: 141 -> 141  cols: 224 
+Done: rh_superiortemporal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_supramarginal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_supramarginal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_supramarginal_volume - rows after ID normalization: 141 
+[DEBUG] rh_supramarginal_volume - matrix rows: 141 -> 141  cols: 225 
+Done: rh_supramarginal_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_temporalpole_volume_loop_our_model_individual.rds 
+[DEBUG] rh_temporalpole_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_temporalpole_volume - rows after ID normalization: 141 
+[DEBUG] rh_temporalpole_volume - matrix rows: 141 -> 141  cols: 226 
+Done: rh_temporalpole_volume 
+[DEBUG] Reading: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/rh.aparc.volume.table/rh.aparc.volume.table_rh_transversetemporal_volume_loop_our_model_individual.rds 
+[DEBUG] rh_transversetemporal_volume - raw rows: 141  unique raw rownames: 141 
+[DEBUG] rh_transversetemporal_volume - rows after ID normalization: 141 
+[DEBUG] rh_transversetemporal_volume - matrix rows: 141 -> 141  cols: 227 
+Done: rh_transversetemporal_volume 
+[DEBUG] Final Z matrix dimensions: 141 x 227 
+[DEBUG] Z matrix subjects: 141  Clinical subjects: 141  Overlap: 141 
+[DEBUG] Analysis matrix dimensions: 141 x 227 
+[DEBUG] Skipping mean_thickness - N = 62  AgeGroup levels = 1  Diagnosis levels = 2 
+Processed 25 / 227 
+Processed 50 / 227 
+ Likelihood Ratio Test for nested GAMLSS models. 
+ (No check whether the models are nested is performed). 
+ 
+       Null model: deviance= 248.5153 with  6 deg. of freedom 
+ Altenative model: deviance= 248.5153 with  6 deg. of freedom 
+ 
+ LRT = 0 with 0 deg. of freedom and p-value= 1 
+ Likelihood Ratio Test for nested GAMLSS models. 
+ (No check whether the models are nested is performed). 
+ 
+       Null model: deviance= 248.5153 with  6 deg. of freedom 
+ Altenative model: deviance= 248.5153 with  6 deg. of freedom 
+ 
+ LRT = 0 with 0 deg. of freedom and p-value= 1 
+Processed 75 / 227 
+[DEBUG] Skipping lh_precuneus_thickness - N = 58  AgeGroup levels = 1  Diagnosis levels = 2 
+[DEBUG] Full model failed for lh_superiorparietal_thickness with N = 71 
+[DEBUG] Skipping lh_supramarginal_thickness - N = 66  AgeGroup levels = 1  Diagnosis levels = 2 
+Processed 100 / 227 
+Processed 125 / 227 
+Processed 150 / 227 
+ Likelihood Ratio Test for nested GAMLSS models. 
+ (No check whether the models are nested is performed). 
+ 
+       Null model: deviance= 178.7536 with  6 deg. of freedom 
+ Altenative model: deviance= 178.7536 with  6 deg. of freedom 
+ 
+ LRT = 0 with 0 deg. of freedom and p-value= 1 
+ Likelihood Ratio Test for nested GAMLSS models. 
+ (No check whether the models are nested is performed). 
+ 
+       Null model: deviance= 178.7536 with  6 deg. of freedom 
+ Altenative model: deviance= 178.7536 with  6 deg. of freedom 
+ 
+ LRT = 0 with 0 deg. of freedom and p-value= 1 
+Processed 175 / 227 
+[DEBUG] Skipping rh_postcentral_thickness - N = 65  AgeGroup levels = 1  Diagnosis levels = 2 
+[DEBUG] Skipping rh_precuneus_thickness - N = 54  AgeGroup levels = 1  Diagnosis levels = 2 
+ Likelihood Ratio Test for nested GAMLSS models. 
+ (No check whether the models are nested is performed). 
+ 
+       Null model: deviance= 177.0325 with  6 deg. of freedom 
+ Altenative model: deviance= 177.0325 with  6 deg. of freedom 
+ 
+ LRT = 0 with 0 deg. of freedom and p-value= 1 
+ Likelihood Ratio Test for nested GAMLSS models. 
+ (No check whether the models are nested is performed). 
+ 
+       Null model: deviance= 177.0325 with  6 deg. of freedom 
+ Altenative model: deviance= 177.0325 with  6 deg. of freedom 
+ 
+ LRT = 0 with 0 deg. of freedom and p-value= 1 
+ Likelihood Ratio Test for nested GAMLSS models. 
+ (No check whether the models are nested is performed). 
+ 
+       Null model: deviance= 253.2258 with  6 deg. of freedom 
+ Altenative model: deviance= 253.2258 with  6 deg. of freedom 
+ 
+ LRT = 0 with 0 deg. of freedom and p-value= 1 
+ Likelihood Ratio Test for nested GAMLSS models. 
+ (No check whether the models are nested is performed). 
+ 
+       Null model: deviance= 253.2258 with  6 deg. of freedom 
+ Altenative model: deviance= 253.2258 with  6 deg. of freedom 
+ 
+ LRT = 0 with 0 deg. of freedom and p-value= 1 
+Processed 200 / 227 
+Processed 225 / 227 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/DGLM_Zscore_AgeGroup_Diagnosis.csv 
+
+====================
+Significant results by anatomy
+====================
+
+[mu_agegroup]
+RAW significant results
+ - Subcortical (9): Left.Amygdala; Left.Hippocampus; Left.Pallidum; Left.Putamen; Left.VentralDC; Right.Hippocampus; Right.Putamen; Right.Thalamus; Right.VentralDC
+ - Global (2): sGMV; Ventricles
+ - Cortical area (7): lh_caudalmiddlefrontal_area; lh_parahippocampal_area; lh_parsopercularis_area; lh_precentral_area; lh_rostralanteriorcingulate_area; lh_superiorfrontal_area; rh_caudalmiddlefrontal_area
+ - Cortical thickness (48): lh_bankssts_thickness; lh_caudalanteriorcingulate_thickness; lh_caudalmiddlefrontal_thickness; lh_cuneus_thickness; lh_entorhinal_thickness; lh_frontalpole_thickness; lh_fusiform_thickness; lh_inferiorparietal_thickness; lh_inferiortemporal_thickness; lh_insula_thickness; lh_isthmuscingulate_thickness; lh_lateraloccipital_thickness; lh_lateralorbitofrontal_thickness; lh_lingual_thickness; lh_medialorbitofrontal_thickness; lh_middletemporal_thickness; lh_paracentral_thickness; lh_parahippocampal_thickness; lh_parsopercularis_thickness; lh_parsorbitalis_thickness; lh_parstriangularis_thickness; lh_pericalcarine_thickness; lh_postcentral_thickness; lh_posteriorcingulate_thickness; lh_precentral_thickness; lh_rostralmiddlefrontal_thickness; lh_superiorfrontal_thickness; lh_superiortemporal_thickness; rh_bankssts_thickness; rh_caudalmiddlefrontal_thickness; rh_cuneus_thickness; rh_entorhinal_thickness; rh_frontalpole_thickness; rh_inferiorparietal_thickness; rh_inferiortemporal_thickness; rh_isthmuscingulate_thickness; rh_lateraloccipital_thickness; rh_lateralorbitofrontal_thickness; rh_lingual_thickness; rh_middletemporal_thickness; rh_parahippocampal_thickness; rh_parsorbitalis_thickness; rh_parstriangularis_thickness; rh_posteriorcingulate_thickness; rh_rostralmiddlefrontal_thickness; rh_superiorparietal_thickness; rh_superiortemporal_thickness; rh_supramarginal_thickness
+ - Cortical volume (31): lh_bankssts_volume; lh_entorhinal_volume; lh_frontalpole_volume; lh_isthmuscingulate_volume; lh_lateralorbitofrontal_volume; lh_medialorbitofrontal_volume; lh_middletemporal_volume; lh_paracentral_volume; lh_parsopercularis_volume; lh_parsorbitalis_volume; lh_postcentral_volume; lh_rostralmiddlefrontal_volume; lh_superiortemporal_volume; lh_supramarginal_volume; rh_bankssts_volume; rh_entorhinal_volume; rh_frontalpole_volume; rh_fusiform_volume; rh_inferiorparietal_volume; rh_inferiortemporal_volume; rh_lateraloccipital_volume; rh_lingual_volume; rh_medialorbitofrontal_volume; rh_middletemporal_volume; rh_parsopercularis_volume; rh_parstriangularis_volume; rh_postcentral_volume; rh_precuneus_volume; rh_rostralmiddlefrontal_volume; rh_superiorfrontal_volume; rh_superiorparietal_volume
+ - Other (0): None
+FDR significant results
+ - Subcortical (9): Left.Amygdala; Left.Hippocampus; Left.Pallidum; Left.Putamen; Left.VentralDC; Right.Hippocampus; Right.Putamen; Right.Thalamus; Right.VentralDC
+ - Global (2): sGMV; Ventricles
+ - Cortical area (7): lh_caudalmiddlefrontal_area; lh_parahippocampal_area; lh_parsopercularis_area; lh_precentral_area; lh_rostralanteriorcingulate_area; lh_superiorfrontal_area; rh_caudalmiddlefrontal_area
+ - Cortical thickness (36): lh_bankssts_thickness; lh_caudalanteriorcingulate_thickness; lh_cuneus_thickness; lh_entorhinal_thickness; lh_frontalpole_thickness; lh_fusiform_thickness; lh_inferiorparietal_thickness; lh_inferiortemporal_thickness; lh_insula_thickness; lh_isthmuscingulate_thickness; lh_lateralorbitofrontal_thickness; lh_lingual_thickness; lh_medialorbitofrontal_thickness; lh_middletemporal_thickness; lh_paracentral_thickness; lh_parsopercularis_thickness; lh_parsorbitalis_thickness; lh_parstriangularis_thickness; lh_pericalcarine_thickness; lh_rostralmiddlefrontal_thickness; lh_superiortemporal_thickness; rh_bankssts_thickness; rh_cuneus_thickness; rh_entorhinal_thickness; rh_frontalpole_thickness; rh_inferiorparietal_thickness; rh_inferiortemporal_thickness; rh_isthmuscingulate_thickness; rh_lateraloccipital_thickness; rh_lingual_thickness; rh_middletemporal_thickness; rh_parstriangularis_thickness; rh_rostralmiddlefrontal_thickness; rh_superiorparietal_thickness; rh_superiortemporal_thickness; rh_supramarginal_thickness
+ - Cortical volume (25): lh_bankssts_volume; lh_entorhinal_volume; lh_frontalpole_volume; lh_isthmuscingulate_volume; lh_lateralorbitofrontal_volume; lh_medialorbitofrontal_volume; lh_middletemporal_volume; lh_parsorbitalis_volume; lh_rostralmiddlefrontal_volume; lh_superiortemporal_volume; lh_supramarginal_volume; rh_bankssts_volume; rh_frontalpole_volume; rh_fusiform_volume; rh_inferiorparietal_volume; rh_lateraloccipital_volume; rh_lingual_volume; rh_medialorbitofrontal_volume; rh_middletemporal_volume; rh_parsopercularis_volume; rh_postcentral_volume; rh_precuneus_volume; rh_rostralmiddlefrontal_volume; rh_superiorfrontal_volume; rh_superiorparietal_volume
+ - Other (0): None
+
+[mu_diagnosis]
+RAW significant results
+ - Subcortical (0): None
+ - Global (3): GMV; TCV; total_surface_arrea
+ - Cortical area (12): lh_bankssts_area; lh_lingual_area; lh_parahippocampal_area; lh_postcentral_area; lh_rostralanteriorcingulate_area; lh_superiortemporal_area; lh_supramarginal_area; rh_inferiorparietal_area; rh_postcentral_area; rh_precuneus_area; rh_superiorparietal_area; rh_supramarginal_area
+ - Cortical thickness (11): lh_paracentral_thickness; lh_parahippocampal_thickness; rh_caudalmiddlefrontal_thickness; rh_cuneus_thickness; rh_lateraloccipital_thickness; rh_lateralorbitofrontal_thickness; rh_medialorbitofrontal_thickness; rh_middletemporal_thickness; rh_paracentral_thickness; rh_precentral_thickness; rh_superiorfrontal_thickness
+ - Cortical volume (14): lh_bankssts_volume; lh_parahippocampal_volume; lh_postcentral_volume; lh_rostralanteriorcingulate_volume; lh_superiortemporal_volume; rh_cuneus_volume; rh_inferiorparietal_volume; rh_lateraloccipital_volume; rh_paracentral_volume; rh_parahippocampal_volume; rh_postcentral_volume; rh_precentral_volume; rh_superiorparietal_volume; rh_supramarginal_volume
+ - Other (0): None
+FDR significant results
+ - Subcortical (0): None
+ - Global (0): None
+ - Cortical area (0): None
+ - Cortical thickness (0): None
+ - Cortical volume (0): None
+ - Other (0): None
+
+[mu_interaction]
+RAW significant results
+ - Subcortical (1): Right.Thalamus
+ - Global (0): None
+ - Cortical area (3): lh_bankssts_area; rh_inferiorparietal_area; rh_parsopercularis_area
+ - Cortical thickness (0): None
+ - Cortical volume (3): lh_bankssts_volume; rh_inferiorparietal_volume; rh_parsopercularis_volume
+ - Other (0): None
+FDR significant results
+ - Subcortical (0): None
+ - Global (0): None
+ - Cortical area (0): None
+ - Cortical thickness (0): None
+ - Cortical volume (0): None
+ - Other (0): None
+
+[sigma_agegroup]
+RAW significant results
+ - Subcortical (4): Left.Amygdala; Left.Putamen; Left.VentralDC; Right.VentralDC
+ - Global (3): GMV; TCV; Ventricles
+ - Cortical area (5): lh_middletemporal_area; lh_parahippocampal_area; lh_rostralmiddlefrontal_area; lh_superiortemporal_area; rh_cuneus_area
+ - Cortical thickness (12): lh_bankssts_thickness; lh_caudalmiddlefrontal_thickness; lh_inferiorparietal_thickness; lh_paracentral_thickness; lh_posteriorcingulate_thickness; rh_bankssts_thickness; rh_inferiorparietal_thickness; rh_middletemporal_thickness; rh_pericalcarine_thickness; rh_precentral_thickness; rh_superiorparietal_thickness; rh_superiortemporal_thickness
+ - Cortical volume (14): lh_bankssts_volume; lh_caudalanteriorcingulate_volume; lh_frontalpole_volume; lh_middletemporal_volume; lh_superiortemporal_volume; rh_caudalmiddlefrontal_volume; rh_cuneus_volume; rh_fusiform_volume; rh_isthmuscingulate_volume; rh_middletemporal_volume; rh_precentral_volume; rh_rostralmiddlefrontal_volume; rh_superiortemporal_volume; rh_temporalpole_volume
+ - Other (0): None
+FDR significant results
+ - Subcortical (1): Left.Amygdala
+ - Global (1): Ventricles
+ - Cortical area (0): None
+ - Cortical thickness (3): lh_paracentral_thickness; rh_inferiorparietal_thickness; rh_superiorparietal_thickness
+ - Cortical volume (3): lh_middletemporal_volume; lh_superiortemporal_volume; rh_temporalpole_volume
+ - Other (0): None
+
+[sigma_diagnosis]
+RAW significant results
+ - Subcortical (3): Left.Amygdala; Left.Putamen; Right.Amygdala
+ - Global (2): GMV; TCV
+ - Cortical area (8): lh_bankssts_area; lh_cuneus_area; lh_middletemporal_area; lh_parahippocampal_area; lh_precentral_area; lh_superiortemporal_area; rh_entorhinal_area; rh_lateraloccipital_area
+ - Cortical thickness (9): lh_caudalanteriorcingulate_thickness; lh_insula_thickness; lh_paracentral_thickness; lh_posteriorcingulate_thickness; lh_rostralmiddlefrontal_thickness; rh_lateraloccipital_thickness; rh_pericalcarine_thickness; rh_precentral_thickness; rh_superiortemporal_thickness
+ - Cortical volume (7): lh_paracentral_volume; lh_precentral_volume; lh_superiortemporal_volume; rh_isthmuscingulate_volume; rh_lateraloccipital_volume; rh_parahippocampal_volume; rh_superiortemporal_volume
+ - Other (0): None
+FDR significant results
+ - Subcortical (1): Left.Putamen
+ - Global (0): None
+ - Cortical area (0): None
+ - Cortical thickness (0): None
+ - Cortical volume (1): lh_precentral_volume
+ - Other (0): None
+
+[sigma_interaction]
+RAW significant results
+ - Subcortical (2): Left.Amygdala; Left.Putamen
+ - Global (0): None
+ - Cortical area (7): lh_bankssts_area; lh_middletemporal_area; lh_parahippocampal_area; lh_superiortemporal_area; rh_entorhinal_area; rh_medialorbitofrontal_area; rh_parsopercularis_area
+ - Cortical thickness (7): lh_cuneus_thickness; lh_paracentral_thickness; lh_posteriorcingulate_thickness; lh_superiortemporal_thickness; rh_lateraloccipital_thickness; rh_pericalcarine_thickness; rh_superiortemporal_thickness
+ - Cortical volume (6): lh_middletemporal_volume; lh_superiortemporal_volume; rh_isthmuscingulate_volume; rh_lateraloccipital_volume; rh_parsopercularis_volume; rh_superiortemporal_volume
+ - Other (0): None
+FDR significant results
+ - Subcortical (0): None
+ - Global (0): None
+ - Cortical area (0): None
+ - Cortical thickness (0): None
+ - Cortical volume (0): None
+ - Other (0): None
+Saved RAW summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/DGLM_Zscore_AgeGroup_Diagnosis_significant_summary_raw.csv 
+Saved FDR summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/Results/Individual_area_volume/DGLM_Zscore_AgeGroup_Diagnosis_significant_summary_fdr.csv 
+End: Wed Apr  8 11:59:20 AM CST 2026

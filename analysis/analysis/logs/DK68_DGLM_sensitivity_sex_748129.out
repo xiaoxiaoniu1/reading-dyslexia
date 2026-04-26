@@ -1,0 +1,140 @@
+Host: node1
+Start: Sat Apr 25 10:40:21 PM CST 2026
+Analysis type: degree
+DGLM result dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex
+VIOLIN follow-up dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex/VIOLIN_Followup
+===== STEP 1/3: Run DGLM model =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex
+
+========================================
+Running sex-stratified model: Male 
+========================================
+Analysis type: degree | run_degree: TRUE | run_edge: FALSE 
+Output root: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex/male_sex 
+Sex filter: Male 
+Include age_within_group: TRUE 
+Mean formula: y ~ Diagnosis * AgeGroup + age_within_group 
+Dispersion formula: ~Diagnosis * AgeGroup + age_within_group 
+Effects: Diagnosis, AgeGroup, Diagnosis_AgeGroup 
+Subjects in demo: 204 
+Subjects with matrix+degree csv: 204 
+
+Cell counts among subjects used:
+         AgeGroup
+Diagnosis Child Adult
+       TD    26    16
+       DD    45     9
+ROI number: 68 
+Number of edges: 2278 
+Degree matrix: 96 x 68 
+Loaded network: alphabetic_functional | n_roi = 57 
+Loaded network: alphabetic_structural | n_roi = 23 
+Loaded network: brain_regions_at_least_one_task_mean_gt_2 | n_roi = 45 
+Loaded network: brain_regions_at_least_two_tasks_mean_gt_2 | n_roi = 23 
+Loaded network: morphosyllabic_functional | n_roi = 79 
+Loaded network: morphosyllabic_structural | n_roi = 77 
+
+=== Diagnostic: first ROI ===
+     feature  n fit_status p_mean_Diagnosis p_mean_AgeGroup
+ lh_bankssts 96         ok        0.2369911        0.677548
+ p_mean_Diagnosis_AgeGroup p_disp_Diagnosis p_disp_AgeGroup
+                 0.3132848        0.2450605       0.5517719
+ p_disp_Diagnosis_AgeGroup
+                 0.8783941
+
+=== Running DGLM degree ===
+Feature 1 / 68 
+Feature 25 / 68 
+Feature 50 / 68 
+Feature 68 / 68 
+Saved degree results: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex/male_sex/degree/DGLM_DK68_degree_results.csv 
+
+==============================
+Significant degree results, FDR < 0.05 
+==============================
+ result_type                    effect n_tested n_sig_FDR    min_p_raw
+      degree          p_mean_Diagnosis       68         0 3.261248e-03
+      degree           p_mean_AgeGroup       68         3 2.333332e-06
+      degree p_mean_Diagnosis_AgeGroup       68         1 4.552013e-04
+      degree          p_disp_Diagnosis       68         0 1.648861e-02
+      degree           p_disp_AgeGroup       68         3 3.343016e-05
+      degree p_disp_Diagnosis_AgeGroup       68         0 5.204550e-02
+    min_p_FDR
+ 0.1403343729
+ 0.0001586666
+ 0.0309536866
+ 0.9924641792
+ 0.0022732511
+ 0.9695709597
+Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex/male_sex/summary/DGLM_DK68_degree_FDR_summary.csv 
+Saved significant table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex/male_sex/summary/DGLM_DK68_degree_significant_FDR0p05.csv 
+
+DONE.
+
+========================================
+Running sex-stratified model: Female 
+========================================
+Analysis type: degree | run_degree: TRUE | run_edge: FALSE 
+Output root: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex/female_sex 
+Sex filter: Female 
+Include age_within_group: TRUE 
+Mean formula: y ~ Diagnosis * AgeGroup + age_within_group 
+Dispersion formula: ~Diagnosis * AgeGroup + age_within_group 
+Effects: Diagnosis, AgeGroup, Diagnosis_AgeGroup 
+Subjects in demo: 204 
+Subjects with matrix+degree csv: 204 
+
+Cell counts among subjects used:
+         AgeGroup
+Diagnosis Child Adult
+       TD    25    45
+       DD    21    17
+ROI number: 68 
+Number of edges: 2278 
+Degree matrix: 108 x 68 
+Loaded network: alphabetic_functional | n_roi = 57 
+Loaded network: alphabetic_structural | n_roi = 23 
+Loaded network: brain_regions_at_least_one_task_mean_gt_2 | n_roi = 45 
+Loaded network: brain_regions_at_least_two_tasks_mean_gt_2 | n_roi = 23 
+Loaded network: morphosyllabic_functional | n_roi = 79 
+Loaded network: morphosyllabic_structural | n_roi = 77 
+
+=== Diagnostic: first ROI ===
+     feature   n fit_status p_mean_Diagnosis p_mean_AgeGroup
+ lh_bankssts 108         ok     6.256562e-05       0.2565673
+ p_mean_Diagnosis_AgeGroup p_disp_Diagnosis p_disp_AgeGroup
+                 0.1577581        0.4357964       0.8370054
+ p_disp_Diagnosis_AgeGroup
+                 0.7895955
+
+=== Running DGLM degree ===
+Feature 1 / 68 
+Feature 25 / 68 
+Feature 50 / 68 
+Feature 68 / 68 
+Saved degree results: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex/female_sex/degree/DGLM_DK68_degree_results.csv 
+
+==============================
+Significant degree results, FDR < 0.05 
+==============================
+ result_type                    effect n_tested n_sig_FDR    min_p_raw
+      degree          p_mean_Diagnosis       68        30 6.324975e-08
+      degree           p_mean_AgeGroup       68        22 6.391373e-05
+      degree p_mean_Diagnosis_AgeGroup       68         0 3.831636e-02
+      degree          p_disp_Diagnosis       68         1 6.965979e-04
+      degree           p_disp_AgeGroup       68         1 1.700638e-05
+      degree p_disp_Diagnosis_AgeGroup       68         0 3.630439e-02
+    min_p_FDR
+ 4.300983e-06
+ 3.625755e-03
+ 9.995612e-01
+ 4.736865e-02
+ 1.156434e-03
+ 9.871704e-01
+Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex/female_sex/summary/DGLM_DK68_degree_FDR_summary.csv 
+Saved significant table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex/female_sex/summary/DGLM_DK68_degree_significant_FDR0p05.csv 
+
+DONE.
+===== STEP 1/3 DONE =====
+===== STEP 2/3: Generate DGLM degree brainmaps =====
+Output dir (STEP 2/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_sensitivity_sex

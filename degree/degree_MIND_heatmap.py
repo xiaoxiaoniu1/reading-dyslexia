@@ -15,18 +15,18 @@ from scipy import stats
 # =========================
 # 1) 基本配置
 # =========================
-demo_file = "/data/home/tqi/data1/share/after_freesurfer/FILE/all_data_cqt.xlsx"
+demo_file = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/all_data_cqt_mean_1.5.xlsx"
 
 # 选择矩阵类型： "DK68" 或 "DK318"
 MIND_TYPE = "DK318"
 
 # DK68 配置
-DK68_MIND_DIR = "/data/home/tqi/data1/share/after_freesurfer/fs_subjects_all/MIND_DK68_combat"
+DK68_MIND_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_combat"
 
 # DK318 配置（按已有脚本习惯）
-DK318_MIND_DIR = "/data1/tqi/share/after_freesurfer/fs_subjects_all/MIND_out_combat_degree/"
+DK318_MIND_DIR = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_combat/"
 
-out_dir = "/data/home/tqi/data1/share/after_freesurfer/FILE/MIND_group_mean_heatmaps"
+out_dir = "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_group_mean_heatmaps"
 os.makedirs(out_dir, exist_ok=True)
 
 # 是否显示全部 ROI 标签
@@ -58,8 +58,7 @@ if MIND_TYPE == "DK68":
 elif MIND_TYPE == "DK318":
     df["original_project"] = df["original-project"].astype(str)
     df["id_old"] = df["id_old"].astype(str)
-    df["file_base"] = df["original_project"] + "_" + df["id_old"] + "_MIND_DK318_combat_labeled"
-    df["mind_file"] = df["file_base"].apply(lambda x: os.path.join(DK318_MIND_DIR, f"{x}.csv"))
+    df["mind_file"] = df.apply(lambda row: os.path.join(DK318_MIND_DIR, f"{row['original_project']}_{row['id_old']}_MIND_DK318_combat.csv"), axis=1)
 else:
     raise ValueError("MIND_TYPE 只能是 'DK68' 或 'DK318'")
 

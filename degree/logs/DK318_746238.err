@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/data1/tqi/share/after_freesurfer/CODE/degree/degree_analysis_DK318.py", line 1358, in <module>
+    plot_degree_brainmaps(
+  File "/data1/tqi/share/after_freesurfer/CODE/degree/degree_analysis_DK318.py", line 391, in plot_degree_brainmaps
+    raise ValueError(f"CSV缺少列：{missing}。当前列名：{list(df.columns)}")
+ValueError: CSV缺少列：{'p_Interaction_sig_0_001', 'p_Interaction_sig_0_01'}。当前列名：['feature', 'n', 'var_y', 'p_Diagnosis', 'p_AgeGroup', 'p_Interaction', 'eta2_Diagnosis', 'eta2_AgeGroup', 'eta2_Interaction', 'cohens_f_Diagnosis', 'cohens_f_AgeGroup', 'cohens_f_Interaction', 'p_Diagnosis_FDR', 'p_AgeGroup_FDR', 'p_Interaction_FDR', 'p_Interaction_FDR_diagSig']

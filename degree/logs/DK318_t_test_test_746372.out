@@ -1,0 +1,17 @@
+Start: Wed Apr 15 12:21:18 PM UTC 2026
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+p_fdr: 没有显著脑区 (阈值<0.05)，跳过绘图。
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Adult_significant)/p_value/p_value_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Adult_significant)/p_value/p_value_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Adult_significant)/p_value/p_value_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Adult_significant)/p_value/p_value_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Child_significant)/p_fdr/p_fdr_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Child_significant)/p_fdr/p_fdr_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Child_significant)/p_fdr/p_fdr_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Child_significant)/p_fdr/p_fdr_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Child_significant)/p_value/p_value_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Child_significant)/p_value/p_value_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Child_significant)/p_value/p_value_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_t_test/dk318_degree_brainmaps(t-test_Child_significant)/p_value/p_value_rh_medial.png
+End: Wed Apr 15 12:26:02 PM UTC 2026

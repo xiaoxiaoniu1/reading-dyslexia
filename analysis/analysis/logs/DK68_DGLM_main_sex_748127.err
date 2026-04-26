@@ -1,0 +1,28 @@
+Loading required package: readxl
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: purrr
+Loading required package: dglm
+Loading required package: stringr
+Loading required package: emmeans
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+usage: degree_analysis_DK68_DGLM.py [-h]
+                                    [--model {default,main,sensitivity,main_sex,sensitivity_sex,all}]
+                                    [--sex {all,male,female}]
+                                    [--result-dir RESULT_DIR]
+                                    [--include-network | --no-include-network]
+                                    [--include-uncorrected | --no-include-uncorrected]
+                                    [--include-fdr | --no-include-fdr]
+degree_analysis_DK68_DGLM.py: error: unrecognized arguments: --stratified-dir /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_main_sex

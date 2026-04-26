@@ -1,0 +1,13 @@
+Host: node3
+Start: Wed Apr 15 03:41:49 PM UTC 2026
+
+--- Alignment diagnostics ---
+sheet: Global.table 
+clinical rows: 96  unique subject ids: 96 
+MRI rows: 96  unique subject ids: 96 
+intersection: 58 
+clinical head ids: adoled_2203 | adoled_2214 | adoled_2216 
+MRI head ids: adoled_2203 | adoled_2214 | adoled_2216 
+intersection head ids: adoled_2203 | adoled_2214 | adoled_2216 
+[1] "GMV"
+[1] "file exist"

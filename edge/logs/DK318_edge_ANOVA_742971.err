@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/data1/tqi/share/after_freesurfer/CODE/edge/connect_DK318_ANOVA.py", line 92, in <module>
+    effect_direction_diagnosis = compute_edge_effect_direction(demo_df, mind_dir, n_nodes, "group_d_or_c", 0, 1)
+  File "/data1/tqi/share/after_freesurfer/CODE/edge/connect_DK318_ANOVA.py", line 66, in compute_edge_effect_direction
+    demo_df['exists'] = demo_df['mind_file'].apply(lambda x: os.path.exists(x))
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/core/series.py", line 4936, in apply
+    return SeriesApply(
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/core/apply.py", line 1422, in apply
+    return self.apply_standard()
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/core/apply.py", line 1502, in apply_standard
+    mapped = obj._map_values(
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/core/base.py", line 925, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action, convert=convert)
+  File "/data/home/tqi/.conda/envs/rd_env/lib/python3.9/site-packages/pandas/core/algorithms.py", line 1743, in map_array
+    return lib.map_infer(values, mapper, convert=convert)
+  File "pandas/_libs/lib.pyx", line 2999, in pandas._libs.lib.map_infer
+  File "/data1/tqi/share/after_freesurfer/CODE/edge/connect_DK318_ANOVA.py", line 66, in <lambda>
+    demo_df['exists'] = demo_df['mind_file'].apply(lambda x: os.path.exists(x))
+NameError: name 'os' is not defined

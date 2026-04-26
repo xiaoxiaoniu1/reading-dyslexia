@@ -1,0 +1,52 @@
+Start: Wed Apr 15 12:52:21 AM UTC 2026
+当前工作目录： /data1/tqi/share/after_freesurfer
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+LH surface vertices: 163842
+RH surface vertices: 163842
+LH annot vertices: 163842
+RH annot vertices: 163842
+
+========== 绘制 Mean Interaction (uncorrected) ==========
+
+============================
+绘制列: p_mean_Interaction
+LH vertex filled (%): 4.26
+RH vertex filled (%): 6.56
+Color range vmin/vmax: -2.576883196017621 2.576883196017621
+显著脑区列表已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_mean_interaction_brainmaps(uncorrected)/p_mean_Interaction/significant_regions_p_mean_Interaction.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_mean_interaction_brainmaps(uncorrected)/p_mean_Interaction/p_mean_Interaction_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_mean_interaction_brainmaps(uncorrected)/p_mean_Interaction/p_mean_Interaction_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_mean_interaction_brainmaps(uncorrected)/p_mean_Interaction/p_mean_Interaction_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_mean_interaction_brainmaps(uncorrected)/p_mean_Interaction/p_mean_Interaction_rh_medial.png
+Done. Four brain maps for p_mean_Interaction saved in: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_mean_interaction_brainmaps(uncorrected)/p_mean_Interaction
+
+========== 绘制 Mean Interaction (FDR) ==========
+
+============================
+绘制列: p_mean_Interaction_FDR
+p_mean_Interaction_FDR: 没有显著脑区 (阈值<0.05)，跳过绘图。
+
+========== 绘制 Dispersion Interaction (uncorrected) ==========
+
+============================
+绘制列: p_disp_Interaction
+LH vertex filled (%): 0.59
+RH vertex filled (%): 0.00
+Color range vmin/vmax: -1.3863062543761269 1.3863062543761269
+显著脑区列表已保存至: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_dispersion_interaction_brainmaps(uncorrected)/p_disp_Interaction/significant_regions_p_disp_Interaction.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_dispersion_interaction_brainmaps(uncorrected)/p_disp_Interaction/p_disp_Interaction_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_dispersion_interaction_brainmaps(uncorrected)/p_disp_Interaction/p_disp_Interaction_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_dispersion_interaction_brainmaps(uncorrected)/p_disp_Interaction/p_disp_Interaction_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_dispersion_interaction_brainmaps(uncorrected)/p_disp_Interaction/p_disp_Interaction_rh_medial.png
+Done. Four brain maps for p_disp_Interaction saved in: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM/dk318_degree_dispersion_interaction_brainmaps(uncorrected)/p_disp_Interaction
+
+========== 绘制 Dispersion Interaction (FDR) ==========
+
+============================
+绘制列: p_disp_Interaction_FDR
+p_disp_Interaction_FDR: 没有显著脑区 (阈值<0.05)，跳过绘图。
+
+========== 所有 DK318 DGLM 脑图绘制完成 ==========
+End: Wed Apr 15 12:55:04 AM UTC 2026
