@@ -1,0 +1,38 @@
+also installing the dependencies ‘websocket’, ‘chromote’
+
+trying URL 'https://cran.r-project.org/src/contrib/websocket_1.4.4.tar.gz'
+Content type 'application/x-gzip' length 201849 bytes (197 KB)
+==================================================
+downloaded 197 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/chromote_0.5.1.tar.gz'
+Content type 'application/x-gzip' length 298113 bytes (291 KB)
+==================================================
+downloaded 291 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/webshot2_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 530252 bytes (517 KB)
+==================================================
+downloaded 517 KB
+
+ERROR: failed to lock directory ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library’ for modifying
+Try removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-websocket’
+ERROR: dependency ‘websocket’ is not available for package ‘chromote’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/chromote’
+ERROR: dependency ‘chromote’ is not available for package ‘webshot2’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/webshot2’
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NBS/tmp/Rtmp5LRABw/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Warning messages:
+1: In install.packages(pkg, repos = "https://cran.r-project.org") :
+  installation of package ‘websocket’ had non-zero exit status
+2: In install.packages(pkg, repos = "https://cran.r-project.org") :
+  installation of package ‘chromote’ had non-zero exit status
+3: In install.packages(pkg, repos = "https://cran.r-project.org") :
+  installation of package ‘webshot2’ had non-zero exit status
+Error in library(webshot2) : there is no package called ‘webshot2’
+Calls: suppressPackageStartupMessages -> withCallingHandlers -> library
+Execution halted

@@ -1,0 +1,285 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+also installing the dependencies ‘crosstalk’, ‘viridis’, ‘DT’, ‘ellipse’, ‘flashClust’, ‘leaps’, ‘multcompView’, ‘scatterplot3d’, ‘cluster’, ‘dendextend’, ‘FactoMineR’
+
+trying URL 'https://cran.r-project.org/src/contrib/crosstalk_1.2.2.tar.gz'
+Content type 'application/x-gzip' length 297847 bytes (290 KB)
+==================================================
+downloaded 290 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/viridis_0.6.5.tar.gz'
+Content type 'application/x-gzip' length 3047363 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/DT_0.34.0.tar.gz'
+Content type 'application/x-gzip' length 1664306 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/ellipse_0.5.0.tar.gz'
+Content type 'application/x-gzip' length 160353 bytes (156 KB)
+==================================================
+downloaded 156 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/flashClust_1.1-4.tar.gz'
+Content type 'application/x-gzip' length 9155 bytes
+==================================================
+downloaded 9155 bytes
+
+trying URL 'https://cran.r-project.org/src/contrib/leaps_3.2.tar.gz'
+Content type 'application/x-gzip' length 29375 bytes (28 KB)
+==================================================
+downloaded 28 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/multcompView_0.1-11.tar.gz'
+Content type 'application/x-gzip' length 157144 bytes (153 KB)
+==================================================
+downloaded 153 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/scatterplot3d_0.3-45.tar.gz'
+Content type 'application/x-gzip' length 484624 bytes (473 KB)
+==================================================
+downloaded 473 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/cluster_2.1.8.2.tar.gz'
+Content type 'application/x-gzip' length 373022 bytes (364 KB)
+==================================================
+downloaded 364 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/dendextend_1.19.1.tar.gz'
+Content type 'application/x-gzip' length 4704910 bytes (4.5 MB)
+==================================================
+downloaded 4.5 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/FactoMineR_2.14.tar.gz'
+Content type 'application/x-gzip' length 2840541 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/factoextra_2.0.0.tar.gz'
+Content type 'application/x-gzip' length 1410606 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+* installing *source* package ‘crosstalk’ ...
+** package ‘crosstalk’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (crosstalk)
+* installing *source* package ‘viridis’ ...
+** package ‘viridis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (viridis)
+* installing *source* package ‘ellipse’ ...
+** package ‘ellipse’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ellipse)
+* installing *source* package ‘flashClust’ ...
+** package ‘flashClust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+using Fortran compiler: ‘GNU Fortran (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-flashClust/00new/flashClust/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (flashClust)
+* installing *source* package ‘leaps’ ...
+** package ‘leaps’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+using Fortran compiler: ‘GNU Fortran (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-leaps/00new/leaps/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (leaps)
+* installing *source* package ‘multcompView’ ...
+** package ‘multcompView’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (multcompView)
+* installing *source* package ‘scatterplot3d’ ...
+** package ‘scatterplot3d’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (scatterplot3d)
+* installing *source* package ‘cluster’ ...
+** package ‘cluster’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-cluster/00new/cluster/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (cluster)
+* installing *source* package ‘DT’ ...
+** package ‘DT’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (DT)
+* installing *source* package ‘dendextend’ ...
+** package ‘dendextend’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (dendextend)
+* installing *source* package ‘FactoMineR’ ...
+** package ‘FactoMineR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-FactoMineR/00new/FactoMineR/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (FactoMineR)
+* installing *source* package ‘factoextra’ ...
+** package ‘factoextra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (factoextra)
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/T_map/tmp/RtmpcwgV11/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Loading required package: ggplot2
+Welcome to factoextra!
+Want to learn more? See two factoextra-related books at https://www.datanovia.com/en/product/practical-guide-to-principal-component-methods-in-r/
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+

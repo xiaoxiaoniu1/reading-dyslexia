@@ -1,0 +1,58 @@
+========================================
+DK318 3-Network Degree Analysis
+========================================
+Host: node4
+Job ID: 748394
+Start time: Tue May  5 10:57:59 AM CST 2026
+
+Activating conda environment...
+Conda environment: rd_env_r
+
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/Network
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/Network/tmp
+
+Analysis script: /data/home/tqi/data1/share/after_freesurfer/CODE/Network/01_DK318_3network_degree_analysis.R
+
+Starting R analysis...
+----------------------------------------
+Starting DK318 3-network degree analysis...
+
+Loading packages...
+Output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_3network_analysis/analysis 
+
+Loading demographic data...
+Total subjects: 204 
+With degree files: 204 
+Final analysis: 204 
+
+, , Sex = Female
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    25    45
+       DD    21    17
+
+, , Sex = Male
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    26    16
+       DD    45     9
+
+
+Loading degree matrix...
+Number of ROIs: 318 
+  Reading subject 50 / 204 
+  Reading subject 100 / 204 
+  Reading subject 150 / 204 
+  Reading subject 200 / 204 
+  Reading subject 204 / 204 
+Degree range: [ 0.05895494 ,  0.1878485 ]
+
+Loading network definitions...
+Network sizes: DM = 63 , MD = 133 , Reading = 57 
+
+Computing network-level degree...
+
+Fitting mixed-effects model...
+Mixed model fitted successfully.

@@ -1,0 +1,7 @@
+Host: node4
+Start: Mon Apr 27 07:37:51 PM CST 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/NBS/tmp
+OUT_DIR: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS
+ANALYSIS_NAME: overall_TD_gt_DD
+SURFACE_NAME: inflated
+MAX_EDGES: 200

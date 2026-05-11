@@ -1,0 +1,4 @@
+Error in utils::write.table(roi_meta, file.path(out_dir, "roi_metadata_with_mni_coordinates.csv"),  : 
+  unimplemented type 'list' in 'EncodeElement'
+Calls: write.csv -> eval.parent -> eval -> eval -> <Anonymous>
+Execution halted

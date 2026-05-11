@@ -15,6 +15,7 @@
 # Optional environment variables for wrapper scripts:
 #   DK318_DGLM_OUT_ROOT
 #   DK318_DGLM_INCLUDE_AGE        true/false
+#   DK318_DGLM_INCLUDE_IQ         true/false
 #   DK318_DGLM_SEX_FILTER         empty, Male, or Female
 # ============================================================
 
@@ -60,6 +61,7 @@ default_out_root <- "/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_
 out_root <- Sys.getenv("DK318_DGLM_OUT_ROOT", unset = default_out_root)
 
 include_age <- tolower(Sys.getenv("DK318_DGLM_INCLUDE_AGE", unset = "true")) %in% c("true", "1", "yes", "y")
+include_iq <- tolower(Sys.getenv("DK318_DGLM_INCLUDE_IQ", unset = "false")) %in% c("true", "1", "yes", "y")
 sex_filter <- Sys.getenv("DK318_DGLM_SEX_FILTER", unset = "")
 sex_filter <- trimws(sex_filter)
 if (!(sex_filter %in% c("", "Male", "Female"))) {
@@ -105,6 +107,7 @@ effect_names <- names(effect_specs)
 model_factor_rhs <- paste(target_factors, collapse = " * ")
 model_rhs <- model_factor_rhs
 if (include_age) model_rhs <- paste(model_rhs, "+ age_within_group")
+if (include_iq) model_rhs <- paste(model_rhs, "+ IQ")
 
 mean_formula <- as.formula(paste("y ~", model_rhs))
 disp_formula <- as.formula(paste("~", model_rhs))
@@ -113,6 +116,7 @@ emm_formula <- as.formula(paste("~", paste(target_factors, collapse = " * ")))
 cat("Output root:", out_root, "\n")
 cat("Sex filter:", ifelse(sex_filter == "", "none", sex_filter), "\n")
 cat("Include age_within_group:", include_age, "\n")
+cat("Include IQ:", include_iq, "\n")
 cat("Mean formula:", deparse(mean_formula), "\n")
 cat("Dispersion formula:", deparse(disp_formula), "\n")
 cat("Effects:", paste(effect_names, collapse = ", "), "\n")
@@ -122,11 +126,23 @@ cat("Effects:", paste(effect_names, collapse = ", "), "\n")
 # ----------------------------
 df <- read_excel(demo_file, sheet = "Sheet1")
 
+iq_candidates <- names(df)[str_detect(names(df), regex("iq", ignore_case = TRUE))]
+if (include_iq) {
+  if (length(iq_candidates) == 0) {
+    stop("DK318_DGLM_INCLUDE_IQ=true but no IQ column was found in demo_file.")
+  }
+  if (length(iq_candidates) > 1) {
+    cat("Multiple IQ columns detected, using:", iq_candidates[1], "\n")
+  }
+}
+iq_col <- if (length(iq_candidates) >= 1) iq_candidates[1] else NA_character_
+
 df <- df %>%
   mutate(
     original_project = as.character(`original-project`),
     id_old = as.character(id_old),
     Age = as.numeric(age_month),
+    IQ = if (is.na(iq_col)) NA_real_ else as.numeric(.data[[iq_col]]),
 
     subj_prefix = paste0(original_project, "_", id_old),
     file_base = paste0(subj_prefix, "_MIND_DK318_combat"),
@@ -157,6 +173,9 @@ cat("Subjects with matrix+degree csv:", sum(df$has_file), "\n")
 df2 <- df %>% filter(has_file)
 if (sex_filter != "") {
   df2 <- df2 %>% filter(Sex == sex_filter)
+}
+if (include_iq) {
+  df2 <- df2 %>% filter(is.finite(IQ))
 }
 
 if (nrow(df2) == 0) {
@@ -595,6 +614,7 @@ run_one_dglm <- function(y, df_sub, metadata, min_n = 10, var_eps = 1e-12) {
     !is.na(df_sub$Sex)
 
   if (include_age) ok <- ok & is.finite(df_sub$age_within_group)
+  if (include_iq) ok <- ok & is.finite(df_sub$IQ)
 
   y2 <- y[ok]
   d2 <- df_sub[ok, , drop = FALSE]

@@ -1,0 +1,52 @@
+Loading required package: readxl
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: purrr
+Loading required package: dglm
+Loading required package: stringr
+Loading required package: emmeans
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+Traceback (most recent call last):
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/degree/degree_analysis_DK318_DGLM.py", line 592, in <module>
+    run_all(
+    ~~~~~~~^
+        model=args.model,
+        ^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        include_fdr=args.include_fdr,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/degree/degree_analysis_DK318_DGLM.py", line 561, in run_all
+    plot_degree_dir(nd, surfaces, is_network=True,
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    include_uncorrected=include_uncorrected,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                    include_fdr=include_fdr)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/degree/degree_analysis_DK318_DGLM.py", line 524, in plot_degree_dir
+    plot_one_p_column(
+    ~~~~~~~~~~~~~~~~~^
+        df,
+        ^^^
+    ...<5 lines>...
+        total_plots=len(plot_cols),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/degree/degree_analysis_DK318_DGLM.py", line 364, in plot_one_p_column
+    signs[~np.isfinite(signs)] = 1.0
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+ValueError: assignment destination is read-only

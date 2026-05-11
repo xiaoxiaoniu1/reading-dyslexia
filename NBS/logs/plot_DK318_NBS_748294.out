@@ -1,0 +1,4 @@
+Start: Tue Apr 28 05:33:06 PM CST 2026
+Using edge table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/tables/NBR_ALL_edges_in_FWE_significant_components.csv
+Using ROI metadata: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/roi_metadata_with_mni_coordinates.csv
+End: Tue Apr 28 05:33:10 PM CST 2026

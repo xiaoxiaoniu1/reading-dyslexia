@@ -1,0 +1,19 @@
+Start: Wed May  6 02:35:19 AM UTC 2026
+Using edge table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS_100/tables/NBR_ALL_edges_in_FWE_significant_components.csv
+Using ROI metadata: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS_100/roi_metadata_with_mni_coordinates.csv
+Saved: Adult_Female_TD_gt_DD_Component_1_top50
+Saved: Adult_Female_TD_gt_DD_Component_1_top50
+Saved: Adult_Male_DD_gt_TD_Component_3_top50
+Saved: Adult_Male_DD_gt_TD_Component_3_top50
+Saved: Adult_TD_gt_DD_Component_1_top50
+Saved: Adult_TD_gt_DD_Component_1_top50
+Saved: Child_Female_TD_gt_DD_Component_1_top50
+Saved: Child_Female_TD_gt_DD_Component_1_top50
+Saved: Child_Male_TD_gt_DD_Component_5_top50
+Saved: Child_Male_TD_gt_DD_Component_5_top50
+Saved: Child_TD_gt_DD_Component_1_top50
+Saved: Child_TD_gt_DD_Component_1_top50
+Saved: overall_TD_gt_DD_Component_1_top50
+Saved: overall_TD_gt_DD_Component_1_top50
+Finished. Wrote 14 figure(s) to /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS_100/figures/component_top_connectome
+End: Wed May  6 02:35:54 AM UTC 2026

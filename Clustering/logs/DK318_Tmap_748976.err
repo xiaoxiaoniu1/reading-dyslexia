@@ -1,0 +1,69 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+Welcome to factoextra!
+Want to learn more? See two factoextra-related books at https://www.datanovia.com/en/product/practical-guide-to-principal-component-methods-in-r/
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+
+Attaching package: ‘scales’
+
+The following object is masked from ‘package:readr’:
+
+    col_factor
+
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+Warning message:
+In geom_bar(stat = "identity", color = "black", size = 0.5) :
+  Ignoring unknown parameters: `size`
+Warning messages:
+1: In geom_bar(stat = "identity", width = 1, color = "white", size = 1.5) :
+  Ignoring unknown parameters: `size`
+2: In geom_bar(stat = "identity", width = 1, color = "white", size = 1.5) :
+  Ignoring unknown parameters: `size`
+3: In geom_bar(stat = "identity", width = 1, color = "white", size = 1.5) :
+  Ignoring unknown parameters: `size`
+4: In geom_bar(stat = "identity", width = 1, color = "white", size = 1.5) :
+  Ignoring unknown parameters: `size`
+5: In geom_bar(stat = "identity", width = 1, color = "white", size = 1.5) :
+  Ignoring unknown parameters: `size`

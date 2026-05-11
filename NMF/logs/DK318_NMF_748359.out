@@ -1,0 +1,380 @@
+==========================================
+DK318 MIND Degree NMF Analysis Pipeline
+==========================================
+Host: node4
+Start: Sat May  2 09:35:19 PM CST 2026
+
+Conda environment: rd_env_r
+R version: Rscript (R) version 4.3.1 (2023-06-16)
+
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/NMF
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/NMF/tmp
+
+==========================================
+Step 0: Check and Install R Packages
+==========================================
+Start: Sat May  2 09:35:20 PM CST 2026
+
+Checking R packages...
+----------------------------------------
+  ✓ readxl 
+  ✓ dplyr 
+  ✓ stringr 
+  ✗ NMF (missing)
+  ✓ broom 
+  ✓ car 
+  ✓ emmeans 
+  ✓ effectsize 
+  ✓ ggplot2 
+  ✓ reshape2 
+  ✓ RColorBrewer 
+  ✓ pheatmap 
+  ✓ gridExtra 
+
+Found 1 missing package(s): NMF 
+Installing missing packages...
+This may take a few minutes...
+
+----------------------------------------
+NMF requires Bioconductor packages.
+  ✓ BiocManager already installed
+Installing Biobase from Bioconductor...
+Creating a new generic function for ‘aperm’ in package ‘BiocGenerics’
+Creating a new generic function for ‘append’ in package ‘BiocGenerics’
+Creating a new generic function for ‘as.data.frame’ in package ‘BiocGenerics’
+Creating a new generic function for ‘cbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘do.call’ in package ‘BiocGenerics’
+Creating a new generic function for ‘duplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘anyDuplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘eval’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Reduce’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Filter’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Find’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Map’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Position’ in package ‘BiocGenerics’
+Creating a new generic function for ‘get’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mget’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grep’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grepl’ in package ‘BiocGenerics’
+Creating a new generic function for ‘is.unsorted’ in package ‘BiocGenerics’
+Creating a new generic function for ‘lapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘match’ in package ‘BiocGenerics’
+Creating a new generic function for ‘order’ in package ‘BiocGenerics’
+Creating a new generic function for ‘paste’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rank’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rownames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘colnames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘union’ in package ‘BiocGenerics’
+Creating a new generic function for ‘intersect’ in package ‘BiocGenerics’
+Creating a new generic function for ‘setdiff’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sort’ in package ‘BiocGenerics’
+Creating a new generic function for ‘table’ in package ‘BiocGenerics’
+Creating a new generic function for ‘tapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unique’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unsplit’ in package ‘BiocGenerics’
+Creating a new generic function for ‘var’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sd’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.min’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.max’ in package ‘BiocGenerics’
+Creating a new generic function for ‘IQR’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mad’ in package ‘BiocGenerics’
+Creating a new generic function for ‘xtabs’ in package ‘BiocGenerics’
+Creating a new generic function for ‘basename’ in package ‘BiocGenerics’
+Creating a new generic function for ‘dirname’ in package ‘BiocGenerics’
+x86_64-conda-linux-gnu-cc -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c Rinit.c -o Rinit.o
+x86_64-conda-linux-gnu-cc -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c anyMissing.c -o anyMissing.o
+x86_64-conda-linux-gnu-cc -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c envir.c -o envir.o
+x86_64-conda-linux-gnu-cc -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c matchpt.c -o matchpt.o
+x86_64-conda-linux-gnu-cc -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c rowMedians.c -o rowMedians.o
+x86_64-conda-linux-gnu-cc -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c sublist_extract.c -o sublist_extract.o
+x86_64-conda-linux-gnu-cc -shared -L/data/home/tqi/.conda/envs/rd_env_r/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/data/home/tqi/.conda/envs/rd_env_r/lib -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib -L/data/home/tqi/.conda/envs/rd_env_r/lib -o Biobase.so Rinit.o anyMissing.o envir.o matchpt.o rowMedians.o sublist_extract.o -L/data/home/tqi/.conda/envs/rd_env_r/lib/R/lib -lR
+  ✓ Biobase installed
+----------------------------------------
+
+Installing NMF ...
+checking for x86_64-conda-linux-gnu-gcc... x86_64-conda-linux-gnu-cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-conda-linux-gnu-cc accepts -g... yes
+checking for x86_64-conda-linux-gnu-cc option to enable C11 features... none needed
+checking for pkg-config... /data/software/freesurfer/fsl/bin/pkg-config
+checking if pkg-config knows about OpenMPI... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for mpi.h... no
+Using PKG_CFLAGS=
+Using PKG_LIBS=-luv
+--------------------------- [CONFIGURE] --------------------------------
+Configuration failed because libuv was not found. Try installing:
+ * deb: libuv1-dev (Debian, Ubuntu, etc)
+ * rpm: libuv-devel (Fedora, EPEL)
+ * brew: libuv (OSX)
+Alternatively set environment variable USE_BUNDLED_LIBUV=1 to build a static
+version of libuv that is included with this package.
+-------------------------- [ERROR MESSAGE] ---------------------------
+<stdin>:1:10: fatal error: uv.h: No such file or directory
+compilation terminated.
+--------------------------------------------------------------------
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c distance.cpp -o distance.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c divergence.cpp -o divergence.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c euclidean.cpp -o euclidean.o
+x86_64-conda-linux-gnu-cc -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c registerDynamicSymbol.c -o registerDynamicSymbol.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/data/home/tqi/.conda/envs/rd_env_r/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /data/home/tqi/.conda/envs/rd_env_r/include -I/data/home/tqi/.conda/envs/rd_env_r/include -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /data/home/tqi/.conda/envs/rd_env_r/include -fdebug-prefix-map=/croot/r-base_1744617423037/work=/usr/local/src/conda/r-base-4.3.1 -fdebug-prefix-map=/data/home/tqi/.conda/envs/rd_env_r=/usr/local/src/conda-prefix  -c utils.cpp -o utils.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/data/home/tqi/.conda/envs/rd_env_r/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/data/home/tqi/.conda/envs/rd_env_r/lib -Wl,-rpath-link,/data/home/tqi/.conda/envs/rd_env_r/lib -L/data/home/tqi/.conda/envs/rd_env_r/lib -o NMF.so distance.o divergence.o euclidean.o registerDynamicSymbol.o utils.o -L/data/home/tqi/.conda/envs/rd_env_r/lib/R/lib -lR
+Setting package specific options: package:NMF:logger (1 default option(s))
+Setting package specific options: package:NMF (10 default option(s))
+Creating a generic function for ‘plot’ from ‘graphics’ in package ‘NMF’
+    (from the saved implicit definition)
+Creating meta registry in package 'NMF' ... OK
+Creating registry 'extra_handler' in package 'NMF' ... OK
+Creating registry 'extra_action' in package 'NMF' ... OK
+Registering extra handler 'install.packages' [function] ... OK
+Creating registry 'algorithm' in package 'NMF' ... OK
+Registering NMF algorithm '.R#brunet' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'brunet' [NMFStrategyIterative] based on template '.R#brunet' ... OK
+Registering NMF algorithm 'KL' [NMFStrategyIterative] ... OK
+Registering NMF algorithm '.R#lee' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'lee' [NMFStrategyIterative] based on template '.R#lee' ... OK
+Registering NMF algorithm 'Frobenius' [NMFStrategyIterative] ... OK
+Registering NMF algorithm '.R#offset' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'offset' [NMFStrategyIterative] based on template '.R#offset' ... OK
+Registering NMF algorithm '.R#nsNMF' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'nsNMF' [NMFStrategyIterative] based on template '.R#nsNMF' ... OK
+Registering NMF algorithm 'ls-nmf' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'pe-nmf' [NMFStrategyIterative] ... OK
+Registering NMF algorithm '.siNMF' [NMFStrategyIterative] based on template 'lee' ... OK
+Registering NMF algorithm 'siNMF' [NMFStrategyIterative] based on template 'lee' ... OK
+Registering NMF algorithm 'snmf/r' [NMFStrategyFunction] ... OK
+Registering NMF algorithm 'snmf/l' [NMFStrategyFunction] ... OK
+Registering extra action 'bigmemory' for handler 'install.packages' ... OK
+Registering extra action 'synchronicity' for handler 'install.packages' ... OK
+Creating registry 'seed' in package 'NMF' ... OK
+Registering NMF seeding method 'none' [NMFSeed] ... OK
+Registering NMF seeding method 'random' [NMFSeed] ... OK
+Registering NMF seeding method 'ica' [NMFSeed] ... OK
+Registering NMF seeding method 'nndsvd' [NMFSeed] ... OK
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  namespace ‘fs’ 2.0.0 is already loaded, but >= 2.1.0 is required
+Calls: <Anonymous> ... withCallingHandlers -> loadNamespace -> namespaceImport -> loadNamespace
+Execution halted
+  ✓ NMF installed successfully
+
+Package installation complete.
+
+Final verification:
+----------------------------------------
+  ✓ readxl 
+  ✓ dplyr 
+  ✓ stringr 
+  ✓ NMF 
+  ✓ broom 
+  ✓ car 
+  ✓ emmeans 
+  ✓ effectsize 
+  ✓ ggplot2 
+  ✓ reshape2 
+  ✓ RColorBrewer 
+  ✓ pheatmap 
+  ✓ gridExtra 
+
+✓ All packages are ready!
+----------------------------------------
+End: Sat May  2 09:36:51 PM CST 2026
+
+==========================================
+Step 1: Main NMF Analysis
+==========================================
+Start: Sat May  2 09:36:51 PM CST 2026
+Starting DK318 MIND Degree NMF Analysis...
+
+Output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF 
+K range: 2, 3, 4, 5, 6, 7, 8, 9, 10 
+NMF runs per K: 100 
+
+Loading demographic data...
+Total subjects in demo file: 204 
+Subjects with valid degree files and covariates: 204 
+
+Cell counts:
+, , Sex = Female
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    25    45
+       DD    21    17
+
+, , Sex = Male
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    26    16
+       DD    45     9
+
+
+Loading degree data...
+Building 204 × 318 degree matrix...
+  Reading subject 1 / 204 
+  Reading subject 50 / 204 
+  Reading subject 100 / 204 
+  Reading subject 150 / 204 
+  Reading subject 200 / 204 
+  Reading subject 204 / 204 
+
+Degree matrix dimensions: 204 × 318 
+Missing values: 0 
+Raw degree range: [ 0.05895494 , 0.1878485 ]
+
+Checking non-negativity...
+Min raw degree: 0.05895494 
+Max raw degree: 0.1878485 
+Number of negative values: 0 
+
+Applying min-max scaling to [0, 1] for each ROI...
+Number of constant ROIs: 0 
+Scaled degree range: [ 0 , 1 ]
+
+Saved scaling info: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_degree_scaling_info.csv 
+
+Evaluating NMF for K = 2, 3, 4, 5, 6, 7, 8, 9, 10 ...
+This may take several minutes...
+
+Fitting NMF with K = 2 ( 100 runs)...
+  K = 2 | Reconstruction error: 1746.216 | RSS: 1559.81 | Cophenetic: 0.99 
+Fitting NMF with K = 3 ( 100 runs)...
+  K = 3 | Reconstruction error: 1692.307 | RSS: 1511.43 | Cophenetic: 0.956 
+Fitting NMF with K = 4 ( 100 runs)...
+  K = 4 | Reconstruction error: 1647.166 | RSS: 1472.06 | Cophenetic: 0.956 
+Fitting NMF with K = 5 ( 100 runs)...
+  K = 5 | Reconstruction error: 1607.142 | RSS: 1436.57 | Cophenetic: 0.907 
+Fitting NMF with K = 6 ( 100 runs)...
+  K = 6 | Reconstruction error: 1572.485 | RSS: 1405.91 | Cophenetic: 0.85 
+Fitting NMF with K = 7 ( 100 runs)...
+  K = 7 | Reconstruction error: 1540.046 | RSS: 1377.51 | Cophenetic: 0.837 
+Fitting NMF with K = 8 ( 100 runs)...
+  K = 8 | Reconstruction error: 1508.432 | RSS: 1349.09 | Cophenetic: 0.808 
+Fitting NMF with K = 9 ( 100 runs)...
+  K = 9 | Reconstruction error: 1481.576 | RSS: 1325.2 | Cophenetic: 0.762 
+Fitting NMF with K = 10 ( 100 runs)...
+  K = 10 | Reconstruction error: 1455.326 | RSS: 1304.92 | Cophenetic: 0.758 
+
+Saved K selection metrics: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_K_selection_metrics.csv 
+
+null device 
+          1 
+Saved K selection plots
+
+Fitting final NMF model with K = 4 ...
+Using previously fitted model for K = 4 
+
+Extracting W (subject loadings) and H (component ROI weights)...
+W dimensions: 204 × 4 
+H dimensions: 4 × 318 
+
+Running statistical tests for each component...
+Model: score_k ~ AgeGroup * Diagnosis + Sex
+
+  Component 1 done
+  Component 2 done
+  Component 3 done
+  Component 4 done
+
+Applying FDR correction...
+FDR correction complete
+
+Saved ANOVA results: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_component_lm_anova_results.csv 
+
+Significant results (q_value_by_term < 0.05):
+# A tibble: 6 × 7
+  component   term        df statistic p_value q_value_by_term q_value_all_terms
+  <chr>       <chr>    <dbl>     <dbl>   <dbl>           <dbl>             <dbl>
+1 Component_2 AgeGroup     1      5.16 2.42e-2         0.0485            0.0646 
+2 Component_2 Diagnos…     1      7.96 5.28e-3         0.0106            0.0169 
+3 Component_3 Sex          1     10.7  1.24e-3         0.00248           0.00662
+4 Component_4 AgeGroup     1      9.75 2.06e-3         0.00825           0.00825
+5 Component_4 Diagnos…     1     12.6  4.89e-4         0.00195           0.00391
+6 Component_4 Sex          1     12.9  4.13e-4         0.00165           0.00391
+
+Saving W matrix (subject loadings)...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_W_subject_loadings.csv 
+
+Saving H matrix (component ROI weights)...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_H_component_roi_weights.csv 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_H_component_roi_weights_long.csv 
+
+Extracting top ROIs for each component...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_component_top_ROIs.csv 
+
+Assigning each ROI to primary component...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_ROI_hard_assignment.csv 
+
+Generating plots...
+  Creating component scores boxplot...
+  Creating component ROI weights plot...
+Plots saved
+
+Saving QC summary...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_degree_QC_summary.csv 
+
+==============================
+NMF ANALYSIS COMPLETE
+==============================
+
+Output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF 
+
+Key results:
+  - K final: 4 
+  - Subjects analyzed: 204 
+  - ROIs: 318 
+
+Significant components (AgeGroup:Diagnosis, q < 0.05):
+  No significant interactions at FDR < 0.05
+  Lowest p-value:
+# A tibble: 1 × 4
+  component   statistic p_value q_value_by_term
+  <chr>           <dbl>   <dbl>           <dbl>
+1 Component_1      1.91   0.168           0.672
+
+==============================
+DONE
+==============================
+Main NMF analysis completed successfully.
+End: Sat May  2 10:16:27 PM CST 2026
+
+==========================================
+Step 2: Network Enrichment Analysis
+==========================================
+Start: Sat May  2 10:16:27 PM CST 2026
+Starting NMF Component Network Enrichment Analysis...
+
+NMF directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF 
+Network directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network 
+
+Loading NMF results...
+Loaded ROI assignment: 318 ROIs
+Loaded top ROIs: 248 entries
+
+Number of components: 4 
+
+Loading network definitions...
+  WARNING: DMN file not found: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/default_mode.csv 
+  WARNING: LAN file not found: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/language.csv 
+  WARNING: MD - could not find ROI column
+

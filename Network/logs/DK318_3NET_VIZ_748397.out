@@ -1,0 +1,60 @@
+========================================
+DK318 3-Network Degree Visualization
+========================================
+Host: node4
+Job ID: 748397
+Start time: Tue May  5 11:24:43 AM CST 2026
+
+Activating conda environment...
+Conda environment: rd_env_r
+
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/Network
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/Network/tmp
+
+Visualization script: /data/home/tqi/data1/share/after_freesurfer/CODE/Network/02_DK318_3network_degree_visualization.R
+Analysis directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_3network_analysis/analysis
+
+Starting R visualization...
+----------------------------------------
+Starting DK318 3-network degree visualization...
+
+Loading packages...
+Checking required input files...
+All required files found.
+
+Generating Figure 1: Network overlap membership bar...
+Generating Figure 2: Mixed model adjusted means...
+Generating Figure 3: Raw network degree distributions...
+Generating Figure 4: Mixed model TD-DD t heatmap...
+Generating Figure 5: Mixed model TD-DD contrast profile...
+Generating Figure 6: Per-network TD-DD t heatmap...
+Generating Figure 7: Model comparison scatter plot...
+Generating Figure 8: Forest plot for TD-DD contrasts...
+Generating Figure 9: Network × AgeGroup interaction...
+Generating Figure 10: Diagnosis × AgeGroup interaction per network...
+Generating Figure 11: Combined model comparison heatmap...
+Generating Figure 12: Effect size comparison bar plot...
+
+==============================
+VISUALIZATION COMPLETE
+==============================
+Total figures generated: 12
+All figures saved to: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_3network_analysis/figures 
+----------------------------------------
+
+✓ Visualization completed successfully
+
+========================================
+Job Summary
+========================================
+End time: Tue May  5 11:24:53 AM CST 2026
+Figure directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_3network_analysis/figures
+
+Generated figures:
+  - fig_01_network_overlap_membership_bar
+  - fig_02_mixed_model_adjusted_means_by_network
+  - fig_03_raw_network_degree_distribution
+  - fig_04_mixed_model_TD_minus_DD_t_heatmap
+  - fig_05_mixed_model_TD_minus_DD_contrast_profile
+  - fig_06_per_network_TD_minus_DD_t_heatmap
+========================================

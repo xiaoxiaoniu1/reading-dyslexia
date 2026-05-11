@@ -1,0 +1,25 @@
+Host: node4
+Start: Sun May 10 10:24:12 PM CST 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/NBS/tmp
+NBR_ANALYSIS_MODE: formal
+Subjects included: 204 
+Diagnosis counts:
+
+ TD  DD 
+112  92 
+AgeGroup counts:
+
+Child Adult 
+  117    87 
+Sex counts:
+
+Female   Male 
+   108     96 
+Diagnosis x AgeGroup x Sex counts:
+          Female Male
+                     
+TD Child      25   26
+   Adult      45   16
+DD Child      21   45
+   Adult      17    9
+Network matrix dimension: 204 x 50403 

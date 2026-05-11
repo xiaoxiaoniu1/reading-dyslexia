@@ -1,0 +1,1422 @@
+Warning: dependency ‘Biobase’ is not available
+also installing the dependencies ‘credentials’, ‘gitcreds’, ‘ini’, ‘curl’, ‘gert’, ‘gh’, ‘whisker’, ‘downlit’, ‘httr2’, ‘ragg’, ‘rmarkdown’, ‘yaml’, ‘xopen’, ‘brew’, ‘callr’, ‘evaluate’, ‘jsonlite’, ‘processx’, ‘ps’, ‘R6’, ‘Rmpi’, ‘bigmemory.sri’, ‘BH’, ‘usethis’, ‘cli’, ‘ellipsis’, ‘fs’, ‘miniUI’, ‘pak’, ‘pkgdown’, ‘pkgload’, ‘profvis’, ‘rcmdcheck’, ‘rlang’, ‘roxygen2’, ‘rversions’, ‘sessioninfo’, ‘testthat’, ‘urlchecker’, ‘registry’, ‘rngtools’, ‘gridBase’, ‘BiocManager’, ‘fastICA’, ‘doMPI’, ‘bigmemory’, ‘synchronicity’, ‘corpcor’, ‘devtools’, ‘RUnit’
+
+trying URL 'https://cran.r-project.org/src/contrib/credentials_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 283143 bytes (276 KB)
+==================================================
+downloaded 276 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/gitcreds_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 62569 bytes (61 KB)
+==================================================
+downloaded 61 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/ini_0.3.1.tar.gz'
+Content type 'application/x-gzip' length 3488 bytes
+==================================================
+downloaded 3488 bytes
+
+trying URL 'https://cran.r-project.org/src/contrib/curl_7.1.0.tar.gz'
+Content type 'application/x-gzip' length 717725 bytes (700 KB)
+==================================================
+downloaded 700 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/gert_2.3.1.tar.gz'
+Content type 'application/x-gzip' length 130066 bytes (127 KB)
+==================================================
+downloaded 127 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/gh_1.5.0.tar.gz'
+Content type 'application/x-gzip' length 46366 bytes (45 KB)
+==================================================
+downloaded 45 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/whisker_0.4.1.tar.gz'
+Content type 'application/x-gzip' length 28586 bytes (27 KB)
+==================================================
+downloaded 27 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/downlit_0.4.5.tar.gz'
+Content type 'application/x-gzip' length 37263 bytes (36 KB)
+==================================================
+downloaded 36 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/httr2_1.2.2.tar.gz'
+Content type 'application/x-gzip' length 277334 bytes (270 KB)
+==================================================
+downloaded 270 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/ragg_1.5.2.tar.gz'
+Content type 'application/x-gzip' length 438353 bytes (428 KB)
+==================================================
+downloaded 428 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/rmarkdown_2.31.tar.gz'
+Content type 'application/x-gzip' length 2199845 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/yaml_2.3.12.tar.gz'
+Content type 'application/x-gzip' length 108975 bytes (106 KB)
+==================================================
+downloaded 106 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/xopen_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 11855 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/brew_1.0-10.tar.gz'
+Content type 'application/x-gzip' length 71087 bytes (69 KB)
+==================================================
+downloaded 69 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/callr_3.7.6.tar.gz'
+Content type 'application/x-gzip' length 104358 bytes (101 KB)
+==================================================
+downloaded 101 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/evaluate_1.0.5.tar.gz'
+Content type 'application/x-gzip' length 39322 bytes (38 KB)
+==================================================
+downloaded 38 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/jsonlite_2.0.0.tar.gz'
+Content type 'application/x-gzip' length 1055849 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/processx_3.9.0.tar.gz'
+Content type 'application/x-gzip' length 195281 bytes (190 KB)
+==================================================
+downloaded 190 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/ps_1.9.3.tar.gz'
+Content type 'application/x-gzip' length 172432 bytes (168 KB)
+==================================================
+downloaded 168 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/R6_2.6.1.tar.gz'
+Content type 'application/x-gzip' length 64507 bytes (62 KB)
+==================================================
+downloaded 62 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/Rmpi_0.7-3.4.tar.gz'
+Content type 'application/x-gzip' length 107522 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/bigmemory.sri_0.1.8.tar.gz'
+Content type 'application/x-gzip' length 1909 bytes
+==================================================
+downloaded 1909 bytes
+
+trying URL 'https://cran.r-project.org/src/contrib/BH_1.90.0-1.tar.gz'
+Content type 'application/x-gzip' length 14307014 bytes (13.6 MB)
+==================================================
+downloaded 13.6 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/usethis_3.2.1.tar.gz'
+Content type 'application/x-gzip' length 393912 bytes (384 KB)
+==================================================
+downloaded 384 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/cli_3.6.6.tar.gz'
+Content type 'application/x-gzip' length 644134 bytes (629 KB)
+==================================================
+downloaded 629 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/ellipsis_0.3.3.tar.gz'
+Content type 'application/x-gzip' length 5849 bytes
+==================================================
+downloaded 5849 bytes
+
+trying URL 'https://cran.r-project.org/src/contrib/fs_2.1.0.tar.gz'
+Content type 'application/x-gzip' length 1471347 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/miniUI_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 100855 bytes (98 KB)
+==================================================
+downloaded 98 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/pak_0.9.5.tar.gz'
+Content type 'application/x-gzip' length 3336780 bytes (3.2 MB)
+==================================================
+downloaded 3.2 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/pkgdown_2.2.0.tar.gz'
+Content type 'application/x-gzip' length 1280630 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/pkgload_1.5.2.tar.gz'
+Content type 'application/x-gzip' length 88118 bytes (86 KB)
+==================================================
+downloaded 86 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/profvis_0.4.0.tar.gz'
+Content type 'application/x-gzip' length 301123 bytes (294 KB)
+==================================================
+downloaded 294 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/rcmdcheck_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 73522 bytes (71 KB)
+==================================================
+downloaded 71 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/rlang_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 780860 bytes (762 KB)
+==================================================
+downloaded 762 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/roxygen2_8.0.0.tar.gz'
+Content type 'application/x-gzip' length 370877 bytes (362 KB)
+==================================================
+downloaded 362 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/rversions_3.0.0.tar.gz'
+Content type 'application/x-gzip' length 86682 bytes (84 KB)
+==================================================
+downloaded 84 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/sessioninfo_1.2.3.tar.gz'
+Content type 'application/x-gzip' length 175597 bytes (171 KB)
+==================================================
+downloaded 171 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/testthat_3.3.2.tar.gz'
+Content type 'application/x-gzip' length 834043 bytes (814 KB)
+==================================================
+downloaded 814 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/urlchecker_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 13340 bytes (13 KB)
+==================================================
+downloaded 13 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/registry_0.5-1.tar.gz'
+Content type 'application/x-gzip' length 170969 bytes (166 KB)
+==================================================
+downloaded 166 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/rngtools_1.5.2.tar.gz'
+Content type 'application/x-gzip' length 22753 bytes (22 KB)
+==================================================
+downloaded 22 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/gridBase_0.4-7.tar.gz'
+Content type 'application/x-gzip' length 153373 bytes (149 KB)
+==================================================
+downloaded 149 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/BiocManager_1.30.27.tar.gz'
+Content type 'application/x-gzip' length 752490 bytes (734 KB)
+==================================================
+downloaded 734 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/fastICA_1.2-7.tar.gz'
+Content type 'application/x-gzip' length 11767 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/doMPI_0.2.2.tar.gz'
+Content type 'application/x-gzip' length 222588 bytes (217 KB)
+==================================================
+downloaded 217 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/bigmemory_4.6.4.tar.gz'
+Content type 'application/x-gzip' length 72285 bytes (70 KB)
+==================================================
+downloaded 70 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/synchronicity_1.3.10.tar.gz'
+Content type 'application/x-gzip' length 11335 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/corpcor_1.6.10.tar.gz'
+Content type 'application/x-gzip' length 22678 bytes (22 KB)
+==================================================
+downloaded 22 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/devtools_2.5.2.tar.gz'
+Content type 'application/x-gzip' length 412614 bytes (402 KB)
+==================================================
+downloaded 402 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/RUnit_0.4.33.1.tar.gz'
+Content type 'application/x-gzip' length 180317 bytes (176 KB)
+==================================================
+downloaded 176 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/NMF_0.28.tar.gz'
+Content type 'application/x-gzip' length 1678046 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+* installing *source* package ‘gitcreds’ ...
+** package ‘gitcreds’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gitcreds)
+* installing *source* package ‘ini’ ...
+** package ‘ini’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ini)
+* installing *source* package ‘curl’ ...
+** package ‘curl’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-curl/00new/curl/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (curl)
+* installing *source* package ‘whisker’ ...
+** package ‘whisker’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (whisker)
+* installing *source* package ‘ragg’ ...
+** package ‘ragg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-ragg/00new/ragg/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ragg)
+* installing *source* package ‘yaml’ ...
+** package ‘yaml’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-yaml/00new/yaml/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (yaml)
+* installing *source* package ‘brew’ ...
+** package ‘brew’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (brew)
+* installing *source* package ‘evaluate’ ...
+** package ‘evaluate’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (evaluate)
+* installing *source* package ‘jsonlite’ ...
+** package ‘jsonlite’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-jsonlite/00new/jsonlite/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (jsonlite)
+* installing *source* package ‘ps’ ...
+** package ‘ps’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing via 'install.libs.R' to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-ps/00new/ps
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ps)
+* installing *source* package ‘R6’ ...
+** package ‘R6’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (R6)
+* installing *source* package ‘Rmpi’ ...
+** package ‘Rmpi’ successfully unpacked and MD5 sums checked
+** using staged installation
+configure: error: "Cannot find mpi.h header file"
+ERROR: configuration failed for package ‘Rmpi’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rmpi’
+* installing *source* package ‘bigmemory.sri’ ...
+** package ‘bigmemory.sri’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (bigmemory.sri)
+* installing *source* package ‘BH’ ...
+** package ‘BH’ successfully unpacked and MD5 sums checked
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BH)
+* installing *source* package ‘cli’ ...
+** package ‘cli’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-cli/00new/cli/libs
+** R
+** exec
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (cli)
+* installing *source* package ‘fs’ ...
+** package ‘fs’ successfully unpacked and MD5 sums checked
+** using staged installation
+Package libuv was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libuv.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libuv' found
+ERROR: configuration failed for package ‘fs’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/fs’
+* restoring previous ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/fs’
+* installing *source* package ‘miniUI’ ...
+** package ‘miniUI’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (miniUI)
+* installing *source* package ‘pak’ ...
+** package ‘pak’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+installing via 'install.libs.R' to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-pak/00new/pak
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pak)
+* installing *source* package ‘rlang’ ...
+** package ‘rlang’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-rlang/00new/rlang/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rlang)
+* installing *source* package ‘registry’ ...
+** package ‘registry’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (registry)
+* installing *source* package ‘rngtools’ ...
+** package ‘rngtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rngtools)
+* installing *source* package ‘gridBase’ ...
+** package ‘gridBase’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gridBase)
+* installing *source* package ‘BiocManager’ ...
+** package ‘BiocManager’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BiocManager)
+* installing *source* package ‘fastICA’ ...
+** package ‘fastICA’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-fastICA/00new/fastICA/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (fastICA)
+* installing *source* package ‘corpcor’ ...
+** package ‘corpcor’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (corpcor)
+* installing *source* package ‘RUnit’ ...
+** package ‘RUnit’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (RUnit)
+* installing *source* package ‘credentials’ ...
+** package ‘credentials’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (credentials)
+* installing *source* package ‘downlit’ ...
+** package ‘downlit’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (downlit)
+* installing *source* package ‘httr2’ ...
+** package ‘httr2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (httr2)
+* installing *source* package ‘rmarkdown’ ...
+** package ‘rmarkdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rmarkdown)
+* installing *source* package ‘processx’ ...
+** package ‘processx’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing via 'install.libs.R' to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-processx/00new/processx
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (processx)
+* installing *source* package ‘ellipsis’ ...
+** package ‘ellipsis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ellipsis)
+* installing *source* package ‘profvis’ ...
+** package ‘profvis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-profvis/00new/profvis/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (profvis)
+* installing *source* package ‘rversions’ ...
+** package ‘rversions’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rversions)
+* installing *source* package ‘sessioninfo’ ...
+** package ‘sessioninfo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (sessioninfo)
+* installing *source* package ‘urlchecker’ ...
+** package ‘urlchecker’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (urlchecker)
+ERROR: dependency ‘Rmpi’ is not available for package ‘doMPI’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/doMPI’
+* installing *source* package ‘bigmemory’ ...
+** package ‘bigmemory’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from BigMatrix.cpp:22:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/detail/shared_count.hpp:294:33: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  294 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from BigMatrix.cpp:11:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from BigMatrix.cpp:22:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:354:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  354 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from BigMatrix.cpp:11:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from BigMatrix.cpp:22:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:365:22: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  365 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from BigMatrix.cpp:11:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from BigMatrix.cpp:22:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:423:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  423 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from BigMatrix.cpp:11:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from BigMatrix.cpp:22:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:430:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  430 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from BigMatrix.cpp:11:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from BigMatrix.cpp:22:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function 'boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)':
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:432:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  432 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from BigMatrix.cpp:11:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from bigmemory.cpp:7:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/detail/shared_count.hpp:294:33: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  294 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from bigmemory.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from bigmemory.cpp:7:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:354:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  354 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from bigmemory.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from bigmemory.cpp:7:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:365:22: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  365 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from bigmemory.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from bigmemory.cpp:7:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:423:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  423 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from bigmemory.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from bigmemory.cpp:7:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:430:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  430 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from bigmemory.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from bigmemory.cpp:7:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function 'boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)':
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:432:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  432 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/iomanip:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/RcppCommon.h:54,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rcpp/include/Rcpp.h:27,
+                 from bigmemory.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from deepcopy.cpp:10:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/detail/shared_count.hpp:294:33: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  294 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical.hpp:49,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/try_lexical_convert.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast.hpp:33,
+                 from deepcopy.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from deepcopy.cpp:10:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:354:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  354 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical.hpp:49,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/try_lexical_convert.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast.hpp:33,
+                 from deepcopy.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from deepcopy.cpp:10:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:365:22: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  365 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical.hpp:49,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/try_lexical_convert.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast.hpp:33,
+                 from deepcopy.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from deepcopy.cpp:10:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:423:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  423 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical.hpp:49,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/try_lexical_convert.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast.hpp:33,
+                 from deepcopy.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from deepcopy.cpp:10:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:430:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  430 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical.hpp:49,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/try_lexical_convert.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast.hpp:33,
+                 from deepcopy.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from ../inst/include/bigmemory/BigMatrix.h:10,
+                 from deepcopy.cpp:10:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function 'boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)':
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:432:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  432 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/locale:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical_streams.hpp:43,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/detail/converter_lexical.hpp:49,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast/try_lexical_convert.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/lexical_cast.hpp:33,
+                 from deepcopy.cpp:6:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-bigmemory/00new/bigmemory/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (bigmemory)
+* installing *source* package ‘synchronicity’ ...
+** package ‘synchronicity’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/date_time/local_time/local_date_time.hpp:15,
+                 from synchronicity.cpp:4:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/detail/shared_count.hpp:294:33: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  294 |     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+      |                                 ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/memory:76,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/algorithm.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/move.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/anonymous_shared_memory.hpp:25,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/sync/named_upgradable_mutex.hpp:27,
+                 from synchronicity.cpp:3:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/date_time/local_time/local_date_time.hpp:15,
+                 from synchronicity.cpp:4:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:354:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  354 |     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+      |                               ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/memory:76,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/algorithm.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/move.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/anonymous_shared_memory.hpp:25,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/sync/named_upgradable_mutex.hpp:27,
+                 from synchronicity.cpp:3:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/date_time/local_time/local_date_time.hpp:15,
+                 from synchronicity.cpp:4:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:365:22: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  365 |     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+      |                      ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/memory:76,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/algorithm.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/move.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/anonymous_shared_memory.hpp:25,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/sync/named_upgradable_mutex.hpp:27,
+                 from synchronicity.cpp:3:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/date_time/local_time/local_date_time.hpp:15,
+                 from synchronicity.cpp:4:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:423:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  423 |     shared_ptr & operator=( std::auto_ptr<Y> & r )
+      |                                  ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/memory:76,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/algorithm.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/move.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/anonymous_shared_memory.hpp:25,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/sync/named_upgradable_mutex.hpp:27,
+                 from synchronicity.cpp:3:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/date_time/local_time/local_date_time.hpp:15,
+                 from synchronicity.cpp:4:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:430:34: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  430 |     shared_ptr & operator=( std::auto_ptr<Y> && r )
+      |                                  ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/memory:76,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/algorithm.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/move.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/anonymous_shared_memory.hpp:25,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/sync/named_upgradable_mutex.hpp:27,
+                 from synchronicity.cpp:3:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/shared_ptr.hpp:17,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/date_time/local_time/local_date_time.hpp:15,
+                 from synchronicity.cpp:4:
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function 'boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)':
+/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/smart_ptr/shared_ptr.hpp:432:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  432 |         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+      |                                      ^~~~~~~~
+In file included from /data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/memory:76,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/algorithm.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/move/move.hpp:32,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/anonymous_shared_memory.hpp:25,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/detail/managed_open_or_create_impl.hpp:31,
+                 from /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/BH/include/boost/interprocess/sync/named_upgradable_mutex.hpp:27,
+                 from synchronicity.cpp:3:
+/data/home/tqi/.conda/envs/rd_env_r/x86_64-conda-linux-gnu/include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-synchronicity/00new/synchronicity/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (synchronicity)
+ERROR: dependency ‘Biobase’ is not available for package ‘NMF’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/NMF’
+* installing *source* package ‘gert’ ...
+** package ‘gert’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-gert/00new/gert/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gert)
+* installing *source* package ‘gh’ ...
+** package ‘gh’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gh)
+* installing *source* package ‘xopen’ ...
+** package ‘xopen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (xopen)
+* installing *source* package ‘callr’ ...
+** package ‘callr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (callr)
+* installing *source* package ‘pkgload’ ...
+** package ‘pkgload’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pkgload)
+* installing *source* package ‘usethis’ ...
+** package ‘usethis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (usethis)
+* installing *source* package ‘pkgdown’ ...
+** package ‘pkgdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pkgdown)
+* installing *source* package ‘rcmdcheck’ ...
+** package ‘rcmdcheck’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rcmdcheck)
+* installing *source* package ‘roxygen2’ ...
+** package ‘roxygen2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-roxygen2/00new/roxygen2/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (roxygen2)
+* installing *source* package ‘testthat’ ...
+** package ‘testthat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-testthat/00new/testthat/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (testthat)
+* installing *source* package ‘devtools’ ...
+** package ‘devtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+ERROR: lazy loading failed for package ‘devtools’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/devtools’
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NMF/tmp/RtmpMpkmth/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+trying URL 'https://cran.r-project.org/src/contrib/pheatmap_1.0.13.tar.gz'
+Content type 'application/x-gzip' length 15162 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+* installing *source* package ‘pheatmap’ ...
+** package ‘pheatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pheatmap)
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NMF/tmp/RtmpMpkmth/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Warning messages:
+1: In install.packages(pkg, repos = "https://cran.r-project.org", dependencies = TRUE,  :
+  installation of package ‘Rmpi’ had non-zero exit status
+2: In install.packages(pkg, repos = "https://cran.r-project.org", dependencies = TRUE,  :
+  installation of package ‘fs’ had non-zero exit status
+3: In install.packages(pkg, repos = "https://cran.r-project.org", dependencies = TRUE,  :
+  installation of package ‘doMPI’ had non-zero exit status
+4: In install.packages(pkg, repos = "https://cran.r-project.org", dependencies = TRUE,  :
+  installation of package ‘NMF’ had non-zero exit status
+5: In install.packages(pkg, repos = "https://cran.r-project.org", dependencies = TRUE,  :
+  installation of package ‘devtools’ had non-zero exit status
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Warning: dependency ‘Biobase’ is not available
+trying URL 'https://cran.r-project.org/src/contrib/NMF_0.28.tar.gz'
+Content type 'application/x-gzip' length 1678046 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+ERROR: dependency ‘Biobase’ is not available for package ‘NMF’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/NMF’
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NMF/tmp/RtmpTitR6f/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Error in library(pkg, character.only = TRUE) : 
+  there is no package called ‘NMF’
+In addition: Warning message:
+In install.packages(pkg, repos = "https://cran.r-project.org") :
+  installation of package ‘NMF’ had non-zero exit status
+Execution halted

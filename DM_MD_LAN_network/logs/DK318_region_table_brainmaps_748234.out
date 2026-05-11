@@ -1,0 +1,22 @@
+Start: Mon Apr 27 03:39:35 PM UTC 2026
+Host: node3
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network
+当前工作目录: /data/home/tqi/data1/share/after_freesurfer
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+Removing existing output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5
+
+========== mean_gt1p0_union_reading_v4_v5 ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/mean_gt1p0_union_reading_v4_v5.csv
+First column used: barin_region
+Total requested regions: 57
+LH requested ROIs: 45, matched annot names: 45
+RH requested ROIs: 12, matched annot names: 12
+LH unmatched examples: ['lh_bankssts_part1', 'lh_bankssts_part2', 'lh_caudalmiddlefrontal_part2', 'lh_fusiform_part1', 'lh_fusiform_part3', 'lh_fusiform_part4', 'lh_fusiform_part5', 'lh_fusiform_part6', 'lh_inferiorparietal_part3', 'lh_inferiorparietal_part5']
+RH unmatched examples: ['rh_fusiform_part1', 'rh_inferiortemporal_part2', 'rh_lateraloccipital_part2', 'rh_lateraloccipital_part4', 'rh_lateraloccipital_part7', 'rh_lateraloccipital_part8', 'rh_lateraloccipital_part9', 'rh_lingual_part2', 'rh_middletemporal_part4', 'rh_precentral_part4']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_rh_medial.png

@@ -1,0 +1,208 @@
+==========================================
+DK318 MIND Degree NMF Analysis Pipeline
+==========================================
+Host: node4
+Start: Mon May  4 09:02:04 AM CST 2026
+
+Configuration:
+  SKIP_COMPLETED: true
+
+Conda environment: rd_env_r
+R version: Rscript (R) version 4.3.1 (2023-06-16)
+
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/NMF
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/NMF/tmp
+
+==========================================
+Step 0: Check and Install R Packages
+==========================================
+Start: Mon May  4 09:02:05 AM CST 2026
+
+Checking R packages...
+----------------------------------------
+  ✓ readxl 
+  ✓ dplyr 
+  ✓ stringr 
+  ✓ NMF 
+  ✓ broom 
+  ✓ car 
+  ✓ emmeans 
+  ✓ effectsize 
+  ✓ ggplot2 
+  ✓ reshape2 
+  ✓ RColorBrewer 
+  ✓ pheatmap 
+  ✓ gridExtra 
+
+✓ All required packages are already installed.
+----------------------------------------
+End: Mon May  4 09:02:08 AM CST 2026
+
+==========================================
+Step 1: Main NMF Analysis
+==========================================
+Start: Mon May  4 09:02:08 AM CST 2026
+Starting DK318 MIND Degree NMF Analysis...
+
+Output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3 
+K range: 2, 3, 4, 5, 6, 7, 8, 9, 10 
+NMF runs per K: 100 
+
+Loading demographic data...
+Total subjects in demo file: 204 
+Subjects with valid degree files and covariates: 204 
+
+Cell counts:
+, , Sex = Female
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    25    45
+       DD    21    17
+
+, , Sex = Male
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    26    16
+       DD    45     9
+
+
+Loading degree data...
+Building 204 × 318 degree matrix...
+  Reading subject 1 / 204 
+  Reading subject 50 / 204 
+  Reading subject 100 / 204 
+  Reading subject 150 / 204 
+  Reading subject 200 / 204 
+  Reading subject 204 / 204 
+
+Degree matrix dimensions: 204 × 318 
+Missing values: 0 
+Raw degree range: [ 0.05895494 , 0.1878485 ]
+
+Checking non-negativity...
+Min raw degree: 0.05895494 
+Max raw degree: 0.1878485 
+Number of negative values: 0 
+
+Applying min-max scaling to [0, 1] for each ROI...
+Number of constant ROIs: 0 
+Scaled degree range: [ 0 , 1 ]
+
+Saved scaling info: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3/NMF_degree_scaling_info.csv 
+
+Evaluating NMF for K = 2, 3, 4, 5, 6, 7, 8, 9, 10 ...
+This may take several minutes...
+
+Fitting NMF with K = 2 ( 100 runs)...
+  K = 2 | Reconstruction error: 1746.216 | RSS: 1559.81 | Cophenetic: 0.99 
+Fitting NMF with K = 3 ( 100 runs)...
+  K = 3 | Reconstruction error: 1692.307 | RSS: 1511.43 | Cophenetic: 0.956 
+Fitting NMF with K = 4 ( 100 runs)...
+  K = 4 | Reconstruction error: 1647.166 | RSS: 1472.06 | Cophenetic: 0.956 
+Fitting NMF with K = 5 ( 100 runs)...
+  K = 5 | Reconstruction error: 1607.142 | RSS: 1436.57 | Cophenetic: 0.907 
+Fitting NMF with K = 6 ( 100 runs)...
+  K = 6 | Reconstruction error: 1572.485 | RSS: 1405.91 | Cophenetic: 0.85 
+Fitting NMF with K = 7 ( 100 runs)...
+  K = 7 | Reconstruction error: 1540.046 | RSS: 1377.51 | Cophenetic: 0.837 
+Fitting NMF with K = 8 ( 100 runs)...
+  K = 8 | Reconstruction error: 1508.432 | RSS: 1349.09 | Cophenetic: 0.808 
+Fitting NMF with K = 9 ( 100 runs)...
+  K = 9 | Reconstruction error: 1481.576 | RSS: 1325.2 | Cophenetic: 0.762 
+Fitting NMF with K = 10 ( 100 runs)...
+  K = 10 | Reconstruction error: 1455.326 | RSS: 1304.92 | Cophenetic: 0.758 
+
+Saved K selection metrics: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3/NMF_K_selection_metrics.csv 
+
+null device 
+          1 
+Saved K selection plots
+
+Fitting final NMF model with K = 3 ...
+Using previously fitted model for K = 3 
+
+Extracting W (subject loadings) and H (component ROI weights)...
+W dimensions: 204 × 3 
+H dimensions: 3 × 318 
+
+Running statistical tests for each component...
+Model: score_k ~ AgeGroup * Diagnosis + Sex
+
+  Component 1 done
+  Component 2 done
+  Component 3 done
+
+Applying FDR correction...
+FDR correction complete
+
+Saved ANOVA results: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3/NMF_component_lm_anova_results.csv 
+
+Significant results (q_value_by_term < 0.05):
+# A tibble: 6 × 7
+  component   term        df statistic p_value q_value_by_term q_value_all_terms
+  <chr>       <chr>    <dbl>     <dbl>   <dbl>           <dbl>             <dbl>
+1 Component_1 AgeGroup     1     10.3  1.58e-3        0.00473            0.00630
+2 Component_1 Diagnos…     1     13.7  2.74e-4        0.000822           0.00329
+3 Component_1 Sex          1     12.2  5.84e-4        0.00175            0.00350
+4 Component_2 Diagnos…     1      4.96 2.71e-2        0.0407             0.0650 
+5 Component_2 Sex          1      4.13 4.34e-2        0.0434             0.0867 
+6 Component_3 Sex          1      6.93 9.13e-3        0.0137             0.0274 
+
+Saving W matrix (subject loadings)...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3/NMF_W_subject_loadings.csv 
+
+Saving H matrix (component ROI weights)...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3/NMF_H_component_roi_weights.csv 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3/NMF_H_component_roi_weights_long.csv 
+
+Extracting top ROIs for each component...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3/NMF_component_top_ROIs.csv 
+
+Assigning each ROI to primary component...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3/NMF_ROI_hard_assignment.csv 
+
+Generating plots...
+  Creating component scores boxplot...
+  Creating component ROI weights plot...
+Plots saved
+
+Saving QC summary...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3/NMF_degree_QC_summary.csv 
+
+==============================
+NMF ANALYSIS COMPLETE
+==============================
+
+Output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_3 
+
+Key results:
+  - K final: 3 
+  - Subjects analyzed: 204 
+  - ROIs: 318 
+
+Significant components (AgeGroup:Diagnosis, q < 0.05):
+  No significant interactions at FDR < 0.05
+  Lowest p-value:
+# A tibble: 1 × 4
+  component   statistic p_value q_value_by_term
+  <chr>           <dbl>   <dbl>           <dbl>
+1 Component_2     0.459   0.499           0.759
+
+==============================
+DONE
+==============================
+Main NMF analysis completed successfully.
+End: Mon May  4 09:41:47 AM CST 2026
+
+==========================================
+Step 2: Network Enrichment Analysis
+==========================================
+Start: Mon May  4 09:41:47 AM CST 2026
+Starting NMF Component Network Enrichment Analysis...
+
+NMF directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF_4 
+Network base directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps 
+
+Loading NMF results...

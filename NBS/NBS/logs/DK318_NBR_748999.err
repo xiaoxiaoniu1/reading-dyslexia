@@ -1,0 +1,20 @@
+Error in `mutate()`:
+ℹ In argument: `network_pair = ifelse(...)`.
+Caused by error in `network1 <= network2`:
+! comparison of these types is not implemented
+Backtrace:
+     ▆
+  1. ├─global make_edge_annotation(roi_meta, nnodes)
+  2. │ └─... %>% ...
+  3. ├─dplyr::mutate(...)
+  4. ├─dplyr:::mutate.data.frame(...)
+  5. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  6. │   ├─base::withCallingHandlers(...)
+  7. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  8. │     └─mask$eval_all_mutate(quo)
+  9. │       └─dplyr (local) eval()
+ 10. ├─base::ifelse(...)
+ 11. └─base::.handleSimpleError(...)
+ 12.   └─dplyr (local) h(simpleError(msg, call))
+ 13.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

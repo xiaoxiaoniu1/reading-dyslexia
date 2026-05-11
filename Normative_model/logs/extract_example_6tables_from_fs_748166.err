@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/Normative_model/extract_example_6tables_from_fs.py", line 378, in <module>
+    main()
+    ~~~~^^
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/Normative_model/extract_example_6tables_from_fs.py", line 354, in main
+    export_tables(
+    ~~~~~~~~~~~~~^
+        build_cortical_table(female_df, mri_db, 'thickness'),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        'female',
+        ^^^^^^^^^
+    )
+    ^
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/Normative_model/extract_example_6tables_from_fs.py", line 315, in export_tables
+    sort_output(thickness_df).to_excel(thickness_path, index=False)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/pandas/core/generic.py", line 2312, in to_excel
+    formatter.write(
+    ~~~~~~~~~~~~~~~^
+        excel_writer,
+        ^^^^^^^^^^^^^
+    ...<6 lines>...
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/pandas/io/formats/excel.py", line 1003, in write
+    writer = ExcelWriter(
+        writer,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "/data/home/tqi/.conda/envs/rd_env_r/lib/python3.13/site-packages/pandas/io/excel/_openpyxl.py", line 58, in __init__
+    from openpyxl.workbook import Workbook
+ModuleNotFoundError: No module named 'openpyxl'

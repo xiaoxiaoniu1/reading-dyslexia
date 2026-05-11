@@ -1,0 +1,199 @@
+==========================================
+DK318 MIND Degree NMF Analysis Pipeline
+==========================================
+Host: node4
+Start: Sat May  2 10:49:09 PM CST 2026
+
+Configuration:
+  SKIP_COMPLETED: true
+
+Conda environment: rd_env_r
+R version: Rscript (R) version 4.3.1 (2023-06-16)
+
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/NMF
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/NMF/tmp
+
+==========================================
+Step 0: Check and Install R Packages
+==========================================
+Start: Sat May  2 10:49:09 PM CST 2026
+
+Checking R packages...
+----------------------------------------
+  ✓ readxl 
+  ✓ dplyr 
+  ✓ stringr 
+  ✓ NMF 
+  ✓ broom 
+  ✓ car 
+  ✓ emmeans 
+  ✓ effectsize 
+  ✓ ggplot2 
+  ✓ reshape2 
+  ✓ RColorBrewer 
+  ✓ pheatmap 
+  ✓ gridExtra 
+
+✓ All required packages are already installed.
+----------------------------------------
+End: Sat May  2 10:49:13 PM CST 2026
+
+==========================================
+Step 1: Main NMF Analysis
+==========================================
+✓ Main NMF analysis already completed. Skipping...
+
+==========================================
+Step 2: Network Enrichment Analysis
+==========================================
+Start: Sat May  2 10:49:13 PM CST 2026
+Starting NMF Component Network Enrichment Analysis...
+
+NMF directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF 
+Network base directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps 
+
+Loading NMF results...
+Loaded ROI assignment: 318 ROIs
+Loaded top ROIs: 248 entries
+
+Number of components: 4 
+
+Loading network definitions...
+   DMN : 63 ROIs
+   MD : 133 ROIs
+   Reading : 57 ROIs
+
+Running Fisher's exact test for enrichment...
+
+Testing enrichment for hard-assigned ROIs...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_network_enrichment_hard_assignment.csv 
+
+Testing enrichment for top ROIs...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_network_enrichment_top_rois.csv 
+
+==============================
+ENRICHMENT ANALYSIS SUMMARY
+==============================
+
+Significant enrichments (hard assignment, q < 0.05):
+   component network n_overlap enrichment_ratio     p_value    q_value
+ Component_4      MD        74         1.195489 0.004071951 0.04886341
+
+Significant enrichments (top ROIs, q < 0.05):
+  No significant enrichments at FDR < 0.05
+
+==============================
+DONE
+==============================
+Network enrichment analysis completed successfully.
+End: Sat May  2 10:49:14 PM CST 2026
+
+==========================================
+Step 3: Enhanced Visualization
+==========================================
+Start: Sat May  2 10:49:14 PM CST 2026
+Starting NMF Visualization...
+
+NMF directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF 
+Output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/plots 
+
+Loading NMF results...
+Loaded data for 4 components
+Number of subjects: 204 
+
+Creating individual component score plots...
+Saved 4 individual component plots
+
+Creating component scores heatmap...
+null device 
+          1 
+Saved component scores heatmap
+
+Creating top ROI heatmaps...
+Saved 4 top ROI plots
+
+Creating ANOVA results heatmap...
+null device 
+          1 
+Saved ANOVA results heatmap
+
+Creating component correlation plot...
+null device 
+          1 
+Saved component correlation plot
+
+Creating violin plots for significant components...
+No significant interactions found (q < 0.05)
+
+Creating summary overview plot...
+Saved summary overview plot
+
+==============================
+VISUALIZATION COMPLETE
+==============================
+
+Output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/plots 
+
+Generated plots:
+  - Individual component boxplots: 4 files
+  - Component scores heatmap: 1 file
+  - Top ROI plots: 4 files
+  - ANOVA results heatmap: 1 file
+  - Component correlation plot: 1 file
+  - Violin plots for significant components: 0 files
+  - Summary overview plot: 1 file
+
+==============================
+DONE
+==============================
+Visualization completed successfully.
+End: Sat May  2 10:49:22 PM CST 2026
+
+==========================================
+Step 4: Post-hoc Analysis
+==========================================
+Start: Sat May  2 10:49:22 PM CST 2026
+Starting NMF Post-hoc Analysis...
+
+NMF directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF 
+
+Loading data...
+Loaded data for 4 components
+Number of subjects: 204 
+
+Identifying components for post-hoc testing...
+Components with significant interaction: 0 
+Components with significant Diagnosis effect: 2 
+Components with significant AgeGroup effect: 2 
+Total components for post-hoc testing: 2 
+
+Running post-hoc contrasts...
+
+  Processing Component_2 ...
+  Processing Component_4 ...
+
+Applying FDR correction to post-hoc tests...
+Saving post-hoc results...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_posthoc_pairwise_contrasts.csv 
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_posthoc_interaction_contrasts.csv 
+
+Calculating descriptive statistics...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_descriptive_statistics.csv 
+
+Creating effect size summary...
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF/NMF_effect_sizes.csv 
+
+==============================
+POST-HOC ANALYSIS SUMMARY
+==============================
+
+Significant pairwise contrasts (q < 0.05):
+   component AgeGroup contrast   estimate  cohens_d     p.value    q_value
+ Component_2    Child  TD - DD 0.09323161 0.5005680 0.005538464 0.01195691
+ Component_4    Child  TD - DD 0.10544813 0.3729649 0.005978455 0.01195691
+ Component_4    Adult  TD - DD 0.11028919 0.6044921 0.020694214 0.02759229
+
+Interaction contrasts (Adult-Child developmental change):
+  No significant interaction contrasts at FDR < 0.05
+
+Effect sizes (Cohen's d) for significant contrasts:

@@ -1,0 +1,56 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘car’
+
+The following object is masked from ‘package:purrr’:
+
+    some
+
+The following object is masked from ‘package:dplyr’:
+
+    recode
+
+
+Attaching package: ‘Matrix’
+
+The following objects are masked from ‘package:tidyr’:
+
+    expand, pack, unpack
+
+
+Attaching package: ‘lmerTest’
+
+The following object is masked from ‘package:lme4’:
+
+    lmer
+
+The following object is masked from ‘package:stats’:
+
+    step
+
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+
+Attaching package: ‘magrittr’
+
+The following object is masked from ‘package:purrr’:
+
+    set_names
+
+The following object is masked from ‘package:tidyr’:
+
+    extract
+
+Error: 'anova' is not an exported object from 'namespace:lmerTest'
+Execution halted

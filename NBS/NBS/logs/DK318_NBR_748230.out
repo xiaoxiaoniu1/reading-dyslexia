@@ -1,0 +1,92 @@
+Host: node4
+Start: Mon Apr 27 11:02:35 PM CST 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/NBS/tmp
+NBR_ANALYSIS_MODE: debug
+Subjects included: 204 
+Diagnosis counts:
+
+ TD  DD 
+112  92 
+AgeGroup counts:
+
+Child Adult 
+  117    87 
+Sex counts:
+
+Female   Male 
+   108     96 
+Diagnosis x AgeGroup x Sex counts:
+          Female Male
+                     
+TD Child      25   26
+   Adult      45   16
+DD Child      21   45
+   Adult      17    9
+Network matrix dimension: 204 x 50403 
+
+==============================
+Running NBR: NBR_overall_DD_gt_TD 
+Model: ~ D + A + S + Age_c 
+Alternative: lower 
+Permutations: 10 
+thrP: 0.01 
+==============================
+Computing observed stats (setting 79 cluster cores).
+Computing permutated stats (setting 79 cluster cores).
+Permutation progress: ....
+
+==============================
+Running NBR: NBR_overall_TD_gt_DD 
+Model: ~ D + A + S + Age_c 
+Alternative: greater 
+Permutations: 10 
+thrP: 0.01 
+==============================
+Computing observed stats (setting 79 cluster cores).
+Computing permutated stats (setting 79 cluster cores).
+Permutation progress: ....
+
+==============================
+Running NBR: NBR_Adult_DD_gt_TD 
+Model: ~ D + Age_c 
+Alternative: lower 
+Permutations: 10 
+thrP: 0.01 
+==============================
+Computing observed stats (setting 79 cluster cores).
+Computing permutated stats (setting 79 cluster cores).
+Permutation progress: ....
+
+==============================
+Running NBR: NBR_Adult_TD_gt_DD 
+Model: ~ D + Age_c 
+Alternative: greater 
+Permutations: 10 
+thrP: 0.01 
+==============================
+Computing observed stats (setting 79 cluster cores).
+Computing permutated stats (setting 79 cluster cores).
+Permutation progress: ....
+
+==============================
+Running NBR: NBR_Child_DD_gt_TD 
+Model: ~ D + Age_c 
+Alternative: lower 
+Permutations: 10 
+thrP: 0.01 
+==============================
+Computing observed stats (setting 79 cluster cores).
+Computing permutated stats (setting 79 cluster cores).
+Permutation progress: ....
+
+==============================
+Running NBR: NBR_Child_TD_gt_DD 
+Model: ~ D + Age_c 
+Alternative: greater 
+Permutations: 10 
+thrP: 0.01 
+==============================
+Computing observed stats (setting 79 cluster cores).
+Computing permutated stats (setting 79 cluster cores).
+Permutation progress: ....
+No FWE-significant component for  overall_DD_gt_TD 

@@ -1,4 +1,5 @@
 import os
+import shutil
 import argparse
 from typing import Dict, List, Tuple
 
@@ -23,8 +24,10 @@ DEFAULT_OUTPUT_DIR = os.path.join(
 LH_ANNOT = os.path.join(BASE_DIR, "FILE/DK-318", "lh.DK318.annot")
 RH_ANNOT = os.path.join(BASE_DIR, "FILE/DK-318", "rh.DK318.annot")
 DEFAULT_CSVS = [
-    os.path.join(DEFAULT_CSV_DIR, "brain_regions_at_least_one_task_mean_gt_2.csv"),
-    os.path.join(DEFAULT_CSV_DIR, "brain_regions_at_least_two_tasks_mean_gt_2.csv"),
+    os.path.join(DEFAULT_CSV_DIR, "mean_gt1p0_union_reading_v4_v5.csv"),
+    os.path.join(DEFAULT_CSV_DIR, "multiple_demand.csv"),
+    os.path.join(DEFAULT_CSV_DIR, "default.csv"),
+    os.path.join(DEFAULT_CSV_DIR, "mean_gt1p0_intersection_reading_v4_v5.csv"),
     os.path.join(DEFAULT_CSV_DIR, "alphabetic_structural.csv"),
     os.path.join(DEFAULT_CSV_DIR, "morphosyllabic_functional.csv"),
     os.path.join(DEFAULT_CSV_DIR, "morphosyllabic_structural.csv"),
@@ -151,6 +154,9 @@ def build_hemi_maps(plot_df: pd.DataFrame):
 def render_region_table_brainmaps(csv_path: str, fs_data: Dict[str, object], output_dir: str, color: str):
     table_name = sanitize_name(csv_path)
     table_out_dir = os.path.join(output_dir, table_name)
+    if os.path.isdir(table_out_dir):
+        print(f"Removing existing output directory: {table_out_dir}")
+        shutil.rmtree(table_out_dir)
     os.makedirs(table_out_dir, exist_ok=True)
 
     plot_df = load_table_regions(csv_path)

@@ -1,0 +1,38 @@
+Warning messages:
+1: In value[[3L]](cond) :
+  Failed to export per-analysis tables for Adult_TD_gt_DD: Must use existing variables.
+✖ `strn` not found in `.data`.
+✖ `contrast` not found in `.data`.
+✖ `AgeGroup` not found in `.data`.
+✖ `Sex` not found in `.data`.
+2: In value[[3L]](cond) :
+  Failed to export per-analysis tables for Child_TD_gt_DD: Must use existing variables.
+✖ `strn` not found in `.data`.
+✖ `contrast` not found in `.data`.
+✖ `AgeGroup` not found in `.data`.
+✖ `Sex` not found in `.data`.
+3: In value[[3L]](cond) :
+  Failed to export per-analysis tables for Adult_Female_TD_gt_DD: Must use existing variables.
+✖ `strn` not found in `.data`.
+✖ `contrast` not found in `.data`.
+✖ `AgeGroup` not found in `.data`.
+✖ `Sex` not found in `.data`.
+4: In value[[3L]](cond) :
+  Failed to export per-analysis tables for Adult_Male_TD_gt_DD: Must use existing variables.
+✖ `strn` not found in `.data`.
+✖ `contrast` not found in `.data`.
+✖ `AgeGroup` not found in `.data`.
+✖ `Sex` not found in `.data`.
+5: In value[[3L]](cond) :
+  Failed to export per-analysis tables for Child_Female_TD_gt_DD: Must use existing variables.
+✖ `strn` not found in `.data`.
+✖ `contrast` not found in `.data`.
+✖ `AgeGroup` not found in `.data`.
+✖ `Sex` not found in `.data`.
+6: In value[[3L]](cond) :
+  Failed to export per-analysis tables for Child_Male_TD_gt_DD: Must use existing variables.
+✖ `strn` not found in `.data`.
+✖ `contrast` not found in `.data`.
+✖ `AgeGroup` not found in `.data`.
+✖ `Sex` not found in `.data`.
+sbatch: error: Unable to open file /data/home/tqi/data1/share/after_freesurfer/CODE/edge/run_DK318_NBS.sh

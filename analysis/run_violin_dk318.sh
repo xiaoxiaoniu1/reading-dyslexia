@@ -39,6 +39,10 @@ case "${VARIANT}" in
     RESULT_DIR="/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main"
     LABEL="DK318 main"
     ;;
+  iq)
+    RESULT_DIR="/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main_iq"
+    LABEL="DK318 main + IQ"
+    ;;
   sensitivity)
     RESULT_DIR="/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_sensitivity"
     LABEL="DK318 sensitivity"
@@ -53,7 +57,7 @@ case "${VARIANT}" in
     ;;
   *)
     echo "Unknown variant: ${VARIANT}"
-    echo "Use one of: overall | main | sensitivity | main_sex | sensitivity_sex"
+    echo "Use one of: overall | main | iq | sensitivity | main_sex | sensitivity_sex"
     exit 1
     ;;
 esac

@@ -1,0 +1,188 @@
+Bioconductor version 3.18 (BiocManager 1.30.27), R 4.3.1 (2023-06-16)
+Installing package(s) 'BiocVersion', 'Biobase'
+also installing the dependency ‘BiocGenerics’
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/BiocGenerics_0.48.1.tar.gz'
+Content type 'application/gzip' length 49546 bytes (48 KB)
+==================================================
+downloaded 48 KB
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/BiocVersion_3.18.1.tar.gz'
+Content type 'application/gzip' length 973 bytes
+==================================================
+downloaded 973 bytes
+
+trying URL 'https://bioconductor.org/packages/3.18/bioc/src/contrib/Biobase_2.62.0.tar.gz'
+Content type 'application/gzip' length 1795862 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+* installing *source* package ‘BiocGenerics’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BiocGenerics)
+* installing *source* package ‘BiocVersion’ ...
+** using staged installation
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BiocVersion)
+* installing *source* package ‘Biobase’ ...
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-Biobase/00new/Biobase/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (Biobase)
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NMF/tmp/Rtmpupf7Xx/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+also installing the dependencies ‘Rmpi’, ‘fs’, ‘doMPI’, ‘devtools’
+
+trying URL 'https://cran.r-project.org/src/contrib/Rmpi_0.7-3.4.tar.gz'
+Content type 'application/x-gzip' length 107522 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/fs_2.1.0.tar.gz'
+Content type 'application/x-gzip' length 1471347 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/doMPI_0.2.2.tar.gz'
+Content type 'application/x-gzip' length 222588 bytes (217 KB)
+==================================================
+downloaded 217 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/devtools_2.5.2.tar.gz'
+Content type 'application/x-gzip' length 412614 bytes (402 KB)
+==================================================
+downloaded 402 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/NMF_0.28.tar.gz'
+Content type 'application/x-gzip' length 1678046 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+* installing *source* package ‘Rmpi’ ...
+** package ‘Rmpi’ successfully unpacked and MD5 sums checked
+** using staged installation
+configure: error: "Cannot find mpi.h header file"
+ERROR: configuration failed for package ‘Rmpi’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/Rmpi’
+* installing *source* package ‘fs’ ...
+** package ‘fs’ successfully unpacked and MD5 sums checked
+** using staged installation
+Package libuv was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libuv.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libuv' found
+ERROR: configuration failed for package ‘fs’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/fs’
+* restoring previous ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/fs’
+* installing *source* package ‘NMF’ ...
+** package ‘NMF’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-NMF/00new/NMF/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (NMF)
+ERROR: dependency ‘Rmpi’ is not available for package ‘doMPI’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/doMPI’
+* installing *source* package ‘devtools’ ...
+** package ‘devtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+ERROR: lazy loading failed for package ‘devtools’
+* removing ‘/data/home/tqi/.conda/envs/rd_env_r/lib/R/library/devtools’
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NMF/tmp/Rtmpupf7Xx/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Warning messages:
+1: In install.packages(pkg, repos = "https://cran.r-project.org", dependencies = TRUE,  :
+  installation of package ‘Rmpi’ had non-zero exit status
+2: In install.packages(pkg, repos = "https://cran.r-project.org", dependencies = TRUE,  :
+  installation of package ‘fs’ had non-zero exit status
+3: In install.packages(pkg, repos = "https://cran.r-project.org", dependencies = TRUE,  :
+  installation of package ‘doMPI’ had non-zero exit status
+4: In install.packages(pkg, repos = "https://cran.r-project.org", dependencies = TRUE,  :
+  installation of package ‘devtools’ had non-zero exit status
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+NMF - BioConductor layer [OK] | Shared memory capabilities [OK] | Cores 2/2
+
+Attaching package: ‘car’
+
+The following object is masked from ‘package:dplyr’:
+
+    recode
+
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead. 
+Warning message:
+Unknown or uninitialised column: `has_file`. 
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Error: ERROR: No network definitions loaded. Please check network file paths.
+Execution halted

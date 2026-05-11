@@ -352,10 +352,10 @@ def plot_one_p_column(df, value_col, out_root, surfaces, title_prefix,
         sign_col = f"sign_{domain}_{effect}"
         est_col = f"estimate_{domain}_{effect}"
         if sign_col in sig.columns:
-            signs = pd.to_numeric(sig[sign_col], errors="coerce").fillna(1.0).to_numpy(dtype=float)
+            signs = pd.to_numeric(sig[sign_col], errors="coerce").fillna(1.0).to_numpy(dtype=float, copy=True)
         elif est_col in sig.columns:
-            est = pd.to_numeric(sig[est_col], errors="coerce").to_numpy(dtype=float)
-            signs = np.sign(est)
+            est = pd.to_numeric(sig[est_col], errors="coerce").to_numpy(dtype=float, copy=True)
+            signs = np.sign(est).astype(float, copy=True)
             signs[~np.isfinite(signs)] = 1.0
             signs[signs == 0] = 1.0
         else:

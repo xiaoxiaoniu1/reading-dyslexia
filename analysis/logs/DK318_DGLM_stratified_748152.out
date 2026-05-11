@@ -335,3 +335,104 @@ Red: Male more variable | Blue: Female more variable
     n_roi: 1 | LH hit: 1 | RH hit: 0
     Skip empty surface: rh_lateral (all NaN)
     Skip empty surface: rh_medial (all NaN)
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results.csv
+  Plot: DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results | mean | Diagnosis | uncorrected
+Red: DD > TD | Blue: TD > DD
+    n_roi: 122 | LH hit: 56 | RH hit: 66
+  Plot: DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results | mean | Diagnosis | wholebrain_FDR
+Red: DD > TD | Blue: TD > DD
+    n_roi: 56 | LH hit: 31 | RH hit: 25
+  Plot: DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results | mean | AgeGroup | uncorrected
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 141 | LH hit: 78 | RH hit: 63
+  Plot: DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results | mean | AgeGroup | wholebrain_FDR
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 92 | LH hit: 51 | RH hit: 41
+  Plot: DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results | mean | Diagnosis_AgeGroup_Interaction | uncorrected
+    n_roi: 17 | LH hit: 7 | RH hit: 10
+  Plot: DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results | disp | Diagnosis | uncorrected
+Red: DD more variable | Blue: TD more variable
+    n_roi: 10 | LH hit: 6 | RH hit: 4
+  Plot: DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results | disp | AgeGroup | uncorrected
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 9 | LH hit: 4 | RH hit: 5
+  Plot: DGLM_DK318_Female_Diagnosis_AgeGroup_degree_results | disp | Diagnosis_AgeGroup_Interaction | uncorrected
+    n_roi: 4 | LH hit: 3 | RH hit: 1
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results.csv
+  Plot: DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results | mean | Diagnosis | uncorrected
+Red: DD > TD | Blue: TD > DD
+    n_roi: 32 | LH hit: 13 | RH hit: 19
+  Plot: DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results | mean | AgeGroup | uncorrected
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 63 | LH hit: 31 | RH hit: 32
+  Plot: DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results | mean | AgeGroup | wholebrain_FDR
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 26 | LH hit: 13 | RH hit: 13
+  Plot: DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results | mean | Diagnosis_AgeGroup_Interaction | uncorrected
+    n_roi: 32 | LH hit: 14 | RH hit: 18
+  Plot: DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results | disp | Diagnosis | uncorrected
+Red: DD more variable | Blue: TD more variable
+    n_roi: 6 | LH hit: 1 | RH hit: 5
+  Plot: DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results | disp | AgeGroup | uncorrected
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 23 | LH hit: 10 | RH hit: 13
+  Plot: DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results | disp | AgeGroup | wholebrain_FDR
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 2 | LH hit: 1 | RH hit: 1
+  Plot: DGLM_DK318_Male_Diagnosis_AgeGroup_degree_results | disp | Diagnosis_AgeGroup_Interaction | uncorrected
+    n_roi: 9 | LH hit: 2 | RH hit: 7
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/DGLM_DK318_TD_Adult_vs_Child_degree_results.csv
+  Plot: DGLM_DK318_TD_Adult_vs_Child_degree_results | mean | AgeGroup | uncorrected
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 80 | LH hit: 40 | RH hit: 40
+  Plot: DGLM_DK318_TD_Adult_vs_Child_degree_results | mean | AgeGroup | wholebrain_FDR
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 13 | LH hit: 8 | RH hit: 5
+  Plot: DGLM_DK318_TD_Adult_vs_Child_degree_results | mean | Sex | uncorrected
+Red: Male > Female | Blue: Female > Male
+    n_roi: 32 | LH hit: 17 | RH hit: 15
+  Plot: DGLM_DK318_TD_Adult_vs_Child_degree_results | mean | AgeGroup_Sex_Interaction | uncorrected
+    n_roi: 32 | LH hit: 18 | RH hit: 14
+  Plot: DGLM_DK318_TD_Adult_vs_Child_degree_results | disp | AgeGroup | uncorrected
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 10 | LH hit: 8 | RH hit: 2
+  Plot: DGLM_DK318_TD_Adult_vs_Child_degree_results | disp | Sex | uncorrected
+Red: Male more variable | Blue: Female more variable
+    n_roi: 1 | LH hit: 0 | RH hit: 1
+    Skip empty surface: lh_lateral (all NaN)
+    Skip empty surface: lh_medial (all NaN)
+  Plot: DGLM_DK318_TD_Adult_vs_Child_degree_results | disp | AgeGroup_Sex_Interaction | uncorrected
+    n_roi: 2 | LH hit: 1 | RH hit: 1
+Done plotting stratified brainmaps.
+===== STEP 2/3 DONE =====
+Output dir (STEP 2/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/stratified_brainmaps
+===== STEP 3/3: Run stratified VIOLIN follow-up for significant interaction ROIs =====
+Output dir (STEP 3/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/VIOLIN_Followup_stratified
+Host: node4
+Start: Sun Apr 26 03:28:19 PM CST 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/tmp
+Result dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified
+Label: DK318 stratified
+result_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified 
+out_dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/VIOLIN_Followup_stratified 
+task p_mean_Diagnosis_Sex_Interaction | subset Child : 8 significant ROIs
+task p_mean_Diagnosis_Sex_Interaction_FDR | subset Child : 0 significant ROIs
+task p_disp_Diagnosis_Sex_Interaction | subset Child : 5 significant ROIs
+task p_disp_Diagnosis_Sex_Interaction_FDR | subset Child : 0 significant ROIs
+task p_mean_Diagnosis_Sex_Interaction | subset Adult : 45 significant ROIs
+task p_mean_Diagnosis_Sex_Interaction_FDR | subset Adult : 0 significant ROIs
+task p_disp_Diagnosis_Sex_Interaction | subset Adult : 7 significant ROIs
+task p_disp_Diagnosis_Sex_Interaction_FDR | subset Adult : 0 significant ROIs
+task p_mean_AgeGroup_Sex_Interaction | subset DD : 25 significant ROIs
+task p_mean_AgeGroup_Sex_Interaction_FDR | subset DD : 3 significant ROIs
+task p_disp_AgeGroup_Sex_Interaction | subset DD : 10 significant ROIs
+task p_disp_AgeGroup_Sex_Interaction_FDR | subset DD : 1 significant ROIs
+task p_mean_AgeGroup_Sex_Interaction | subset TD : 32 significant ROIs
+task p_mean_AgeGroup_Sex_Interaction_FDR | subset TD : 0 significant ROIs
+task p_disp_AgeGroup_Sex_Interaction | subset TD : 2 significant ROIs
+task p_disp_AgeGroup_Sex_Interaction_FDR | subset TD : 0 significant ROIs
+done. success: 138 
+End: Sun Apr 26 03:30:06 PM CST 2026
+===== STEP 3/3 DONE =====
+Output dir (STEP 3/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_stratified/VIOLIN_Followup_stratified
+End: Sun Apr 26 03:30:06 PM CST 2026

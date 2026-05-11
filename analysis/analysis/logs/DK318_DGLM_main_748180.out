@@ -1,0 +1,418 @@
+==== TEMP DEBUG INFO ====
+Host: node4
+PWD: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis
+TMPDIR(before): /tmp
+--- env tmp vars ---
+TMPDIR=/tmp
+--- system tmp status ---
+drwxrwxrwt 38 root root 2605056 Apr 27 00:17 /tmp
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb2       439G   28G  389G   7% /
+Filesystem       Inodes  IUsed    IFree IUse% Mounted on
+/dev/sdb2      29270016 521678 28748338    2% /
+--- current dir tmp status ---
+drwxrwxr-x 13 1010 1010 4096 Apr 27 00:14 tmp
+Filesystem      Size  Used Avail Use% Mounted on
+node1:/data1    419T  410T  8.8T  98% /data1
+Filesystem         Inodes     IUsed      IFree IUse% Mounted on
+node1:/data1   8984398336 326404256 8657994080    4% /data1
+--- write test /tmp ---
+write /tmp ok
+--- write test local tmp ---
+write local tmp ok
+=========================
+Host: node4
+Start: Mon Apr 27 12:54:34 AM CST 2026
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/analysis/tmp
+Analysis type: degree
+DGLM result dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main
+VIOLIN follow-up dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/VIOLIN_Followup
+===== STEP 1/3: Run DGLM model =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main
+Analysis type: degree | run_degree: TRUE | run_edge: FALSE 
+Output root: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main 
+Sex filter: none 
+Include age_within_group: FALSE 
+Mean formula: y ~ Diagnosis * AgeGroup * Sex 
+Dispersion formula: ~Diagnosis * AgeGroup * Sex 
+Effects: Diagnosis, AgeGroup, Sex, Diagnosis_AgeGroup, Diagnosis_Sex, AgeGroup_Sex, Diagnosis_AgeGroup_Sex 
+Subjects in demo: 204 
+Subjects with matrix+degree csv: 204 
+
+Cell counts among subjects used:
+, , Sex = Female
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    25    45
+       DD    21    17
+
+, , Sex = Male
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    26    16
+       DD    45     9
+
+ROI number: 318 
+Number of edges: 50403 
+Degree matrix: 204 x 318 
+Loaded network: alphabetic_functional | n_roi = 57 
+Loaded network: alphabetic_structural | n_roi = 23 
+Loaded network: brain_regions_at_least_one_task_mean_gt_2 | n_roi = 45 
+Loaded network: brain_regions_at_least_two_tasks_mean_gt_2 | n_roi = 23 
+Loaded network: domain | n_roi = 63 
+Loaded network: morphosyllabic_functional | n_roi = 79 
+Loaded network: morphosyllabic_structural | n_roi = 77 
+Loaded network: multiple_demand | n_roi = 133 
+
+=== Diagnostic: first ROI ===
+           feature   n fit_status p_mean_Diagnosis p_mean_AgeGroup   p_mean_Sex
+ lh_bankssts_part1 204         ok      0.001066542      0.05510328 0.0002297129
+ p_mean_Diagnosis_AgeGroup p_mean_Diagnosis_Sex p_mean_AgeGroup_Sex
+                 0.1753317            0.4415306           0.9139684
+ p_mean_Diagnosis_AgeGroup_Sex p_disp_Diagnosis p_disp_AgeGroup p_disp_Sex
+                     0.5634445        0.9384802        0.696586  0.9119558
+ p_disp_Diagnosis_AgeGroup p_disp_Diagnosis_Sex p_disp_AgeGroup_Sex
+                 0.1807938            0.7659194            0.488054
+ p_disp_Diagnosis_AgeGroup_Sex
+                     0.6847576
+
+=== Running DGLM degree ===
+Feature 1 / 318 
+Feature 25 / 318 
+Feature 50 / 318 
+Feature 75 / 318 
+Feature 100 / 318 
+Feature 125 / 318 
+Feature 150 / 318 
+Feature 175 / 318 
+Feature 200 / 318 
+Feature 225 / 318 
+Feature 250 / 318 
+Feature 275 / 318 
+Feature 300 / 318 
+Feature 318 / 318 
+Saved degree results: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/DGLM_DK318_degree_results.csv 
+Exported network degree results: alphabetic_functional | n_roi in results = 57 
+Exported network degree results: alphabetic_structural | n_roi in results = 23 
+Exported network degree results: brain_regions_at_least_one_task_mean_gt_2 | n_roi in results = 45 
+Exported network degree results: brain_regions_at_least_two_tasks_mean_gt_2 | n_roi in results = 23 
+Exported network degree results: morphosyllabic_functional | n_roi in results = 79 
+Exported network degree results: morphosyllabic_structural | n_roi in results = 77 
+
+==============================
+Significant degree results, FDR < 0.05 
+==============================
+ result_type                        effect n_tested n_sig_FDR    min_p_raw
+      degree              p_mean_Diagnosis      318        59 4.908707e-05
+      degree               p_mean_AgeGroup      318       112 1.467771e-09
+      degree                    p_mean_Sex      318        77 2.483170e-06
+      degree     p_mean_Diagnosis_AgeGroup      318         1 1.357781e-04
+      degree          p_mean_Diagnosis_Sex      318         1 6.575891e-05
+      degree           p_mean_AgeGroup_Sex      318         4 2.962957e-07
+      degree p_mean_Diagnosis_AgeGroup_Sex      318         0 1.390382e-03
+      degree              p_disp_Diagnosis      318         0 1.000818e-03
+      degree               p_disp_AgeGroup      318         1 1.266857e-05
+      degree                    p_disp_Sex      318         0 3.195182e-03
+      degree     p_disp_Diagnosis_AgeGroup      318         0 2.779350e-02
+      degree          p_disp_Diagnosis_Sex      318         0 3.898064e-02
+      degree           p_disp_AgeGroup_Sex      318         0 1.149418e-03
+      degree p_disp_Diagnosis_AgeGroup_Sex      318         0 7.248356e-03
+    min_p_FDR
+ 7.920080e-03
+ 4.667513e-07
+ 7.896480e-04
+ 4.317743e-02
+ 2.091133e-02
+ 9.422202e-05
+ 2.291566e-01
+ 3.182601e-01
+ 4.028604e-03
+ 9.960142e-01
+ 9.977741e-01
+ 9.893327e-01
+ 3.655151e-01
+ 9.948347e-01
+Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/summary/DGLM_DK318_degree_FDR_summary.csv 
+Saved significant table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/summary/DGLM_DK318_degree_significant_FDR0p05.csv 
+
+DONE.
+===== STEP 1/3 DONE =====
+Output dir (STEP 1/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main
+===== STEP 2/3: Generate DGLM degree brainmaps =====
+Output dir (STEP 2/3): /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main
+Selected degree result directories:
+ - /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+
+===== Degree result directory 1/1 =====
+/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree
+
+========================================
+Plotting: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/DGLM_DK318_degree_results.csv
+Network: False
+========================================
+Loaded result table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/DGLM_DK318_degree_results.csv | rows=318 | cols=195
+Plottable columns in /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree: 22
+Starting plot column 1/22: p_mean_Diagnosis_AgeGroup
+[1/22] Preparing brainmap column: p_mean_Diagnosis_AgeGroup
+[1/22] p_mean_Diagnosis_AgeGroup: 27 significant ROI rows before hemisphere mapping.
+[1/22] p_mean_Diagnosis_AgeGroup: ROI mapped to hemispheres | lh=9 | rh=18
+[1/22] p_mean_Diagnosis_AgeGroup: finite surface vertices | lh=7491 | rh=17334 | total=24825
+[1/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup/significant_regions_p_mean_Diagnosis_AgeGroup.csv
+[1/22] p_mean_Diagnosis_AgeGroup: plotting LH lateral with 7491 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup/p_mean_Diagnosis_AgeGroup_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup/p_mean_Diagnosis_AgeGroup_lh_lateral.png
+[1/22] p_mean_Diagnosis_AgeGroup: plotting LH medial with 7491 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup/p_mean_Diagnosis_AgeGroup_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup/p_mean_Diagnosis_AgeGroup_lh_medial.png
+[1/22] p_mean_Diagnosis_AgeGroup: plotting RH lateral with 17334 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup/p_mean_Diagnosis_AgeGroup_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup/p_mean_Diagnosis_AgeGroup_rh_lateral.png
+[1/22] p_mean_Diagnosis_AgeGroup: plotting RH medial with 17334 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup/p_mean_Diagnosis_AgeGroup_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup/p_mean_Diagnosis_AgeGroup_rh_medial.png
+Finished plot column 1/22: p_mean_Diagnosis_AgeGroup
+Starting plot column 2/22: p_mean_Diagnosis_Sex
+[2/22] Preparing brainmap column: p_mean_Diagnosis_Sex
+[2/22] p_mean_Diagnosis_Sex: 20 significant ROI rows before hemisphere mapping.
+[2/22] p_mean_Diagnosis_Sex: ROI mapped to hemispheres | lh=11 | rh=9
+[2/22] p_mean_Diagnosis_Sex: finite surface vertices | lh=9405 | rh=8560 | total=17965
+[2/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex/significant_regions_p_mean_Diagnosis_Sex.csv
+[2/22] p_mean_Diagnosis_Sex: plotting LH lateral with 9405 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex/p_mean_Diagnosis_Sex_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex/p_mean_Diagnosis_Sex_lh_lateral.png
+[2/22] p_mean_Diagnosis_Sex: plotting LH medial with 9405 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex/p_mean_Diagnosis_Sex_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex/p_mean_Diagnosis_Sex_lh_medial.png
+[2/22] p_mean_Diagnosis_Sex: plotting RH lateral with 8560 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex/p_mean_Diagnosis_Sex_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex/p_mean_Diagnosis_Sex_rh_lateral.png
+[2/22] p_mean_Diagnosis_Sex: plotting RH medial with 8560 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex/p_mean_Diagnosis_Sex_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex/p_mean_Diagnosis_Sex_rh_medial.png
+Finished plot column 2/22: p_mean_Diagnosis_Sex
+Starting plot column 3/22: p_mean_AgeGroup_Sex
+[3/22] Preparing brainmap column: p_mean_AgeGroup_Sex
+[3/22] p_mean_AgeGroup_Sex: 23 significant ROI rows before hemisphere mapping.
+[3/22] p_mean_AgeGroup_Sex: ROI mapped to hemispheres | lh=13 | rh=10
+[3/22] p_mean_AgeGroup_Sex: finite surface vertices | lh=10612 | rh=8514 | total=19126
+[3/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex/significant_regions_p_mean_AgeGroup_Sex.csv
+[3/22] p_mean_AgeGroup_Sex: plotting LH lateral with 10612 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex/p_mean_AgeGroup_Sex_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex/p_mean_AgeGroup_Sex_lh_lateral.png
+[3/22] p_mean_AgeGroup_Sex: plotting LH medial with 10612 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex/p_mean_AgeGroup_Sex_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex/p_mean_AgeGroup_Sex_lh_medial.png
+[3/22] p_mean_AgeGroup_Sex: plotting RH lateral with 8514 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex/p_mean_AgeGroup_Sex_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex/p_mean_AgeGroup_Sex_rh_lateral.png
+[3/22] p_mean_AgeGroup_Sex: plotting RH medial with 8514 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex/p_mean_AgeGroup_Sex_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex/p_mean_AgeGroup_Sex_rh_medial.png
+Finished plot column 3/22: p_mean_AgeGroup_Sex
+Starting plot column 4/22: p_mean_Diagnosis_AgeGroup_Sex
+[4/22] Preparing brainmap column: p_mean_Diagnosis_AgeGroup_Sex
+[4/22] p_mean_Diagnosis_AgeGroup_Sex: 30 significant ROI rows before hemisphere mapping.
+[4/22] p_mean_Diagnosis_AgeGroup_Sex: ROI mapped to hemispheres | lh=16 | rh=14
+[4/22] p_mean_Diagnosis_AgeGroup_Sex: finite surface vertices | lh=15853 | rh=13963 | total=29816
+[4/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_Sex/significant_regions_p_mean_Diagnosis_AgeGroup_Sex.csv
+[4/22] p_mean_Diagnosis_AgeGroup_Sex: plotting LH lateral with 15853 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_Sex/p_mean_Diagnosis_AgeGroup_Sex_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_Sex/p_mean_Diagnosis_AgeGroup_Sex_lh_lateral.png
+[4/22] p_mean_Diagnosis_AgeGroup_Sex: plotting LH medial with 15853 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_Sex/p_mean_Diagnosis_AgeGroup_Sex_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_Sex/p_mean_Diagnosis_AgeGroup_Sex_lh_medial.png
+[4/22] p_mean_Diagnosis_AgeGroup_Sex: plotting RH lateral with 13963 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_Sex/p_mean_Diagnosis_AgeGroup_Sex_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_Sex/p_mean_Diagnosis_AgeGroup_Sex_rh_lateral.png
+[4/22] p_mean_Diagnosis_AgeGroup_Sex: plotting RH medial with 13963 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_Sex/p_mean_Diagnosis_AgeGroup_Sex_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_Sex/p_mean_Diagnosis_AgeGroup_Sex_rh_medial.png
+Finished plot column 4/22: p_mean_Diagnosis_AgeGroup_Sex
+Starting plot column 5/22: p_disp_Diagnosis_AgeGroup
+[5/22] Preparing brainmap column: p_disp_Diagnosis_AgeGroup
+[5/22] p_disp_Diagnosis_AgeGroup: 4 significant ROI rows before hemisphere mapping.
+[5/22] p_disp_Diagnosis_AgeGroup: ROI mapped to hemispheres | lh=2 | rh=2
+[5/22] p_disp_Diagnosis_AgeGroup: finite surface vertices | lh=1893 | rh=1744 | total=3637
+[5/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup/significant_regions_p_disp_Diagnosis_AgeGroup.csv
+[5/22] p_disp_Diagnosis_AgeGroup: plotting LH lateral with 1893 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup/p_disp_Diagnosis_AgeGroup_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup/p_disp_Diagnosis_AgeGroup_lh_lateral.png
+[5/22] p_disp_Diagnosis_AgeGroup: plotting LH medial with 1893 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup/p_disp_Diagnosis_AgeGroup_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup/p_disp_Diagnosis_AgeGroup_lh_medial.png
+[5/22] p_disp_Diagnosis_AgeGroup: plotting RH lateral with 1744 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup/p_disp_Diagnosis_AgeGroup_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup/p_disp_Diagnosis_AgeGroup_rh_lateral.png
+[5/22] p_disp_Diagnosis_AgeGroup: plotting RH medial with 1744 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup/p_disp_Diagnosis_AgeGroup_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup/p_disp_Diagnosis_AgeGroup_rh_medial.png
+Finished plot column 5/22: p_disp_Diagnosis_AgeGroup
+Starting plot column 6/22: p_disp_Diagnosis_Sex
+[6/22] Preparing brainmap column: p_disp_Diagnosis_Sex
+[6/22] p_disp_Diagnosis_Sex: 2 significant ROI rows before hemisphere mapping.
+[6/22] p_disp_Diagnosis_Sex: ROI mapped to hemispheres | lh=2 | rh=0
+[6/22] p_disp_Diagnosis_Sex: finite surface vertices | lh=1642 | rh=0 | total=1642
+[6/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_Sex/significant_regions_p_disp_Diagnosis_Sex.csv
+[6/22] p_disp_Diagnosis_Sex: plotting LH lateral with 1642 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_Sex/p_disp_Diagnosis_Sex_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_Sex/p_disp_Diagnosis_Sex_lh_lateral.png
+[6/22] p_disp_Diagnosis_Sex: plotting LH medial with 1642 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_Sex/p_disp_Diagnosis_Sex_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_Sex/p_disp_Diagnosis_Sex_lh_medial.png
+[6/22] p_disp_Diagnosis_Sex: skip RH lateral because all vertex values are NaN.
+[6/22] p_disp_Diagnosis_Sex: skip RH medial because all vertex values are NaN.
+Finished plot column 6/22: p_disp_Diagnosis_Sex
+Starting plot column 7/22: p_disp_AgeGroup_Sex
+[7/22] Preparing brainmap column: p_disp_AgeGroup_Sex
+[7/22] p_disp_AgeGroup_Sex: 6 significant ROI rows before hemisphere mapping.
+[7/22] p_disp_AgeGroup_Sex: ROI mapped to hemispheres | lh=3 | rh=3
+[7/22] p_disp_AgeGroup_Sex: finite surface vertices | lh=2514 | rh=2863 | total=5377
+[7/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_Sex/significant_regions_p_disp_AgeGroup_Sex.csv
+[7/22] p_disp_AgeGroup_Sex: plotting LH lateral with 2514 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_Sex/p_disp_AgeGroup_Sex_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_Sex/p_disp_AgeGroup_Sex_lh_lateral.png
+[7/22] p_disp_AgeGroup_Sex: plotting LH medial with 2514 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_Sex/p_disp_AgeGroup_Sex_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_Sex/p_disp_AgeGroup_Sex_lh_medial.png
+[7/22] p_disp_AgeGroup_Sex: plotting RH lateral with 2863 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_Sex/p_disp_AgeGroup_Sex_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_Sex/p_disp_AgeGroup_Sex_rh_lateral.png
+[7/22] p_disp_AgeGroup_Sex: plotting RH medial with 2863 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_Sex/p_disp_AgeGroup_Sex_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_Sex/p_disp_AgeGroup_Sex_rh_medial.png
+Finished plot column 7/22: p_disp_AgeGroup_Sex
+Starting plot column 8/22: p_disp_Diagnosis_AgeGroup_Sex
+[8/22] Preparing brainmap column: p_disp_Diagnosis_AgeGroup_Sex
+[8/22] p_disp_Diagnosis_AgeGroup_Sex: 5 significant ROI rows before hemisphere mapping.
+[8/22] p_disp_Diagnosis_AgeGroup_Sex: ROI mapped to hemispheres | lh=4 | rh=1
+[8/22] p_disp_Diagnosis_AgeGroup_Sex: finite surface vertices | lh=3635 | rh=617 | total=4252
+[8/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup_Sex/significant_regions_p_disp_Diagnosis_AgeGroup_Sex.csv
+[8/22] p_disp_Diagnosis_AgeGroup_Sex: plotting LH lateral with 3635 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup_Sex/p_disp_Diagnosis_AgeGroup_Sex_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup_Sex/p_disp_Diagnosis_AgeGroup_Sex_lh_lateral.png
+[8/22] p_disp_Diagnosis_AgeGroup_Sex: plotting LH medial with 3635 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup_Sex/p_disp_Diagnosis_AgeGroup_Sex_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup_Sex/p_disp_Diagnosis_AgeGroup_Sex_lh_medial.png
+[8/22] p_disp_Diagnosis_AgeGroup_Sex: plotting RH lateral with 617 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup_Sex/p_disp_Diagnosis_AgeGroup_Sex_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup_Sex/p_disp_Diagnosis_AgeGroup_Sex_rh_lateral.png
+[8/22] p_disp_Diagnosis_AgeGroup_Sex: plotting RH medial with 617 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup_Sex/p_disp_Diagnosis_AgeGroup_Sex_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_Diagnosis_AgeGroup_Sex/p_disp_Diagnosis_AgeGroup_Sex_rh_medial.png
+Finished plot column 8/22: p_disp_Diagnosis_AgeGroup_Sex
+Starting plot column 9/22: p_mean_Diagnosis_FDR
+[9/22] Preparing brainmap column: p_mean_Diagnosis_FDR
+[9/22] p_mean_Diagnosis_FDR: 59 significant ROI rows before hemisphere mapping.
+[9/22] p_mean_Diagnosis_FDR: ROI mapped to hemispheres | lh=28 | rh=31
+[9/22] p_mean_Diagnosis_FDR: finite surface vertices | lh=25763 | rh=30912 | total=56675
+[9/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_FDR/significant_regions_p_mean_Diagnosis_FDR.csv
+[9/22] p_mean_Diagnosis_FDR: plotting LH lateral with 25763 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_FDR/p_mean_Diagnosis_FDR_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_FDR/p_mean_Diagnosis_FDR_lh_lateral.png
+[9/22] p_mean_Diagnosis_FDR: plotting LH medial with 25763 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_FDR/p_mean_Diagnosis_FDR_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_FDR/p_mean_Diagnosis_FDR_lh_medial.png
+[9/22] p_mean_Diagnosis_FDR: plotting RH lateral with 30912 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_FDR/p_mean_Diagnosis_FDR_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_FDR/p_mean_Diagnosis_FDR_rh_lateral.png
+[9/22] p_mean_Diagnosis_FDR: plotting RH medial with 30912 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_FDR/p_mean_Diagnosis_FDR_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_FDR/p_mean_Diagnosis_FDR_rh_medial.png
+Finished plot column 9/22: p_mean_Diagnosis_FDR
+Starting plot column 10/22: p_mean_AgeGroup_FDR
+[10/22] Preparing brainmap column: p_mean_AgeGroup_FDR
+[10/22] p_mean_AgeGroup_FDR: 112 significant ROI rows before hemisphere mapping.
+[10/22] p_mean_AgeGroup_FDR: ROI mapped to hemispheres | lh=56 | rh=56
+[10/22] p_mean_AgeGroup_FDR: finite surface vertices | lh=50414 | rh=54776 | total=105190
+[10/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_FDR/significant_regions_p_mean_AgeGroup_FDR.csv
+[10/22] p_mean_AgeGroup_FDR: plotting LH lateral with 50414 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_FDR/p_mean_AgeGroup_FDR_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_FDR/p_mean_AgeGroup_FDR_lh_lateral.png
+[10/22] p_mean_AgeGroup_FDR: plotting LH medial with 50414 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_FDR/p_mean_AgeGroup_FDR_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_FDR/p_mean_AgeGroup_FDR_lh_medial.png
+[10/22] p_mean_AgeGroup_FDR: plotting RH lateral with 54776 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_FDR/p_mean_AgeGroup_FDR_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_FDR/p_mean_AgeGroup_FDR_rh_lateral.png
+[10/22] p_mean_AgeGroup_FDR: plotting RH medial with 54776 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_FDR/p_mean_AgeGroup_FDR_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_FDR/p_mean_AgeGroup_FDR_rh_medial.png
+Finished plot column 10/22: p_mean_AgeGroup_FDR
+Starting plot column 11/22: p_mean_Sex_FDR
+[11/22] Preparing brainmap column: p_mean_Sex_FDR
+[11/22] p_mean_Sex_FDR: 77 significant ROI rows before hemisphere mapping.
+[11/22] p_mean_Sex_FDR: ROI mapped to hemispheres | lh=43 | rh=34
+[11/22] p_mean_Sex_FDR: finite surface vertices | lh=37651 | rh=31577 | total=69228
+[11/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Sex_FDR/significant_regions_p_mean_Sex_FDR.csv
+[11/22] p_mean_Sex_FDR: plotting LH lateral with 37651 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Sex_FDR/p_mean_Sex_FDR_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Sex_FDR/p_mean_Sex_FDR_lh_lateral.png
+[11/22] p_mean_Sex_FDR: plotting LH medial with 37651 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Sex_FDR/p_mean_Sex_FDR_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Sex_FDR/p_mean_Sex_FDR_lh_medial.png
+[11/22] p_mean_Sex_FDR: plotting RH lateral with 31577 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Sex_FDR/p_mean_Sex_FDR_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Sex_FDR/p_mean_Sex_FDR_rh_lateral.png
+[11/22] p_mean_Sex_FDR: plotting RH medial with 31577 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Sex_FDR/p_mean_Sex_FDR_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Sex_FDR/p_mean_Sex_FDR_rh_medial.png
+Finished plot column 11/22: p_mean_Sex_FDR
+Starting plot column 12/22: p_mean_Diagnosis_AgeGroup_FDR
+[12/22] Preparing brainmap column: p_mean_Diagnosis_AgeGroup_FDR
+[12/22] p_mean_Diagnosis_AgeGroup_FDR: 1 significant ROI rows before hemisphere mapping.
+[12/22] p_mean_Diagnosis_AgeGroup_FDR: ROI mapped to hemispheres | lh=1 | rh=0
+[12/22] p_mean_Diagnosis_AgeGroup_FDR: finite surface vertices | lh=1040 | rh=0 | total=1040
+[12/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_FDR/significant_regions_p_mean_Diagnosis_AgeGroup_FDR.csv
+[12/22] p_mean_Diagnosis_AgeGroup_FDR: plotting LH lateral with 1040 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_FDR/p_mean_Diagnosis_AgeGroup_FDR_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_FDR/p_mean_Diagnosis_AgeGroup_FDR_lh_lateral.png
+[12/22] p_mean_Diagnosis_AgeGroup_FDR: plotting LH medial with 1040 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_FDR/p_mean_Diagnosis_AgeGroup_FDR_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_AgeGroup_FDR/p_mean_Diagnosis_AgeGroup_FDR_lh_medial.png
+[12/22] p_mean_Diagnosis_AgeGroup_FDR: skip RH lateral because all vertex values are NaN.
+[12/22] p_mean_Diagnosis_AgeGroup_FDR: skip RH medial because all vertex values are NaN.
+Finished plot column 12/22: p_mean_Diagnosis_AgeGroup_FDR
+Starting plot column 13/22: p_mean_Diagnosis_Sex_FDR
+[13/22] Preparing brainmap column: p_mean_Diagnosis_Sex_FDR
+[13/22] p_mean_Diagnosis_Sex_FDR: 1 significant ROI rows before hemisphere mapping.
+[13/22] p_mean_Diagnosis_Sex_FDR: ROI mapped to hemispheres | lh=0 | rh=1
+[13/22] p_mean_Diagnosis_Sex_FDR: finite surface vertices | lh=0 | rh=856 | total=856
+[13/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex_FDR/significant_regions_p_mean_Diagnosis_Sex_FDR.csv
+[13/22] p_mean_Diagnosis_Sex_FDR: skip LH lateral because all vertex values are NaN.
+[13/22] p_mean_Diagnosis_Sex_FDR: skip LH medial because all vertex values are NaN.
+[13/22] p_mean_Diagnosis_Sex_FDR: plotting RH lateral with 856 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex_FDR/p_mean_Diagnosis_Sex_FDR_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex_FDR/p_mean_Diagnosis_Sex_FDR_rh_lateral.png
+[13/22] p_mean_Diagnosis_Sex_FDR: plotting RH medial with 856 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex_FDR/p_mean_Diagnosis_Sex_FDR_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_Diagnosis_Sex_FDR/p_mean_Diagnosis_Sex_FDR_rh_medial.png
+Finished plot column 13/22: p_mean_Diagnosis_Sex_FDR
+Starting plot column 14/22: p_mean_AgeGroup_Sex_FDR
+[14/22] Preparing brainmap column: p_mean_AgeGroup_Sex_FDR
+[14/22] p_mean_AgeGroup_Sex_FDR: 4 significant ROI rows before hemisphere mapping.
+[14/22] p_mean_AgeGroup_Sex_FDR: ROI mapped to hemispheres | lh=2 | rh=2
+[14/22] p_mean_AgeGroup_Sex_FDR: finite surface vertices | lh=1402 | rh=1384 | total=2786
+[14/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex_FDR/significant_regions_p_mean_AgeGroup_Sex_FDR.csv
+[14/22] p_mean_AgeGroup_Sex_FDR: plotting LH lateral with 1402 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex_FDR/p_mean_AgeGroup_Sex_FDR_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex_FDR/p_mean_AgeGroup_Sex_FDR_lh_lateral.png
+[14/22] p_mean_AgeGroup_Sex_FDR: plotting LH medial with 1402 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex_FDR/p_mean_AgeGroup_Sex_FDR_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex_FDR/p_mean_AgeGroup_Sex_FDR_lh_medial.png
+[14/22] p_mean_AgeGroup_Sex_FDR: plotting RH lateral with 1384 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex_FDR/p_mean_AgeGroup_Sex_FDR_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex_FDR/p_mean_AgeGroup_Sex_FDR_rh_lateral.png
+[14/22] p_mean_AgeGroup_Sex_FDR: plotting RH medial with 1384 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex_FDR/p_mean_AgeGroup_Sex_FDR_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_mean_AgeGroup_Sex_FDR/p_mean_AgeGroup_Sex_FDR_rh_medial.png
+Finished plot column 14/22: p_mean_AgeGroup_Sex_FDR
+Starting plot column 15/22: p_mean_Diagnosis_AgeGroup_Sex_FDR
+[15/22] Preparing brainmap column: p_mean_Diagnosis_AgeGroup_Sex_FDR
+[15/22] p_mean_Diagnosis_AgeGroup_Sex_FDR: no significant ROI at p<0.05; skip.
+Finished plot column 15/22: p_mean_Diagnosis_AgeGroup_Sex_FDR
+Starting plot column 16/22: p_disp_Diagnosis_FDR
+[16/22] Preparing brainmap column: p_disp_Diagnosis_FDR
+[16/22] p_disp_Diagnosis_FDR: no significant ROI at p<0.05; skip.
+Finished plot column 16/22: p_disp_Diagnosis_FDR
+Starting plot column 17/22: p_disp_AgeGroup_FDR
+[17/22] Preparing brainmap column: p_disp_AgeGroup_FDR
+[17/22] p_disp_AgeGroup_FDR: 1 significant ROI rows before hemisphere mapping.
+[17/22] p_disp_AgeGroup_FDR: ROI mapped to hemispheres | lh=1 | rh=0
+[17/22] p_disp_AgeGroup_FDR: finite surface vertices | lh=1005 | rh=0 | total=1005
+[17/22] Saved significant ROI table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_FDR/significant_regions_p_disp_AgeGroup_FDR.csv
+[17/22] p_disp_AgeGroup_FDR: plotting LH lateral with 1005 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_FDR/p_disp_AgeGroup_FDR_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_FDR/p_disp_AgeGroup_FDR_lh_lateral.png
+[17/22] p_disp_AgeGroup_FDR: plotting LH medial with 1005 finite vertices -> /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_FDR/p_disp_AgeGroup_FDR_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/brainmaps/p_disp_AgeGroup_FDR/p_disp_AgeGroup_FDR_lh_medial.png
+[17/22] p_disp_AgeGroup_FDR: skip RH lateral because all vertex values are NaN.
+[17/22] p_disp_AgeGroup_FDR: skip RH medial because all vertex values are NaN.
+Finished plot column 17/22: p_disp_AgeGroup_FDR
+Starting plot column 18/22: p_disp_Sex_FDR
+[18/22] Preparing brainmap column: p_disp_Sex_FDR
+[18/22] p_disp_Sex_FDR: no significant ROI at p<0.05; skip.
+Finished plot column 18/22: p_disp_Sex_FDR
+Starting plot column 19/22: p_disp_Diagnosis_AgeGroup_FDR
+[19/22] Preparing brainmap column: p_disp_Diagnosis_AgeGroup_FDR
+[19/22] p_disp_Diagnosis_AgeGroup_FDR: no significant ROI at p<0.05; skip.
+Finished plot column 19/22: p_disp_Diagnosis_AgeGroup_FDR
+Starting plot column 20/22: p_disp_Diagnosis_Sex_FDR
+[20/22] Preparing brainmap column: p_disp_Diagnosis_Sex_FDR
+[20/22] p_disp_Diagnosis_Sex_FDR: no significant ROI at p<0.05; skip.
+Finished plot column 20/22: p_disp_Diagnosis_Sex_FDR
+Starting plot column 21/22: p_disp_AgeGroup_Sex_FDR
+[21/22] Preparing brainmap column: p_disp_AgeGroup_Sex_FDR
+[21/22] p_disp_AgeGroup_Sex_FDR: no significant ROI at p<0.05; skip.
+Finished plot column 21/22: p_disp_AgeGroup_Sex_FDR
+Starting plot column 22/22: p_disp_Diagnosis_AgeGroup_Sex_FDR
+[22/22] Preparing brainmap column: p_disp_Diagnosis_AgeGroup_Sex_FDR
+[22/22] p_disp_Diagnosis_AgeGroup_Sex_FDR: no significant ROI at p<0.05; skip.
+Finished plot column 22/22: p_disp_Diagnosis_AgeGroup_Sex_FDR
+Network result directories under /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree: 6
+
+----- Network directory 1/6 for degree dir 1/1 -----
+/data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/network_FDR/alphabetic_functional
+
+========================================
+Plotting: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/network_FDR/alphabetic_functional/DGLM_DK318_degree_network.csv
+Network: True
+========================================
+Loaded result table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/network_FDR/alphabetic_functional/DGLM_DK318_degree_network.csv | rows=57 | cols=87
+Plottable columns in /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_DGLM_main/degree/network_FDR/alphabetic_functional: 14
+Starting plot column 1/14: p_mean_Diagnosis_networkFDR_alphabetic_functional
+[1/14] Preparing brainmap column: p_mean_Diagnosis_networkFDR_alphabetic_functional
+[1/14] p_mean_Diagnosis_networkFDR_alphabetic_functional: 21 significant ROI rows before hemisphere mapping.

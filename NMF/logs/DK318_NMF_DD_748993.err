@@ -1,0 +1,30 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+NMF - BioConductor layer [OK] | Shared memory capabilities [OK] | Cores 2/2
+
+Attaching package: ‘car’
+
+The following object is masked from ‘package:dplyr’:
+
+    recode
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+

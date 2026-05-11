@@ -1,0 +1,529 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║              DK318 MIND Degree T-map 完整分析流程                            ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Host: node4
+Start: Sun May 10 03:37:52 PM CST 2026
+
+工作目录: /data/home/tqi/data1/share/after_freesurfer/CODE/Clustering
+
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/Clustering/tmp
+
+✓ R 版本:
+Rscript (R) version 4.3.1 (2023-06-16)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+步骤 1: DGLM T-map 提取
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+运行: 01_dglm_degree_tmap_TD_minus_DD.R
+预计时间: 5-15 分钟
+
+Starting DK318 MIND Degree Tmap extraction...
+
+Loading demographic data...
+Total subjects: 204 
+
+Cell counts:
+, , Sex = Female
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    25    45
+       DD    21    17
+
+, , Sex = Male
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    26    16
+       DD    45     9
+
+
+Loading degree data...
+Degree matrix: 204 × 318 
+
+Fitting DGLM for each ROI...
+  ROI 1 / 318 
+  ROI 50 / 318 
+  ROI 100 / 318 
+  ROI 150 / 318 
+  ROI 200 / 318 
+  ROI 250 / 318 
+  ROI 300 / 318 
+  ROI 318 / 318 
+
+Fit status summary:
+
+ ok 
+318 
+
+Applying FDR correction...
+
+Saving results...
+Saved full results: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/DGLM_DK318_degree_Tmap_TD_minus_DD_full.csv 
+Saved Tmap 318×2 matrix: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/DGLM_DK318_degree_Tmap_TD_minus_DD_318x2.csv 
+Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/DGLM_DK318_degree_Tmap_TD_minus_DD_summary.csv 
+
+==============================
+SUMMARY
+==============================
+
+Model: y ~ Diagnosis * AgeGroup + Sex
+Contrast direction: TD - DD (positive = TD > DD)
+
+                 contrast n_tested n_sig_FDR_0.05        min_p       min_q
+        Child_TD_minus_DD      318             16 5.546384e-06 0.001763750
+        Adult_TD_minus_DD      318             22 2.000419e-05 0.006361333
+ Adult_minus_Child_change      318              0 4.563160e-04 0.145108493
+
+==============================
+DONE
+==============================
+
+✓ DGLM 分析完成 (用时: 29秒)
+
+检查输出文件:
+  ✓ 完整结果: 319 行
+  ✓ 318×2 矩阵: 319 行
+  ✓ 汇总统计
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+步骤 2: T-map 可视化
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+运行: 02_visualize_tmap.R
+
+T-map 结果可视化
+================
+
+读取 T-map 结果...
+数据维度:
+  完整结果: 318 行 × 30 列
+  318×2 矩阵: 318 行 × 3 列
+
+1. 拟合状态统计
+----------------
+
+ ok 
+318 
+
+百分比:
+
+ ok 
+100 
+
+null device 
+          1 
+保存: 01_fit_status.png
+
+2. T 值分布统计
+----------------
+成功拟合的 ROI 数量: 318 
+
+儿童组 TD-DD t 值:
+  范围: -2.18 4.67 
+  均值: 1.37 
+  中位数: 1.38 
+  正值数量: 288 
+  负值数量: 30 
+
+成人组 TD-DD t 值:
+  范围: -2.66 4.37 
+  均值: 1.36 
+  中位数: 1.41 
+  正值数量: 287 
+  负值数量: 31 
+
+null device 
+          1 
+保存: 02_t_value_distributions.png
+
+3. T-map 散点图
+----------------
+象限分布:
+
+  I: 持续 TD>DD    II: 发育追赶 III: 持续 DD>TD    IV: 发育逆转 
+            261              26               4              27 
+
+显著性统计:
+  两组都显著: 1 
+  仅儿童组显著: 15 
+  仅成人组显著: 21 
+  都不显著: 281 
+
+null device 
+          1 
+保存: 03_tmap_scatter_basic.png
+
+null device 
+          1 
+保存: 04_tmap_scatter_quadrants.png
+
+null device 
+          1 
+保存: 05_tmap_scatter_significance.png
+
+4. 儿童组与成人组 t 值相关性
+------------------------------
+Pearson 相关系数: 0.102 
+p 值: 0.0706 
+
+5. 显著 ROI 列表
+----------------
+
+两组都显著的 ROI (前10个):
+                 feature t_child_TD_minus_DD t_adult_TD_minus_DD
+1 rh_supramarginal_part6            3.511469            3.059724
+  q_child_TD_minus_DD q_adult_TD_minus_DD
+1          0.02191417          0.04228943
+
+保存: significant_ROIs_both_groups.csv
+
+================
+可视化完成
+================
+
+生成的图表:
+  1. 01_fit_status.png - 拟合状态分布
+  2. 02_t_value_distributions.png - t 值分布直方图
+  3. 03_tmap_scatter_basic.png - 基础散点图
+  4. 04_tmap_scatter_quadrants.png - 按象限着色
+  5. 05_tmap_scatter_significance.png - 按显著性着色
+
+输出目录: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/figures 
+
+关键发现:
+  - 成功拟合: 318 / 318 ROI
+  - 儿童组 t 值范围: -2.18 4.67 
+  - 成人组 t 值范围: -2.66 4.37 
+  - 相关系数: 0.102 
+  - 两组都显著的 ROI: 1 
+
+下一步: 使用 318×2 矩阵进行 K-means 聚类分析
+
+✓ 可视化完成
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+步骤 3: 聚类分析
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+运行: 03_cluster_tmap.R
+
+T-map 聚类分析
+==============
+
+读取 T-map 数据...
+总 ROI 数: 318 
+用于聚类的 ROI 数: 318 
+
+聚类矩阵维度: 318 x 2 
+
+K 选择分析 (K = 2 到 8)...
+  K = 2 
+  K = 3 
+  K = 4 
+  K = 5 
+  K = 6 
+  K = 7 
+  K = 8 
+
+聚类质量指标:
+  K      WSS      BSS     TSS BSS_TSS_ratio Silhouette Calinski_Harabasz
+1 2 484.8196 275.8124 760.632     0.3626095  0.3457597          179.7714
+2 3 339.2759 421.3561 760.632     0.5539553  0.3398922          195.6036
+3 4 268.2261 492.4059 760.632     0.6473642  0.3292174          192.1457
+4 5 211.0126 549.6194 760.632     0.7225825  0.3491792          203.8158
+5 6 177.3674 583.2646 760.632     0.7668157  0.3570913          205.1995
+6 7 153.0364 607.5956 760.632     0.7988037  0.3624997          205.7923
+7 8 135.7944 624.8376 760.632     0.8214716  0.3434249          203.7740
+  Davies_Bouldin   Size_CV
+1      1.1356137 0.3379881
+2      0.9597530 0.1159265
+3      0.9674618 0.3388453
+4      0.8490160 0.3703489
+5      0.8500901 0.4181704
+6      0.8266723 0.4777046
+7      0.8060799 0.4479623
+
+保存: k_selection_metrics.csv
+
+生成 K 选择图表...
+null device 
+          1 
+保存: k_selection_comprehensive.png
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+综合评分推荐 K = 7 
+
+null device 
+          1 
+保存: composite_score.png
+
+K=5 主分析...
+保存: degree_Tmap_cluster_K5.csv 
+保存: degree_Tmap_cluster_K5_centroids.csv 
+
+# A tibble: 5 × 10
+  cluster     n mean_t_child mean_t_adult median_t_child median_t_adult
+    <int> <int>        <dbl>        <dbl>          <dbl>          <dbl>
+1       1    70        1.34         2.68           1.39           2.60 
+2       2    90        1.16         1.22           1.11           1.21 
+3       3    40       -0.501        1.09          -0.398          0.958
+4       4    80        2.68         1.41           2.60           1.47 
+5       5    38        1.18        -0.564          0.982         -0.465
+# ℹ 4 more variables: sd_t_child <dbl>, sd_t_adult <dbl>,
+#   mean_overall_TD_minus_DD <dbl>, mean_developmental_change <dbl>
+保存: degree_Tmap_cluster_K5_summary.csv 
+
+聚类解释:
+
+聚类 1 (n = 70 ):
+  儿童组 t 均值: 1.34 
+  成人组 t 均值: 2.68 
+  发育变化: 1.34 
+  模式: 持续 TD > DD 
+
+聚类 2 (n = 90 ):
+  儿童组 t 均值: 1.16 
+  成人组 t 均值: 1.22 
+  发育变化: 0.06 
+  模式: 持续 TD > DD 
+
+聚类 3 (n = 40 ):
+  儿童组 t 均值: -0.5 
+  成人组 t 均值: 1.09 
+  发育变化: 1.59 
+  模式: 发育追赶 
+
+聚类 4 (n = 80 ):
+  儿童组 t 均值: 2.68 
+  成人组 t 均值: 1.41 
+  发育变化: -1.27 
+  模式: 持续 TD > DD 
+
+聚类 5 (n = 38 ):
+  儿童组 t 均值: 1.18 
+  成人组 t 均值: -0.56 
+  发育变化: -1.75 
+  模式: 发育逆转 
+
+null device 
+          1 
+保存: degree_Tmap_cluster_K5_scatter.png 
+null device 
+          1 
+保存: degree_Tmap_silhouette_K5.png 
+
+================
+聚类分析完成
+================
+
+输出目录: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/clustering 
+当前 K = 5 
+综合评分推荐 K = 7 
+平均 Silhouette: 0.349 
+BSS/TSS: 0.723 
+Calinski-Harabasz: 203.8 
+Davies-Bouldin: 0.849 
+
+重点查看图表:
+  - k_selection_comprehensive.png
+  - composite_score.png
+  - degree_Tmap_cluster_K5_scatter.png 
+  - degree_Tmap_silhouette_K5.png 
+
+✓ 聚类分析完成
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+步骤 4: 网络富集分析与可视化
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+运行: 04_cluster_network_enrichment_and_visualization.R
+
+Starting Cluster Network Enrichment Analysis & Visualization...
+
+==============================
+PART 1: ENRICHMENT ANALYSIS
+==============================
+
+Cluster directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/clustering 
+Network base directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps 
+
+Loading cluster results...
+Loaded cluster data: 318 ROIs
+Number of clusters: 5 
+
+Loading network definitions...
+   DMN : 63 ROIs
+   MD : 133 ROIs
+   Reading : 57 ROIs
+
+Testing enrichment for all clusters...
+Saved: cluster_network_enrichment.csv
+
+Saved: cluster_network_enrichment_with_pattern.csv
+
+Extracting detailed overlap information...
+Saved: cluster_network_overlap_details.csv
+
+==============================
+PART 2: ENHANCED VISUALIZATIONS
+==============================
+
+Creating enhanced heatmap...
+Saved: enrichment_heatmap_enhanced.png
+
+Creating enrichment ratio bar plots...
+Saved: enrichment_barplot_by_cluster.png
+
+Creating network distribution pie charts...
+Saved: network_distribution_pie_charts.png
+
+Creating basic enrichment heatmap...
+Saved: cluster_network_enrichment_heatmap.png
+
+==============================
+PART 3: SUMMARY TABLES & REPORTS
+==============================
+
+Creating detailed summary table...
+Saved: enrichment_summary_table.csv
+
+Generating text summary report...
+Saved: enrichment_summary_report.txt
+
+==============================
+ENRICHMENT ANALYSIS SUMMARY
+==============================
+
+Cluster patterns:
+# A tibble: 5 × 4
+  cluster mean_t_child mean_t_adult pattern               
+    <int>        <dbl>        <dbl> <chr>                 
+1       1        1.34         2.68  Persistent TD>DD      
+2       2        1.16         1.22  Persistent TD>DD      
+3       3       -0.501        1.09  Developmental Catch-up
+4       4        2.68         1.41  Persistent TD>DD      
+5       5        1.18        -0.564 Developmental Reversal
+
+Significant enrichments (q < 0.05):
+  No significant enrichments at FDR < 0.05
+
+All enrichments ranked by p-value:
+ cluster                pattern network n_overlap enrichment_ratio    p_value
+       4       Persistent TD>DD     DMN        22        1.3880952 0.03581341
+       2       Persistent TD>DD      MD        43        1.1423559 0.11028989
+       1       Persistent TD>DD Reading        15        1.1954887 0.24198887
+       3 Developmental Catch-up Reading         9        1.2552632 0.27119264
+       4       Persistent TD>DD      MD        36        1.0759398 0.29563004
+       2       Persistent TD>DD Reading        18        1.1157895 0.32429455
+       2       Persistent TD>DD     DMN        18        1.0095238 0.53559946
+       5 Developmental Reversal Reading         7        1.0277008 0.54101081
+       3 Developmental Catch-up     DMN         7        0.8833333 0.71982898
+       1       Persistent TD>DD     DMN        12        0.8653061 0.78721652
+       5 Developmental Reversal      MD        14        0.8808864 0.79842262
+       1       Persistent TD>DD      MD        26        0.8880773 0.85004272
+       3 Developmental Catch-up      MD        14        0.8368421 0.86632401
+       5 Developmental Reversal     DMN         4        0.5313283 0.96747438
+       4       Persistent TD>DD Reading         8        0.5578947 0.99206873
+   q_value
+ 0.5372011
+ 0.8107364
+ 0.8107364
+ 0.8107364
+ 0.8107364
+ 0.8107364
+ 0.9920687
+ 0.9920687
+ 0.9920687
+ 0.9920687
+ 0.9920687
+ 0.9920687
+ 0.9920687
+ 0.9920687
+ 0.9920687
+
+====================================================================== 
+ANALYSIS COMPLETE
+====================================================================== 
+
+Generated files:
+  Data files:
+    - cluster_network_enrichment.csv
+    - cluster_network_enrichment_with_pattern.csv
+    - cluster_network_overlap_details.csv
+    - enrichment_summary_table.csv
+    - enrichment_summary_report.txt
+
+  Visualization files:
+    - enrichment_heatmap_enhanced.png (main heatmap with numbers)
+    - cluster_network_enrichment_heatmap.png (log2 enrichment)
+    - enrichment_barplot_by_cluster.png (all clusters)
+    - network_distribution_pie_charts.png
+
+Key findings:
+  - Check enrichment_heatmap_enhanced.png for overall patterns
+  - Numbers in heatmap show: overlap count (enrichment ratio) significance
+  - Enrichment ratio > 1 means more overlap than expected by chance
+  - Enrichment ratio < 1 means less overlap than expected
+  - Read enrichment_summary_report.txt for detailed results
+
+==============================
+DONE
+==============================
+
+✓ 网络富集分析完成
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                          分析流程完成                                        ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+输出文件位置:
+
+1. T-map 结果:
+   /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/
+   ├── DGLM_DK318_degree_Tmap_TD_minus_DD_full.csv
+   ├── DGLM_DK318_degree_Tmap_TD_minus_DD_318x2.csv
+   └── DGLM_DK318_degree_Tmap_TD_minus_DD_summary.csv
+
+2. 可视化图表:
+   /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/figures/
+
+3. 聚类结果:
+   /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/clustering/
+   ├── degree_Tmap_cluster_K3.csv
+   ├── degree_Tmap_cluster_K3_centroids.csv
+   ├── degree_Tmap_cluster_K3_summary.csv
+   └── k_selection_metrics.csv
+
+4. 网络富集分析:
+   /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/clustering/
+   ├── cluster_network_enrichment.csv
+   ├── cluster_network_enrichment_with_pattern.csv
+   ├── cluster_network_overlap_details.csv
+   ├── enrichment_summary_table.csv
+   ├── enrichment_summary_report.txt
+   ├── enrichment_heatmap_enhanced.png
+   ├── enrichment_barplot_by_cluster.png
+   └── network_distribution_pie_charts.png
+
+查看汇总统计:
+  cat /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_5/DGLM_DK318_degree_Tmap_TD_minus_DD_summary.csv
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+End: Sun May 10 03:38:37 PM CST 2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

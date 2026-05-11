@@ -1,0 +1,817 @@
+subject,file_base,Diagnosis,AgeGroup,Sex,group_label,cluster,cluster_label,mean_degree,n_rois_available,n_rois_cluster
+AdultC_1103,AdultC_1103_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.1230119202195122,82,82
+AdultC_1103,AdultC_1103_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.13657188918279572,93,93
+AdultC_1103,AdultC_1103_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.12855386314634146,41,41
+AdultC_1103,AdultC_1103_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.137169151872549,102,102
+AdultC_1104,AdultC_1104_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.13121191270731708,82,82
+AdultC_1104,AdultC_1104_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.14340658493548386,93,93
+AdultC_1104,AdultC_1104_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.1300881935609756,41,41
+AdultC_1104,AdultC_1104_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.1440343721372549,102,102
+AdultC_1105,AdultC_1105_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.11672862269512195,82,82
+AdultC_1105,AdultC_1105_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.12868007398924733,93,93
+AdultC_1105,AdultC_1105_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.11931300097560975,41,41
+AdultC_1105,AdultC_1105_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.12955163062745098,102,102
+AdultC_1106,AdultC_1106_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.12408628685365854,82,82
+AdultC_1106,AdultC_1106_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.13412343387096778,93,93
+AdultC_1106,AdultC_1106_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.12343356260975609,41,41
+AdultC_1106,AdultC_1106_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.13508303522549023,102,102
+AdultC_1107,AdultC_1107_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13019638812195122,82,82
+AdultC_1107,AdultC_1107_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1385171005483871,93,93
+AdultC_1107,AdultC_1107_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12862677185365856,41,41
+AdultC_1107,AdultC_1107_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13882584803921566,102,102
+AdultC_1108,AdultC_1108_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.12578689970731707,82,82
+AdultC_1108,AdultC_1108_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.13164610286021505,93,93
+AdultC_1108,AdultC_1108_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.12581968019512196,41,41
+AdultC_1108,AdultC_1108_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.13423600984313727,102,102
+AdultC_1109,AdultC_1109_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12275445230487805,82,82
+AdultC_1109,AdultC_1109_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13395907720430106,93,93
+AdultC_1109,AdultC_1109_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12156817075609758,41,41
+AdultC_1109,AdultC_1109_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13447053901960784,102,102
+AdultC_1110,AdultC_1110_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12455198164634144,82,82
+AdultC_1110,AdultC_1110_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1309074864516129,93,93
+AdultC_1110,AdultC_1110_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12490960160975609,41,41
+AdultC_1110,AdultC_1110_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13336871050000002,102,102
+AdultC_1111,AdultC_1111_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12852852625609754,82,82
+AdultC_1111,AdultC_1111_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1359946565591398,93,93
+AdultC_1111,AdultC_1111_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13253881014634145,41,41
+AdultC_1111,AdultC_1111_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13847539211764706,102,102
+AdultC_1112,AdultC_1112_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12803547487804876,82,82
+AdultC_1112,AdultC_1112_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13344964062365589,93,93
+AdultC_1112,AdultC_1112_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12492614385365851,41,41
+AdultC_1112,AdultC_1112_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13384331384313727,102,102
+AdultC_1114,AdultC_1114_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.12086104425609757,82,82
+AdultC_1114,AdultC_1114_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.12614417252688173,93,93
+AdultC_1114,AdultC_1114_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.12403011414634146,41,41
+AdultC_1114,AdultC_1114_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.1302578090392157,102,102
+AdultC_1115,AdultC_1115_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12807875626829268,82,82
+AdultC_1115,AdultC_1115_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.14074865043010754,93,93
+AdultC_1115,AdultC_1115_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13006071687804882,41,41
+AdultC_1115,AdultC_1115_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14189050212745097,102,102
+AdultC_1116,AdultC_1116_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.1250011102560976,82,82
+AdultC_1116,AdultC_1116_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.13388980521505375,93,93
+AdultC_1116,AdultC_1116_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.12376437217073169,41,41
+AdultC_1116,AdultC_1116_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.13712573519607843,102,102
+AdultC_1117,AdultC_1117_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12415496847560976,82,82
+AdultC_1117,AdultC_1117_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13342071033333333,93,93
+AdultC_1117,AdultC_1117_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12634189236585366,41,41
+AdultC_1117,AdultC_1117_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13648494159803923,102,102
+AdultC_1119,AdultC_1119_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12865051879268294,82,82
+AdultC_1119,AdultC_1119_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13566529203225805,93,93
+AdultC_1119,AdultC_1119_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12815364431707318,41,41
+AdultC_1119,AdultC_1119_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13841342867647058,102,102
+AdultC_1120,AdultC_1120_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12791325918292684,82,82
+AdultC_1120,AdultC_1120_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13541751989247314,93,93
+AdultC_1120,AdultC_1120_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1256014143414634,41,41
+AdultC_1120,AdultC_1120_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13384116280392158,102,102
+AdultC_1121,AdultC_1121_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.1289246327073171,82,82
+AdultC_1121,AdultC_1121_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13503481322580646,93,93
+AdultC_1121,AdultC_1121_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13038768807317075,41,41
+AdultC_1121,AdultC_1121_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13569662232352941,102,102
+AdultC_1122,AdultC_1122_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13436671263414635,82,82
+AdultC_1122,AdultC_1122_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1427417329032258,93,93
+AdultC_1122,AdultC_1122_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13352099292682926,41,41
+AdultC_1122,AdultC_1122_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.1429518755392157,102,102
+AdultC_1123,AdultC_1123_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12107181898780489,82,82
+AdultC_1123,AdultC_1123_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.12870792611827958,93,93
+AdultC_1123,AdultC_1123_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1209803908292683,41,41
+AdultC_1123,AdultC_1123_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.12901904842156864,102,102
+AdultC_1124,AdultC_1124_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12194285656097559,82,82
+AdultC_1124,AdultC_1124_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.12794067925806452,93,93
+AdultC_1124,AdultC_1124_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12382270451219513,41,41
+AdultC_1124,AdultC_1124_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.12769089393137256,102,102
+AdultC_1125,AdultC_1125_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12654495124390244,82,82
+AdultC_1125,AdultC_1125_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13790834909677419,93,93
+AdultC_1125,AdultC_1125_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1270621363414634,41,41
+AdultC_1125,AdultC_1125_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13875563577450978,102,102
+AdultC_1126,AdultC_1126_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12811545308536584,82,82
+AdultC_1126,AdultC_1126_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13839481902150538,93,93
+AdultC_1126,AdultC_1126_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12699139502439025,41,41
+AdultC_1126,AdultC_1126_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.1387014454509804,102,102
+AdultC_1127,AdultC_1127_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12461527509756097,82,82
+AdultC_1127,AdultC_1127_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13364362393548385,93,93
+AdultC_1127,AdultC_1127_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12524903958536585,41,41
+AdultC_1127,AdultC_1127_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.1334702325490196,102,102
+AdultC_1128,AdultC_1128_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12978525573170732,82,82
+AdultC_1128,AdultC_1128_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13805490451612903,93,93
+AdultC_1128,AdultC_1128_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12660189334146343,41,41
+AdultC_1128,AdultC_1128_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.1396662874117647,102,102
+AdultC_1129,AdultC_1129_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13330662584146344,82,82
+AdultC_1129,AdultC_1129_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1415257370860215,93,93
+AdultC_1129,AdultC_1129_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13299368951219515,41,41
+AdultC_1129,AdultC_1129_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14184057647058823,102,102
+AdultC_1131,AdultC_1131_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12268039601219512,82,82
+AdultC_1131,AdultC_1131_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1308751116344086,93,93
+AdultC_1131,AdultC_1131_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1280552446829268,41,41
+AdultC_1131,AdultC_1131_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13157720035294118,102,102
+AdultC_1132,AdultC_1132_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13158500868292683,82,82
+AdultC_1132,AdultC_1132_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.14207337630107525,93,93
+AdultC_1132,AdultC_1132_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13284851524390245,41,41
+AdultC_1132,AdultC_1132_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.1407170665490196,102,102
+AdultC_1133,AdultC_1133_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.1192105316585366,82,82
+AdultC_1133,AdultC_1133_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.12725825796774196,93,93
+AdultC_1133,AdultC_1133_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.11487753231707315,41,41
+AdultC_1133,AdultC_1133_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.12664535610784317,102,102
+AdultC_1134,AdultC_1134_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13013537174390244,82,82
+AdultC_1134,AdultC_1134_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.14035715401075272,93,93
+AdultC_1134,AdultC_1134_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13305329453658538,41,41
+AdultC_1134,AdultC_1134_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14095919818627448,102,102
+AdultC_1140,AdultC_1140_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.1324593853902439,82,82
+AdultC_1140,AdultC_1140_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1382390705591398,93,93
+AdultC_1140,AdultC_1140_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13375115331707316,41,41
+AdultC_1140,AdultC_1140_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13845053883333333,102,102
+AdultC_1142,AdultC_1142_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.12637766767073172,82,82
+AdultC_1142,AdultC_1142_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.1379793445483871,93,93
+AdultC_1142,AdultC_1142_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.12740250780487805,41,41
+AdultC_1142,AdultC_1142_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.1377536079901961,102,102
+AdultC_1144,AdultC_1144_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12768698769512193,82,82
+AdultC_1144,AdultC_1144_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13327415386021507,93,93
+AdultC_1144,AdultC_1144_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12671141219512194,41,41
+AdultC_1144,AdultC_1144_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13579923246078432,102,102
+AdultC_1145,AdultC_1145_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12613538225609755,82,82
+AdultC_1145,AdultC_1145_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13424514695698928,93,93
+AdultC_1145,AdultC_1145_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12491775017073173,41,41
+AdultC_1145,AdultC_1145_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13430909311764705,102,102
+AdultC_1149,AdultC_1149_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.1328741223902439,82,82
+AdultC_1149,AdultC_1149_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.1411385667096774,93,93
+AdultC_1149,AdultC_1149_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.13232923739024388,41,41
+AdultC_1149,AdultC_1149_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.14276047719607843,102,102
+AdultC_1150,AdultC_1150_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12308470702439026,82,82
+AdultC_1150,AdultC_1150_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1348020810860215,93,93
+AdultC_1150,AdultC_1150_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12454321097560976,41,41
+AdultC_1150,AdultC_1150_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.1373251512254902,102,102
+AdultC_1151,AdultC_1151_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.1285759037317073,82,82
+AdultC_1151,AdultC_1151_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13430975848387094,93,93
+AdultC_1151,AdultC_1151_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1280556726585366,41,41
+AdultC_1151,AdultC_1151_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.1359384308627451,102,102
+AdultC_1152,AdultC_1152_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.1298415823780488,82,82
+AdultC_1152,AdultC_1152_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.1406909809139785,93,93
+AdultC_1152,AdultC_1152_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.13199409860975608,41,41
+AdultC_1152,AdultC_1152_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.1423437332745098,102,102
+AdultC_1155,AdultC_1155_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.1300215663902439,82,82
+AdultC_1155,AdultC_1155_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13941426092473116,93,93
+AdultC_1155,AdultC_1155_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13554484917073173,41,41
+AdultC_1155,AdultC_1155_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14012415114705884,102,102
+AdultC_1157,AdultC_1157_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.11818090679268295,82,82
+AdultC_1157,AdultC_1157_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.12439865430107525,93,93
+AdultC_1157,AdultC_1157_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.11933026192682927,41,41
+AdultC_1157,AdultC_1157_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.12793800220588233,102,102
+AdultC_1160,AdultC_1160_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.12944383391463415,82,82
+AdultC_1160,AdultC_1160_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.13615456349462365,93,93
+AdultC_1160,AdultC_1160_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.1281311208780488,41,41
+AdultC_1160,AdultC_1160_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.13833286287254903,102,102
+AdultC_1163,AdultC_1163_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.11877753809756098,82,82
+AdultC_1163,AdultC_1163_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.12725517232258066,93,93
+AdultC_1163,AdultC_1163_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12135849536585366,41,41
+AdultC_1163,AdultC_1163_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.12793865258823528,102,102
+AdultC_1164,AdultC_1164_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.1238082603292683,82,82
+AdultC_1164,AdultC_1164_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.13109466034408598,93,93
+AdultC_1164,AdultC_1164_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.12454291270731707,41,41
+AdultC_1164,AdultC_1164_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.1325953110882353,102,102
+AdultC_1165,AdultC_1165_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.13212875508536584,82,82
+AdultC_1165,AdultC_1165_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.1406233558064516,93,93
+AdultC_1165,AdultC_1165_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.13099270412195121,41,41
+AdultC_1165,AdultC_1165_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.14282921965686274,102,102
+AdultC_1167,AdultC_1167_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12902103517073168,82,82
+AdultC_1167,AdultC_1167_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13982882180645162,93,93
+AdultC_1167,AdultC_1167_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13076004912195124,41,41
+AdultC_1167,AdultC_1167_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13906942471568623,102,102
+AdultC_1172,AdultC_1172_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12655740152439024,82,82
+AdultC_1172,AdultC_1172_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13240532212903222,93,93
+AdultC_1172,AdultC_1172_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1271635994390244,41,41
+AdultC_1172,AdultC_1172_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13546693226470588,102,102
+AdultC_1173,AdultC_1173_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13039065253658536,82,82
+AdultC_1173,AdultC_1173_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13860464611827958,93,93
+AdultC_1173,AdultC_1173_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12953516253658537,41,41
+AdultC_1173,AdultC_1173_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14084277898039216,102,102
+AdultC_1174,AdultC_1174_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12429745769512196,82,82
+AdultC_1174,AdultC_1174_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1324535555591398,93,93
+AdultC_1174,AdultC_1174_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1266510447804878,41,41
+AdultC_1174,AdultC_1174_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.1345151274509804,102,102
+AdultD_1204,AdultD_1204_MIND_DK318_combat,DD,Adult,Male,Adult DD,1,C1: Adult Emergence,0.1341721241219512,82,82
+AdultD_1204,AdultD_1204_MIND_DK318_combat,DD,Adult,Male,Adult DD,2,C2: Persistent Strong,0.13941896639784945,93,93
+AdultD_1204,AdultD_1204_MIND_DK318_combat,DD,Adult,Male,Adult DD,3,C3: Reversal,0.13538044982926828,41,41
+AdultD_1204,AdultD_1204_MIND_DK318_combat,DD,Adult,Male,Adult DD,4,C4: Child Predominant,0.14356257176470588,102,102
+AdultD_1206,AdultD_1206_MIND_DK318_combat,DD,Adult,Male,Adult DD,1,C1: Adult Emergence,0.12674490467073168,82,82
+AdultD_1206,AdultD_1206_MIND_DK318_combat,DD,Adult,Male,Adult DD,2,C2: Persistent Strong,0.13313047341935486,93,93
+AdultD_1206,AdultD_1206_MIND_DK318_combat,DD,Adult,Male,Adult DD,3,C3: Reversal,0.130296969,41,41
+AdultD_1206,AdultD_1206_MIND_DK318_combat,DD,Adult,Male,Adult DD,4,C4: Child Predominant,0.13752571671568628,102,102
+AdultD_1210,AdultD_1210_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12386383741463415,82,82
+AdultD_1210,AdultD_1210_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.13059019095698926,93,93
+AdultD_1210,AdultD_1210_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.13080336892682926,41,41
+AdultD_1210,AdultD_1210_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.13269487759803922,102,102
+AdultD_1213,AdultD_1213_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12280861535365856,82,82
+AdultD_1213,AdultD_1213_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.13221331731182798,93,93
+AdultD_1213,AdultD_1213_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.12672311770731706,41,41
+AdultD_1213,AdultD_1213_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.1350407695490196,102,102
+AdultD_1224,AdultD_1224_MIND_DK318_combat,DD,Adult,Male,Adult DD,1,C1: Adult Emergence,0.13199202336585364,82,82
+AdultD_1224,AdultD_1224_MIND_DK318_combat,DD,Adult,Male,Adult DD,2,C2: Persistent Strong,0.13756155113978494,93,93
+AdultD_1224,AdultD_1224_MIND_DK318_combat,DD,Adult,Male,Adult DD,3,C3: Reversal,0.13502123453658538,41,41
+AdultD_1224,AdultD_1224_MIND_DK318_combat,DD,Adult,Male,Adult DD,4,C4: Child Predominant,0.1392861602941176,102,102
+AdultD_1225,AdultD_1225_MIND_DK318_combat,DD,Adult,Male,Adult DD,1,C1: Adult Emergence,0.1226009384390244,82,82
+AdultD_1225,AdultD_1225_MIND_DK318_combat,DD,Adult,Male,Adult DD,2,C2: Persistent Strong,0.12942605297849463,93,93
+AdultD_1225,AdultD_1225_MIND_DK318_combat,DD,Adult,Male,Adult DD,3,C3: Reversal,0.12749914890243902,41,41
+AdultD_1225,AdultD_1225_MIND_DK318_combat,DD,Adult,Male,Adult DD,4,C4: Child Predominant,0.13369065853921572,102,102
+AdultD_1226,AdultD_1226_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12679033314634147,82,82
+AdultD_1226,AdultD_1226_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.1329422847634409,93,93
+AdultD_1226,AdultD_1226_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.13327557612195123,41,41
+AdultD_1226,AdultD_1226_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.1356343666372549,102,102
+AdultD_1227,AdultD_1227_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12216741118292683,82,82
+AdultD_1227,AdultD_1227_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.12858562433333334,93,93
+AdultD_1227,AdultD_1227_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.12770201902439024,41,41
+AdultD_1227,AdultD_1227_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.13142835920588233,102,102
+AdultD_1228,AdultD_1228_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12223380075609755,82,82
+AdultD_1228,AdultD_1228_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.12553157272043008,93,93
+AdultD_1228,AdultD_1228_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.1291840779512195,41,41
+AdultD_1228,AdultD_1228_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.12922321432352943,102,102
+AdultD_1229,AdultD_1229_MIND_DK318_combat,DD,Adult,Male,Adult DD,1,C1: Adult Emergence,0.12428372599999998,82,82
+AdultD_1229,AdultD_1229_MIND_DK318_combat,DD,Adult,Male,Adult DD,2,C2: Persistent Strong,0.13039603220430104,93,93
+AdultD_1229,AdultD_1229_MIND_DK318_combat,DD,Adult,Male,Adult DD,3,C3: Reversal,0.12862080192682926,41,41
+AdultD_1229,AdultD_1229_MIND_DK318_combat,DD,Adult,Male,Adult DD,4,C4: Child Predominant,0.1350645503333333,102,102
+AdultD_1231,AdultD_1231_MIND_DK318_combat,DD,Adult,Male,Adult DD,1,C1: Adult Emergence,0.1302344490487805,82,82
+AdultD_1231,AdultD_1231_MIND_DK318_combat,DD,Adult,Male,Adult DD,2,C2: Persistent Strong,0.13689861275268814,93,93
+AdultD_1231,AdultD_1231_MIND_DK318_combat,DD,Adult,Male,Adult DD,3,C3: Reversal,0.13681505334146343,41,41
+AdultD_1231,AdultD_1231_MIND_DK318_combat,DD,Adult,Male,Adult DD,4,C4: Child Predominant,0.14215498504901958,102,102
+AdultD_1232,AdultD_1232_MIND_DK318_combat,DD,Adult,Male,Adult DD,1,C1: Adult Emergence,0.1217035501585366,82,82
+AdultD_1232,AdultD_1232_MIND_DK318_combat,DD,Adult,Male,Adult DD,2,C2: Persistent Strong,0.13126478343010753,93,93
+AdultD_1232,AdultD_1232_MIND_DK318_combat,DD,Adult,Male,Adult DD,3,C3: Reversal,0.1267963148780488,41,41
+AdultD_1232,AdultD_1232_MIND_DK318_combat,DD,Adult,Male,Adult DD,4,C4: Child Predominant,0.1343141247941176,102,102
+AdultD_1235,AdultD_1235_MIND_DK318_combat,DD,Adult,Male,Adult DD,1,C1: Adult Emergence,0.12852452875609754,82,82
+AdultD_1235,AdultD_1235_MIND_DK318_combat,DD,Adult,Male,Adult DD,2,C2: Persistent Strong,0.13515393268817202,93,93
+AdultD_1235,AdultD_1235_MIND_DK318_combat,DD,Adult,Male,Adult DD,3,C3: Reversal,0.1329121134634146,41,41
+AdultD_1235,AdultD_1235_MIND_DK318_combat,DD,Adult,Male,Adult DD,4,C4: Child Predominant,0.13870724099999998,102,102
+AdultD_1236,AdultD_1236_MIND_DK318_combat,DD,Adult,Male,Adult DD,1,C1: Adult Emergence,0.1282560850731707,82,82
+AdultD_1236,AdultD_1236_MIND_DK318_combat,DD,Adult,Male,Adult DD,2,C2: Persistent Strong,0.13517769378494626,93,93
+AdultD_1236,AdultD_1236_MIND_DK318_combat,DD,Adult,Male,Adult DD,3,C3: Reversal,0.1319086023902439,41,41
+AdultD_1236,AdultD_1236_MIND_DK318_combat,DD,Adult,Male,Adult DD,4,C4: Child Predominant,0.13803683784313725,102,102
+new_DDadults_958,new_DDadults_958_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12355788492682927,82,82
+new_DDadults_958,new_DDadults_958_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.12952740645161293,93,93
+new_DDadults_958,new_DDadults_958_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.1305705678292683,41,41
+new_DDadults_958,new_DDadults_958_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.13342982953921567,102,102
+new_DDadults_952,new_DDadults_952_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12886858189024392,82,82
+new_DDadults_952,new_DDadults_952_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.13268841796774195,93,93
+new_DDadults_952,new_DDadults_952_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.13367457512195122,41,41
+new_DDadults_952,new_DDadults_952_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.13335965379411766,102,102
+new_DDadults_956,new_DDadults_956_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.128093619097561,82,82
+new_DDadults_956,new_DDadults_956_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.13475702321505378,93,93
+new_DDadults_956,new_DDadults_956_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.13485361941463414,41,41
+new_DDadults_956,new_DDadults_956_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.14046145283333333,102,102
+new_DDadults_962,new_DDadults_962_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12766534914634148,82,82
+new_DDadults_962,new_DDadults_962_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.13101846689247312,93,93
+new_DDadults_962,new_DDadults_962_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.13347903063414635,41,41
+new_DDadults_962,new_DDadults_962_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.13707465728431373,102,102
+new_DDadults_951,new_DDadults_951_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.1288639598536585,82,82
+new_DDadults_951,new_DDadults_951_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.13213674478494625,93,93
+new_DDadults_951,new_DDadults_951_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.130733416,41,41
+new_DDadults_951,new_DDadults_951_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.13670404350980395,102,102
+new_DDadults_959,new_DDadults_959_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12577546046341462,82,82
+new_DDadults_959,new_DDadults_959_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.12952702761290322,93,93
+new_DDadults_959,new_DDadults_959_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.12734113068292682,41,41
+new_DDadults_959,new_DDadults_959_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.13430467494117648,102,102
+new_DDadults_854,new_DDadults_854_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12160109520731709,82,82
+new_DDadults_854,new_DDadults_854_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.12105931489247312,93,93
+new_DDadults_854,new_DDadults_854_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.12282402841463415,41,41
+new_DDadults_854,new_DDadults_854_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.12655095459803922,102,102
+new_DDadults_862,new_DDadults_862_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12012221350000002,82,82
+new_DDadults_862,new_DDadults_862_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.1253915640107527,93,93
+new_DDadults_862,new_DDadults_862_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.12511617331707317,41,41
+new_DDadults_862,new_DDadults_862_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.12961465866666666,102,102
+new_DDadults_859,new_DDadults_859_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12151422629268294,82,82
+new_DDadults_859,new_DDadults_859_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.12679439167741935,93,93
+new_DDadults_859,new_DDadults_859_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.12457352229268293,41,41
+new_DDadults_859,new_DDadults_859_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.1303406017352941,102,102
+new_DDadults_860,new_DDadults_860_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.11387261778048778,82,82
+new_DDadults_860,new_DDadults_860_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.12099926633333331,93,93
+new_DDadults_860,new_DDadults_860_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.1188464221219512,41,41
+new_DDadults_860,new_DDadults_860_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.12501561343137252,102,102
+new_DDadults_858,new_DDadults_858_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12649959940243902,82,82
+new_DDadults_858,new_DDadults_858_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.13266263317204302,93,93
+new_DDadults_858,new_DDadults_858_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.13507827770731706,41,41
+new_DDadults_858,new_DDadults_858_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.13770958304901962,102,102
+new_DDadults_863,new_DDadults_863_MIND_DK318_combat,DD,Adult,Female,Adult DD,1,C1: Adult Emergence,0.12419728537804879,82,82
+new_DDadults_863,new_DDadults_863_MIND_DK318_combat,DD,Adult,Female,Adult DD,2,C2: Persistent Strong,0.12720827549462363,93,93
+new_DDadults_863,new_DDadults_863_MIND_DK318_combat,DD,Adult,Female,Adult DD,3,C3: Reversal,0.12887202292682928,41,41
+new_DDadults_863,new_DDadults_863_MIND_DK318_combat,DD,Adult,Female,Adult DD,4,C4: Child Predominant,0.13093088781372547,102,102
+ControlData(AdultsControl)_101,ControlData(AdultsControl)_101_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.1329907143536585,82,82
+ControlData(AdultsControl)_101,ControlData(AdultsControl)_101_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.14523502961290324,93,93
+ControlData(AdultsControl)_101,ControlData(AdultsControl)_101_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.13450344317073173,41,41
+ControlData(AdultsControl)_101,ControlData(AdultsControl)_101_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.1443145021372549,102,102
+ControlData(AdultsControl)_104,ControlData(AdultsControl)_104_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12938463919512194,82,82
+ControlData(AdultsControl)_104,ControlData(AdultsControl)_104_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13831445878494625,93,93
+ControlData(AdultsControl)_104,ControlData(AdultsControl)_104_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13492464741463414,41,41
+ControlData(AdultsControl)_104,ControlData(AdultsControl)_104_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13868417829411764,102,102
+ControlData(AdultsControl)_105,ControlData(AdultsControl)_105_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13245372837804878,82,82
+ControlData(AdultsControl)_105,ControlData(AdultsControl)_105_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.14244460712903226,93,93
+ControlData(AdultsControl)_105,ControlData(AdultsControl)_105_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1314508785121951,41,41
+ControlData(AdultsControl)_105,ControlData(AdultsControl)_105_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14329646905882354,102,102
+ControlData(AdultsControl)_106,ControlData(AdultsControl)_106_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13250238298780484,82,82
+ControlData(AdultsControl)_106,ControlData(AdultsControl)_106_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1425099690967742,93,93
+ControlData(AdultsControl)_106,ControlData(AdultsControl)_106_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1315020393414634,41,41
+ControlData(AdultsControl)_106,ControlData(AdultsControl)_106_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14335597083333335,102,102
+ControlData(AdultsControl)_107,ControlData(AdultsControl)_107_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13042178223170733,82,82
+ControlData(AdultsControl)_107,ControlData(AdultsControl)_107_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1376442000215054,93,93
+ControlData(AdultsControl)_107,ControlData(AdultsControl)_107_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1286440592195122,41,41
+ControlData(AdultsControl)_107,ControlData(AdultsControl)_107_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14024426580392158,102,102
+ControlData(AdultsControl)_108,ControlData(AdultsControl)_108_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.13270119475609757,82,82
+ControlData(AdultsControl)_108,ControlData(AdultsControl)_108_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.14356094179569892,93,93
+ControlData(AdultsControl)_108,ControlData(AdultsControl)_108_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.13164683553658538,41,41
+ControlData(AdultsControl)_108,ControlData(AdultsControl)_108_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.1456837957352941,102,102
+ControlData(AdultsControl)_109,ControlData(AdultsControl)_109_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13882887751219514,82,82
+ControlData(AdultsControl)_109,ControlData(AdultsControl)_109_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.14888677961290323,93,93
+ControlData(AdultsControl)_109,ControlData(AdultsControl)_109_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13796389290243902,41,41
+ControlData(AdultsControl)_109,ControlData(AdultsControl)_109_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14715271270588234,102,102
+ControlData(AdultsControl)_111,ControlData(AdultsControl)_111_MIND_DK318_combat,TD,Adult,Male,Adult TD,1,C1: Adult Emergence,0.12705974471951217,82,82
+ControlData(AdultsControl)_111,ControlData(AdultsControl)_111_MIND_DK318_combat,TD,Adult,Male,Adult TD,2,C2: Persistent Strong,0.13671784256989244,93,93
+ControlData(AdultsControl)_111,ControlData(AdultsControl)_111_MIND_DK318_combat,TD,Adult,Male,Adult TD,3,C3: Reversal,0.1272901877804878,41,41
+ControlData(AdultsControl)_111,ControlData(AdultsControl)_111_MIND_DK318_combat,TD,Adult,Male,Adult TD,4,C4: Child Predominant,0.137645162745098,102,102
+ControlData(AdultsControl)_112,ControlData(AdultsControl)_112_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13129504395121952,82,82
+ControlData(AdultsControl)_112,ControlData(AdultsControl)_112_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1404268225268817,93,93
+ControlData(AdultsControl)_112,ControlData(AdultsControl)_112_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13281057282926828,41,41
+ControlData(AdultsControl)_112,ControlData(AdultsControl)_112_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.1418470435784314,102,102
+ControlData(AdultsControl)_113,ControlData(AdultsControl)_113_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13616403062195126,82,82
+ControlData(AdultsControl)_113,ControlData(AdultsControl)_113_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.14257401306451611,93,93
+ControlData(AdultsControl)_113,ControlData(AdultsControl)_113_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13657640468292684,41,41
+ControlData(AdultsControl)_113,ControlData(AdultsControl)_113_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14563507619607843,102,102
+ControlData(AdultsControl)_114,ControlData(AdultsControl)_114_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12480431602439025,82,82
+ControlData(AdultsControl)_114,ControlData(AdultsControl)_114_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13297080213978496,93,93
+ControlData(AdultsControl)_114,ControlData(AdultsControl)_114_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1267214972195122,41,41
+ControlData(AdultsControl)_114,ControlData(AdultsControl)_114_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13443931535294115,102,102
+ControlData(AdultsControl)_116,ControlData(AdultsControl)_116_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.13385589676829268,82,82
+ControlData(AdultsControl)_116,ControlData(AdultsControl)_116_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.14169361147311826,93,93
+ControlData(AdultsControl)_116,ControlData(AdultsControl)_116_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.13931965041463412,41,41
+ControlData(AdultsControl)_116,ControlData(AdultsControl)_116_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.14453009289215688,102,102
+ControlData(AdultsControl)_118,ControlData(AdultsControl)_118_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.1289205759512195,82,82
+ControlData(AdultsControl)_118,ControlData(AdultsControl)_118_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.1349708349247312,93,93
+ControlData(AdultsControl)_118,ControlData(AdultsControl)_118_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.12909536058536586,41,41
+ControlData(AdultsControl)_118,ControlData(AdultsControl)_118_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13750525492156865,102,102
+ControlData(AdultsControl)_121,ControlData(AdultsControl)_121_MIND_DK318_combat,TD,Adult,Female,Adult TD,1,C1: Adult Emergence,0.12381611546341464,82,82
+ControlData(AdultsControl)_121,ControlData(AdultsControl)_121_MIND_DK318_combat,TD,Adult,Female,Adult TD,2,C2: Persistent Strong,0.13514478979569894,93,93
+ControlData(AdultsControl)_121,ControlData(AdultsControl)_121_MIND_DK318_combat,TD,Adult,Female,Adult TD,3,C3: Reversal,0.1273769024390244,41,41
+ControlData(AdultsControl)_121,ControlData(AdultsControl)_121_MIND_DK318_combat,TD,Adult,Female,Adult TD,4,C4: Child Predominant,0.13545655926470587,102,102
+AdoleC_2101,AdoleC_2101_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12631845282926832,82,82
+AdoleC_2101,AdoleC_2101_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13675165349462365,93,93
+AdoleC_2101,AdoleC_2101_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.13044886073170733,41,41
+AdoleC_2101,AdoleC_2101_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.14164786205882354,102,102
+AdoleC_2102,AdoleC_2102_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12405553997560974,82,82
+AdoleC_2102,AdoleC_2102_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13076128655913977,93,93
+AdoleC_2102,AdoleC_2102_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12819309690243905,41,41
+AdoleC_2102,AdoleC_2102_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13379371002941176,102,102
+AdoleC_2103,AdoleC_2103_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12355732887804878,82,82
+AdoleC_2103,AdoleC_2103_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13441632511827958,93,93
+AdoleC_2103,AdoleC_2103_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12638158765853658,41,41
+AdoleC_2103,AdoleC_2103_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13958827778431374,102,102
+AdoleC_2104,AdoleC_2104_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.1236800952195122,82,82
+AdoleC_2104,AdoleC_2104_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.12891095986021503,93,93
+AdoleC_2104,AdoleC_2104_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12125064746341462,41,41
+AdoleC_2104,AdoleC_2104_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13223152662745097,102,102
+AdoleC_2106,AdoleC_2106_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12595528391463415,82,82
+AdoleC_2106,AdoleC_2106_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.12941637051612903,93,93
+AdoleC_2106,AdoleC_2106_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.1280507057804878,41,41
+AdoleC_2106,AdoleC_2106_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.1295510799117647,102,102
+AdoleC_2107,AdoleC_2107_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.13303417251219513,82,82
+AdoleC_2107,AdoleC_2107_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.14226735052688172,93,93
+AdoleC_2107,AdoleC_2107_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.13677870499999997,41,41
+AdoleC_2107,AdoleC_2107_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.14444336132352945,102,102
+AdoleC_2108,AdoleC_2108_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12726013764634148,82,82
+AdoleC_2108,AdoleC_2108_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.1373624934408602,93,93
+AdoleC_2108,AdoleC_2108_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12767220119512193,41,41
+AdoleC_2108,AdoleC_2108_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.14025934035294116,102,102
+AdoleC_2109,AdoleC_2109_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12783305141463414,82,82
+AdoleC_2109,AdoleC_2109_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.1370146847741935,93,93
+AdoleC_2109,AdoleC_2109_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12856241036585367,41,41
+AdoleC_2109,AdoleC_2109_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.13975458524509804,102,102
+AdoleC_2111,AdoleC_2111_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12279052814634148,82,82
+AdoleC_2111,AdoleC_2111_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13144530832258067,93,93
+AdoleC_2111,AdoleC_2111_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12501680129268292,41,41
+AdoleC_2111,AdoleC_2111_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.1330558843627451,102,102
+AdoleC_2113,AdoleC_2113_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.13180303763414636,82,82
+AdoleC_2113,AdoleC_2113_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.14161243023655914,93,93
+AdoleC_2113,AdoleC_2113_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.13427922719512195,41,41
+AdoleC_2113,AdoleC_2113_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.14310902811764703,102,102
+AdoleC_2114,AdoleC_2114_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12099384043902439,82,82
+AdoleC_2114,AdoleC_2114_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.12839088873118282,93,93
+AdoleC_2114,AdoleC_2114_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12472773773170732,41,41
+AdoleC_2114,AdoleC_2114_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.1322225920588235,102,102
+AdoleC_2115,AdoleC_2115_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.13338558656097563,82,82
+AdoleC_2115,AdoleC_2115_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.1403831869032258,93,93
+AdoleC_2115,AdoleC_2115_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1336604519512195,41,41
+AdoleC_2115,AdoleC_2115_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.14354532648039214,102,102
+AdoleC_2116,AdoleC_2116_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12547019575609758,82,82
+AdoleC_2116,AdoleC_2116_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13468882530107523,93,93
+AdoleC_2116,AdoleC_2116_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.1303898474390244,41,41
+AdoleC_2116,AdoleC_2116_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.13704486089215684,102,102
+AdoleC_2117,AdoleC_2117_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12340934518292682,82,82
+AdoleC_2117,AdoleC_2117_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13360918930107527,93,93
+AdoleC_2117,AdoleC_2117_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.13193283736585365,41,41
+AdoleC_2117,AdoleC_2117_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.1376696553333333,102,102
+AdoleD_2203,AdoleD_2203_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12133733717073172,82,82
+AdoleD_2203,AdoleD_2203_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.12622609779569896,93,93
+AdoleD_2203,AdoleD_2203_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12133976314634146,41,41
+AdoleD_2203,AdoleD_2203_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.12810958877450979,102,102
+AdoleD_2204,AdoleD_2204_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12830750640243901,82,82
+AdoleD_2204,AdoleD_2204_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13525181398924732,93,93
+AdoleD_2204,AdoleD_2204_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.13078859526829267,41,41
+AdoleD_2204,AdoleD_2204_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13667439888235292,102,102
+AdoleD_2205,AdoleD_2205_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12121626148780486,82,82
+AdoleD_2205,AdoleD_2205_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.12791284868817207,93,93
+AdoleD_2205,AdoleD_2205_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.11552798841463413,41,41
+AdoleD_2205,AdoleD_2205_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.12793466125490194,102,102
+AdoleD_2206,AdoleD_2206_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12634839536585363,82,82
+AdoleD_2206,AdoleD_2206_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.13208605031182793,93,93
+AdoleD_2206,AdoleD_2206_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.1238886839268293,41,41
+AdoleD_2206,AdoleD_2206_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.13216939749019607,102,102
+AdoleD_2208,AdoleD_2208_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12532349098780488,82,82
+AdoleD_2208,AdoleD_2208_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.13455296607526882,93,93
+AdoleD_2208,AdoleD_2208_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12427907536585366,41,41
+AdoleD_2208,AdoleD_2208_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.1333074405392157,102,102
+AdoleD_2210,AdoleD_2210_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12021887470731708,82,82
+AdoleD_2210,AdoleD_2210_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.126329418172043,93,93
+AdoleD_2210,AdoleD_2210_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.11997336487804877,41,41
+AdoleD_2210,AdoleD_2210_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.12862954211764704,102,102
+AdoleD_2214,AdoleD_2214_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.1254172639390244,82,82
+AdoleD_2214,AdoleD_2214_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.13068782815053762,93,93
+AdoleD_2214,AdoleD_2214_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12523025107317076,41,41
+AdoleD_2214,AdoleD_2214_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.1320756339117647,102,102
+AdoleD_2216,AdoleD_2216_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12739147106097562,82,82
+AdoleD_2216,AdoleD_2216_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13327107624731183,93,93
+AdoleD_2216,AdoleD_2216_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12532604492682925,41,41
+AdoleD_2216,AdoleD_2216_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13499247206862747,102,102
+AdoleD_2217,AdoleD_2217_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12906351641463415,82,82
+AdoleD_2217,AdoleD_2217_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.1358176972903226,93,93
+AdoleD_2217,AdoleD_2217_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12874746697560976,41,41
+AdoleD_2217,AdoleD_2217_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13762021034313726,102,102
+AdoleD_2218,AdoleD_2218_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1319257707073171,82,82
+AdoleD_2218,AdoleD_2218_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.1394254011827957,93,93
+AdoleD_2218,AdoleD_2218_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.13431618758536587,41,41
+AdoleD_2218,AdoleD_2218_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13958189271568625,102,102
+AdoleD_2221,AdoleD_2221_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1337777549512195,82,82
+AdoleD_2221,AdoleD_2221_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.14319978204301076,93,93
+AdoleD_2221,AdoleD_2221_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.13353175397560976,41,41
+AdoleD_2221,AdoleD_2221_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.14423941312745095,102,102
+AdoleD_2222,AdoleD_2222_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12192069196341465,82,82
+AdoleD_2222,AdoleD_2222_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.13174263270967743,93,93
+AdoleD_2222,AdoleD_2222_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.1244474109512195,41,41
+AdoleD_2222,AdoleD_2222_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.13100701398039216,102,102
+AdoleD_2223,AdoleD_2223_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12438357512195124,82,82
+AdoleD_2223,AdoleD_2223_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.1324877300860215,93,93
+AdoleD_2223,AdoleD_2223_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12784181353658539,41,41
+AdoleD_2223,AdoleD_2223_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.13245866283333335,102,102
+ChildC_3107,ChildC_3107_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12326099178048779,82,82
+ChildC_3107,ChildC_3107_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.12769845660215057,93,93
+ChildC_3107,ChildC_3107_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12825528580487802,41,41
+ChildC_3107,ChildC_3107_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13152711456862748,102,102
+ChildC_3108,ChildC_3108_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12760042917073172,82,82
+ChildC_3108,ChildC_3108_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13566794707526883,93,93
+ChildC_3108,ChildC_3108_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.13013401602439023,41,41
+ChildC_3108,ChildC_3108_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.13899729872549021,102,102
+ChildC_3109,ChildC_3109_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12657243802439025,82,82
+ChildC_3109,ChildC_3109_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13391193062365594,93,93
+ChildC_3109,ChildC_3109_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12454562536585365,41,41
+ChildC_3109,ChildC_3109_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13599195644117645,102,102
+ChildC_3110,ChildC_3110_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12547261468292684,82,82
+ChildC_3110,ChildC_3110_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13467167160215054,93,93
+ChildC_3110,ChildC_3110_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12865953153658538,41,41
+ChildC_3110,ChildC_3110_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.13790992607843136,102,102
+ChildC_3111,ChildC_3111_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12017726886585366,82,82
+ChildC_3111,ChildC_3111_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.12685426341935482,93,93
+ChildC_3111,ChildC_3111_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12141712346341464,41,41
+ChildC_3111,ChildC_3111_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13068601173529412,102,102
+ChildC_3113,ChildC_3113_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12994676407317074,82,82
+ChildC_3113,ChildC_3113_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13918152859139785,93,93
+ChildC_3113,ChildC_3113_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.13196347268292682,41,41
+ChildC_3113,ChildC_3113_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.1396417172254902,102,102
+ChildC_3114,ChildC_3114_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12525161262195122,82,82
+ChildC_3114,ChildC_3114_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13239533235483872,93,93
+ChildC_3114,ChildC_3114_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.1315331733902439,41,41
+ChildC_3114,ChildC_3114_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.13835350926470588,102,102
+ChildC_3115,ChildC_3115_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12010455070731708,82,82
+ChildC_3115,ChildC_3115_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.1271219913870968,93,93
+ChildC_3115,ChildC_3115_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12456934997560976,41,41
+ChildC_3115,ChildC_3115_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.13073504020588236,102,102
+ChildC_3116,ChildC_3116_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12923863848780487,82,82
+ChildC_3116,ChildC_3116_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13730038731182798,93,93
+ChildC_3116,ChildC_3116_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.13570731965853658,41,41
+ChildC_3116,ChildC_3116_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.14326274766666666,102,102
+ChildC_3117,ChildC_3117_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.11438038248780488,82,82
+ChildC_3117,ChildC_3117_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.12001302347311826,93,93
+ChildC_3117,ChildC_3117_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.1170860507317073,41,41
+ChildC_3117,ChildC_3117_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.1222089635392157,102,102
+ChildC_3118,ChildC_3118_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.1233444607682927,82,82
+ChildC_3118,ChildC_3118_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13213714049462366,93,93
+ChildC_3118,ChildC_3118_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12294657217073171,41,41
+ChildC_3118,ChildC_3118_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.1380389044509804,102,102
+ChildC_3120,ChildC_3120_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12925750351219512,82,82
+ChildC_3120,ChildC_3120_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13478137907526883,93,93
+ChildC_3120,ChildC_3120_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1323571229512195,41,41
+ChildC_3120,ChildC_3120_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13767812790196077,102,102
+ChildC_3121,ChildC_3121_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12651909858536584,82,82
+ChildC_3121,ChildC_3121_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13259890838709676,93,93
+ChildC_3121,ChildC_3121_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12743400597560975,41,41
+ChildC_3121,ChildC_3121_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.1362132846372549,102,102
+ChildC_3122,ChildC_3122_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12842858903658536,82,82
+ChildC_3122,ChildC_3122_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.132462647172043,93,93
+ChildC_3122,ChildC_3122_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.13151268085365853,41,41
+ChildC_3122,ChildC_3122_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.1350606550098039,102,102
+ChildD_3202,ChildD_3202_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.1227505338902439,82,82
+ChildD_3202,ChildD_3202_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.12805033922580644,93,93
+ChildD_3202,ChildD_3202_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12221254912195122,41,41
+ChildD_3202,ChildD_3202_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.1306693526764706,102,102
+ChildD_3206,ChildD_3206_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12771258574390243,82,82
+ChildD_3206,ChildD_3206_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.130873521172043,93,93
+ChildD_3206,ChildD_3206_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1310365031707317,41,41
+ChildD_3206,ChildD_3206_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12736688477450978,102,102
+ChildD_3210,ChildD_3210_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.11989777913414634,82,82
+ChildD_3210,ChildD_3210_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12587671035483872,93,93
+ChildD_3210,ChildD_3210_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12439193858536585,41,41
+ChildD_3210,ChildD_3210_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12528378751960784,102,102
+ChildD_3215,ChildD_3215_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12377674951219513,82,82
+ChildD_3215,ChildD_3215_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12541234792473116,93,93
+ChildD_3215,ChildD_3215_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12095992714634146,41,41
+ChildD_3215,ChildD_3215_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12433444107843138,102,102
+ChildD_3217,ChildD_3217_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12926564909756097,82,82
+ChildD_3217,ChildD_3217_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.1331897636989247,93,93
+ChildD_3217,ChildD_3217_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1311740203902439,41,41
+ChildD_3217,ChildD_3217_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13328579121568626,102,102
+ChildD_3220,ChildD_3220_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.1265211953902439,82,82
+ChildD_3220,ChildD_3220_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.13330227090322583,93,93
+ChildD_3220,ChildD_3220_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12983993702439026,41,41
+ChildD_3220,ChildD_3220_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.1321738474411765,102,102
+ChildD_3223,ChildD_3223_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12129431289024391,82,82
+ChildD_3223,ChildD_3223_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.12221175953763438,93,93
+ChildD_3223,ChildD_3223_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12262251390243903,41,41
+ChildD_3223,ChildD_3223_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.12276250849019607,102,102
+ChildD_3224,ChildD_3224_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1278371515609756,82,82
+ChildD_3224,ChildD_3224_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13380061167741938,93,93
+ChildD_3224,ChildD_3224_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1258578832682927,41,41
+ChildD_3224,ChildD_3224_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13573318060784315,102,102
+ChildD_3225,ChildD_3225_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12556428852439028,82,82
+ChildD_3225,ChildD_3225_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.13244756032258065,93,93
+ChildD_3225,ChildD_3225_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.1270965481707317,41,41
+ChildD_3225,ChildD_3225_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.1344845924509804,102,102
+ChildD_3226,ChildD_3226_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12685048270731705,82,82
+ChildD_3226,ChildD_3226_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13345046662365595,93,93
+ChildD_3226,ChildD_3226_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12853353070731707,41,41
+ChildD_3226,ChildD_3226_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.1350439350784314,102,102
+ChildD_3227,ChildD_3227_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12719090574390243,82,82
+ChildD_3227,ChildD_3227_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.1316248443870968,93,93
+ChildD_3227,ChildD_3227_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12479493190243902,41,41
+ChildD_3227,ChildD_3227_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12925369621568628,102,102
+ChildD_3229,ChildD_3229_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12525914345121952,82,82
+ChildD_3229,ChildD_3229_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.133044624344086,93,93
+ChildD_3229,ChildD_3229_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12834261009756098,41,41
+ChildD_3229,ChildD_3229_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13109934882352942,102,102
+ChildD_3233,ChildD_3233_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12498822360975612,82,82
+ChildD_3233,ChildD_3233_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13257007725806452,93,93
+ChildD_3233,ChildD_3233_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12492133529268293,41,41
+ChildD_3233,ChildD_3233_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13303487212745096,102,102
+ChildD_3234,ChildD_3234_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1290075532804878,82,82
+ChildD_3234,ChildD_3234_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13433856483870968,93,93
+ChildD_3234,ChildD_3234_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.13129262621951218,41,41
+ChildD_3234,ChildD_3234_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13875441462745097,102,102
+ChildD_3235,ChildD_3235_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1272912712317073,82,82
+ChildD_3235,ChildD_3235_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13233366620430106,93,93
+ChildD_3235,ChildD_3235_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.13160293068292683,41,41
+ChildD_3235,ChildD_3235_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13191521588235294,102,102
+ChildD_3237,ChildD_3237_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.13485371575609756,82,82
+ChildD_3237,ChildD_3237_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13845613541935484,93,93
+ChildD_3237,ChildD_3237_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1341831975609756,41,41
+ChildD_3237,ChildD_3237_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13700466952941176,102,102
+ChildD_3238,ChildD_3238_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1191713714512195,82,82
+ChildD_3238,ChildD_3238_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12365480017204301,93,93
+ChildD_3238,ChildD_3238_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1215477274390244,41,41
+ChildD_3238,ChildD_3238_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.1242350645980392,102,102
+ChildD_3241,ChildD_3241_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12870692057317074,82,82
+ChildD_3241,ChildD_3241_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13387536759139787,93,93
+ChildD_3241,ChildD_3241_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12423714721951219,41,41
+ChildD_3241,ChildD_3241_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13328188224509807,102,102
+ChildD_3242,ChildD_3242_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12648553024390244,82,82
+ChildD_3242,ChildD_3242_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13556273087096773,93,93
+ChildD_3242,ChildD_3242_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1256934796585366,41,41
+ChildD_3242,ChildD_3242_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.1393632158235294,102,102
+ChildD_3252,ChildD_3252_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12378334674390243,82,82
+ChildD_3252,ChildD_3252_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12526518980645163,93,93
+ChildD_3252,ChildD_3252_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12596618953658537,41,41
+ChildD_3252,ChildD_3252_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12798627157843134,102,102
+ChildD_3253,ChildD_3253_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12034959709756096,82,82
+ChildD_3253,ChildD_3253_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12399000043010752,93,93
+ChildD_3253,ChildD_3253_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12245229448780488,41,41
+ChildD_3253,ChildD_3253_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12727829809803923,102,102
+ChildD_3254,ChildD_3254_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12021491497560977,82,82
+ChildD_3254,ChildD_3254_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12646500966666668,93,93
+ChildD_3254,ChildD_3254_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12407636658536586,41,41
+ChildD_3254,ChildD_3254_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12549701680392156,102,102
+ChildD_3256,ChildD_3256_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.11346830018292683,82,82
+ChildD_3256,ChildD_3256_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.11889167366666666,93,93
+ChildD_3256,ChildD_3256_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.11364660063414633,41,41
+ChildD_3256,ChildD_3256_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.1148748239607843,102,102
+ChildD_3258,ChildD_3258_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.13027522292682925,82,82
+ChildD_3258,ChildD_3258_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13914529526881717,93,93
+ChildD_3258,ChildD_3258_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1324732077804878,41,41
+ChildD_3258,ChildD_3258_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.1367426838039216,102,102
+ChildD_3259,ChildD_3259_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1251776299390244,82,82
+ChildD_3259,ChildD_3259_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12864717320430105,93,93
+ChildD_3259,ChildD_3259_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12278930195121951,41,41
+ChildD_3259,ChildD_3259_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12801587279411766,102,102
+ChildD_3260,ChildD_3260_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1253611343170732,82,82
+ChildD_3260,ChildD_3260_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13193853869892472,93,93
+ChildD_3260,ChildD_3260_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12912595453658537,41,41
+ChildD_3260,ChildD_3260_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13384256070588235,102,102
+ChildD_3262,ChildD_3262_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12120353430487804,82,82
+ChildD_3262,ChildD_3262_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.12617999295698923,93,93
+ChildD_3262,ChildD_3262_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12456433453658537,41,41
+ChildD_3262,ChildD_3262_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.12950912134313727,102,102
+ChildD_3263,ChildD_3263_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12452860967073169,82,82
+ChildD_3263,ChildD_3263_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12946973087096772,93,93
+ChildD_3263,ChildD_3263_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1262317408292683,41,41
+ChildD_3263,ChildD_3263_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.1336219125980392,102,102
+bilingual_development_network(Children)_9001,bilingual_development_network(Children)_9001_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12655078901219513,82,82
+bilingual_development_network(Children)_9001,bilingual_development_network(Children)_9001_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13470557567741936,93,93
+bilingual_development_network(Children)_9001,bilingual_development_network(Children)_9001_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.13061613568292682,41,41
+bilingual_development_network(Children)_9001,bilingual_development_network(Children)_9001_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.12950083295098042,102,102
+bilingual_development_network(Children)_9008,bilingual_development_network(Children)_9008_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12085000626829269,82,82
+bilingual_development_network(Children)_9008,bilingual_development_network(Children)_9008_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13002491381720432,93,93
+bilingual_development_network(Children)_9008,bilingual_development_network(Children)_9008_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12086000460975609,41,41
+bilingual_development_network(Children)_9008,bilingual_development_network(Children)_9008_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.13063780874509803,102,102
+bilingual_development_network(Children)_9010,bilingual_development_network(Children)_9010_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12737465559756098,82,82
+bilingual_development_network(Children)_9010,bilingual_development_network(Children)_9010_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.1313770378172043,93,93
+bilingual_development_network(Children)_9010,bilingual_development_network(Children)_9010_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12108030402439024,41,41
+bilingual_development_network(Children)_9010,bilingual_development_network(Children)_9010_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.13256599524509802,102,102
+bilingual_development_network(Children)_9029,bilingual_development_network(Children)_9029_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12378207403658538,82,82
+bilingual_development_network(Children)_9029,bilingual_development_network(Children)_9029_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13204698689247313,93,93
+bilingual_development_network(Children)_9029,bilingual_development_network(Children)_9029_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12999849853658538,41,41
+bilingual_development_network(Children)_9029,bilingual_development_network(Children)_9029_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.13475866014705887,102,102
+bilingual_development_network(Children)_9031,bilingual_development_network(Children)_9031_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1151302906707317,82,82
+bilingual_development_network(Children)_9031,bilingual_development_network(Children)_9031_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.11965025008602151,93,93
+bilingual_development_network(Children)_9031,bilingual_development_network(Children)_9031_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.11422226307317072,41,41
+bilingual_development_network(Children)_9031,bilingual_development_network(Children)_9031_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12083478488235294,102,102
+bilingual_development_network(Children)_9137,bilingual_development_network(Children)_9137_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12295835696341464,82,82
+bilingual_development_network(Children)_9137,bilingual_development_network(Children)_9137_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.12769618668817204,93,93
+bilingual_development_network(Children)_9137,bilingual_development_network(Children)_9137_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.1257900148292683,41,41
+bilingual_development_network(Children)_9137,bilingual_development_network(Children)_9137_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.1315045704019608,102,102
+bilingual_development_network(Children)_9181,bilingual_development_network(Children)_9181_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12238665613414636,82,82
+bilingual_development_network(Children)_9181,bilingual_development_network(Children)_9181_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13129510996774194,93,93
+bilingual_development_network(Children)_9181,bilingual_development_network(Children)_9181_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12384165600000001,41,41
+bilingual_development_network(Children)_9181,bilingual_development_network(Children)_9181_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13478195632352938,102,102
+bilingual_development_network(Children)_9201,bilingual_development_network(Children)_9201_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.11453623913414634,82,82
+bilingual_development_network(Children)_9201,bilingual_development_network(Children)_9201_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.12293949620430107,93,93
+bilingual_development_network(Children)_9201,bilingual_development_network(Children)_9201_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12193679443902439,41,41
+bilingual_development_network(Children)_9201,bilingual_development_network(Children)_9201_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.12413013746078431,102,102
+bilingual_development_network(Children)_9202,bilingual_development_network(Children)_9202_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.1092839669512195,82,82
+bilingual_development_network(Children)_9202,bilingual_development_network(Children)_9202_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.11629637092473119,93,93
+bilingual_development_network(Children)_9202,bilingual_development_network(Children)_9202_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.11267824390243902,41,41
+bilingual_development_network(Children)_9202,bilingual_development_network(Children)_9202_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.12009655794117648,102,102
+bilingual_development_network(Children)_9209,bilingual_development_network(Children)_9209_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.11425516707317072,82,82
+bilingual_development_network(Children)_9209,bilingual_development_network(Children)_9209_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.12233870398924732,93,93
+bilingual_development_network(Children)_9209,bilingual_development_network(Children)_9209_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.11818724468292684,41,41
+bilingual_development_network(Children)_9209,bilingual_development_network(Children)_9209_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.12559174049019606,102,102
+bilingual_development_network(Children)_9210,bilingual_development_network(Children)_9210_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.11151248335365849,82,82
+bilingual_development_network(Children)_9210,bilingual_development_network(Children)_9210_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.11622461817204302,93,93
+bilingual_development_network(Children)_9210,bilingual_development_network(Children)_9210_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.11527120453658538,41,41
+bilingual_development_network(Children)_9210,bilingual_development_network(Children)_9210_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.11834654762745098,102,102
+bilingual_development_network(Children)_9211,bilingual_development_network(Children)_9211_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.11734383413414635,82,82
+bilingual_development_network(Children)_9211,bilingual_development_network(Children)_9211_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.1217793292580645,93,93
+bilingual_development_network(Children)_9211,bilingual_development_network(Children)_9211_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.11678225417073172,41,41
+bilingual_development_network(Children)_9211,bilingual_development_network(Children)_9211_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.12603175377450979,102,102
+bilingual_development_network(Children)_9213,bilingual_development_network(Children)_9213_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.11136035910975609,82,82
+bilingual_development_network(Children)_9213,bilingual_development_network(Children)_9213_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.11786115320430106,93,93
+bilingual_development_network(Children)_9213,bilingual_development_network(Children)_9213_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.11696396690243903,41,41
+bilingual_development_network(Children)_9213,bilingual_development_network(Children)_9213_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.12180988902941177,102,102
+bilingual_development_network(Children)_9214,bilingual_development_network(Children)_9214_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.1231013415609756,82,82
+bilingual_development_network(Children)_9214,bilingual_development_network(Children)_9214_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.12856879378494623,93,93
+bilingual_development_network(Children)_9214,bilingual_development_network(Children)_9214_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12882118814634144,41,41
+bilingual_development_network(Children)_9214,bilingual_development_network(Children)_9214_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.1313038060588235,102,102
+bilingual_development_network(Children)_9215,bilingual_development_network(Children)_9215_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.11131282958536587,82,82
+bilingual_development_network(Children)_9215,bilingual_development_network(Children)_9215_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.12082750948387096,93,93
+bilingual_development_network(Children)_9215,bilingual_development_network(Children)_9215_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.11553832285365855,41,41
+bilingual_development_network(Children)_9215,bilingual_development_network(Children)_9215_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.12296025261764705,102,102
+ControlData(AgeControl)_501,ControlData(AgeControl)_501_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12636454256097562,82,82
+ControlData(AgeControl)_501,ControlData(AgeControl)_501_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13604934756989248,93,93
+ControlData(AgeControl)_501,ControlData(AgeControl)_501_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.13120730873170733,41,41
+ControlData(AgeControl)_501,ControlData(AgeControl)_501_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.1379961786666667,102,102
+ControlData(AgeControl)_502,ControlData(AgeControl)_502_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.13487036956097562,82,82
+ControlData(AgeControl)_502,ControlData(AgeControl)_502_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.14223709063440856,93,93
+ControlData(AgeControl)_502,ControlData(AgeControl)_502_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.13522087653658535,41,41
+ControlData(AgeControl)_502,ControlData(AgeControl)_502_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.1473801717156863,102,102
+ControlData(AgeControl)_503,ControlData(AgeControl)_503_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.13580731842682925,82,82
+ControlData(AgeControl)_503,ControlData(AgeControl)_503_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.14417032353763443,93,93
+ControlData(AgeControl)_503,ControlData(AgeControl)_503_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.1385240555609756,41,41
+ControlData(AgeControl)_503,ControlData(AgeControl)_503_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.14900740176470584,102,102
+ControlData(AgeControl)_504,ControlData(AgeControl)_504_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.13574238728048782,82,82
+ControlData(AgeControl)_504,ControlData(AgeControl)_504_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.14392871102150537,93,93
+ControlData(AgeControl)_504,ControlData(AgeControl)_504_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.13845933929268292,41,41
+ControlData(AgeControl)_504,ControlData(AgeControl)_504_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.14874710788235293,102,102
+ControlData(AgeControl)_505,ControlData(AgeControl)_505_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12600303585365852,82,82
+ControlData(AgeControl)_505,ControlData(AgeControl)_505_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13321019322580643,93,93
+ControlData(AgeControl)_505,ControlData(AgeControl)_505_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12856874536585366,41,41
+ControlData(AgeControl)_505,ControlData(AgeControl)_505_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13536681715686275,102,102
+ControlData(AgeControl)_508,ControlData(AgeControl)_508_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12834460968292685,82,82
+ControlData(AgeControl)_508,ControlData(AgeControl)_508_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.1353287799784946,93,93
+ControlData(AgeControl)_508,ControlData(AgeControl)_508_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.13104288107317072,41,41
+ControlData(AgeControl)_508,ControlData(AgeControl)_508_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.1411872170490196,102,102
+ControlData(AgeControl)_509,ControlData(AgeControl)_509_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.1282993661097561,82,82
+ControlData(AgeControl)_509,ControlData(AgeControl)_509_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.13753590411827957,93,93
+ControlData(AgeControl)_509,ControlData(AgeControl)_509_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.13256086802439024,41,41
+ControlData(AgeControl)_509,ControlData(AgeControl)_509_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.14009919755882352,102,102
+ControlData(AgeControl)_511,ControlData(AgeControl)_511_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.126245652402439,82,82
+ControlData(AgeControl)_511,ControlData(AgeControl)_511_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13457291937634408,93,93
+ControlData(AgeControl)_511,ControlData(AgeControl)_511_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12852183907317072,41,41
+ControlData(AgeControl)_511,ControlData(AgeControl)_511_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13752757051960782,102,102
+ControlData(AgeControl)_514,ControlData(AgeControl)_514_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12640149219512198,82,82
+ControlData(AgeControl)_514,ControlData(AgeControl)_514_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13462349562365594,93,93
+ControlData(AgeControl)_514,ControlData(AgeControl)_514_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.12561247373170734,41,41
+ControlData(AgeControl)_514,ControlData(AgeControl)_514_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13798461422549016,102,102
+ControlData(AgeControl)_515,ControlData(AgeControl)_515_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.12709548575609755,82,82
+ControlData(AgeControl)_515,ControlData(AgeControl)_515_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.1351401066129032,93,93
+ControlData(AgeControl)_515,ControlData(AgeControl)_515_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.12780016336585365,41,41
+ControlData(AgeControl)_515,ControlData(AgeControl)_515_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.1397676739019608,102,102
+ControlData(AgeControl)_517,ControlData(AgeControl)_517_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.1320854050731707,82,82
+ControlData(AgeControl)_517,ControlData(AgeControl)_517_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.14459723804301075,93,93
+ControlData(AgeControl)_517,ControlData(AgeControl)_517_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.13285120460975608,41,41
+ControlData(AgeControl)_517,ControlData(AgeControl)_517_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.14702989400980393,102,102
+ControlData(AgeControl)_519,ControlData(AgeControl)_519_MIND_DK318_combat,TD,Child,Male,Child TD,1,C1: Adult Emergence,0.13988755669512196,82,82
+ControlData(AgeControl)_519,ControlData(AgeControl)_519_MIND_DK318_combat,TD,Child,Male,Child TD,2,C2: Persistent Strong,0.14512910332258064,93,93
+ControlData(AgeControl)_519,ControlData(AgeControl)_519_MIND_DK318_combat,TD,Child,Male,Child TD,3,C3: Reversal,0.1396388256097561,41,41
+ControlData(AgeControl)_519,ControlData(AgeControl)_519_MIND_DK318_combat,TD,Child,Male,Child TD,4,C4: Child Predominant,0.14706917077450984,102,102
+ControlData(AgeControl)_520,ControlData(AgeControl)_520_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12440124945121953,82,82
+ControlData(AgeControl)_520,ControlData(AgeControl)_520_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13239434712903225,93,93
+ControlData(AgeControl)_520,ControlData(AgeControl)_520_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.1293602774390244,41,41
+ControlData(AgeControl)_520,ControlData(AgeControl)_520_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.13690994421568625,102,102
+ControlData(AgeControl)_521,ControlData(AgeControl)_521_MIND_DK318_combat,TD,Child,Female,Child TD,1,C1: Adult Emergence,0.12814997063414635,82,82
+ControlData(AgeControl)_521,ControlData(AgeControl)_521_MIND_DK318_combat,TD,Child,Female,Child TD,2,C2: Persistent Strong,0.13612477430107522,93,93
+ControlData(AgeControl)_521,ControlData(AgeControl)_521_MIND_DK318_combat,TD,Child,Female,Child TD,3,C3: Reversal,0.1299580523902439,41,41
+ControlData(AgeControl)_521,ControlData(AgeControl)_521_MIND_DK318_combat,TD,Child,Female,Child TD,4,C4: Child Predominant,0.14039998014705882,102,102
+done_Chinese_dyslexia_907,done_Chinese_dyslexia_907_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12696826626829266,82,82
+done_Chinese_dyslexia_907,done_Chinese_dyslexia_907_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13703049741935486,93,93
+done_Chinese_dyslexia_907,done_Chinese_dyslexia_907_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1295991654390244,41,41
+done_Chinese_dyslexia_907,done_Chinese_dyslexia_907_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13790840414705882,102,102
+done_Chinese_dyslexia_908,done_Chinese_dyslexia_908_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12074721047560975,82,82
+done_Chinese_dyslexia_908,done_Chinese_dyslexia_908_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12575480997849464,93,93
+done_Chinese_dyslexia_908,done_Chinese_dyslexia_908_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12362417368292684,41,41
+done_Chinese_dyslexia_908,done_Chinese_dyslexia_908_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12700406180392154,102,102
+done_Chinese_dyslexia_909,done_Chinese_dyslexia_909_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.13383449668292682,82,82
+done_Chinese_dyslexia_909,done_Chinese_dyslexia_909_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13634920150537636,93,93
+done_Chinese_dyslexia_909,done_Chinese_dyslexia_909_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1294476835609756,41,41
+done_Chinese_dyslexia_909,done_Chinese_dyslexia_909_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13615518255882353,102,102
+done_Chinese_dyslexia_911,done_Chinese_dyslexia_911_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12349504434146343,82,82
+done_Chinese_dyslexia_911,done_Chinese_dyslexia_911_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.1276109970860215,93,93
+done_Chinese_dyslexia_911,done_Chinese_dyslexia_911_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12194026697560974,41,41
+done_Chinese_dyslexia_911,done_Chinese_dyslexia_911_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12627003661764707,102,102
+done_Chinese_dyslexia_912,done_Chinese_dyslexia_912_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12772384160975614,82,82
+done_Chinese_dyslexia_912,done_Chinese_dyslexia_912_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.13078243359139788,93,93
+done_Chinese_dyslexia_912,done_Chinese_dyslexia_912_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.1299537310487805,41,41
+done_Chinese_dyslexia_912,done_Chinese_dyslexia_912_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.1312701375098039,102,102
+done_Chinese_dyslexia_913,done_Chinese_dyslexia_913_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.11825916112195121,82,82
+done_Chinese_dyslexia_913,done_Chinese_dyslexia_913_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.12098626721505379,93,93
+done_Chinese_dyslexia_913,done_Chinese_dyslexia_913_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.11600777375609758,41,41
+done_Chinese_dyslexia_913,done_Chinese_dyslexia_913_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.12110055267647059,102,102
+done_Chinese_dyslexia_914,done_Chinese_dyslexia_914_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.13002674819512194,82,82
+done_Chinese_dyslexia_914,done_Chinese_dyslexia_914_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13684215546236558,93,93
+done_Chinese_dyslexia_914,done_Chinese_dyslexia_914_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.13464281958536584,41,41
+done_Chinese_dyslexia_914,done_Chinese_dyslexia_914_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13378279900980392,102,102
+done_Chinese_dyslexia_916,done_Chinese_dyslexia_916_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.11366925825609754,82,82
+done_Chinese_dyslexia_916,done_Chinese_dyslexia_916_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.11541477825806448,93,93
+done_Chinese_dyslexia_916,done_Chinese_dyslexia_916_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.1120719276097561,41,41
+done_Chinese_dyslexia_916,done_Chinese_dyslexia_916_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.11702097739215686,102,102
+done_Chinese_dyslexia_917,done_Chinese_dyslexia_917_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.11893871684146344,82,82
+done_Chinese_dyslexia_917,done_Chinese_dyslexia_917_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12312547887096775,93,93
+done_Chinese_dyslexia_917,done_Chinese_dyslexia_917_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12023239404878049,41,41
+done_Chinese_dyslexia_917,done_Chinese_dyslexia_917_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12260548566666667,102,102
+done_Chinese_dyslexia_918,done_Chinese_dyslexia_918_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12127550623170728,82,82
+done_Chinese_dyslexia_918,done_Chinese_dyslexia_918_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12507739717204303,93,93
+done_Chinese_dyslexia_918,done_Chinese_dyslexia_918_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12263227951219513,41,41
+done_Chinese_dyslexia_918,done_Chinese_dyslexia_918_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12600651495098042,102,102
+done_Chinese_dyslexia_919,done_Chinese_dyslexia_919_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.11701506831707317,82,82
+done_Chinese_dyslexia_919,done_Chinese_dyslexia_919_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.11587768527956989,93,93
+done_Chinese_dyslexia_919,done_Chinese_dyslexia_919_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.11904736524390243,41,41
+done_Chinese_dyslexia_919,done_Chinese_dyslexia_919_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.11394303372549021,102,102
+done_Chinese_dyslexia_920,done_Chinese_dyslexia_920_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12223265484146344,82,82
+done_Chinese_dyslexia_920,done_Chinese_dyslexia_920_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12830903806451616,93,93
+done_Chinese_dyslexia_920,done_Chinese_dyslexia_920_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12347785199999999,41,41
+done_Chinese_dyslexia_920,done_Chinese_dyslexia_920_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13096725409803922,102,102
+done_Chinese_dyslexia_921,done_Chinese_dyslexia_921_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12449785841463412,82,82
+done_Chinese_dyslexia_921,done_Chinese_dyslexia_921_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.12972759803225808,93,93
+done_Chinese_dyslexia_921,done_Chinese_dyslexia_921_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12300835141463412,41,41
+done_Chinese_dyslexia_921,done_Chinese_dyslexia_921_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.12723164876470588,102,102
+done_Chinese_dyslexia_922,done_Chinese_dyslexia_922_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.11892883085365852,82,82
+done_Chinese_dyslexia_922,done_Chinese_dyslexia_922_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.125916436,93,93
+done_Chinese_dyslexia_922,done_Chinese_dyslexia_922_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.11971981726829267,41,41
+done_Chinese_dyslexia_922,done_Chinese_dyslexia_922_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12719080183333334,102,102
+done_Chinese_dyslexia_923,done_Chinese_dyslexia_923_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12361406184146342,82,82
+done_Chinese_dyslexia_923,done_Chinese_dyslexia_923_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.1302061412473118,93,93
+done_Chinese_dyslexia_923,done_Chinese_dyslexia_923_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.12409234002439026,41,41
+done_Chinese_dyslexia_923,done_Chinese_dyslexia_923_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.1304298718529412,102,102
+done_Chinese_dyslexia_924,done_Chinese_dyslexia_924_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1311589187682927,82,82
+done_Chinese_dyslexia_924,done_Chinese_dyslexia_924_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13491657803225807,93,93
+done_Chinese_dyslexia_924,done_Chinese_dyslexia_924_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12631150419512194,41,41
+done_Chinese_dyslexia_924,done_Chinese_dyslexia_924_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13537826256862745,102,102
+done_Chinese_dyslexia_926,done_Chinese_dyslexia_926_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.12716798585365854,82,82
+done_Chinese_dyslexia_926,done_Chinese_dyslexia_926_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.13358547611827956,93,93
+done_Chinese_dyslexia_926,done_Chinese_dyslexia_926_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.12803616397560977,41,41
+done_Chinese_dyslexia_926,done_Chinese_dyslexia_926_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.13188986792156862,102,102
+done_Chinese_dyslexia_927,done_Chinese_dyslexia_927_MIND_DK318_combat,DD,Child,Male,Child DD,1,C1: Adult Emergence,0.1160700519390244,82,82
+done_Chinese_dyslexia_927,done_Chinese_dyslexia_927_MIND_DK318_combat,DD,Child,Male,Child DD,2,C2: Persistent Strong,0.12317851701075268,93,93
+done_Chinese_dyslexia_927,done_Chinese_dyslexia_927_MIND_DK318_combat,DD,Child,Male,Child DD,3,C3: Reversal,0.11775983863414635,41,41
+done_Chinese_dyslexia_927,done_Chinese_dyslexia_927_MIND_DK318_combat,DD,Child,Male,Child DD,4,C4: Child Predominant,0.12720534165686273,102,102
+done_Chinese_dyslexia_928,done_Chinese_dyslexia_928_MIND_DK318_combat,DD,Child,Female,Child DD,1,C1: Adult Emergence,0.12183169293902439,82,82
+done_Chinese_dyslexia_928,done_Chinese_dyslexia_928_MIND_DK318_combat,DD,Child,Female,Child DD,2,C2: Persistent Strong,0.12609128063440858,93,93
+done_Chinese_dyslexia_928,done_Chinese_dyslexia_928_MIND_DK318_combat,DD,Child,Female,Child DD,3,C3: Reversal,0.1200274093414634,41,41
+done_Chinese_dyslexia_928,done_Chinese_dyslexia_928_MIND_DK318_combat,DD,Child,Female,Child DD,4,C4: Child Predominant,0.12730257148039212,102,102

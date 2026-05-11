@@ -1,0 +1,129 @@
+Start: Mon Apr 27 03:43:35 PM UTC 2026
+Host: node3
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network
+当前工作目录: /data/home/tqi/data1/share/after_freesurfer
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+fsaverage dir: /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+Removing existing output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5
+
+========== mean_gt1p0_union_reading_v4_v5 ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/mean_gt1p0_union_reading_v4_v5.csv
+First column used: barin_region
+Total requested regions: 57
+LH requested ROIs: 45, matched annot names: 45
+RH requested ROIs: 12, matched annot names: 12
+LH unmatched examples: ['lh_bankssts_part1', 'lh_bankssts_part2', 'lh_caudalmiddlefrontal_part2', 'lh_fusiform_part1', 'lh_fusiform_part3', 'lh_fusiform_part4', 'lh_fusiform_part5', 'lh_fusiform_part6', 'lh_inferiorparietal_part3', 'lh_inferiorparietal_part5']
+RH unmatched examples: ['rh_fusiform_part1', 'rh_inferiortemporal_part2', 'rh_lateraloccipital_part2', 'rh_lateraloccipital_part4', 'rh_lateraloccipital_part7', 'rh_lateraloccipital_part8', 'rh_lateraloccipital_part9', 'rh_lingual_part2', 'rh_middletemporal_part4', 'rh_precentral_part4']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_union_reading_v4_v5/mean_gt1p0_union_reading_v4_v5_rh_medial.png
+
+========== multiple_demand ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/multiple_demand.csv
+First column used: feature
+Total requested regions: 133
+LH requested ROIs: 66, matched annot names: 66
+RH requested ROIs: 67, matched annot names: 67
+LH unmatched examples: ['lh.caudalanteriorcingulate_part1', 'lh.caudalmiddlefrontal_part2', 'lh.caudalmiddlefrontal_part4', 'lh.entorhinal_part1', 'lh.fusiform_part6', 'lh.inferiorparietal_part1', 'lh.inferiorparietal_part3', 'lh.inferiorparietal_part5', 'lh.inferiorparietal_part7', 'lh.inferiorparietal_part9']
+RH unmatched examples: ['rh.caudalanteriorcingulate_part1', 'rh.caudalmiddlefrontal_part1', 'rh.caudalmiddlefrontal_part2', 'rh.caudalmiddlefrontal_part3', 'rh.caudalmiddlefrontal_part4', 'rh.entorhinal_part1', 'rh.inferiorparietal_part3', 'rh.inferiorparietal_part5', 'rh.inferiorparietal_part7', 'rh.inferiortemporal_part2']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/multiple_demand/multiple_demand_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/multiple_demand/multiple_demand_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/multiple_demand/multiple_demand_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/multiple_demand/multiple_demand_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/multiple_demand/multiple_demand_rh_medial.png
+
+========== default ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/default.csv
+First column used: feature
+Total requested regions: 63
+LH requested ROIs: 35, matched annot names: 35
+RH requested ROIs: 28, matched annot names: 28
+LH unmatched examples: ['lh.caudalmiddlefrontal_part1', 'lh.caudalmiddlefrontal_part3', 'lh.frontalpole_part1', 'lh.inferiorparietal_part2', 'lh.inferiorparietal_part4', 'lh.inferiorparietal_part6', 'lh.inferiorparietal_part8', 'lh.inferiortemporal_part3', 'lh.isthmuscingulate_part1', 'lh.isthmuscingulate_part2']
+RH unmatched examples: ['rh.frontalpole_part1', 'rh.fusiform_part2', 'rh.inferiorparietal_part2', 'rh.inferiorparietal_part6', 'rh.inferiorparietal_part8', 'rh.inferiorparietal_part9', 'rh.isthmuscingulate_part1', 'rh.medialorbitofrontal_part1', 'rh.medialorbitofrontal_part2', 'rh.medialorbitofrontal_part4']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/default/default_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/default/default_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/default/default_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/default/default_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/default/default_rh_medial.png
+Removing existing output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_intersection_reading_v4_v5
+
+========== mean_gt1p0_intersection_reading_v4_v5 ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/mean_gt1p0_intersection_reading_v4_v5.csv
+First column used: barin_region
+Total requested regions: 25
+LH requested ROIs: 24, matched annot names: 24
+RH requested ROIs: 1, matched annot names: 1
+LH unmatched examples: ['lh_bankssts_part1', 'lh_bankssts_part2', 'lh_fusiform_part1', 'lh_fusiform_part3', 'lh_fusiform_part4', 'lh_fusiform_part5', 'lh_fusiform_part6', 'lh_inferiortemporal_part2', 'lh_inferiortemporal_part5', 'lh_inferiortemporal_part6']
+RH unmatched examples: ['rh_fusiform_part1']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_intersection_reading_v4_v5/mean_gt1p0_intersection_reading_v4_v5_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_intersection_reading_v4_v5/mean_gt1p0_intersection_reading_v4_v5_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_intersection_reading_v4_v5/mean_gt1p0_intersection_reading_v4_v5_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_intersection_reading_v4_v5/mean_gt1p0_intersection_reading_v4_v5_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/mean_gt1p0_intersection_reading_v4_v5/mean_gt1p0_intersection_reading_v4_v5_rh_medial.png
+Removing existing output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_structural
+
+========== alphabetic_structural ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/alphabetic_structural.csv
+First column used: barin_region
+Total requested regions: 23
+LH requested ROIs: 10, matched annot names: 10
+RH requested ROIs: 13, matched annot names: 13
+LH unmatched examples: ['lh_inferiorparietal_part1', 'lh_inferiorparietal_part2', 'lh_inferiorparietal_part3', 'lh_inferiorparietal_part4', 'lh_inferiorparietal_part5', 'lh_inferiorparietal_part6', 'lh_inferiorparietal_part7', 'lh_inferiorparietal_part8', 'lh_inferiorparietal_part9', 'lh_parsorbitalis_part1']
+RH unmatched examples: ['rh_middletemporal_part1', 'rh_middletemporal_part2', 'rh_middletemporal_part3', 'rh_middletemporal_part4', 'rh_middletemporal_part5', 'rh_middletemporal_part6', 'rh_superiortemporal_part1', 'rh_superiortemporal_part2', 'rh_superiortemporal_part3', 'rh_superiortemporal_part4']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_structural/alphabetic_structural_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_structural/alphabetic_structural_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_structural/alphabetic_structural_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_structural/alphabetic_structural_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_structural/alphabetic_structural_rh_medial.png
+Removing existing output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_functional
+
+========== morphosyllabic_functional ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/morphosyllabic_functional.csv
+First column used: barin_region
+Total requested regions: 79
+LH requested ROIs: 56, matched annot names: 56
+RH requested ROIs: 23, matched annot names: 23
+LH unmatched examples: ['lh_caudalmiddlefrontal_part1', 'lh_caudalmiddlefrontal_part2', 'lh_caudalmiddlefrontal_part3', 'lh_caudalmiddlefrontal_part4', 'lh_inferiorparietal_part1', 'lh_inferiorparietal_part2', 'lh_inferiorparietal_part3', 'lh_inferiorparietal_part4', 'lh_inferiorparietal_part5', 'lh_inferiorparietal_part6']
+RH unmatched examples: ['rh_middletemporal_part1', 'rh_middletemporal_part2', 'rh_middletemporal_part3', 'rh_middletemporal_part4', 'rh_middletemporal_part5', 'rh_middletemporal_part6', 'rh_postcentral_part1', 'rh_postcentral_part2', 'rh_postcentral_part3', 'rh_postcentral_part4']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_functional/morphosyllabic_functional_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_functional/morphosyllabic_functional_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_functional/morphosyllabic_functional_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_functional/morphosyllabic_functional_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_functional/morphosyllabic_functional_rh_medial.png
+Removing existing output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_structural
+
+========== morphosyllabic_structural ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/morphosyllabic_structural.csv
+First column used: barin_region
+Total requested regions: 77
+LH requested ROIs: 51, matched annot names: 51
+RH requested ROIs: 26, matched annot names: 26
+LH unmatched examples: ['lh_caudalmiddlefrontal_part1', 'lh_caudalmiddlefrontal_part2', 'lh_caudalmiddlefrontal_part3', 'lh_caudalmiddlefrontal_part4', 'lh_inferiorparietal_part1', 'lh_inferiorparietal_part2', 'lh_inferiorparietal_part3', 'lh_inferiorparietal_part4', 'lh_inferiorparietal_part5', 'lh_inferiorparietal_part6']
+RH unmatched examples: ['rh_inferiortemporal_part1', 'rh_inferiortemporal_part2', 'rh_inferiortemporal_part3', 'rh_inferiortemporal_part4', 'rh_inferiortemporal_part5', 'rh_inferiortemporal_part6', 'rh_middletemporal_part1', 'rh_middletemporal_part2', 'rh_middletemporal_part3', 'rh_middletemporal_part4']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_structural/morphosyllabic_structural_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_structural/morphosyllabic_structural_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_structural/morphosyllabic_structural_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_structural/morphosyllabic_structural_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/morphosyllabic_structural/morphosyllabic_structural_rh_medial.png
+Removing existing output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_functional
+
+========== alphabetic_functional ==========
+CSV: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/alphabetic_functional.csv
+First column used: barin_region
+Total requested regions: 57
+LH requested ROIs: 41, matched annot names: 41
+RH requested ROIs: 16, matched annot names: 16
+LH unmatched examples: ['lh_fusiform_part1', 'lh_fusiform_part2', 'lh_fusiform_part3', 'lh_fusiform_part4', 'lh_fusiform_part5', 'lh_fusiform_part6', 'lh_inferiorparietal_part1', 'lh_inferiorparietal_part2', 'lh_inferiorparietal_part3', 'lh_inferiorparietal_part4']
+RH unmatched examples: ['rh_lateraloccipital_part1', 'rh_lateraloccipital_part2', 'rh_lateraloccipital_part3', 'rh_lateraloccipital_part4', 'rh_lateraloccipital_part5', 'rh_lateraloccipital_part6', 'rh_lateraloccipital_part7', 'rh_lateraloccipital_part8', 'rh_lateraloccipital_part9', 'rh_superiortemporal_part1']
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_functional/alphabetic_functional_regions_used.csv
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_functional/alphabetic_functional_lh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_functional/alphabetic_functional_lh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_functional/alphabetic_functional_rh_lateral.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/alphabetic_functional/alphabetic_functional_rh_medial.png
+Saved: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/brain_region_table_brainmaps/brain_region_table_brainmaps_summary.csv
+
+脑图绘制完成。
+End: Mon Apr 27 03:53:14 PM UTC 2026

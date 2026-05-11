@@ -1,0 +1,85 @@
+==========================================
+DK318 MIND Degree NMF Analysis Pipeline
+==========================================
+Host: node4
+Start: Mon May  4 09:01:05 AM CST 2026
+
+Configuration:
+  SKIP_COMPLETED: true
+
+Conda environment: rd_env_r
+R version: Rscript (R) version 4.3.1 (2023-06-16)
+
+Working directory: /data/home/tqi/data1/share/after_freesurfer/CODE/NMF
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/NMF/tmp
+
+==========================================
+Step 0: Check and Install R Packages
+==========================================
+Start: Mon May  4 09:01:05 AM CST 2026
+
+Checking R packages...
+----------------------------------------
+  ✓ readxl 
+  ✓ dplyr 
+  ✓ stringr 
+  ✓ NMF 
+  ✓ broom 
+  ✓ car 
+  ✓ emmeans 
+  ✓ effectsize 
+  ✓ ggplot2 
+  ✓ reshape2 
+  ✓ RColorBrewer 
+  ✓ pheatmap 
+  ✓ gridExtra 
+
+✓ All required packages are already installed.
+----------------------------------------
+End: Mon May  4 09:01:09 AM CST 2026
+
+==========================================
+Step 1: Main NMF Analysis
+==========================================
+✓ Main NMF analysis already completed. Skipping...
+
+==========================================
+Step 2: Network Enrichment Analysis
+==========================================
+✓ Network enrichment analysis already completed. Skipping...
+
+==========================================
+Step 3: Enhanced Visualization
+==========================================
+✓ Visualization already completed. Skipping...
+
+==========================================
+Step 4: Post-hoc Analysis
+==========================================
+✓ Post-hoc analysis already completed. Skipping...
+
+==========================================
+Pipeline Summary
+==========================================
+Output directory: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NMF
+
+Checking key output files:
+  ✓ NMF_W_subject_loadings.csv
+  ✓ NMF_H_component_roi_weights.csv
+  ✓ NMF_component_lm_anova_results.csv
+  ✓ NMF_component_top_ROIs.csv
+  ✓ NMF_ROI_hard_assignment.csv
+
+Output files generated:
+  CSV files: 15
+  PNG files (main): 4
+  PNG files (plots): 12
+  Total: 31
+
+==========================================
+Pipeline Complete
+==========================================
+End: Mon May  4 09:01:09 AM CST 2026
+
+Cleaning up temporary directory...
+All done!

@@ -17,6 +17,59 @@ label <- get_arg("--analysis-label",basename(normalizePath(result_dir,winslash="
 dir.create(out_dir,recursive=TRUE,showWarnings=FALSE)
 
 safe <- function(x) gsub("[^A-Za-z0-9_]+","_",x)
+p_to_marker <- function(p){
+  if(!is.finite(p)) return("ns")
+  if(p < 1e-4) return("****")
+  if(p < 1e-3) return("***")
+  if(p < 1e-2) return("**")
+  if(p < 0.05) return("*")
+  "ns"
+}
+build_panel_annotations <- function(d,x_var,facet_var){
+  x_levels <- levels(droplevels(factor(d[[x_var]])))
+  if(length(x_levels) != 2) return(data.frame())
+
+  panels <- unique(as.character(d[[facet_var]]))
+  out <- vector("list", length(panels))
+  for(i in seq_along(panels)){
+    panel <- panels[i]
+    dd <- d[as.character(d[[facet_var]]) == panel,,drop=FALSE]
+    dd[[x_var]] <- droplevels(factor(dd[[x_var]], levels=x_levels))
+    counts <- table(dd[[x_var]])
+    if(length(counts) != 2 || any(counts < 2)) next
+
+    p_val <- tryCatch(
+      wilcox.test(PlotY ~ .data[[x_var]], data=dd)$p.value,
+      error=function(e) NA_real_
+    )
+    if(!is.finite(p_val)) {
+      p_val <- tryCatch(
+        t.test(PlotY ~ .data[[x_var]], data=dd)$p.value,
+        error=function(e) NA_real_
+      )
+    }
+
+    y_rng <- range(dd$PlotY, na.rm=TRUE)
+    y_span <- diff(y_rng)
+    if(!is.finite(y_span) || y_span <= 0) y_span <- max(abs(y_rng), na.rm=TRUE)
+    if(!is.finite(y_span) || y_span <= 0) y_span <- 1
+
+    out[[i]] <- data.frame(
+      facet_value = panel,
+      x = 1,
+      xend = 2,
+      y = y_rng[2] + y_span * 0.10,
+      y0 = y_rng[2] + y_span * 0.04,
+      label_y = y_rng[2] + y_span * 0.14,
+      label = p_to_marker(p_val),
+      p_value = p_val,
+      stringsAsFactors=FALSE
+    )
+  }
+  ann <- bind_rows(out)
+  if(nrow(ann)) names(ann)[names(ann) == "facet_value"] <- facet_var
+  ann
+}
 cat("result_dir:",result_dir,"\nout_dir:",out_dir,"\n")
 
 df <- read_excel(demo_file,sheet="Sheet1") |>
@@ -121,12 +174,15 @@ build_violin_plot <- function(d,task,feature){
   y_lab <- if(task$kind=="disp") "|Residual| of Degree" else "Degree"
   fill_vals <- if(task$x_var=="Diagnosis_Fac") c(TD="#1f77b4",DD="#d62728") else c(Child="#2ca02c",Adult="#9467bd")
   fill_vals <- fill_vals[names(fill_vals) %in% levels(droplevels(d[[task$x_var]]))]
+  ann <- build_panel_annotations(d, task$x_var, task$facet_var)
 
-  ggplot(d,aes(x=.data[[task$x_var]],y=PlotY,fill=.data[[task$x_var]])) +
+  g <- ggplot(d,aes(x=.data[[task$x_var]],y=PlotY,fill=.data[[task$x_var]])) +
     geom_violin(trim=FALSE,alpha=.45,color=NA,width=.95) +
     geom_boxplot(width=.18,outlier.shape=NA,alpha=.85,color="#333333",fill="white") +
     geom_jitter(width=.10,height=0,size=1.5,alpha=.55,color="#333333") +
     scale_fill_manual(values=fill_vals,drop=FALSE) +
+    scale_y_continuous(expand = expansion(mult = c(0.05, 0.22))) +
+    coord_cartesian(clip = "off") +
     facet_wrap(stats::as.formula(paste("~",task$facet_var)),nrow=1,scales="free_y") +
     labs(
       title=paste(feature,"|",task$subset_level,"|",task$effect),
@@ -139,8 +195,19 @@ build_violin_plot <- function(d,task,feature){
     theme(
       legend.position="top",
       panel.grid.minor=element_blank(),
-      strip.background=element_rect(fill="#f2f2f2",color="#d9d9d9")
+      strip.background=element_rect(fill="#f2f2f2",color="#d9d9d9"),
+      plot.margin = margin(8, 20, 8, 8)
     )
+
+  if(nrow(ann)){
+    g <- g +
+      geom_segment(data=ann,aes(x=x,xend=xend,y=y,yend=y),inherit.aes=FALSE,linewidth=.4,color="#333333") +
+      geom_segment(data=ann,aes(x=x,xend=x,y=y0,yend=y),inherit.aes=FALSE,linewidth=.4,color="#333333") +
+      geom_segment(data=ann,aes(x=xend,xend=xend,y=y0,yend=y),inherit.aes=FALSE,linewidth=.4,color="#333333") +
+      geom_text(data=ann,aes(x=(x+xend)/2,y=label_y,label=label),inherit.aes=FALSE,size=4.2,vjust=0,color="#333333")
+  }
+
+  g
 }
 
 run_one <- function(d_all,feature,task){

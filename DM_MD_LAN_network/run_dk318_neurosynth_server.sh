@@ -59,10 +59,9 @@ PROJECT_FRACTION="0.5"
 INTERP="nearest"
 
 MAPS=(
-  "$INPUT_DIR/phonological_association-test_z_FDR_0.01.nii.gz"
   "$INPUT_DIR/reading_association-test_z_FDR_0.01.nii.gz"
-  "$INPUT_DIR/sentence comprehension_association-test_z_FDR_0.01.nii.gz"
-  "$INPUT_DIR/word form_association-test_z_FDR_0.01.nii.gz"
+  "$INPUT_DIR/v4-topics-400_355_reading_readers_dyslexia_association-test_z_FDR_0.01.nii.gz"
+  "$INPUT_DIR/v5-topics-200_150_reading_phonological_readers_association-test_z_FDR_0.01.nii.gz"
 )
 
 command -v mri_vol2surf >/dev/null 2>&1 || fail "mri_vol2surf not found"

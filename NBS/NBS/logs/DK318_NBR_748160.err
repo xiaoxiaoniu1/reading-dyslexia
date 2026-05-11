@@ -1,0 +1,20 @@
+Error in `transmute()`:
+ℹ In argument: `ROI = ROI1`.
+Caused by error:
+! object 'ROI1' not found
+Backtrace:
+     ▆
+  1. ├─global make_post_nbs_outputs(...)
+  2. │ └─global make_node_degree_table(sig_edges, roi_meta)
+  3. │   └─edges %>% transmute(ROI_index = i, ROI = ROI1)
+  4. ├─dplyr::transmute(., ROI_index = i, ROI = ROI1)
+  5. ├─dplyr:::transmute.data.frame(., ROI_index = i, ROI = ROI1)
+  6. │ └─dplyr:::mutate_cols(.data, dots, by)
+  7. │   ├─base::withCallingHandlers(...)
+  8. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  9. │     └─mask$eval_all_mutate(quo)
+ 10. │       └─dplyr (local) eval()
+ 11. └─base::.handleSimpleError(`<fn>`, "object 'ROI1' not found", base::quote(NULL))
+ 12.   └─dplyr (local) h(simpleError(msg, call))
+ 13.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

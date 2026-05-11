@@ -154,11 +154,7 @@ def sign_for_main_effect(df, domain, effect):
     else:
         sign = np.ones(len(df), dtype=float)
 
-    subset_type = None
-    if "subset_type" in df.columns and len(df) > 0:
-        subset_type = str(df["subset_type"].iloc[0])
-
-    if effect == "Diagnosis" and subset_type == "AgeGroup":
+    if effect == "Diagnosis":
         sign = -sign
 
     sign[~np.isfinite(sign) | (sign == 0)] = 1.0
@@ -187,9 +183,7 @@ def build_plot_df(df, p_col, threshold_col, threshold, signed, domain, effect):
 
 def direction_note(domain, effect, subset_type=None):
     if effect == "Diagnosis":
-        if subset_type == "AgeGroup":
-            return "Red: TD > DD | Blue: DD > TD" if domain == "mean" else "Red: TD more variable | Blue: DD more variable"
-        return "Red: DD > TD | Blue: TD > DD" if domain == "mean" else "Red: DD more variable | Blue: TD more variable"
+        return "Red: TD > DD | Blue: DD > TD" if domain == "mean" else "Red: TD more variable | Blue: DD more variable"
     if effect == "AgeGroup":
         return "Red: Adult > Child | Blue: Child > Adult" if domain == "mean" else "Red: Adult more variable | Blue: Child more variable"
     if effect == "Sex":

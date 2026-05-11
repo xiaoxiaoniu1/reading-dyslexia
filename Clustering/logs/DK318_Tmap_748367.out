@@ -1,0 +1,362 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║              DK318 MIND Degree T-map 完整分析流程                            ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Host: node4
+Start: Mon May  4 01:02:30 PM CST 2026
+
+工作目录: /data/home/tqi/data1/share/after_freesurfer/CODE/Clustering
+
+TMPDIR: /data/home/tqi/data1/share/after_freesurfer/CODE/Clustering/tmp
+
+✓ R 版本:
+Rscript (R) version 4.3.1 (2023-06-16)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+步骤 1: DGLM T-map 提取
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+运行: 01_dglm_degree_tmap_TD_minus_DD.R
+预计时间: 5-15 分钟
+
+Starting DK318 MIND Degree Tmap extraction...
+
+Loading demographic data...
+Total subjects: 204 
+
+Cell counts:
+, , Sex = Female
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    25    45
+       DD    21    17
+
+, , Sex = Male
+
+         AgeGroup
+Diagnosis Child Adult
+       TD    26    16
+       DD    45     9
+
+
+Loading degree data...
+Degree matrix: 204 × 318 
+
+Fitting DGLM for each ROI...
+  ROI 1 / 318 
+  ROI 50 / 318 
+  ROI 100 / 318 
+  ROI 150 / 318 
+  ROI 200 / 318 
+  ROI 250 / 318 
+  ROI 300 / 318 
+  ROI 318 / 318 
+
+Fit status summary:
+
+ ok 
+318 
+
+Applying FDR correction...
+
+Saving results...
+Saved full results: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_3/DGLM_DK318_degree_Tmap_TD_minus_DD_full.csv 
+Saved Tmap 318×2 matrix: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_3/DGLM_DK318_degree_Tmap_TD_minus_DD_318x2.csv 
+Saved summary: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_3/DGLM_DK318_degree_Tmap_TD_minus_DD_summary.csv 
+
+==============================
+SUMMARY
+==============================
+
+Model: y ~ Diagnosis * AgeGroup + Sex
+Contrast direction: TD - DD (positive = TD > DD)
+
+                 contrast n_tested n_sig_FDR_0.05        min_p       min_q
+        Child_TD_minus_DD      318             16 5.546384e-06 0.001763750
+        Adult_TD_minus_DD      318             22 2.000419e-05 0.006361333
+ Adult_minus_Child_change      318              0 4.563160e-04 0.145108493
+
+==============================
+DONE
+==============================
+
+✓ DGLM 分析完成 (用时: 29秒)
+
+检查输出文件:
+  ✓ 完整结果: 319 行
+  ✓ 318×2 矩阵: 319 行
+  ✓ 汇总统计
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+步骤 2: T-map 可视化
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+运行: 02_visualize_tmap.R
+
+T-map 结果可视化
+================
+
+读取 T-map 结果...
+数据维度:
+  完整结果: 318 行 × 30 列
+  318×2 矩阵: 318 行 × 3 列
+
+1. 拟合状态统计
+----------------
+
+ ok 
+318 
+
+百分比:
+
+ ok 
+100 
+
+null device 
+          1 
+保存: 01_fit_status.png
+
+2. T 值分布统计
+----------------
+成功拟合的 ROI 数量: 318 
+
+儿童组 TD-DD t 值:
+  范围: -2.18 4.67 
+  均值: 1.37 
+  中位数: 1.38 
+  正值数量: 288 
+  负值数量: 30 
+
+成人组 TD-DD t 值:
+  范围: -2.66 4.37 
+  均值: 1.36 
+  中位数: 1.41 
+  正值数量: 287 
+  负值数量: 31 
+
+null device 
+          1 
+保存: 02_t_value_distributions.png
+
+3. T-map 散点图
+----------------
+象限分布:
+
+  I: 持续 TD>DD    II: 发育追赶 III: 持续 DD>TD    IV: 发育逆转 
+            261              26               4              27 
+
+显著性统计:
+  两组都显著: 1 
+  仅儿童组显著: 15 
+  仅成人组显著: 21 
+  都不显著: 281 
+
+null device 
+          1 
+保存: 03_tmap_scatter_basic.png
+
+null device 
+          1 
+保存: 04_tmap_scatter_quadrants.png
+
+null device 
+          1 
+保存: 05_tmap_scatter_significance.png
+
+4. 儿童组与成人组 t 值相关性
+------------------------------
+Pearson 相关系数: 0.102 
+p 值: 0.0706 
+
+5. 显著 ROI 列表
+----------------
+
+两组都显著的 ROI (前10个):
+                 feature t_child_TD_minus_DD t_adult_TD_minus_DD
+1 rh_supramarginal_part6            3.511469            3.059724
+  q_child_TD_minus_DD q_adult_TD_minus_DD
+1          0.02191417          0.04228943
+
+保存: significant_ROIs_both_groups.csv
+
+================
+可视化完成
+================
+
+生成的图表:
+  1. 01_fit_status.png - 拟合状态分布
+  2. 02_t_value_distributions.png - t 值分布直方图
+  3. 03_tmap_scatter_basic.png - 基础散点图
+  4. 04_tmap_scatter_quadrants.png - 按象限着色
+  5. 05_tmap_scatter_significance.png - 按显著性着色
+
+输出目录: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_3/figures 
+
+关键发现:
+  - 成功拟合: 318 / 318 ROI
+  - 儿童组 t 值范围: -2.18 4.67 
+  - 成人组 t 值范围: -2.66 4.37 
+  - 相关系数: 0.102 
+  - 两组都显著的 ROI: 1 
+
+下一步: 使用 318×2 矩阵进行 K-means 聚类分析
+
+✓ 可视化完成
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+步骤 3: 聚类分析
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+运行: 03_cluster_tmap.R
+
+T-map 聚类分析
+==============
+
+读取 T-map 数据...
+总 ROI 数: 318 
+用于聚类的 ROI 数: 318 
+
+聚类矩阵维度: 318 × 2 
+
+K 选择分析 (K = 2 到 8)...
+  K = 2 
+  K = 3 
+  K = 4 
+  K = 5 
+  K = 6 
+  K = 7 
+  K = 8 
+
+保存: k_selection_metrics.csv
+
+   K      WSS      BSS     TSS BSS_TSS_ratio Silhouette
+K2 2 484.8196 275.8124 760.632     0.3626095  0.3457597
+K3 3 339.2759 421.3561 760.632     0.5539553  0.3398922
+K4 4 268.2261 492.4059 760.632     0.6473642  0.3292174
+K5 5 211.0126 549.6194 760.632     0.7225825  0.3491792
+K6 6 177.3674 583.2646 760.632     0.7668157  0.3570913
+K7 7 153.0364 607.5956 760.632     0.7988037  0.3624997
+K8 8 135.7944 624.8376 760.632     0.8214716  0.3434249
+
+生成 K 选择图表...
+null device 
+          1 
+保存: elbow_plot.png
+null device 
+          1 
+保存: silhouette_plot.png
+null device 
+          1 
+保存: bss_tss_ratio_plot.png
+
+K=3 主分析...
+保存: degree_Tmap_cluster_K3.csv 
+保存: degree_Tmap_cluster_K3_centroids.csv 
+
+聚类特征描述:
+==============
+
+# A tibble: 3 × 10
+  cluster     n mean_t_child mean_t_adult median_t_child median_t_adult
+    <int> <int>        <dbl>        <dbl>          <dbl>          <dbl>
+1       1   115        1.06         2.32           1.19           2.19 
+2       2   111        2.44         1.23           2.33           1.29 
+3       3    92        0.482        0.306          0.702          0.583
+# ℹ 4 more variables: sd_t_child <dbl>, sd_t_adult <dbl>,
+#   mean_overall_TD_minus_DD <dbl>, mean_developmental_change <dbl>
+
+保存: degree_Tmap_cluster_K3_summary.csv 
+
+聚类解释:
+
+聚类 1 (n = 115 ):
+  儿童组 t 均值: 1.06 
+  成人组 t 均值: 2.32 
+  发育变化: 1.26 
+  模式: 持续 TD > DD (儿童和成人都是典型发育优势) 
+
+聚类 2 (n = 111 ):
+  儿童组 t 均值: 2.44 
+  成人组 t 均值: 1.23 
+  发育变化: -1.21 
+  模式: 持续 TD > DD (儿童和成人都是典型发育优势) 
+
+聚类 3 (n = 92 ):
+  儿童组 t 均值: 0.48 
+  成人组 t 均值: 0.31 
+  发育变化: -0.18 
+  模式: 持续 TD > DD (儿童和成人都是典型发育优势) 
+
+生成聚类可视化...
+null device 
+          1 
+保存: degree_Tmap_cluster_K3_scatter.png 
+
+生成 Silhouette 图...
+null device 
+          1 
+保存: degree_Tmap_silhouette_K3.png 
+
+================
+聚类分析完成
+================
+
+生成的文件:
+  数据文件:
+    - k_selection_metrics.csv
+    - degree_Tmap_cluster_K3.csv 
+    - degree_Tmap_cluster_K3_centroids.csv 
+    - degree_Tmap_cluster_K3_summary.csv 
+
+  图表文件:
+    - elbow_plot.png
+    - silhouette_plot.png
+    - bss_tss_ratio_plot.png
+    - degree_Tmap_cluster_K3_scatter.png 
+    - degree_Tmap_silhouette_K3.png 
+
+输出目录: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_3/clustering 
+
+关键结果:
+  - 用于聚类的 ROI 数: 318 
+  - 主分析 K = 3 
+  - 平均 Silhouette 分数: 0.34 
+  - BSS/TSS 比率: 0.554 
+
+下一步: 查看聚类结果，结合脑区定位进行功能解释
+
+✓ 聚类分析完成
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                          分析流程完成                                        ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+输出文件位置:
+
+1. T-map 结果:
+   /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_3/
+   ├── DGLM_DK318_degree_Tmap_TD_minus_DD_full.csv
+   ├── DGLM_DK318_degree_Tmap_TD_minus_DD_318x2.csv
+   └── DGLM_DK318_degree_Tmap_TD_minus_DD_summary.csv
+
+2. 可视化图表:
+   /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_3/figures/
+
+3. 聚类结果:
+   /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_3/clustering/
+
+查看汇总统计:
+  cat /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Clustering_3/DGLM_DK318_degree_Tmap_TD_minus_DD_summary.csv
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+End: Mon May  4 01:03:05 PM CST 2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

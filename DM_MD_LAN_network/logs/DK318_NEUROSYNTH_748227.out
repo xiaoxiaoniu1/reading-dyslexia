@@ -1,0 +1,6 @@
+[INFO] Job script started
+[INFO] FreeSurfer environment initialized without SetUpFreeSurfer.sh
+[INFO] Checking FreeSurfer commands in PATH
+[INFO] FreeSurfer commands available
+[INFO] mri_vol2surf: /data/software/freesurfer/bin/mri_vol2surf
+[INFO] mri_segstats: /data/software/freesurfer/bin/mri_segstats

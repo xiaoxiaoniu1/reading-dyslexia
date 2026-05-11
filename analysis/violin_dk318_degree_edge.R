@@ -343,6 +343,82 @@ effect_label <- function(effect) {
   gsub("_", " × ", effect)
 }
 
+p_to_marker <- function(p) {
+  if (!is.finite(p)) return("ns")
+  if (p < 1e-4) return("****")
+  if (p < 1e-3) return("***")
+  if (p < 1e-2) return("**")
+  if (p < 0.05) return("*")
+  "ns"
+}
+
+build_panel_annotations <- function(plot_df, x_var, facet_row = NA, facet_col = NA) {
+  x_levels <- levels(droplevels(factor(plot_df[[x_var]])))
+  if (length(x_levels) != 2) return(data.frame())
+
+  ann_df <- plot_df
+  ann_df$panel_row <- if (!is.na(facet_row) && facet_row %in% names(ann_df)) {
+    as.character(ann_df[[facet_row]])
+  } else {
+    "Overall"
+  }
+  ann_df$panel_col <- if (!is.na(facet_col) && facet_col %in% names(ann_df)) {
+    as.character(ann_df[[facet_col]])
+  } else {
+    "Overall"
+  }
+
+  panel_keys <- unique(ann_df[c("panel_row", "panel_col")])
+  out <- vector("list", nrow(panel_keys))
+
+  for (i in seq_len(nrow(panel_keys))) {
+    key <- panel_keys[i, , drop = FALSE]
+    dsub <- ann_df[ann_df$panel_row == key$panel_row & ann_df$panel_col == key$panel_col, , drop = FALSE]
+    dsub[[x_var]] <- droplevels(factor(dsub[[x_var]], levels = x_levels))
+
+    counts <- table(dsub[[x_var]])
+    if (length(counts) != 2 || any(counts < 2)) next
+
+    p_val <- tryCatch(
+      wilcox.test(PlotY ~ .data[[x_var]], data = dsub)$p.value,
+      error = function(e) NA_real_
+    )
+    if (!is.finite(p_val)) {
+      p_val <- tryCatch(
+        t.test(PlotY ~ .data[[x_var]], data = dsub)$p.value,
+        error = function(e) NA_real_
+      )
+    }
+
+    y_rng <- range(dsub$PlotY, na.rm = TRUE)
+    y_span <- diff(y_rng)
+    if (!is.finite(y_span) || y_span <= 0) {
+      y_span <- max(abs(y_rng), na.rm = TRUE)
+    }
+    if (!is.finite(y_span) || y_span <= 0) y_span <- 1
+
+    out[[i]] <- data.frame(
+      panel_row = key$panel_row,
+      panel_col = key$panel_col,
+      x = 1,
+      xend = 2,
+      y = y_rng[2] + y_span * 0.10,
+      y0 = y_rng[2] + y_span * 0.04,
+      label_y = y_rng[2] + y_span * 0.14,
+      label = p_to_marker(p_val),
+      p_value = p_val,
+      stringsAsFactors = FALSE
+    )
+  }
+
+  ann <- bind_rows(out)
+  if (!nrow(ann)) return(ann)
+
+  if (!is.na(facet_row) && facet_row %in% names(plot_df)) names(ann)[names(ann) == "panel_row"] <- facet_row else ann$panel_row <- NULL
+  if (!is.na(facet_col) && facet_col %in% names(plot_df)) names(ann)[names(ann) == "panel_col"] <- facet_col else ann$panel_col <- NULL
+  ann
+}
+
 build_violin_plot <- function(plot_df, task, feature, p_value, estimate_value, active_label) {
   x_var <- task$x_var
   x_lab <- x_label(x_var)
@@ -359,11 +435,17 @@ build_violin_plot <- function(plot_df, task, feature, p_value, estimate_value, a
   }
   subtitle <- paste0(subtitle, " | ", active_label)
 
+  row_var <- if (!is.na(task$facet_row) && task$facet_row %in% names(plot_df)) task$facet_row else NA_character_
+  col_var <- if (!is.na(task$facet_col) && task$facet_col %in% names(plot_df)) task$facet_col else NA_character_
+  ann <- build_panel_annotations(plot_df, x_var, facet_row = row_var, facet_col = col_var)
+
   g <- ggplot(plot_df, aes(x = .data[[x_var]], y = PlotY, fill = .data[[x_var]])) +
     geom_violin(trim = FALSE, alpha = 0.45, color = NA, width = 0.95) +
     geom_boxplot(width = 0.18, outlier.shape = NA, alpha = 0.85, color = "#333333", fill = "white") +
     geom_jitter(width = 0.10, height = 0, size = 1.6, alpha = 0.55, color = "#333333") +
     scale_fill_manual(values = fill_vals, drop = FALSE) +
+    scale_y_continuous(expand = expansion(mult = c(0.05, 0.22))) +
+    coord_cartesian(clip = "off") +
     labs(
       title = feature,
       subtitle = subtitle,
@@ -376,9 +458,44 @@ build_violin_plot <- function(plot_df, task, feature, p_value, estimate_value, a
       legend.position = "top",
       panel.grid.minor = element_blank(),
       strip.background = element_rect(fill = "#f2f2f2", color = "#d9d9d9"),
-      axis.text.x = element_text(size = 11)
+      axis.text.x = element_text(size = 11),
+      plot.margin = margin(8, 20, 8, 8)
     )
 
+  if (nrow(ann)) {
+    g <- g +
+      geom_segment(
+        data = ann,
+        aes(x = x, xend = xend, y = y, yend = y),
+        inherit.aes = FALSE,
+        linewidth = 0.4,
+        color = "#333333"
+      ) +
+      geom_segment(
+        data = ann,
+        aes(x = x, xend = x, y = y0, yend = y),
+        inherit.aes = FALSE,
+        linewidth = 0.4,
+        color = "#333333"
+      ) +
+      geom_segment(
+        data = ann,
+        aes(x = xend, xend = xend, y = y0, yend = y),
+        inherit.aes = FALSE,
+        linewidth = 0.4,
+        color = "#333333"
+      ) +
+      geom_text(
+        data = ann,
+        aes(x = (x + xend) / 2, y = label_y, label = label),
+        inherit.aes = FALSE,
+        size = 4.2,
+        vjust = 0,
+        color = "#333333"
+      )
+  }
+
+  g
   row_var <- if (!is.na(task$facet_row) && task$facet_row %in% names(plot_df)) task$facet_row else NULL
   col_var <- if (!is.na(task$facet_col) && task$facet_col %in% names(plot_df)) task$facet_col else NULL
 

@@ -16,8 +16,8 @@ source("ZZZ_function.R")
 source("300.variables.r")
 source("301.functions.r")
 
-split_ratio <- 0.7
-split_seed <- 20260415
+split_ratio <- 0.9
+split_seed <- 20260426
 
 normalize_subject_id <- function(x) {
   x <- tolower(trimws(as.character(x)))

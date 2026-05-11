@@ -1,0 +1,74 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘car’
+
+The following object is masked from ‘package:purrr’:
+
+    some
+
+The following object is masked from ‘package:dplyr’:
+
+    recode
+
+
+Attaching package: ‘Matrix’
+
+The following objects are masked from ‘package:tidyr’:
+
+    expand, pack, unpack
+
+
+Attaching package: ‘lmerTest’
+
+The following object is masked from ‘package:lme4’:
+
+    lmer
+
+The following object is masked from ‘package:stats’:
+
+    step
+
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+
+Attaching package: ‘magrittr’
+
+The following object is masked from ‘package:purrr’:
+
+    set_names
+
+The following object is masked from ‘package:tidyr’:
+
+    extract
+
+Error in `mutate()`:
+ℹ In argument: `Network = recode(Network, DM_degree = "DM", MD_degree =
+  "MD", Reading_degree = "Reading")`.
+Caused by error in `recode()`:
+! unused arguments (DM_degree = "DM", MD_degree = "MD", Reading_degree = "Reading")
+Backtrace:
+     ▆
+  1. ├─... %>% ...
+  2. ├─dplyr::select(...)
+  3. ├─dplyr::mutate(...)
+  4. ├─dplyr:::mutate.data.frame(...)
+  5. │ └─dplyr:::mutate_cols(.data, dplyr_quosures(...), by)
+  6. │   ├─base::withCallingHandlers(...)
+  7. │   └─dplyr:::mutate_col(dots[[i]], data, mask, new_columns)
+  8. │     └─mask$eval_all_mutate(quo)
+  9. │       └─dplyr (local) eval()
+ 10. └─base::.handleSimpleError(...)
+ 11.   └─dplyr (local) h(simpleError(msg, call))
+ 12.     └─rlang::abort(message, class = error_class, parent = parent, call = error_call)
+Execution halted

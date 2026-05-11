@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/data1/tqi/share/after_freesurfer/CODE/NBS/connect_MIND_DK318_NBS_components.py", line 269, in <module>
+    main()
+  File "/data1/tqi/share/after_freesurfer/CODE/NBS/connect_MIND_DK318_NBS_components.py", line 260, in main
+    plot_component(top, args, fig_dir / f"{stem}_connectome.png")
+  File "/data1/tqi/share/after_freesurfer/CODE/NBS/connect_MIND_DK318_NBS_components.py", line 199, in plot_component
+    disp.add_graph(
+TypeError: add_graph() got an unexpected keyword argument 'annotate'

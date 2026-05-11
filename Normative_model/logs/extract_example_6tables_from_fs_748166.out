@@ -1,0 +1,19 @@
+Host: node4
+Start: Sun Apr 26 04:22:37 PM CST 2026
+Python script: /data/home/tqi/data1/share/after_freesurfer/CODE/Normative_model/extract_example_6tables_from_fs.py
+Output dir: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/Normative_model/example_extracted
+============================================================
+第一步：解析 FreeSurfer stats
+============================================================
+可解析 MRI 被试: 399
+
+============================================================
+第二步：读取临床表并匹配被试
+============================================================
+交集被试数: 208
+Male: 98
+Female: 110
+
+============================================================
+第三步：生成 6 个 example 风格表
+============================================================

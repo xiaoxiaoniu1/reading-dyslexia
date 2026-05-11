@@ -1,0 +1,71 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:dplyr’:
+
+    combine
+
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Welcome to emmeans.
+Caution: You lose important information if you filter this package's results.
+See '? untidy'
+Error in `select()`:
+! Can't select columns that don't exist.
+✖ Column `effect_size_interpretation` doesn't exist.
+Backtrace:
+     ▆
+  1. ├─base::print(...)
+  2. ├─... %>% mutate(cohens_d = round(cohens_d, 3))
+  3. ├─dplyr::mutate(., cohens_d = round(cohens_d, 3))
+  4. ├─dplyr::select(., component, AgeGroup, cohens_d, effect_size_interpretation)
+  5. ├─dplyr:::select.data.frame(., component, AgeGroup, cohens_d, effect_size_interpretation)
+  6. │ └─tidyselect::eval_select(expr(c(...)), data = .data, error_call = error_call)
+  7. │   └─tidyselect:::eval_select_impl(...)
+  8. │     ├─tidyselect:::with_subscript_errors(...)
+  9. │     │ └─base::withCallingHandlers(...)
+ 10. │     └─tidyselect:::vars_select_eval(...)
+ 11. │       └─tidyselect:::walk_data_tree(expr, data_mask, context_mask)
+ 12. │         └─tidyselect:::eval_c(expr, data_mask, context_mask)
+ 13. │           └─tidyselect:::reduce_sels(node, data_mask, context_mask, init = init)
+ 14. │             └─tidyselect:::walk_data_tree(new, data_mask, context_mask)
+ 15. │               └─tidyselect:::as_indices_sel_impl(...)
+ 16. │                 └─tidyselect:::as_indices_impl(...)
+ 17. │                   └─tidyselect:::chr_as_locations(x, vars, call = call, arg = arg)
+ 18. │                     └─vctrs::vec_as_location(...)
+ 19. └─vctrs (local) `<fn>`()
+ 20.   └─vctrs:::stop_subscript_oob(...)
+ 21.     └─vctrs:::stop_subscript(...)
+ 22.       └─rlang::abort(...)
+Execution halted

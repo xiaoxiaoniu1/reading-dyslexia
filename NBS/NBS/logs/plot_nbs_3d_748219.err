@@ -1,0 +1,112 @@
+also installing the dependencies ‘AsioHeaders’, ‘websocket’, ‘chromote’
+
+trying URL 'https://cran.r-project.org/src/contrib/AsioHeaders_1.30.2-1.tar.gz'
+Content type 'application/x-gzip' length 699604 bytes (683 KB)
+==================================================
+downloaded 683 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/websocket_1.4.4.tar.gz'
+Content type 'application/x-gzip' length 201849 bytes (197 KB)
+==================================================
+downloaded 197 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/chromote_0.5.1.tar.gz'
+Content type 'application/x-gzip' length 298113 bytes (291 KB)
+==================================================
+downloaded 291 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/webshot2_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 530252 bytes (517 KB)
+==================================================
+downloaded 517 KB
+
+* installing *source* package ‘AsioHeaders’ ...
+** package ‘AsioHeaders’ successfully unpacked and MD5 sums checked
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (AsioHeaders)
+* installing *source* package ‘websocket’ ...
+** package ‘websocket’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-websocket/00new/websocket/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (websocket)
+* installing *source* package ‘chromote’ ...
+** package ‘chromote’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (chromote)
+* installing *source* package ‘webshot2’ ...
+** package ‘webshot2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (webshot2)
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NBS/tmp/RtmpCzLsp7/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+`google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
+Warning message:
+In render_one_view(theta = 270, phi = 0, zoom = 0.78, fov = 25,  :
+  PNG export failed for view left_lateral. HTML was saved instead. Reason: Invalid path to Chrome
+`google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
+Warning message:
+In render_one_view(theta = 90, phi = 0, zoom = 0.78, fov = 25, suffix = "right_lateral") :
+  PNG export failed for view right_lateral. HTML was saved instead. Reason: Invalid path to Chrome
+`google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
+Warning message:
+In render_one_view(theta = 0, phi = 90, zoom = 0.8, fov = 25, suffix = "dorsal") :
+  PNG export failed for view dorsal. HTML was saved instead. Reason: Invalid path to Chrome
+`google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
+Warning message:
+In render_one_view(theta = 180, phi = -90, zoom = 0.8, fov = 25,  :
+  PNG export failed for view ventral. HTML was saved instead. Reason: Invalid path to Chrome
+`google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
+Warning message:
+In render_one_view(theta = 180, phi = 0, zoom = 0.78, fov = 25,  :
+  PNG export failed for view anterior. HTML was saved instead. Reason: Invalid path to Chrome
+`google-chrome`, `chromium-browser` and `chrome` were not found. Try setting the `CHROMOTE_CHROME` environment variable to the executable of a Chromium-based browser, such as Google Chrome, Chromium or Brave or adding one of these executables to your PATH.
+Warning message:
+In render_one_view(theta = 0, phi = 0, zoom = 0.78, fov = 25, suffix = "posterior") :
+  PNG export failed for view posterior. HTML was saved instead. Reason: Invalid path to Chrome
+3D render complete.
+Outputs written to: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/figures_3d
+Surface used: /data/software/freesurfer/subjects/fsaverage/surf/lh.inflated and rh.inflated

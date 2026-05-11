@@ -1,0 +1,18 @@
+Start: Tue Apr 28 12:11:35 AM UTC 2026
+Using edge table: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/tables/NBR_ALL_edges_in_FWE_significant_components.csv
+Using ROI metadata: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/roi_metadata_with_mni_coordinates.csv
+Using NBS directory: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS
+Using edge table: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/tables/NBR_ALL_edges_in_FWE_significant_components.csv
+Using ROI metadata: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/roi_metadata_with_mni_coordinates.csv
+Output directory: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/figures/component_top_connectome
+[ok] saved plot: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/figures/component_top_connectome/Adult_TD_gt_DD_Component_1_top20_connectome.png
+[ok] saved edge table: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/figures/component_top_connectome/Adult_TD_gt_DD_Component_1_top20_edges.csv
+[info] displayed nodes: 31 | displayed edges: 20
+[ok] saved plot: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/figures/component_top_connectome/Child_TD_gt_DD_Component_1_top20_connectome.png
+[ok] saved edge table: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/figures/component_top_connectome/Child_TD_gt_DD_Component_1_top20_edges.csv
+[info] displayed nodes: 23 | displayed edges: 20
+[ok] saved plot: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/figures/component_top_connectome/overall_TD_gt_DD_Component_1_top20_connectome.png
+[ok] saved edge table: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/figures/component_top_connectome/overall_TD_gt_DD_Component_1_top20_edges.csv
+[info] displayed nodes: 24 | displayed edges: 20
+Finished. Generated connectome plots for 3 component(s).
+End: Tue Apr 28 12:11:41 AM UTC 2026

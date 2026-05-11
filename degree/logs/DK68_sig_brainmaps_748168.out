@@ -1,0 +1,183 @@
+Start: Sun Apr 26 05:17:37 PM CST 2026
+Script: plot_significant_DK68_stratified_brainmaps.py
+Job ID: 748168
+0 files missing from root.txt in /data/home/tqi/data1/share/after_freesurfer/FILE
+0 files missing from bem.txt in /data/home/tqi/data1/share/after_freesurfer/FILE/fsaverage
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_Adult_degree_results.csv
+  Plot: DGLM_DK68_Adult_degree_results | mean | Diagnosis | uncorrected
+Red: TD > DD | Blue: DD > TD
+    n_roi: 12 | LH hit: 5 | RH hit: 7
+  Plot: DGLM_DK68_Adult_degree_results | mean | Sex | uncorrected
+Red: Male > Female | Blue: Female > Male
+    n_roi: 8 | LH hit: 6 | RH hit: 2
+  Plot: DGLM_DK68_Adult_degree_results | mean | Sex | wholebrain_FDR
+Red: Male > Female | Blue: Female > Male
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_Adult_degree_results | mean | Diagnosis_Sex_Interaction | uncorrected
+    n_roi: 10 | LH hit: 6 | RH hit: 4
+  Plot: DGLM_DK68_Adult_degree_results | mean | Diagnosis_Sex_Interaction | wholebrain_FDR
+    n_roi: 3 | LH hit: 2 | RH hit: 1
+  Plot: DGLM_DK68_Adult_degree_results | disp | Diagnosis | uncorrected
+Red: TD more variable | Blue: DD more variable
+    n_roi: 4 | LH hit: 2 | RH hit: 2
+  Plot: DGLM_DK68_Adult_degree_results | disp | Diagnosis | wholebrain_FDR
+Red: TD more variable | Blue: DD more variable
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_Adult_degree_results | disp | Sex | uncorrected
+Red: Male more variable | Blue: Female more variable
+    n_roi: 5 | LH hit: 4 | RH hit: 1
+  Plot: DGLM_DK68_Adult_degree_results | disp | Diagnosis_Sex_Interaction | uncorrected
+    n_roi: 2 | LH hit: 2 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_Child_degree_results.csv
+  Plot: DGLM_DK68_Child_degree_results | mean | Diagnosis | uncorrected
+Red: TD > DD | Blue: DD > TD
+    n_roi: 32 | LH hit: 16 | RH hit: 16
+  Plot: DGLM_DK68_Child_degree_results | mean | Diagnosis | wholebrain_FDR
+Red: TD > DD | Blue: DD > TD
+    n_roi: 17 | LH hit: 7 | RH hit: 10
+  Plot: DGLM_DK68_Child_degree_results | mean | Sex | uncorrected
+Red: Male > Female | Blue: Female > Male
+    n_roi: 43 | LH hit: 24 | RH hit: 19
+  Plot: DGLM_DK68_Child_degree_results | mean | Sex | wholebrain_FDR
+Red: Male > Female | Blue: Female > Male
+    n_roi: 36 | LH hit: 21 | RH hit: 15
+  Plot: DGLM_DK68_Child_degree_results | disp | Diagnosis | uncorrected
+Red: TD more variable | Blue: DD more variable
+    n_roi: 1 | LH hit: 0 | RH hit: 1
+    Skip empty surface: lh_lateral (all NaN)
+    Skip empty surface: lh_medial (all NaN)
+  Plot: DGLM_DK68_Child_degree_results | disp | Sex | uncorrected
+Red: Male more variable | Blue: Female more variable
+    n_roi: 2 | LH hit: 1 | RH hit: 1
+  Plot: DGLM_DK68_Child_degree_results | disp | Diagnosis_Sex_Interaction | uncorrected
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_DD_Adult_vs_Child_degree_results.csv
+  Plot: DGLM_DK68_DD_Adult_vs_Child_degree_results | mean | AgeGroup | uncorrected
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 10 | LH hit: 3 | RH hit: 7
+  Plot: DGLM_DK68_DD_Adult_vs_Child_degree_results | mean | AgeGroup | wholebrain_FDR
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 5 | LH hit: 1 | RH hit: 4
+  Plot: DGLM_DK68_DD_Adult_vs_Child_degree_results | mean | Sex | uncorrected
+Red: Male > Female | Blue: Female > Male
+    n_roi: 34 | LH hit: 19 | RH hit: 15
+  Plot: DGLM_DK68_DD_Adult_vs_Child_degree_results | mean | Sex | wholebrain_FDR
+Red: Male > Female | Blue: Female > Male
+    n_roi: 22 | LH hit: 12 | RH hit: 10
+  Plot: DGLM_DK68_DD_Adult_vs_Child_degree_results | mean | AgeGroup_Sex_Interaction | uncorrected
+    n_roi: 7 | LH hit: 6 | RH hit: 1
+  Plot: DGLM_DK68_DD_Adult_vs_Child_degree_results | mean | AgeGroup_Sex_Interaction | wholebrain_FDR
+    n_roi: 2 | LH hit: 2 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_DD_Adult_vs_Child_degree_results | disp | AgeGroup | uncorrected
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 6 | LH hit: 4 | RH hit: 2
+  Plot: DGLM_DK68_DD_Adult_vs_Child_degree_results | disp | Sex | uncorrected
+Red: Male more variable | Blue: Female more variable
+    n_roi: 2 | LH hit: 2 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_DD_Adult_vs_Child_degree_results | disp | AgeGroup_Sex_Interaction | uncorrected
+    n_roi: 3 | LH hit: 3 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results.csv
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | mean | Diagnosis | uncorrected
+Red: TD > DD | Blue: DD > TD
+    n_roi: 43 | LH hit: 20 | RH hit: 23
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | mean | Diagnosis | wholebrain_FDR
+Red: TD > DD | Blue: DD > TD
+    n_roi: 30 | LH hit: 13 | RH hit: 17
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | mean | AgeGroup | uncorrected
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 30 | LH hit: 16 | RH hit: 14
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | mean | AgeGroup | wholebrain_FDR
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 15 | LH hit: 7 | RH hit: 8
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | mean | Diagnosis_AgeGroup_Interaction | uncorrected
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | disp | Diagnosis | uncorrected
+Red: TD more variable | Blue: DD more variable
+    n_roi: 9 | LH hit: 6 | RH hit: 3
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | disp | Diagnosis | wholebrain_FDR
+Red: TD more variable | Blue: DD more variable
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | disp | AgeGroup | uncorrected
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | disp | AgeGroup | wholebrain_FDR
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_Female_Diagnosis_AgeGroup_degree_results | disp | Diagnosis_AgeGroup_Interaction | uncorrected
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results.csv
+  Plot: DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results | mean | Diagnosis | uncorrected
+Red: TD > DD | Blue: DD > TD
+    n_roi: 5 | LH hit: 3 | RH hit: 2
+  Plot: DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results | mean | AgeGroup | uncorrected
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 8 | LH hit: 5 | RH hit: 3
+  Plot: DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results | mean | AgeGroup | wholebrain_FDR
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 2 | LH hit: 2 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results | mean | Diagnosis_AgeGroup_Interaction | uncorrected
+    n_roi: 7 | LH hit: 2 | RH hit: 5
+  Plot: DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results | mean | Diagnosis_AgeGroup_Interaction | wholebrain_FDR
+    n_roi: 1 | LH hit: 0 | RH hit: 1
+    Skip empty surface: lh_lateral (all NaN)
+    Skip empty surface: lh_medial (all NaN)
+  Plot: DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results | disp | Diagnosis | uncorrected
+Red: TD more variable | Blue: DD more variable
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results | disp | AgeGroup | uncorrected
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 11 | LH hit: 6 | RH hit: 5
+  Plot: DGLM_DK68_Male_Diagnosis_AgeGroup_degree_results | disp | AgeGroup | wholebrain_FDR
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 3 | LH hit: 2 | RH hit: 1
+Processing result: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK68_DGLM_stratified/DGLM_DK68_TD_Adult_vs_Child_degree_results.csv
+  Plot: DGLM_DK68_TD_Adult_vs_Child_degree_results | mean | AgeGroup | uncorrected
+Red: Adult > Child | Blue: Child > Adult
+    n_roi: 4 | LH hit: 1 | RH hit: 3
+  Plot: DGLM_DK68_TD_Adult_vs_Child_degree_results | mean | Sex | uncorrected
+Red: Male > Female | Blue: Female > Male
+    n_roi: 8 | LH hit: 5 | RH hit: 3
+  Plot: DGLM_DK68_TD_Adult_vs_Child_degree_results | mean | AgeGroup_Sex_Interaction | uncorrected
+    n_roi: 24 | LH hit: 13 | RH hit: 11
+  Plot: DGLM_DK68_TD_Adult_vs_Child_degree_results | mean | AgeGroup_Sex_Interaction | wholebrain_FDR
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+  Plot: DGLM_DK68_TD_Adult_vs_Child_degree_results | disp | AgeGroup | uncorrected
+Red: Adult more variable | Blue: Child more variable
+    n_roi: 4 | LH hit: 3 | RH hit: 1
+  Plot: DGLM_DK68_TD_Adult_vs_Child_degree_results | disp | Sex | uncorrected
+Red: Male more variable | Blue: Female more variable
+    n_roi: 1 | LH hit: 1 | RH hit: 0
+    Skip empty surface: rh_lateral (all NaN)
+    Skip empty surface: rh_medial (all NaN)
+Done plotting stratified brainmaps.
+End: Sun Apr 26 06:15:03 PM CST 2026

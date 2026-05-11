@@ -1,0 +1,54 @@
+trying URL 'https://cran.r-project.org/src/contrib/rgl_1.3.36.tar.gz'
+Content type 'application/x-gzip' length 4143956 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+* installing *source* package ‘rgl’ ...
+** package ‘rgl’ successfully unpacked and MD5 sums checked
+** using staged installation
+configure: WARNING: missing required header GL/gl.h
+configure: WARNING: missing required header GL/glu.h
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+installing to /data/home/tqi/.conda/envs/rd_env_r/lib/R/library/00LOCK-rgl/00new/rgl/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rgl)
+
+The downloaded source packages are in
+	‘/data1/tqi/share/after_freesurfer/CODE/NBS/tmp/RtmpqYLObU/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Warning message:
+In rgl.snapshot(filename, fmt, top) :
+  this build of rgl does not support snapshots
+Warning message:
+In rgl.snapshot(filename, fmt, top) :
+  this build of rgl does not support snapshots
+Warning message:
+In rgl.snapshot(filename, fmt, top) :
+  this build of rgl does not support snapshots
+Warning message:
+In rgl.snapshot(filename, fmt, top) :
+  this build of rgl does not support snapshots
+Warning message:
+In rgl.snapshot(filename, fmt, top) :
+  this build of rgl does not support snapshots
+Warning message:
+In rgl.snapshot(filename, fmt, top) :
+  this build of rgl does not support snapshots
+3D render complete.
+Outputs written to: /data1/tqi/share/after_freesurfer/FILE/test_mean_1.5/MIND_DK318_NBS/figures_3d
+Surface used: /data/software/freesurfer/subjects/fsaverage/surf/lh.inflated and rh.inflated

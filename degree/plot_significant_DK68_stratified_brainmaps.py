@@ -14,8 +14,6 @@ script_txt = TEMPLATE.read_text()
 replacements = [
     ("Plot DK318 stratified DGLM degree brainmaps.", "Plot DK68 stratified DGLM degree brainmaps."),
     ("Plot stratified DK318 DGLM degree brainmaps.", "Plot stratified DK68 DGLM degree brainmaps."),
-    ("FILE/DK-318/lh.DK318.annot", "FILE/fsaverage/label/lh.aparc.annot"),
-    ("FILE/DK-318/rh.DK318.annot", "FILE/fsaverage/label/rh.aparc.annot"),
     ("MIND_DK318_DGLM_stratified", "MIND_DK68_DGLM_stratified"),
     ("DGLM_DK318_", "DGLM_DK68_"),
     ("DK318", "DK68"),
@@ -23,6 +21,15 @@ replacements = [
 
 for old, new in replacements:
     script_txt = script_txt.replace(old, new)
+
+script_txt = script_txt.replace(
+    'LH_ANNOT = os.path.join(BASE_DIR, "FILE/DK-318", "lh.DK68.annot")',
+    'LH_ANNOT = os.path.join(BASE_DIR, "FILE/fsaverage/label", "lh.aparc.annot")',
+)
+script_txt = script_txt.replace(
+    'RH_ANNOT = os.path.join(BASE_DIR, "FILE/DK-318", "rh.DK68.annot")',
+    'RH_ANNOT = os.path.join(BASE_DIR, "FILE/fsaverage/label", "rh.aparc.annot")',
+)
 
 namespace = {"__name__": "__main__", "__file__": str(TEMPLATE)}
 exec(compile(script_txt, str(TEMPLATE), "exec"), namespace)

@@ -1,0 +1,8 @@
+/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py:196: DeprecationWarning: The `darkness` parameter will be deprecated in release 0.13. We recommend setting `darkness` to None
+  plotting.plot_surf_stat_map(
+Traceback (most recent call last):
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py", line 290, in <module>
+    main()
+  File "/data/home/tqi/data1/share/after_freesurfer/CODE/DM_MD_LAN_network/plot_brainmaps_from_region_table.py", line 272, in main
+    raise FileNotFoundError(f"CSV 不存在: {csv_path}")
+FileNotFoundError: CSV 不存在: /data/home/tqi/data1/share/after_freesurfer/FILE/test_mean_1.5/DM_MD_LAN_network/multiple_demand_regions_used.csv

@@ -32,7 +32,14 @@ export TMPDIR="$(pwd)/tmp"
 
 echo "TMPDIR: ${TMPDIR}"
 
+# 控制分析模式：debug 或 formal
+export NBR_ANALYSIS_MODE="formal"
+echo "NBR_ANALYSIS_MODE: ${NBR_ANALYSIS_MODE}"
+
 # 跑 NBR R 脚本
 Rscript run_nbr_dk318_mind.R
+
+echo "NBR R analysis finished. Submitting Python plotting shell..."
+sbatch /data/home/tqi/data1/share/after_freesurfer/CODE/NBS/run_plot_DK318_NBS_components.sh
 
 echo "End: $(date)"
